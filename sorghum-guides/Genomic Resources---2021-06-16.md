@@ -5,7 +5,15 @@
 The examples below focus on MSD2, a gene which encodes a lipoxygenase (LOX) that catalyzes the first
 committed step of jasmonic acid biosynthesis. For more info on this gene see [Gladman et. al 2019](https://dev.sorghumbase.org/paper/fertility-of-pedicellate-spikelets-in-sorghum-is-controlled-by-a-jasmonic-acid-regulatory-module).
 
-
+- [Genes search interface](#using-the-genes-search-interface)
+- [Ensembl Gene page](#gene-page)
+- [Ensembl Comparative Genomics](#comparative-genomics)
+- [Regulation](#regulation)
+- [Gene expression](#baseline-gene-expression-atlas)
+- [Variation](#variation)
+- [Structural variation](#structural-variation)
+- [QTL Atlas](#phenotypic-variation---quantitative-trait-locus-qtls)
+  
 ## Using the genes search interface
 
 Searching for a gene given a gene id can be done in a couple of ways:
