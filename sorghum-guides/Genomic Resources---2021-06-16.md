@@ -5,16 +5,17 @@
 The examples below focus on MSD2, a gene which encodes a lipoxygenase (LOX) that catalyzes the first
 committed step of jasmonic acid biosynthesis. For more info on this gene see [Gladman et. al 2019](https://dev.sorghumbase.org/paper/fertility-of-pedicellate-spikelets-in-sorghum-is-controlled-by-a-jasmonic-acid-regulatory-module).
 
-- [Genes search interface](#using-the-genes-search-interface)
+- [Genes search interface](#search-interface)
 - [Ensembl Gene page](#gene-page)
 - [Ensembl Comparative Genomics](#comparative-genomics)
 - [Regulation](#regulation)
-- [Gene expression](#baseline-gene-expression-atlas)
+- [Gene expression](#gene-expression)
 - [Variation](#variation)
 - [Structural variation](#structural-variation)
-- [QTL Atlas](#phenotypic-variation---quantitative-trait-locus-qtls)
+- [QTL Atlas](#qtls)
+- [References](#references)
   
-## Using the genes search interface
+## Using the genes search interface {#search-interface}
 
 Searching for a gene given a gene id can be done in a couple of ways:
 - Click the spyglass icon and type/paste `SORBI_3006G095600` it into the search box
@@ -39,7 +40,7 @@ Each gene has a set of tabs that can be expanded to explore more details:
 ![LOX3 ortholog](images/image13.png)
 
 
-## Gene page
+## Gene page {#gene-page}
 More detailed views available in the SorghumBase Ensembl genome browser include
 a [gene page](https://ensembl.sorghumbase.org/Sorghum_bicolor/Gene/Summary?g=SORBI_3006G095600;r=6:46566240-46571064),
 [transcript page](https://ensembl.sorghumbase.org/Sorghum_bicolor/Transcript/Summary?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=OQU81659),
@@ -48,7 +49,7 @@ and [structural variant page](https://ensembl.sorghumbase.org/Sorghum_bicolor/St
 
 ![Ensembl Gene Page](images/image5.png)
 
-## Comparative Genomics
+## Comparative Genomics {#comparative-genomics}
 The following comparative genomics data for BTx623 are available in the SorghumBase Ensembl genome browser:
 
 - Gene trees - [Example](http://ensembl.sorghumbase.org/Sorghum_bicolor/Gene/Compara_Tree?g=SORBI_3006G095600;r=6:46566240-46571064;collapse=2831659,2829950,2830021)
@@ -65,7 +66,7 @@ The following comparative genomics data for BTx623 are available in the SorghumB
 
 ![Ensembl Synteny](images/image9.png)
     
-## Regulation
+## Regulation {#regulation}
 ### Epigenomics
 Genome-wide epigenetic marks related to root system morphology and architecture in sorghum BTx623 deposited under
 BioProject [PRJNA454504](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA454504/) (Gladman et al, manuscript in prep.).
@@ -75,7 +76,7 @@ panicle (upper anthesis), root bottom (anthesis), root top (vegetative), stem 1 
   below shows two samples with very similar patterns of epigenetic variation for the msd2 gene region.
 ![MSD2](images/image1.png)
 
-### Baseline Gene Expression (Atlas)
+### Baseline Gene Expression (Atlas) {#gene-expression}
 
 Baseline gene expression data from seven sorghum BTx623 datasets curated and processed by the [EMBL-EBI Expression Atlas](https://www.ebi.ac.uk/gxa/)
 [(Emms et al. 2016; Makita et al. 2015; Davidson et al. 2012; Turco et al. 2017; Wang et al. 2018; Olson et al. 2014) and
@@ -83,7 +84,7 @@ BioProject [PRJNA293229](https://www.ncbi.nlm.nih.gov//bioproject/PRJNA293229)/[
 - The [example](https://ensembl.sorghumbase.org/Sorghum_bicolor/Gene/ExpressionAtlas?db=core;g=SORBI_3004G141800;r=4:41625307-41663480;t=OQU84910;v=S4_41077528;vdb=variation;vf=112207) below shows Baseline gene expression for the msd2 gene. 
 ![atlas](images/image10.png)
 
-## Variation
+## Variation {#variation}
 Variation in SorghumBase is available for short variants (genetic variation, which in turn may be naturally occurring or chemically induced), longer than 50 nucleotides (structural variants) and QTL variants associated with physical traits.
 
 ### Genetic Variation
@@ -111,13 +112,13 @@ Currently in SorghumBase, there are two SNPs data sets for sorghum BTx623:
 Currently in SorghumBase, there is one collection of EMS-induced mutant lines. EMS is a chemical commonly used to cause point mutations, that is, to change single nucleotides in the DNA of a plant seed.
 - The Xin EMS dataset (Jiao et al. 2016) includes almost 1.5 million EMS-induced G/C to A/T transition mutations annotated from 252 M3 families selected from the 6,400 sorghum mutant library in BTx623 background described by Xin and colleagues (Xin et al. 2008). Genomic DNA used for sequencing was pooled from 20 M3 plants per M2 family (Jiao et al. 2016).
 
-## Structural Variation
+## Structural Variation {#structural-variation}
 Data for structural variation for the sorghum BTx623 reference has been imported from the
 [Database of Genomic Variants Archive](http://www.ebi.ac.uk/dgva/) (dGVA) from a single study containing around 28
 thousand structural variations described by (Zheng et al. 2011). [Here is an example](https://ensembl.sorghumbase.org/Sorghum_bicolor/StructuralVariation/Explore?db=core;r=1:96756-143685;sv=nsv838266;svf=32426;vdb=variation).
 ![](images/image3.png)
 
-## Phenotypic Variation - Quantitative Trait Locus (QTLs)
+## Phenotypic Variation - Quantitative Trait Locus (QTLs) {#qtls}
 Data corresponding to 5,843 QTL features for 220 sorghum traits were imported from [Sorghum QTL Atlas]()
 and are provided with predicted syntenic locations in maize and rice.
 - [Example region](https://ensembl.sorghumbase.org/Sorghum_bicolor/Location/View?db=core;g=SORBI_3006G095600;r=7:61190510-61277060;sv=nsv856002;svf=54084;t=OQU81659;vdb=variation)
@@ -126,7 +127,7 @@ and are provided with predicted syntenic locations in maize and rice.
   [physical or genetic (cM) coordinates](http://aussorgm.org.au/dev/wp-content/uploads/2018/08/Consensus-Map_cM-and-bp-coordinates.xlsx) kindly provided by the Sorghum QTL Atlas team.
 ![](images/image2.png)
 
-## References
+## References {#references}
 Aken, Bronwen L., Sarah Ayling, Daniel Barrell, Laura Clarke, Valery Curwen, Susan Fairley, Julio Fernandez Banet, et al. 2016.
 "The Ensembl Gene Annotation System."
 *Database: The Journal of Biological Databases and Curation*.
