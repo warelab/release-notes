@@ -13,7 +13,6 @@ committed step of jasmonic acid biosynthesis. For more info on this gene see [Gl
 - [Variation](#variation)
 - [Structural variation](#structural-variation)
 - [QTL Atlas](#qtls)
-- [References](#references)
   
 ## Using the genes search interface {#search-interface}
 
