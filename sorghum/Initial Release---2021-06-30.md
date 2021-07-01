@@ -75,26 +75,6 @@ multiple developmental stages. For example, Wang and collaborators (Wang et al. 
 examined 11 matched tissues of maize B73 and sorghum BTx623 at different developmental
 stages for gene expression profiling totalling 165 experimental assays.
 
-To be included in Expression Atlas each experiment must meet all the following criteria:
-- Experiment measures gene or protein expression.
-- Raw data are available.
-- All samples within the dataset belong to a single species.
-- Samples come from non-bacterial species.
-- The species genome is available through [Ensembl](http://www.ensembl.org/index.html).
-- Annotations for microarray probes are available.
-- Sufficient sample annotation is provided.
-
-Additional “softer” guidelines to determine whether or not an experiment is eligible
-for inclusion into Expression Atlas:
-- (differential): The experiment should have at least 2 experimental groups, with 3 biological replicates each and also have a clear control/reference group
-- (baseline): The experiment design does not involve any perturbations and the dataset should have at least 3 experimental groups with 3 biological replicates each
-- The experiment addresses a relevant biological question (is not technical or proof of principle study)
-- Experimental metadata are of high quality and confidence
-- The experimental design is not too complex (e.g. not too many factors) and allows for straightforward one-to-one comparisons
-
-If an experiment is judged to be of particular interest and its inclusion in
-Expression Atlas is highly valuable for the community, the Expression Atlas
-team may decide to include it even if it fails some of the above guidelines.
 Please do not hesitate to [contact the Expression Atlas team](https://www.ebi.ac.uk/support/gxa)
 if you have any questions about how experiments for Expression Atlas are selected or you wish to recommend a dataset(s) that you feel should be ingested and displayed in SorghumBase.
 
