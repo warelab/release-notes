@@ -2,7 +2,7 @@
 ### Released: July, 2021
 ## Summary
 [maize-pangenome.gramene.org](http://maize-pangenome.gramene.org), a web portal for comparative plant genomics focused on Maize crop varieties,
-has now released its first version. It provides access to 30 Maize reference genomes, including
+has now released its first version. It provides access to 28 Maize reference genomes, including
 the three most recent versions of B73 and 25 NAM founder lines, together with seven other species selected for comparative analysis.
 Genome assemblies and annotations of the NAM founders are described in Hufford et al, 2021.
 The genome databases were built in direct collaboration with the [Gramene](http://gramene.org) and
