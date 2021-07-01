@@ -3,7 +3,7 @@
 *This guide demonstrates genomic resources available through SorghumBase.*
 
 The examples below focus on MSD2, a gene which encodes a lipoxygenase (LOX) that catalyzes the first
-committed step of jasmonic acid biosynthesis. For more info on this gene see [Gladman et. al 2019](https://dev.sorghumbase.org/paper/fertility-of-pedicellate-spikelets-in-sorghum-is-controlled-by-a-jasmonic-acid-regulatory-module).
+committed step of jasmonic acid biosynthesis. For more info on this gene see [Gladman et. al 2019](https://www.sorghumbase.org/paper/fertility-of-pedicellate-spikelets-in-sorghum-is-controlled-by-a-jasmonic-acid-regulatory-module).
 
 - [Genes search interface](#search-interface)
 - [Ensembl Gene page](#gene-page)
@@ -18,9 +18,9 @@ committed step of jasmonic acid biosynthesis. For more info on this gene see [Gl
 
 Searching for a gene given a gene id can be done in a couple of ways:
 - Click the spyglass icon and type/paste `SORBI_3006G095600` it into the search box
-- Link directly to [http://sorghumbase.org/genes?idList=SORBI_3006G095600](https://dev.sorghumbase.org/genes?idList=SORBI_3006G095600)
+- Link directly to [http://sorghumbase.org/genes?idList=SORBI_3006G095600](https://www.sorghumbase.org/genes?idList=SORBI_3006G095600)
 
-If you don't know the gene id you can search by pathway and taxonomy [example](https://dev.sorghumbase.org/genes?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:5,%22children%22:[{%22fq_field%22:%22pathways__ancestors%22,%22fq_value%22:%221119332%22,%22name%22:%22Jasmonic%20acid%20biosynthesis%22,%22category%22:%22Plant%20Reactome%20Pathway%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:false},{%22fq_field%22:%22taxonomy__ancestors%22,%22fq_value%22:%224558%22,%22name%22:%22Sorghum%20BTx623%22,%22category%22:%22Taxonomy%22,%22leftIdx%22:3,%22rightIdx%22:4,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=):
+If you don't know the gene id you can search by pathway and taxonomy [example](https://www.sorghumbase.org/genes?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:5,%22children%22:[{%22fq_field%22:%22pathways__ancestors%22,%22fq_value%22:%221119332%22,%22name%22:%22Jasmonic%20acid%20biosynthesis%22,%22category%22:%22Plant%20Reactome%20Pathway%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:false},{%22fq_field%22:%22taxonomy__ancestors%22,%22fq_value%22:%224558%22,%22name%22:%22Sorghum%20BTx623%22,%22category%22:%22Taxonomy%22,%22leftIdx%22:3,%22rightIdx%22:4,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=):
 1. In the search box, start typing `jasmonic acid biosynthesis` and choose the matching Plant Reactome Pathway term
 2. To limit the search to genes in *Sorghum bicolor* BTx623, type `sorghum` in the search box and select the matching Taxonomy term
 
