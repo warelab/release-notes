@@ -15,36 +15,23 @@ and the [Plant Reactome](https://plantreactome.gramene.org/) databases.
 - [Databases](#databases)
 - [Statistics](#statistics)
 
-# This info needs to be updated
-
 ## Overall Highlights {#overall-highlights}
-- Five sorghum reference genomes: *Sorghum bicolor* (L.) Moench subsp. *bicolor* BTx623
-  (Paterson et al, 2009; McCormick et al, 2017), RTx430 (Deschamps et al, 2018), RTx436
-  and Tx2783 (Wang et al, 2021), and Rio (Cooper et al, 2019).
+- Maize reference genomes: B73 and the 25 NAM founder accessions were assembled and annotated (Hufford et. al. 2021).
 - Six plant outgroup species (Japonica rice, B73 maize, Arabidopsis thaliana, grapevine,
   a vascular plant, and a single-celled green algae) and Drosophila melanogaster were
-  used to build 21,429 protein-coding gene family trees.
-- Our comparative genomics collection includes a total of five pairwise DNA alignments
-  for each of the sorghum genomes aligned to Japonica rice.
+  used to build 32,331 protein-coding gene family trees from 1,285,444 protein sequences.
 - We also have genetic, structural and phenotypic variation, gene expression and
-  orthology-based pathway projections for the reference genome S. bicolor BTx623.
+  orthology-based pathway projections for the reference genome Zea mays B73.
 
 ## Databases {#databases}
 ### Comparative Genomics
 
-[**Gene Trees.**](https://ensembl.sorghumbase.org/prot_tree_stats.html) A total of
-21,429 protein-coding gene family trees were constructed using the peptide encoded by
+[**Gene Trees.**](http://maize-pangenome-ensembl.gramene.org/prot_tree_stats.html) A total of
+21,331 protein-coding gene family trees were constructed using the peptide encoded by
 the canonical transcript (i.e., a representative transcript for a given gene) for each
-of 317,845 individual genes (350,099 input proteins) from 11 plant genomes.
+of 1,285,444 individual genes (350,099 input proteins) from 32 plant genomes.
 
-[**Whole-Genome Alignments**](https://ensembl.sorghumbase.org/compara_analyses.html).
-There are pairwise genomic alignments for each one of the sorghum genomes against
-Japonica rice:
-- [Sorghum bicolor BTx623](https://ensembl.sorghumbase.org/sorghum_bicolor/Location/Compara_Alignments/Image?align=23;db=core;r=4:41625307-41663480)
-- [Sorghum RTx430](https://ensembl.sorghumbase.org/sorghum_tx430nano/Location/Compara_Alignments/Image?align=30;db=core;r=Scaffold_2:9298671-9344179)
-- [Sorghum RTx436](https://ensembl.sorghumbase.org/sorghum_tx436pac/Location/Compara_Alignments/Image?align=29;db=core;r=4:40945993-40992222)
-- [Sorghum Tx2783](https://ensembl.sorghumbase.org/sorghum_tx2783pac/Location/Compara_Alignments/Image?align=28;db=core;r=4:38544936-38590672)
-- [Sorghum bicolor Rio](https://ensembl.sorghumbase.org/sorghum_rio/Location/Compara_Alignments/Image?align=31;db=core;r=4:37447216-37493025)
+# This info needs to be updated
 
 ### Variation
 
