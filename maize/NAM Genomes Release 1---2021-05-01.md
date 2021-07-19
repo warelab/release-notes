@@ -24,14 +24,14 @@ and the [Plant Reactome](https://plantreactome.gramene.org/) databases.
 - We also have gene expression and orthology-based pathway projections for the reference 
   genome Zea mays B73.
 
-## Comparative Genomics {compara}
+## Comparative Genomics {#compara}
 
 [**Gene Trees.**](http://maize-pangenome-ensembl.gramene.org/prot_tree_stats.html) A total of
 31,412 protein-coding gene family trees were constructed using the peptide encoded by
 the canonical transcript (i.e., a representative transcript for a given gene) for each
 of 1,276,195 individual genes (1,315,155 input proteins) from 34 plant genomes.
 
-## Expression {expression}
+## Expression {#expression}
 
 Gene expression data for the Zea mays B73 genome reference was curated and
 processed through the [EMBL-EBI Expression Atlas](https://www.ebi.ac.uk/gxa/plant/experiments).
@@ -40,7 +40,7 @@ The set consists of nine studies with baseline expression in B73 and 14 studies 
 Please do not hesitate to [contact the Expression Atlas team](https://www.ebi.ac.uk/support/gxa)
 if you have any questions about how experiments for Expression Atlas are selected or you wish to recommend datasets that you feel should be ingested and displayed here.
 
-## Pathways {pathways}
+## Pathways {#pathways}
 
 269 orthology-based pathways associated with 1,216 Zea mays B73 genes.
 These were projected from curated Japonica rice pathways and are linked to [Gramene’s Plant Reactome](http://gramene.org/).
