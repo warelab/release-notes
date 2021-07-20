@@ -75,9 +75,6 @@ multiple developmental stages. For example, Wang and collaborators (Wang et al. 
 examined 11 matched tissues of maize B73 and sorghum BTx623 at different developmental
 stages for gene expression profiling totalling 165 experimental assays.
 
-Please do not hesitate to [contact the Expression Atlas team](https://www.ebi.ac.uk/support/gxa)
-if you have any questions about how experiments for Expression Atlas are selected or you wish to recommend a dataset(s) that you feel should be ingested and displayed in SorghumBase.
-
 ### Pathways
 
 269 orthology-based sorghum pathways associated with 1,248 S. bicolor BTx623 genes.

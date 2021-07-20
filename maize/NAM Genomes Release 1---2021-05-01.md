@@ -37,9 +37,6 @@ Gene expression data for the Zea mays B73 genome reference was curated and
 processed through the [EMBL-EBI Expression Atlas](https://www.ebi.ac.uk/gxa/plant/experiments).
 The set consists of nine studies with baseline expression in B73 and 14 studies of differential expression.
 
-Please do not hesitate to [contact the Expression Atlas team](https://www.ebi.ac.uk/support/gxa)
-if you have any questions about how experiments for Expression Atlas are selected or you wish to recommend datasets that you feel should be ingested and displayed here.
-
 ## Pathways {#pathways}
 
 269 orthology-based pathways associated with 1,216 Zea mays B73 genes.
