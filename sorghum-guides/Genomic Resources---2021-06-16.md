@@ -16,6 +16,8 @@ committed step of jasmonic acid biosynthesis. For more info on this gene see [Gl
   
 ## Using the genes search interface {#search-interface}
 
+Watch the [demo video on YouTube](https://www.youtube.com/watch?v=nnAEnA9qTMY&t=2s).
+
 Searching for a gene given a gene id can be done in a couple of ways:
 - Click the spyglass icon and type/paste `SORBI_3006G095600` it into the search box
 - Link directly to [http://sorghumbase.org/genes?idList=SORBI_3006G095600](https://www.sorghumbase.org/genes?idList=SORBI_3006G095600)
