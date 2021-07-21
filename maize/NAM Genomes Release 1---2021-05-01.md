@@ -35,10 +35,15 @@ of 1,276,195 individual genes (1,315,155 input proteins) from 34 plant genomes.
 
 Gene expression data for the Zea mays B73 genome reference was curated and
 processed through the [EMBL-EBI Expression Atlas](https://www.ebi.ac.uk/gxa/plant/experiments).
-The set consists of nine studies with baseline expression in B73 and 14 studies of differential expression.
+The set consists of 25 studies with baseline expression and 55 with differential expression. Baseline experiments
+are available through our Gene Search (Expression panel) and Genome Browser; [differential experiments](https://www.ebi.ac.uk/gxa/experiments?kingdom=Plants&species=Zea+mays&experimentType=Differential) are available
+at the Expression Atlas.
 
 ## Pathways {#pathways}
 
-269 orthology-based pathways associated with 1,216 Zea mays B73 genes.
-These were projected from curated Japonica rice pathways and are linked to [Gramene’s Plant Reactome](http://gramene.org/).
+In this first release, we also feature 269 orthology-based maize pathways associated with 1,540 genes in the [Plant Reactome](http://gramene.org),
+the pathway knowledgebase. We utilize the Reactome pathway data model to represent plant metabolic, transport and
+signaling pathways, developmental processes, organ differentiation, and transcriptional regulatory networks. Manual
+biocuration is conducted in the reference species rice (Oryza sativa Japonica) and pathways are then projected via gene
+orthology to the B73 Zea mays (pior reference), and other crops and model plants, lower plants and single-cell photoautotrophs.
 
