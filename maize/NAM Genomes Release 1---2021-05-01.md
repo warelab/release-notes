@@ -2,9 +2,17 @@
 ### Released: July, 2021
 ## Summary
 [maize-pangenome.gramene.org](http://maize-pangenome.gramene.org), a web portal for comparative plant genomics focused on Maize crop varieties,
-has now released its first version. It provides access to 28 Maize reference genomes, including
-the three most recent versions of B73 and 25 NAM founder lines, together with seven other species selected for comparative analysis.
-Genome assemblies and annotations of the NAM founders are described in Hufford et al, 2021.
+has now released its first version. It provides access to 35 assembled genomes, including the 25 maize NAM founders and the B73 reference
+([Hufford et al, 2021; Science in press](https://doi.org/10.1101/2021.01.14.426684)). The team contributed maize gene annotations constructed
+with a genome annotation workflow that uses an ensemble approach and selected canonical transcripts selected for downstream analysis with a
+new tool that integrates gene expression data with length criteria
+([Olson, Ware, 2021; Bioinformatics in press](https://doi.org/10.1101/2020.12.15.422742)).
+For more information see [NAM genomes](https://nam-genomes.org) and MaizeGDB's [NAM project page](https://maizegdb.org/NAM_project).
+
+The maize gene models, together with seven outgroups (*Arabidopsis thaliana, Oryza sativa Japonica, Sorghum bicolor, Vitis vinifera ssp. vinifera PN40024 v3, Selaginella moellendorffii, Chlamydomonas reinhardtii, and Drosophila melanogaster*)
+were used to build 31,412 protein-coding gene family trees. Data from 25 baseline gene expression studies from the Expression Atlas,
+and 269 orthology-based pathway projections from the Plant Reactome are provided for B73 (APGv4).
+
 The genome databases were built in direct collaboration with the [Gramene](http://gramene.org) and
 [Ensembl Plants](http://plants.ensembl.org) projects. Other data sets were facilitated via
 collaborations with the [Expression Atlas](https://www.ebi.ac.uk/gxa/plant/experiments),
@@ -18,11 +26,11 @@ and the [Plant Reactome](https://plantreactome.gramene.org/) databases.
 
 ## Overall Highlights {#overall-highlights}
 - Maize reference genomes: B73 and the 25 NAM founder accessions were assembled and annotated (Hufford et. al. 2021).
-- Six plant outgroup species (Japonica rice, B73 maize, Arabidopsis thaliana, grapevine,
-  a vascular plant, and a single-celled green algae) and Drosophila melanogaster were
+- Six plant outgroup species (Japonica rice, B73 maize, *Arabidopsis thaliana*, grapevine,
+  a vascular plant, and a single-celled green algae) and *Drosophila melanogaster* were
   used to build 31,412 protein-coding gene family trees from 1,276,195 protein sequences.
 - We also have gene expression and orthology-based pathway projections for the reference 
-  genome Zea mays B73.
+  genome *Zea mays* B73.
 
 ## Comparative Genomics {#compara}
 
