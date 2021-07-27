@@ -1,12 +1,7 @@
-## Coming Soon
-A user guide is under development and will be released in August.
-
-Join our [mailing list](http://brie4.cshl.edu/mailman/listinfo/gramene-announce) to receive updates.
-
-<!-- Output copied to clipboard! -->
+<!-- Copy and paste the converted output. -->
 
 
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 0; ALERTS: 20.</p>
+<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 0; ALERTS: 23.</p>
 <ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
 
 <p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
@@ -29,17 +24,28 @@ Join our [mailing list](http://brie4.cshl.edu/mailman/listinfo/gramene-announce)
 <a href="#gdcalert18">alert18</a>
 <a href="#gdcalert19">alert19</a>
 <a href="#gdcalert20">alert20</a>
+<a href="#gdcalert21">alert21</a>
+<a href="#gdcalert22">alert22</a>
+<a href="#gdcalert23">alert23</a>
 
 <p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
 
 
 **_Zea mays _PanGenome**
 
+This user guide refers to the contents of the First Public Release (August 2021) of the Maize PanGenome. Currently, the PanGenome hosts 35 genomes including 25 NAM maize founder genomes (Hufford _et al_, 2021; Gage _et al_, 2020; Yu _et al_, 2008; McMullen _et al_, 2009), 3 versions of the B73 _Zea mays_ reference* (Hufford _et al_, 2021; Jiao _et al_, 2017; Schnable _et al_, 2009), and 7 outgroups (_Arabidopsis thaliana_, _Oryza sativa _Japonica, _Sorghum bicolor, Vitis vinifera ssp. vinifera PN40024, Selaginella moellendorffii_, _Chlamydomonas reinhardtii_, and _Drosophila melanogaster_).
+
+* Note that most data types are only available for B73 version 4.
+
+---
+
+Let’s begin!
+
 Go to [http://maize-pangenome.gramene.org/](http://maize-pangenome.gramene.org/)
 
 Locate the search icon at the top right corner of the page. Click on this icon or hit the slash character (/) on your keyboard to convert the header to a search bar. Click on the “X” or type the esc key to revert to the navigation bar.
 
-_Note: Most data types are only available for B73 Zea mays _v4_._
+**PanGenome Search Interface**
 
 **Querying a_ _Gene**
 
@@ -315,55 +321,10 @@ The following comparative genomics data for B73 v4 are available in the Maize Pa
 
     **Regulation**
 
-**Epigenomics & RNA-Seq Gene Expression**
 
-Genomewide epigenetic marks related to root system morphology and architecture in B73 shown in the 
+#### **Epigenomics & RNA-Seq Gene Expression (MaizeCODE)**
 
-
-
-* 
-* RNA-Seq
-* RNA annotation and mapping of promoters for analysis of gene expression (_RAMPAGE_) - Batt & Gingeras (2013)
-
-MaizeCODE
-
-H3K27 ChIPseq
-
-root_rep1 (B73 H3K27ac) \
-root_rep1 (B73 H3K4me) \
-root_rep1 (B73 H3K4me3) \
-root_rep1 (B73 Input) \
-root_rep1 forward (B73 RAMPAGE) \
-root_rep1 forward (B73 RNAseq) \
-root_rep1 forward (NC350 RAMPAGE) \
-root_rep1 forward (NC350 RNAseq) \
-root_rep1 forward (Ti11 RNAseq) \
-root_rep1 forward (W22 RAMPAGE) \
-root_rep1 forward (W22 RNAseq)
-
-root_rep1 reverse (B73 RAMPAGE) \
-root_rep1 reverse (B73 RNAseq) \
-root_rep1 reverse (NC350 RAMPAGE) \
-root_rep1 reverse (NC350 RNAseq) \
-root_rep1 reverse (Ti11 RNAseq) \
-root_rep1 reverse (W22 RAMPAGE) \
-root_rep1 reverse (W22 RNAseq) \
-root_rep2 (B73 H3K27ac) \
-root_rep2 (B73 H3K4me) \
-root_rep2 (B73 H3K4me3) \
-root_rep2 (B73 Input) \
-root_rep2 forward (B73 RAMPAGE) \
-root_rep2 forward (B73 RNAseq) \
-root_rep2 forward (NC350 RAMPAGE) \
-root_rep2 forward (NC350 RNAseq) \
-root_rep2 forward (Ti11 RNAseq) \
-root_rep2 forward (W22 RAMPAGE) \
-root_rep2 forward (W22 RNAseq) \
-root_rep2 reverse (B73 RAMPAGE) \
-root_rep2 reverse (B73 RNAseq) \
-root_rep2 reverse (NC350 RAMPAGE) \
-root_rep2 reverse (NC350 RNAseq) \
-root_rep2 reverse (Ti11 RNAseq)
+For the B73 genome there are 188 data tracks available under Regulation. You can get a complete list of all 188 Regulation tracks by clicking on the spider gear symbol for “Configure this page” (left side menu) or “Configure this image” (Location panel), see the inset in the image below. Click on the square that precedes the name of the track to turn it on or off and configure it with the available options being: Wiggle plot, Compact, and Manhattan plot.
 
 
 
@@ -372,6 +333,12 @@ root_rep2 reverse (Ti11 RNAseq)
 
 ![alt_text](images/image19.png "image_tooltip")
 
+
+These correspond to the following [MaizeCODE data sets](http://www.maizecode.org/data/b73.html):
+
+
+
+1. Four genome-wide epigenetic marks (MARK: H3K27ac, H3K4me, H3K4me3, and Input) for five B73 tissues (TISSUE: ears, endo, pollen, root, and cn?) in duplicate (2 repetitions or REP: rep1 and rep2). Corresponding tracks are named as follows: TISSUE_REP (B73 MARK). For example, look for root_rep1 (B73 H3K27ac) in the [image below](http://maize-pangenome-ensembl.gramene.org/Zea_maysb73v4/Location/View?db=core;g=Zm00001d027893;r=1:16924966-17020967;t=Zm00001d027893_T001).
 
 
 
@@ -382,20 +349,66 @@ root_rep2 reverse (Ti11 RNAseq)
 
 
 
+
+2. RNA annotation and mapping of promoters for analysis of gene expression (RAMPAGE; Batt & Gingeras, 2013) and RNAseq expression data (ASSAYS) is available for four SPECIES (B73, NC350, Ti11, and W22). The corresponding tracks have names in the form of TISSUE_REP STRAND (SPECIES ASSAY), where STRAND is forward or reverse. Find, for example, root_rep1 forward (NC350 RNAseq) in the [image below](http://maize-pangenome-ensembl.gramene.org/Zea_maysb73v4/Location/View?r=1:16947867-16955868;site=ensemblthis;time=1627334587390.39;db=core). 
+
+
+
+<p id="gdcalert21" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image21.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert22">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image21.png "image_tooltip")
+
+
+
 #### 
     **Baseline Gene Expression (Atlas)**
 
-Baseline gene expression data from X B73 datasets curated and processed by the [EMBL-EBI Expression Atlas](https://www.ebi.ac.uk/gxa/) [].
+Baseline gene expression data from 25 B73 datasets curated and processed by the [EMBL-EBI Expression Atlas](https://www.ebi.ac.uk/gxa/) are also available from the Maize PanGenome Search, the Ensembl PanGenome gene pages, and the corresponding Plant Reactome panels. The Expression panel of the Search results was described above in detail. The same Expression view for the lox9 gene is available from the [PanGenome browser gene page](http://maize-pangenome-ensembl.gramene.org/Zea_maysb73v4/Gene/ExpressionAtlas?db=core;g=Zm00001d027893;r=1:16947867-16955868;t=Zm00001d027893_T004) and the [Plant Reactome Expression panel](https://plantreactome.gramene.org/PathwayBrowser/#/R-ZMA-1119332&DTAB=EX) (find a link to the Plant Reactome at the bottom of the Pathways panel of the Search results).
 
 
 
-* The example [LINK] below shows Baseline gene expression for the lox9 gene [LINK]. 
+<p id="gdcalert22" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image22.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert23">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image22.png "image_tooltip")
+
+
+lox9 gene expression in the [PanGenome browser gene page](http://maize-pangenome-ensembl.gramene.org/Zea_maysb73v4/Gene/ExpressionAtlas?db=core;g=Zm00001d027893;r=1:16947867-16955868;t=Zm00001d027893_T004)
+
+
+
+<p id="gdcalert23" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image23.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert24">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image23.png "image_tooltip")
+
+
+lox9 gene expression in the [Plant Reactome Expression panel](https://plantreactome.gramene.org/PathwayBrowser/#/R-ZMA-1119332&DTAB=EX)
+
 
 ### 
     **Genetic, Structural & Phenotypic Variation**
-
 
 Coming soon...
 
 
     **Literature References**
+
+
+    Gage, Joseph L., Brandon Monier, Anju Giri, and Edward S. Buckler. 2020. “Ten Years of the Maize Nested Association Mapping Population: Impact, Limitations, and Future Directions.” _The Plant Cell_ 32 (7): 2083–93.
+
+
+    Hufford, Matthew B., Arun S. Seetharam, Margaret R. Woodhouse, Kapeel M. Chougule, Shujun Ou, Jianing Liu, William A. Ricci, et al. 2021. “De Novo Assembly, Annotation, and Comparative Analysis of 26 Diverse Maize Genomes.” _bioRxiv_. https://doi.org/[10.1101/2021.01.14.426684.](http://dx.doi.org/10.1101/2021.01.14.426684)
+
+
+    Jiao, Yinping, Paul Peluso, Jinghua Shi, Tiffany Liang, Michelle C. Stitzer, Bo Wang, Michael S. Campbell, et al. 2017. “Improved Maize Reference Genome with Single-Molecule Technologies.” _Nature_ 546 (7659): 524–27.
+
+
+    McMullen, Michael D., Stephen Kresovich, Hector Sanchez Villeda, Peter Bradbury, Huihui Li, Qi Sun, Sherry Flint-Garcia, et al. 2009. “Genetic Properties of the Maize Nested Association Mapping Population.” _Science_ 325 (5941): 737–40.
+
+
+    Schnable, Patrick S., Doreen Ware, Robert S. Fulton, Joshua C. Stein, Fusheng Wei, Shiran Pasternak, Chengzhi Liang, et al. 2009. “The B73 Maize Genome: Complexity, Diversity, and Dynamics.” _Science_ 326 (5956): 1112–15.
+
+
+    Yu, Jianming, James B. Holland, Michael D. McMullen, and Edward S. Buckler. 2008. “Genetic Design and Statistical Power of Nested Association Mapping in Maize.” _Genetics_ 178 (1): 539–51.
