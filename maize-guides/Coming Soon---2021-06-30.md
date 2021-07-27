@@ -1,37 +1,4 @@
-<!-- Copy and paste the converted output. -->
-
-
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 0; ALERTS: 23.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-<a href="#gdcalert2">alert2</a>
-<a href="#gdcalert3">alert3</a>
-<a href="#gdcalert4">alert4</a>
-<a href="#gdcalert5">alert5</a>
-<a href="#gdcalert6">alert6</a>
-<a href="#gdcalert7">alert7</a>
-<a href="#gdcalert8">alert8</a>
-<a href="#gdcalert9">alert9</a>
-<a href="#gdcalert10">alert10</a>
-<a href="#gdcalert11">alert11</a>
-<a href="#gdcalert12">alert12</a>
-<a href="#gdcalert13">alert13</a>
-<a href="#gdcalert14">alert14</a>
-<a href="#gdcalert15">alert15</a>
-<a href="#gdcalert16">alert16</a>
-<a href="#gdcalert17">alert17</a>
-<a href="#gdcalert18">alert18</a>
-<a href="#gdcalert19">alert19</a>
-<a href="#gdcalert20">alert20</a>
-<a href="#gdcalert21">alert21</a>
-<a href="#gdcalert22">alert22</a>
-<a href="#gdcalert23">alert23</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
-
-**_Zea mays _PanGenome**
+**_Zea mays_ PanGenome**
 
 This user guide refers to the contents of the First Public Release (August 2021) of the Maize PanGenome. Currently, the PanGenome hosts 35 genomes including 25 NAM maize founder genomes (Hufford _et al_, 2021; Gage _et al_, 2020; Yu _et al_, 2008; McMullen _et al_, 2009), 3 versions of the B73 _Zea mays_ reference* (Hufford _et al_, 2021; Jiao _et al_, 2017; Schnable _et al_, 2009), and 7 outgroups (_Arabidopsis thaliana_, _Oryza sativa _Japonica, _Sorghum bicolor, Vitis vinifera ssp. vinifera PN40024, Selaginella moellendorffii_, _Chlamydomonas reinhardtii_, and _Drosophila melanogaster_).
 
@@ -47,7 +14,7 @@ Locate the search icon at the top right corner of the page. Click on this icon o
 
 **PanGenome Search Interface**
 
-**Querying a_ _Gene**
+**Querying a Gene**
 
 Search Results Summary
 
