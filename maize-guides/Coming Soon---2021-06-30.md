@@ -4,7 +4,7 @@ Author: Marcela Karey Tello-Ruiz, PhD
 
 This user guide refers to the contents of the First Public Release (August 2021) of the Maize PanGenome. Currently, the PanGenome hosts 35 genomes including 25 NAM maize founder genomes (Hufford _et al_, 2021; Gage _et al_, 2020; Yu _et al_, 2008; McMullen _et al_, 2009), 3 versions of the B73 _Zea mays_ reference* (Hufford _et al_, 2021; Jiao _et al_, 2017; Schnable _et al_, 2009), and 7 outgroups (_Arabidopsis thaliana_, _Oryza sativa _Japonica, _Sorghum bicolor, Vitis vinifera ssp. vinifera PN40024, Selaginella moellendorffii_, _Chlamydomonas reinhardtii_, and _Drosophila melanogaster_).
 
-* Note that most data types are only available for B73 version 4.
+_Note that most data types are only available for B73 version 4_.
 
 ---
 
