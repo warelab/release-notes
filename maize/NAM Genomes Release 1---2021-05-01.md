@@ -3,10 +3,10 @@
 ## Summary
 [maize-pangenome.gramene.org](http://maize-pangenome.gramene.org), a web portal for comparative plant genomics focused on Maize crop varieties,
 has now released its first version. It provides access to 35 assembled genomes, including the 25 maize NAM founders and the B73 reference
-([Hufford et al, 2021; Science in press](https://doi.org/10.1101/2021.01.14.426684)). The team contributed maize gene annotations constructed
+([Hufford et al, 2021](https://doi.org/10.1101/2021.01.14.426684)). The team contributed maize gene annotations constructed
 with a genome annotation workflow that uses an ensemble approach and canonical transcripts selected for downstream analysis with a
 new tool that integrates gene expression data with length criteria
-([Olson, Ware, 2021; Bioinformatics in press](https://doi.org/10.1101/2020.12.15.422742)).
+([Olson, Ware, 2021](https://doi.org/10.1101/2020.12.15.422742)).
 For more information see [NAM genomes](https://nam-genomes.org) and MaizeGDB's [NAM project page](https://maizegdb.org/NAM_project).
 
 The maize gene models, together with seven outgroups (*Arabidopsis thaliana, Oryza sativa Japonica, Sorghum bicolor, Vitis vinifera ssp. vinifera PN40024 v3, Selaginella moellendorffii, Chlamydomonas reinhardtii, and Drosophila melanogaster*)
