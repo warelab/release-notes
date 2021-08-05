@@ -89,7 +89,7 @@ Click on the “Display Mode” drop-down menu to select one of three displays f
 You may expand collapsed taxonomic clades, which are symbolized by triangles along the branches of the tree, by clicking on the black (speciation) or red (duplication) nodes and selecting the option “Expand”. Already expanded clades can be contracted by selecting the option “Collapse” that appears upon clicking a node.
 
 
-![expand or collapse](images/panmaize8.png "Expand or collapse tree clades)
+![expand or collapse](images/panmaize8.png "Expand or collapse tree clades")
 
 
 You may also prune the tree to only display a subset of the 35 species, by clicking on the spider gear of the Search Filters panel. Hover your mouse over to see a message like: “Genomes Filter” and Searching 35 genomes. Click on it and select the species you want to limit your search to, and also those that you wish to be included in the Homology tree view.
