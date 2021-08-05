@@ -249,7 +249,8 @@ The image below corresponds to the [Protein summary view of the VIT_05s0077g0094
 
 ####
 **Gene trees**
-(Ensembl Compara pipeline) - [Example](http://vitis-ensembl.gramene.org/Vitis_vinifera/Gene/Compara_Tree?db=core;g=VIT_05s0077g00940;r=5:710743-718860;t=VIT_05s0077g00940.t01)
+
+Ensembl Compara pipeline - [Example](http://vitis-ensembl.gramene.org/Vitis_vinifera/Gene/Compara_Tree?db=core;g=VIT_05s0077g00940;r=5:710743-718860;t=VIT_05s0077g00940.t01)
 
 
 ![gene trees](images/pangrape26.png "PHYB gene family tree")
@@ -270,7 +271,7 @@ For the PN40024 v3 genome there are seven tracks with ESTs and EST clusters data
 
 
 ### 
-    **Genetic, Structural & Phenotypic Variation**
+**Genetic, Structural & Phenotypic Variation**
 
 Coming soon...
 
