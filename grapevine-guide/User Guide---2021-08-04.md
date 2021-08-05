@@ -1,4 +1,4 @@
-**_Vitis vinifera _PanGenome**
+**_Vitis vinifera_ PanGenome**
 
 This user guide refers to the contents of the first public release (August 2021) of the Grape PanGenome. Currently, the PanGenome hosts 18 genomes including 20 _Vitis vinifera_ genomes, 2 versions of the _Vitis vinifera ssp. vinifera PN40024_ reference* (Jaillon _et al_, 2007; Vitulo _et al,_ 2014; Canaguier _et al_, 2017; Rustenholz _et al_, manuscript in preparation), and 7 outgroups (_Arabidopsis thaliana_, _Oryza sativa _Japonica, _Sorghum bicolor, Vitis vinifera ssp. vinifera PN40024, Selaginella moellendorffii_, _Chlamydomonas reinhardtii_, and _Drosophila melanogaster_).
 
@@ -14,7 +14,7 @@ Locate the search box at the top left corner of the page. Type a search term (ge
 
 **PanGenome Search Interface**
 
-**Querying a_ _Gene**
+**Querying a Gene**
 
 Let’s start by typing “PHYB” in the search box and observe the auto-completion suggestions that pop-up as you type, as well as the various data categories in which the potential results are organized.
 
