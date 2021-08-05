@@ -247,7 +247,8 @@ The image below corresponds to the [Protein summary view of the VIT_05s0077g0094
 **Comparative Genomics**
 
 
-#### **Gene trees**
+####
+**Gene trees**
 (Ensembl Compara pipeline) - [Example](http://vitis-ensembl.gramene.org/Vitis_vinifera/Gene/Compara_Tree?db=core;g=VIT_05s0077g00940;r=5:710743-718860;t=VIT_05s0077g00940.t01)
 
 
@@ -258,7 +259,8 @@ The image below corresponds to the [Protein summary view of the VIT_05s0077g0094
 **Expression**
 
 
-#### **mRNA and protein alignments**
+####
+**mRNA and protein alignments**
 
 For the PN40024 v3 genome there are seven tracks with ESTs and EST clusters data available. You can get a complete list by clicking on the spider gear symbol for “Configure this page” (left side menu) or “Configure this image” (Location panel), see the inset in the image below. In addition to grape ESTs, there are EST clusters for the following species or clades: Dicots, Monocots, Arabidopsis, maize, rice, and grape.  Click on the square that precedes the name of the track to turn it on or off and configure it with the available options (normal, with labels, stacked, etc.).
 
