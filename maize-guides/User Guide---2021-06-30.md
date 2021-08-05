@@ -253,7 +253,7 @@ lox9 gene expression in the [PanGenome browser gene page](http://maize-pangenome
 lox9 gene expression in the [Plant Reactome Expression panel](https://plantreactome.gramene.org/PathwayBrowser/#/R-ZMA-1119332&DTAB=EX)
 
 
-### 
+####
 **Genetic, Structural & Phenotypic Variation**
 
 Coming soon...
