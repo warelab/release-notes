@@ -3,10 +3,11 @@
 *This guide demonstrates genomic resources available through SorghumBase.*
 
 The examples below focus on MSD2, a gene which encodes a lipoxygenase (LOX) that catalyzes the first
-committed step of jasmonic acid biosynthesis. For more info on this gene see [Gladman et. al 2019](https://www.sorghumbase.org/paper/fertility-of-pedicellate-spikelets-in-sorghum-is-controlled-by-a-jasmonic-acid-regulatory-module).
+committed step of jasmonic acid biosynthesis. For more info on this gene see [Gladman *et al* (2019)](https://www.sorghumbase.org/paper/fertility-of-pedicellate-spikelets-in-sorghum-is-controlled-by-a-jasmonic-acid-regulatory-module).
 
 - [Genes search interface](#search-interface)
 - [Ensembl Gene page](#gene-page)
+- [Add/remove data tracks](#configure-image)
 - [Ensembl Comparative Genomics](#comparative-genomics)
 - [Regulation](#regulation)
 - [Gene expression](#gene-expression)
@@ -49,6 +50,14 @@ a [gene page](https://ensembl.sorghumbase.org/Sorghum_bicolor/Gene/Summary?g=SOR
 and [structural variant page](https://ensembl.sorghumbase.org/Sorghum_bicolor/StructuralVariation/Explore?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;sv=nsv856002;svf=54084;t=OQU81659;v=tmp_6_47487513_G_A;vdb=variation;vf=7758800).
 
 ![Ensembl Gene Page](images/image5.png)
+
+## Add/remove data tracks or configuring an image on the genome browser {#configure-image}
+
+Find the spider gear icon on a browser page, it might precede a "Configure this page" or have a "Configure this image" title when you mouse over it (see image below). When you click on it, you will be able to select or turn on/off a data track (click on a category to disclose all the tracks under it, the number of data sets (tracks) is indicated to the right of each category, for example in the first release of SorghumBase, there are 4 data sets (tracks) under Variation: Sequence variants (all sources), Morris 2013 variants, Mace_2013 variants, and Sorghum_EMS_mutants variants. Click on the square to the left of each data set (track) to select from several options. For example, you may choose to turn the track off or display its data in a collapsed or expanded manner, with or without labels for each data point.
+
+![Configure_icon](images/image16.png)
+![Configure_variation](images/image17.png)
+![Track_display_options](images/image18.png)
 
 ## Comparative Genomics {#comparative-genomics}
 The following comparative genomics data for BTx623 are available in the SorghumBase Ensembl genome browser:
@@ -122,8 +131,16 @@ thousand structural variations described by (Zheng et al. 2011). [Here is an exa
 ## Phenotypic Variation - Quantitative Trait Locus (QTLs) {#qtls}
 Data corresponding to 5,843 QTL features for 220 sorghum traits were imported from [Sorghum QTL Atlas]()
 and are provided with predicted syntenic locations in maize and rice.
+
 - [Example region](https://ensembl.sorghumbase.org/Sorghum_bicolor/Location/View?db=core;g=SORBI_3006G095600;r=7:61190510-61277060;sv=nsv856002;svf=54084;t=OQU81659;vdb=variation)
-  with QTLs associated with multiple traits including greenbug resistance, fresh biomass, and flag leaf height. Hint:
+  with QTLs associated with multiple traits including greenbug resistance, fresh biomass, and flag leaf height. 
+  
+  You may need to turn on the QTLs track and select how you would like the data displayed on your browser. For the figure shown below, I selected "Collapsed" style, which limits the dispaly to only 5 QTLs in the image. Click on a track to disclose more information about that data point (for example, QTL name, location, associated phenotype and data source). In the example below, if you click on a phenotype/trait, such as "Green bug resistance", you will be taken to a page listing all the genomic locations of QTL features associated with Green bug resistance. See an [example of such list for Panicle length](https://ensembl.sorghumbase.org/Sorghum_bicolor/Phenotype/Locations?ph=114). 
+  
+    ![Configure QTLs track](images/image19.png)
+  
+  
+  Hint:
   For additional regions with QTL data in the current sorghum assembly (v.3), use the 
   [physical or genetic (cM) coordinates](http://aussorgm.org.au/dev/wp-content/uploads/2018/08/Consensus-Map_cM-and-bp-coordinates.xlsx) kindly provided by the Sorghum QTL Atlas team.
 ![](images/image2.png)
