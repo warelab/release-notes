@@ -1,4 +1,4 @@
-## Maize PanGenome Release 1.0
+## Maize PanGenome Release 2.0
 ### Released: July, 2021
 ## Summary
 [maize-pangenome.gramene.org](http://maize-pangenome.gramene.org), a web portal for comparative plant genomics focused on Maize crop varieties,
