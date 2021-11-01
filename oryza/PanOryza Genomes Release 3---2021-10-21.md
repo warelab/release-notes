@@ -27,7 +27,7 @@ Fifteen new Oryza genomes are:
 
 One updated Oryza genome: 
 
-- _ O. sativa indica_ (var. 93-11)
+- _O. sativa indica_ (var. 93-11)
 
 Together with 6 plant outgroup species (Arabidopsis thaliana, sorghum, grapevine, Chlamydomonas, Selaginella, and 2 assembly versions of maize: v4 and v5), the 25 Oryza genomes and Leersia perrieri (the most closely related species to the Oryza in the Oryzeae tribe), were used to build 37,315 protein-coding gene family trees. These family trees were constructed with 1,184,741 input proteins from 1,131,828 individual genes.
 
