@@ -10,7 +10,7 @@ Together with 6 plant outgroup species (_Arabidopsis thaliana_, sorghum, grapevi
 
 Baseline gene expression for the Japonica reference is available via the Oryza Pan-Genome search interface and linked to the Expression Atlas, while differential gene expression for the same species is only available on the Expression Atlas website.
 
-For the 9 Oryza genomes in the prior release of the Pan-Genome (i.e., _O. sativa japonica_, _O. barthii_, _O. brachyantha_, _O. glaberrima_, _O. glumaepatula_, _O. meridionalis_, _O. nivara_, _O. punctata_, and _O. rufipogon_), as well as for L. perrieri and the other outgroups, orthology-based pathway projections are available via the Oryza Pan-Genome search interface. Similarly for those genomes, complementary pairwise DNA alignments (e.g., 81 for O. sativa Japonica) and/or synteny maps (e.g., 19 for O. sativa Japonica) are available on the Gramene website. Gramene continues to host genetic variation totalling over 40 million SNPs for the Japonica reference, O. glaberrima and O. glumaepatula.
+For the 9 Oryza genomes in the prior release of the Pan-Genome (i.e., _Oryza sativa japonica_, _O. barthii_, _O. brachyantha_, _O. glaberrima_, _O. glumaepatula_, _O. meridionalis_, _O. nivara_, _O. punctata_, and _O. rufipogon_), as well as for L. perrieri and the other outgroups, orthology-based pathway projections are available via the Oryza Pan-Genome search interface. Similarly for those genomes, complementary pairwise DNA alignments (e.g., 81 for _O. sativa Japonica_) and/or synteny maps (e.g., 19 for _O. sativa Japonica_) are available on the Gramene website. Gramene continues to host genetic variation totalling over 40 million SNPs for the Japonica reference, _O. glaberrima_ and _O. glumaepatula_.
 
 The genome databases were built in direct collaboration with the Gramene and Ensembl Plants projects. Gene expression and pathway associations were facilitated through collaboration with the Expression Atlas and Plant Reactome projects, respectively. Core funding for the project was provided by the National Science Foundation (NSF IOS-1127112) and the Agricultural Research Service of the U.S. Department of Agriculture (USDA ARS 8062-21000-041-00D).  
 
@@ -24,26 +24,26 @@ The genome databases were built in direct collaboration with the Gramene and Ens
 
 - 15 new Oryza genomes:
 
-  - _O. sativa japonica_ var. Carolina
-  - _O. sativa japonica_ GJ-trop1 var. Azucena
-  - _O. sativa japonica_ GJ-trop2 var. Os128077
-  - _O. sativa japonica_ GJ-subtrp var. Os132278
-  - _O. sativa aus_ cA1 var. N22
-  - _O. sativa aus_ cA2 var. Os127652
-  - _O. sativa indica_ cB var. Os117425
-  - _O. sativa indica_ XI-2B var. Os125619
-  - _O. sativa indica_ XI-3B2 var. Os125827
-  - _O. sativa indica_ XI-3B1 var. Os127518
-  - _O. sativa indica_ XI-3A var. Os127564
-  - _O. sativa indica_ XI-1B2 var. Os127742
-  - _O. sativa indica_ XI-2A var. Os132424
-  - _O. sativa indica_ XI-1B1 var. IR64 
-  - _O. sativa indica_ XI-1B1 var. IR8
+  - [_O. sativa japonica_ var. Carolina](https://oryza-ensembl.gramene.org/Oryza_carolina)
+  - [_O. sativa japonica_ GJ-trop1 var. Azucena](https://oryza-ensembl.gramene.org/Oryza_sativaazucena)
+  - [_O. sativa japonica_ GJ-trop2 var. Os128077](https://oryza-ensembl.gramene.org/Oryza_sativa128077)
+  - [_O. sativa japonica_ GJ-subtrp var. Os132278](https://oryza-ensembl.gramene.org/Oryza_sativa132278)
+  - [_O. sativa aus_ cA1 var. N22](https://oryza-ensembl.gramene.org/Oryza_aus)
+  - [_O. sativa aus_ cA2 var. Os127652](https://oryza-ensembl.gramene.org/Oryza_sativa127652)
+  - [_O. sativa indica_ cB var. Os117425](https://oryza-ensembl.gramene.org/Oryza_sativa117425)
+  - [_O. sativa indica_ XI-2B var. Os125619](https://oryza-ensembl.gramene.org/Oryza_sativa125619)
+  - [_O. sativa indica_ XI-3B2 var. Os125827](https://oryza-ensembl.gramene.org/Oryza_sativa125827)
+  - [_O. sativa indica_ XI-3B1 var. Os127518](https://oryza-ensembl.gramene.org/Oryza_sativa127518)
+  - [_O. sativa indica_ XI-3A var. Os127564](https://oryza-ensembl.gramene.org/Oryza_sativa127564)
+  - [_O. sativa indica_ XI-1B2 var. Os127742](https://oryza-ensembl.gramene.org/Oryza_sativa127742)
+  - [_O. sativa indica_ XI-2A var. Os132424](https://oryza-ensembl.gramene.org/Oryza_sativa132424)
+  - [_O. sativa indica_ XI-1B1 var. IR64](https://oryza-ensembl.gramene.org/Oryza_sativair64)
+  - [_O. sativa indica_ XI-1B1 var. IR8](https://oryza-ensembl.gramene.org/Oryza_sativair8)
 
 
 - One updated Oryza genome: 
 
-  - _O. sativa indica_ (var. 93-11)
+  - [_O. sativa indica_ (var. 93-11)](https://oryza-ensembl.gramene.org/Oryza_indica)
 
 
 Six plant outgroup species (B73 maize, sorghum, Arabidopsis thaliana, grapevine, a vascular plant, and a single-celled green algae) were used to build 37,315 protein-coding gene family trees.
@@ -56,6 +56,7 @@ Gene expression and orthology-based pathway projections are available for the Ja
 ### Comparative Genomics
 
 [**Gene Trees.**](https://oryza.ensembl.org/prot_tree_stats.html) A total of 37,315 protein-coding gene family trees were constructed using the peptide encoded by the canonical transcript (i.e., a representative transcript for a given gene) for each of 1,131,828 individual genes (1,184,741 input proteins) from 33 plant genomes.
+
 [**Whole-Genome Alignments**](https://oryza.ensembl.org/compara_analyses.html). Pairwise genomic alignments are available for 10 of the Oryza genomes in the Gramene website (e.g., 81 for the Japonica reference). New alignments across the Oryza genomes will be made available here in future releases.
 
 [**Synteny**](https://oryza.ensembl.org/compara_analyses.html). Synteny maps are available for 10 of the Oryza genomes in the main Gramene website (e.g., 19 for the Japonica reference). New synteny maps including the new rice genomes will be made available here in future releases.
