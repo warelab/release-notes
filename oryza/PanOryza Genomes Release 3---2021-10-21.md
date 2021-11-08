@@ -55,11 +55,11 @@ Gene expression and orthology-based pathway projections are available for the Ja
 ## Databases {#databases}
 ### Comparative Genomics
 
-[**Gene Trees.**](https://oryza.ensembl.org/prot_tree_stats.html) A total of 37,315 protein-coding gene family trees were constructed using the peptide encoded by the canonical transcript (i.e., a representative transcript for a given gene) for each of 1,131,828 individual genes (1,184,741 input proteins) from 33 plant genomes.
+[**Gene Trees.**](https://oryza-ensembl.gramene.org/prot_tree_stats.html) A total of 37,315 protein-coding gene family trees were constructed using the peptide encoded by the canonical transcript (i.e., a representative transcript for a given gene) for each of 1,131,828 individual genes (1,184,741 input proteins) from 33 plant genomes.
 
-[**Whole-Genome Alignments**](https://oryza.ensembl.org/compara_analyses.html). Pairwise genomic alignments are available for 10 of the Oryza genomes in the Gramene website (e.g., 81 for the Japonica reference). New alignments across the Oryza genomes will be made available here in future releases.
+[**Whole-Genome Alignments**](https://oryza-ensembl.gramene.org/compara_analyses.html). Pairwise genomic alignments are available for 10 of the Oryza genomes in the Gramene website (e.g., 81 for the Japonica reference). New alignments across the Oryza genomes will be made available here in future releases.
 
-[**Synteny**](https://oryza.ensembl.org/compara_analyses.html). Synteny maps are available for 10 of the Oryza genomes in the main Gramene website (e.g., 19 for the Japonica reference). New synteny maps including the new rice genomes will be made available here in future releases.
+[**Synteny**](https://oryza-ensembl.gramene.org/compara_analyses.html). Synteny maps are available for 10 of the Oryza genomes in the main Gramene website (e.g., 19 for the Japonica reference). New synteny maps including the new rice genomes will be made available here in future releases.
 
 ### Variation
 
