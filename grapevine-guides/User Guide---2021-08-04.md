@@ -277,14 +277,18 @@ Coming soon...
 
 **Literature References**
 
-Gage, Joseph L., Brandon Monier, Anju Giri, and Edward S. Buckler. 2020. “Ten Years of the Maize Nested Association Mapping Population: Impact, Limitations, and Future Directions.” _The Plant Cell_ 32 (7): 2083–93.
+[The grapevine genome sequence suggests ancestral hexaploidization in major angiosperm phyla](https://www.nature.com/articles/nature06148).
+Jaillon O, Aury JM, Noel B, Policriti A, Clepet C, Casagrande A, Choisne N, Aubourg S, Vitulo N, Jubin C et al. 2007. Nature. 449:463-467.
 
-Hufford, Matthew B., Arun S. Seetharam, Margaret R. Woodhouse, Kapeel M. Chougule, Shujun Ou, Jianing Liu, William A. Ricci, et al. 2021. “De Novo Assembly, Annotation, and Comparative Analysis of 26 Diverse Maize Genomes.” _bioRxiv_. https://doi.org/[10.1101/2021.01.14.426684.](http://dx.doi.org/10.1101/2021.01.14.426684)
+[Diploid Genome Assembly of the Wine Grape Carménère](https://www.g3journal.org/content/9/5/1331.full). Minio, A., Massonnet, M., Figueroa-Balderas, R., Castro, A., and Cantu, D. 2019. G3: Genes, Genomes, Genetics. 9: 1331-1337.
 
-Jiao, Yinping, Paul Peluso, Jinghua Shi, Tiffany Liang, Michelle C. Stitzer, Bo Wang, Michael S. Campbell, et al. 2017. “Improved Maize Reference Genome with Single-Molecule Technologies.” _Nature_ 546 (7659): 524–27.
+[The genetic basis of sex determination in grapes](https://doi.org/10.1038/s41467-020-16700-z). Massonnet M, Cochetel N, Minio A, Vondras AM, Lin J et al. 2020.  Nat Commun. 11: 2902.
 
-McMullen, Michael D., Stephen Kresovich, Hector Sanchez Villeda, Peter Bradbury, Huihui Li, Qi Sun, Sherry Flint-Garcia, et al. 2009. “Genetic Properties of the Maize Nested Association Mapping Population.” _Science_ 325 (5941): 737–40.
+[The wild grape genome sequence provides insights into the transition from dioecy to hermaphroditism during grape domestication](https://doi.org/10.1186/s13059-020-02131-y). Badouin H, Velt A, Gindraud F, Flutre T, Dumas V et al. 2020. Genome Biol. 21:223.
 
-Schnable, Patrick S., Doreen Ware, Robert S. Fulton, Joshua C. Stein, Fusheng Wei, Shiran Pasternak, Chengzhi Liang, et al. 2009. “The B73 Maize Genome: Complexity, Diversity, and Dynamics.” _Science_ 326 (5956): 1112–15.
+[Haplotyping the Vitis collinear core genome with rhAmpSeq improves marker transferability in a diverse genus](https://doi.org/10.1038/s41467-019-14280-1). Zou C, Karn A, Reisch B, Nguyen A, Sun Y et al. 2019. Nat Commun. 11: 413.
 
-Yu, Jianming, James B. Holland, Michael D. McMullen, and Edward S. Buckler. 2008. “Genetic Design and Statistical Power of Nested Association Mapping in Maize.” _Genetics_ 178 (1): 539–51.
+[The genomic diversification of clonally propagated grapevines](https://doi.org/10.1186/s12864-019-6211-2). Vondras AM, Minio A, Blanco-Ulate B, Figueroa-Balderas R, Penn MA et al. 2019. BMC Genomics.
+
+[The population genetics of structural variants in grapevine domestication](https://www.nature.com/articles/s41477-019-0507-8). Zhou Y, Minio A, Massonnet M, Solares E, Lv Y et al. 2019. Nature Plants. 5: 965–979.
+
