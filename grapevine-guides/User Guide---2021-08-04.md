@@ -2,7 +2,7 @@
 
 This user guide refers to the contents of the first public release (August 2021) of the Grape PanGenome. Currently, the PanGenome hosts 18 genomes including 11 _Vitis vinifera_ genomes, and 7 outgroups (_Arabidopsis thaliana_, _Oryza sativa Japonica_, _Sorghum bicolor_, _Zea mays B73_, _Selaginella moellendorffii_, _Chlamydomonas reinhardtii_, and _Drosophila melanogaster_).
 
-At present, most data types are only available for the _Vitis vinifera L. ssp. vinifera Pinot noir PN40024 reference version 3, so this guide will focus on the phytochrome B gene model (PHYB), using its v3 gene identifier: VIT_05s0077g00940.
+At present, most data types are only available for the Vitis vinifera L. ssp. vinifera Pinot noir PN40024 reference version 3, so this guide will focus on the phytochrome B gene model (PHYB), using its v3 gene identifier: VIT_05s0077g00940.
 
 ---
 
