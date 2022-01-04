@@ -2,7 +2,7 @@
 
 This user guide refers to the contents of the Third Public Release (November 2021) of the Rice PanGenome. Currently, the PanGenome hosts 25 rice genomes and Leersia perrieri, an ancestor of rice, 11 of those Oryzae genomes were recently described (Zhou et al, 2021), and 7 outgroups (Arabidopsis thaliana, Sorghum bicolor, Vitis vinifera ssp. vinifera PN40024, Selaginella moellendorffii, Chlamydomonas reinhardtii, Drosophila melanogaster, and 2 versions of Zea mays B73  (Hufford et al, 2021; Jiao et al, 2017)). 
 
-At present, most data types are only available for Japonica rice, so this guide will focus on the XXX gene model, also known as XXX.
+At present, most data types are only available for Japonica rice, so this guide will focus on the Grain Width on chromosome 8 gene model, also known as GW8.
 
 ---
 
