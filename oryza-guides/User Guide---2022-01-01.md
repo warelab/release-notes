@@ -1,8 +1,17 @@
 **_Oryza_ PanGenome User Guide**
 
-This user guide refers to the contents of the Third Public Release (November 2021) of the Rice PanGenome. Currently, the PanGenome hosts 25 rice genomes and Leersia perrieri, an ancestor of rice, 11 of those Oryzae genomes were recently described (Zhou et al, 2021), and 7 outgroups (Arabidopsis thaliana, Sorghum bicolor, Vitis vinifera ssp. vinifera PN40024, Selaginella moellendorffii, Chlamydomonas reinhardtii, Drosophila melanogaster, and 2 versions of Zea mays B73  (Hufford et al, 2021; Jiao et al, 2017)). 
+This user guide refers to the contents of the Third Public Release (November 2021) of the Rice PanGenome. Currently, the PanGenome hosts 25 rice genomes and Leersia perrieri, an ancestor of rice, 11 of those Oryzae genomes were recently described (Zhou et al, 2021), and 7 outgroups (Arabidopsis thaliana, Sorghum bicolor, Vitis vinifera ssp. vinifera PN40024, Selaginella moellendorffii, Chlamydomonas reinhardtii, Drosophila melanogaster, and 2 versions of Zea mays B73  (Hufford et al, 2021; Jiao et al, 2017)).
 
 At present, most data types are only available for Japonica rice, so this guide will focus on the Grain Width on chromosome 8 gene model, also known as GW8.
+
+- [PanGenome Search interface](#search-interface)
+- [Searching for a gene](#gene-search)
+- [Ensembl Gene page](#gene-pages)
+- [Add/remove data tracks](#configure-image)
+- [Ensembl Comparative Genomics](#comparative-genomics)
+- [Gene expression](#gene-expression)
+- [Variation](#variation)
+- [Literature references](#references)
 
 ---
 
@@ -13,7 +22,7 @@ Go to https://oryza.gramene.org/
 Locate the search box at the top left corner of the page. Type a search term (gene, species, pathway, ontology term, protein domain, etc.). For the exercises below, we will focus on searching for the rice GW8 gene (Grain Width on chromosome 8, OsSPL16 or Os08g0531600), a transcription factor containing an SBP-domain transcription factor that promotes cell division and grain filling by regulating grain width, size, shape and quality (Wang et al, 2012). It was identified in a domestication gene among 55 known selective domestication sweeps or signatures (Chen et al, 2019).
 
 
-**PanGenome Search Interface**
+## PanGenome Search Interface {#search-interface}
 
 **Querying a Gene**
 
@@ -40,14 +49,23 @@ The image below shows the default Homology (gene family tree) view of the result
 Here is a summary of the five data categories in which the results of a gene search are organized. These also correspond to the tabs at the top of the results panel in the image below.
 
 **Location** - Genomic context
+
   *Ensembl Browser* (Gramene Rice PanGenome)
+  
   *Phytomine*
+  
 **Expression** - Baseline gene expression from EBI-Expression Atlas
+
 **Homology** - Customizable Ensembl Compara gene family trees with displays:
+
   *Alignment Overview* (full-length gene)
+  
   *Multiple-Sequence Alignment* (zoom into the amino acid level)
+  
   *Neighborhood Conservation View* (zoom out +/- 10 flanking genes)
+  
 **Pathways** - Association to pathways in Gramene’s Plant Reactome
+
 **Xrefs** - Cross-references to other databases
 
 
@@ -134,7 +152,7 @@ In the Xref tab, you will find references to your gene of interest in other data
 
 ---
 
-**Gene & Transcript pages**
+## Ensembl Gene & Transcript pages {#gene-pages}
 
 From the Location tab, click on the Ensembl Browser link and you will be taken to the gene summary page (shown below). Click on any of the transcripts from the Transcripts Table and you will reach the selected transcript page. Here are the links for the corresponding Os08g0531600 gene page and transcript page (tabs) in the Oryza PanGenome browser. Click on the options on the left menu to visualize a gene tree, obtain a list of orthologs or paralogs, gene ontology associations, gene expression anatograms, sequence (cDNA, exons, protein), protein domains, etc. 
 
@@ -145,7 +163,7 @@ The image below corresponds to the Exons sequence view of the  Os08t0531600-01 t
 
 
 
-**Comparative Genomics**
+## Comparative Genomics {#comparative-genomics}
 
 *Gene trees* (Ensembl Compara pipeline) - GRAIN-WIDTH 8 Gene Tree Example
 
@@ -153,7 +171,7 @@ The image below corresponds to the Exons sequence view of the  Os08t0531600-01 t
 In addition to phylogenetic trees, available from both, the Oryza PanGenome Search Interface and Genome Browser, whole-genome pairwise alignments (81 for the Japonica reference), as well as synteny maps (19 for the Japonica reference) for 10 of the Oryza genomes are available in the Gramene website. Click here for a GW8 region comparison or a synteny map for the GW8 region between Os japonica and O. rufipogon in the Gramene Genome Browser.
 New alignments and synteny maps with the new Oryza genomes will be made available here in future releases.
 
-**Baseline Gene Expression** (Atlas)
+## Baseline Gene Expression (EBI-Atlas) {#gene-expression}
 
 Baseline gene expression data from 10 datasets for O. sativa japonica curated and processed by the EMBL-EBI Expression Atlas are also available from the Oryza PanGenome Search, the Ensembl PanGenome gene pages, and the corresponding Plant Reactome panels. The Expression panel of the Search results was described above in detail. The same Expression Atlas view for the GW8 gene is available from the Gramene browser gene page and the Plant Reactome Expression panel (find a link to the Plant Reactome at the bottom of the Pathways panel of the Search results).
 
@@ -170,16 +188,15 @@ GW8 gene expression in the Plant Reactome Expression panel
 GW8 gene expression in the Expression Atlas
 
 
-**Genetic, Structural & Phenotypic Variation**
+## Genetic, Structural & Phenotypic Variation {#variation}
 
 Coming soon… 
 
 Genetic variation and QTL phenotypic variation is available for the O. sativa Japonica and Indica references, O. glaberrima and O. glumaepatula in the main Gramene website. Genetic variation data sets will be made available here in future releases. Click here for an image or a table of genetic variation for the GW8 gene in the Gramene Ensembl browser. There are no structural / copy number variants associated with the WG8 gene. Phenotypic (QTL) associations are available under the Variation (Phenotype annotations) track of the Gene page “Configure this image” option.
 
 
-**Literature References**
 
-
+## Literature References {#references}
 
 
 Chen Erwang, Xuehui Huang, Zhixi Tian, Rod A.Wing, and Bin Han. 2019. The Genomics of Oryza Species Provides Insights into Rice Domestication and Heterosis. Annu. Rev. Plant Biol. 70:639–65
