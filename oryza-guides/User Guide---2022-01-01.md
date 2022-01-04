@@ -69,7 +69,7 @@ Click on the “Display Mode” drop-down menu to select one of three displays f
 
 
 
-The Alignment Overview allows you to view the entire length of the protein. Proteins are color-coded by InterPro domain. Click anywhere in the colored protein domain to reveal its name and some statistics. 
+*Alignment Overview*. This view allows you to view the entire length of the protein. Proteins are color-coded by InterPro domain. Click anywhere in the colored protein domain to reveal its name and some statistics. 
 
 
 
@@ -146,13 +146,14 @@ The image below corresponds to the Exons sequence view of the  Os08t0531600-01 t
 
 
 **Comparative Genomics**
+
 *Gene trees* (Ensembl Compara pipeline) - GRAIN-WIDTH 8 Gene Tree Example
 
 
 In addition to phylogenetic trees, available from both, the Oryza PanGenome Search Interface and Genome Browser, whole-genome pairwise alignments (81 for the Japonica reference), as well as synteny maps (19 for the Japonica reference) for 10 of the Oryza genomes are available in the Gramene website. Click here for a GW8 region comparison or a synteny map for the GW8 region between Os japonica and O. rufipogon in the Gramene Genome Browser.
 New alignments and synteny maps with the new Oryza genomes will be made available here in future releases.
 
-*Baseline Gene Expression* (Atlas)
+**Baseline Gene Expression** (Atlas)
 
 Baseline gene expression data from 10 datasets for O. sativa japonica curated and processed by the EMBL-EBI Expression Atlas are also available from the Oryza PanGenome Search, the Ensembl PanGenome gene pages, and the corresponding Plant Reactome panels. The Expression panel of the Search results was described above in detail. The same Expression Atlas view for the GW8 gene is available from the Gramene browser gene page and the Plant Reactome Expression panel (find a link to the Plant Reactome at the bottom of the Pathways panel of the Search results).
 
@@ -169,7 +170,7 @@ GW8 gene expression in the Plant Reactome Expression panel
 GW8 gene expression in the Expression Atlas
 
 
-Genetic, Structural & Phenotypic Variation
+**Genetic, Structural & Phenotypic Variation**
 
 Coming soon… 
 
