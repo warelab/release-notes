@@ -192,7 +192,7 @@ GW8 gene expression in the Expression Atlas
 
 Coming soon… 
 
-Genetic variation and QTL phenotypic variation is available for the O. sativa Japonica and Indica references, O. glaberrima and O. glumaepatula in the main Gramene website. Genetic variation data sets will be made available here in future releases. Click here for an image or a table of genetic variation for the GW8 gene in the Gramene Ensembl browser. There are no structural / copy number variants associated with the WG8 gene. Phenotypic (QTL) associations are available under the Variation (Phenotype annotations) track of the Gene page “Configure this image” option.
+Genetic variation and QTL phenotypic variation is available for the *O. sativa Japonica* and *Indica* references, *O. glaberrima* and *O. glumaepatula* in the main Gramene website. Genetic variation data sets will be made available here in future releases. Click here for an image or a table of genetic variation for the GW8 gene in the Gramene Ensembl browser. There are no structural / copy number variants associated with the WG8 gene. Phenotypic (QTL) associations are available under the Variation (Phenotype annotations) track of the Gene page “Configure this image” option.
 
 
 
