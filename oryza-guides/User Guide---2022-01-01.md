@@ -7,7 +7,6 @@ At present, most data types are only available for Japonica rice, so this guide 
 - [PanGenome Search interface](#search-interface)
 - [Searching for a gene](#gene-search)
 - [Ensembl Gene page](#gene-pages)
-- [Add/remove data tracks](#configure-image)
 - [Ensembl Comparative Genomics](#comparative-genomics)
 - [Gene expression](#gene-expression)
 - [Variation](#variation)
@@ -180,15 +179,6 @@ From the Location tab, click on the Ensembl Browser link and you will be taken t
 The image below corresponds to the Exons sequence view of the Os08t0531600-01 transcript.
 
 ![ensembl_exons_view](images/Picture18.png)
-
-
-## Add/remove data tracks or configure an image on the genome browser {#configure-image}
-
-Find the spider gear icon on a browser page, it might precede a "Configure this page" or have a "Configure this image" title when you mouse over it (see image below). When you click on it, you will be able to select or turn on/off a data track (click on a category to disclose all the tracks under it, the number of data sets (tracks) is indicated to the right of each category, for example in the third release of the Rice PanGenome, there are X data sets (tracks) under Variation: .... Click on the square to the left of each data set (track) to select from several options. For example, you may choose to turn the track off or display its data in a collapsed or expanded manner, with or without labels for each data point.
-
-![Configure_icon](images/Picture19.png)
-![Configure_variation](images/Picture20.png)
-![Track_display_options](images/Picture21.png)
 
 
 ## Comparative Genomics {#comparative-genomics}
