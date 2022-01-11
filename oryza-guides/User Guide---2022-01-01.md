@@ -193,7 +193,7 @@ Find the spider gear icon on a browser page, it might precede a "Configure this 
 
 ## Comparative Genomics {#comparative-genomics}
 
-*Gene trees* (Ensembl Compara pipeline) - GRAIN-WIDTH 8 Gene Tree Example
+**Gene trees** (Ensembl Compara pipeline) - GRAIN-WIDTH 8 Gene Tree Example
 
 ![GW8_ensembl_gene_tree](images/Picture22.png)
 
@@ -201,13 +201,13 @@ Find the spider gear icon on a browser page, it might precede a "Configure this 
 In addition to phylogenetic trees, available from both, the Oryza PanGenome Search Interface and Genome Browser, whole-genome pairwise alignments (81 for the Japonica reference), as well as synteny maps (19 for the Japonica reference) for 10 of the Oryza genomes are available in the Gramene website. Click here for a GW8 region comparison or a synteny map for the GW8 region between Os japonica and O. rufipogon in the Gramene Genome Browser.
 New alignments and synteny maps with the new Oryza genomes will be made available here in future releases.
  
-*Synteny maps* for *Oryza sativa Japonica* with:
+**Synteny maps** for *Oryza sativa Japonica* with:
 
-  - *Sorghum bicolor*
-  - *Zea mays* V5 (see [example](http://ensembl.sorghumbase.org/Sorghum_bicolor/Location/Synteny?r=6%3A46563088-46605099&db=core&g=SORBI_3006G095600&otherspecies=Zea_maysb73v4))
-
+ - *Zea mays* V5 
+  - *Sorghum bicolor* (see [example](https://oryza-ensembl.gramene.org/Oryza_sativa/Location/Synteny?db=core;g=Os08g0531600;r=8:26476169-26526170;t=Os08t0531600-01)). Note the inverted order of genes in sorghum chromosome 7 relatoive to rice chromosome 8.
 
 ![Ensembl Synteny](images/Picture26.png)
+![Synteny_table](images/Picture27.png)
 
 ## Baseline Gene Expression (EBI-Atlas) {#gene-expression}
 
