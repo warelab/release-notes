@@ -200,7 +200,14 @@ Find the spider gear icon on a browser page, it might precede a "Configure this 
 
 In addition to phylogenetic trees, available from both, the Oryza PanGenome Search Interface and Genome Browser, whole-genome pairwise alignments (81 for the Japonica reference), as well as synteny maps (19 for the Japonica reference) for 10 of the Oryza genomes are available in the Gramene website. Click here for a GW8 region comparison or a synteny map for the GW8 region between Os japonica and O. rufipogon in the Gramene Genome Browser.
 New alignments and synteny maps with the new Oryza genomes will be made available here in future releases.
+ 
+*Synteny maps* for *Oryza sativa Japonica* with:
 
+  - *Sorghum bicolor*
+  - *Zea mays* V5 (see [example](http://ensembl.sorghumbase.org/Sorghum_bicolor/Location/Synteny?r=6%3A46563088-46605099&db=core&g=SORBI_3006G095600&otherspecies=Zea_maysb73v4))
+
+
+![Ensembl Synteny](images/Picture26.png)
 
 ## Baseline Gene Expression (EBI-Atlas) {#gene-expression}
 
