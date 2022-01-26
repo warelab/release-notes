@@ -11,7 +11,7 @@ Let’s begin!
 
 Go to [http://maize-pangenome.gramene.org/](http://maize-pangenome.gramene.org/)
 
-Locate the search box at the top left corner of the page. Type a search term (gene, species, pathway, ontology term, protein domain, etc.). For the exercises below, we will focus on searching for the maize loxygenase 9 (lox9) gene.
+Locate the search box at the top left corner of the page. Type a search term (gene, species, pathway, ontology term, protein domain, etc.). For the exercises below, we will focus on searching for the maize lipoxygenase 9 (lox9) gene.
 
 **PanGenome Search Interface**
 
