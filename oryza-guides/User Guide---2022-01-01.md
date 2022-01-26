@@ -156,7 +156,7 @@ Examples of manually curated biological pathways for rice (Os Japonica) in the P
 From the literature, we know that GW8 is part of the “Regulation of seed size” pathway. Accordingly, the Pathways panel shows that this gene product catalyzes two black box reactions in this pathway.
 When you hover the cursor over the reaction in the hierarchy on the left side, the diagram on the right will show the reaction in the context of the corresponding pathway. 
 Under “Search Filters”, you have the option of getting a list of all genes in a reaction or an entire pathway. You may also navigate to the Gene and corresponding Reaction pages in the Plant Reactome site, where you will be able to perform more complex analyses of omics data, including pathway-based comparisons across species.
-An example of such an analysis is illustrated in a short video in the Gramene series where transcriptomics data is overlaid onto orthology-based projected pathways to compare expression between mutant and wild-type tissues at distinct developmental stages (see [Gramene's YouTube channel](https://www.youtube.com/watch?v=4eijpRL-YB4)).
+
 
 ![pathways](images/Picture16.png)
 
