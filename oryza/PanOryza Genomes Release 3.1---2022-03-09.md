@@ -2,7 +2,7 @@
 ### Released: March 2022
 ## Summary
 
-Gramene's Oryza Pan-Genome (https://oryza.gramene.org) is a web portal for comparative plant genomics focused on rice varieties. In its release 3.1, the gene family trees were rebuilt using the same species included in release 3.0 but with superior quality. 
+Gramene's Oryza Pan-Genome (https://oryza.gramene.org) is a web portal for comparative plant genomics focused on rice varieties. In its release 3.1, the gene family trees were rebuilt using the same species included in release 3.0 with superior quality. 
 
 A total of 37,423 GeneTree families were constructed comprising 1,134,514 individual genes (1,187,461 input proteins). See updated stats [here](https://oryza-ensembl.gramene.org/prot_tree_stats.html). 
 
