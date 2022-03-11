@@ -52,7 +52,7 @@ Genetic variation data sets for over 6.7 million sorghum single nucleotide
 polymorphisms (SNPs) (Morris et al, 2013; Mace et al, 2013) and 1.5 million chemically
 induced by ethyl methanesulfonate (EMS) point mutations (Xin et al, 2008); 27,884
 structural variants (Zheng et al, 2011) from the [Database of Genomic Variation Archive](https://www.ebi.ac.uk/dgva/)
-(DGVa); and nearly 6,000 QTLs and GWAS from the [Sorghum QTL Atlas](https://aussorgm.org.au/).
+(DGVa); and nearly 6,000 QTLs from the [Sorghum QTL Atlas](https://aussorgm.org.au/).
 
 ### Expression
 
