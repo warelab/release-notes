@@ -256,7 +256,7 @@ Coming soon...
 Gage, Joseph L., Brandon Monier, Anju Giri, and Edward S. Buckler. 2020. “Ten Years of the Maize Nested Association Mapping Population: Impact, Limitations, and Future Directions.” _The Plant Cell_ 32 (7): 2083–93.
 
 
-Hufford, Matthew B., Arun S. Seetharam, Margaret R. Woodhouse, Kapeel M. Chougule, Shujun Ou, Jianing Liu, William A. Ricci, et al. 2021. “De novo assembly, annotation, and comparative analysis of 26 diverse maize genomes.” _Science_ 373(6555): 655-662. doi: [10.1126/science.abg5289](http://dx.doi.org/ 10.1126/science.abg5289)
+Hufford, Matthew B., Arun S. Seetharam, Margaret R. Woodhouse, Kapeel M. Chougule, Shujun Ou, Jianing Liu, William A. Ricci, et al. 2021. “De novo assembly, annotation, and comparative analysis of 26 diverse maize genomes.” _Science_ 373(6555): 655-662. doi: [10.1126/science.abg5289](http://dx.doi.org/10.1126/science.abg5289)
 
 
 Jiao, Yinping, Paul Peluso, Jinghua Shi, Tiffany Liang, Michelle C. Stitzer, Bo Wang, Michael S. Campbell, et al. 2017. “Improved Maize Reference Genome with Single-Molecule Technologies.” _Nature_ 546 (7659): 524–27.
