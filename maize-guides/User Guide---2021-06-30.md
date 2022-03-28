@@ -3,7 +3,7 @@
 
 This user guide refers to the contents of the First Public Release (August 2021) of the Maize PanGenome. Currently, the PanGenome hosts 35 genomes including 25 NAM maize founder genomes (Hufford _et al_, 2021; Gage _et al_, 2020; Yu _et al_, 2008; McMullen _et al_, 2009), 3 versions of the B73 _Zea mays_ reference* (Hufford _et al_, 2021; Jiao _et al_, 2017; Schnable _et al_, 2009), and 7 outgroups (_Arabidopsis thaliana_, _Oryza sativa_ Japonica, _Sorghum bicolor_, _Vitis vinifera_ ssp. _vinifera_ PN40024, _Selaginella moellendorffii_, _Chlamydomonas reinhardtii_, and _Drosophila melanogaster_).
 
-At present, most data types are only available for B73 version 4, so this guide will focus on the loxygenase 9 gene model, also known as lox9 or Zm00001eb005920.
+At present, most data types are only available for B73 version 4, so this guide will focus on the lipoxygenase 9 gene model, also known as lox9 or Zm00001eb005920.
 
 ---
 
