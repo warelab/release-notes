@@ -229,7 +229,7 @@ For more information on methods see Hufford _et al_ (2021) or https://github.com
 To selectively turn on/off or change the style of any given track (Wiggle plot, Compact or Manhattan Plot), click on the spider gear (Configure this Image) on the Gene view or the Region in Detail view (Location tab) in the pan-genome browser or on the Configure this Page option of the left menu (the RNA-Seq tracks are avaialble in the Regulation category). You may click on the "Enable/disable all tracks" option at the top or individually on the click box left of each track name. For a more detailed description of a track, click on the letter "i" (for information) on the right end of the tracks panel.
 
 ![RNA-Seq gene expression tracks](images/panmaize27.png "Gene expression (RNA-Seq) data for the B73 genome - NAM Project")
-![Configure Regulation tracks](images/panmaize28.png Configure RNA-Seq tracks")
+![Configure Regulation tracks](images/panmaize28.png "Configure RNA-Seq tracks")
 
 
 #### 
