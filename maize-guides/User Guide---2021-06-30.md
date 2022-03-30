@@ -40,7 +40,7 @@ To reproduce the screen capture shown below, select the “lox9” gene from the
 
 To limit the results to maize genomes, click on the spider gear icon and deselect the non-maize outgroups (e.g., _Arabidopsis_, _Oryza_, _Sorghum_, _Vitis_, _Selaginella_, _Chlamydomonas_, and _Drosophila_). This filtering step should render one or more of the following results:
 
-GRMZM2G017616 (B73 _Zea mays _v3)
+GRMZM2G017616 (B73 _Zea mays_ v3)
 
 Zm00001d027893 (B73 _Zea mays_ v4) 
 
