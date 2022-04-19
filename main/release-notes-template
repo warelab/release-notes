@@ -1,0 +1,115 @@
+## [REMOVE this line. Remember to name this file with the date you intend to release to the public and suffix .md as described in the parent directory README]
+
+## [Name of Site, for example: Gramene] Release [build number, example: 65]
+### Released: [Month Year, example: April 2022]
+## Summary
+
+## Release Information
+- [Overall Highlights](#overall-highlights)
+- [Databases](#databases)
+- [References](#references)
+
+## Overall Highlights {#overall-highlights}
+
+**[Main Highlights. Title in **bold** followed by list of items each preceeded by a dash. Might also be available in the What's New doc. An example taken from the [What's New Template](https://docs.google.com/document/d/1k_LcazYtpOe5lidWABR90EbBC9fqVMog03u1fGaukYQ/edit) follows:]**
+
+**CLIMtools portal**
+
+- The new [CLIMtools](https://gramene.org/CLIMtools) portal brings interactive web-based views of environment x genome associations,
+  RiboSNitch prediction, and correlations between the local environment and a pool of curated phenotypes.
+  
+  **Updated software** [Example with one sublist follows:]
+
+- Improved look and feel of the [homepage](https://gramene.org) and gene search interface.
+  - Links to our crop specific pangenome sites for [maize](https://maize-pangenome.gramene.org/), [rice](https://oryza.gramene.org/), [grapevine](https://vitis.gramene.org/) and [sorghum](https://sorghumbase.org).
+  - Integrated [@GrameneDatabase](https://twitter.com/GrameneDatabase) twitter feed.
+  - The React web application has been rewritten to use [Redux-Bundler](https://reduxbundler.com/) for state management.
+- Genome browser and underlying database schema and API updated to [Ensembl 105](https://www.ensembl.info/2021/12/10/ensembl-105-has-been-released/).
+
+**New genomes** [List of genomes. [Examples](https://docs.google.com/document/d/1k_LcazYtpOe5lidWABR90EbBC9fqVMog03u1fGaukYQ/edit) copied from What's New doc, using github syntax as shown below]
+
+- [_Ficus carica_](http://ensembl.gramene.org/Ficus_carica) (common fig).
+- [_Brassica rapa_ R-o-18](http://ensembl.gramene.org/Brassica_rapa_ro18) replaces cultivar Chiifu-401-42.
+- [_Olea europaea_](http://ensembl.gramene.org/Olea_europaea) (European olive tree). _Olea europaea sylvestris_ can still be found [here](http://ensembl.gramene.org/Olea_europaea/Info/Strains?db=core).
+
+**Updated genomes** [List of updated genomes. [Examples](https://docs.google.com/document/d/1k_LcazYtpOe5lidWABR90EbBC9fqVMog03u1fGaukYQ/edit) copied from What's New doc, using github syntax as shown below]
+
+- [_Helianthus annuus_](http://ensembl.gramene.org/Helianthus_annuus) (sunflower) assembly updated to HanXRQr2.0-SUNRISE.
+- [_Hordeum vulgare_](http://ensembl.gramene.org/Hordeum_vulgare) (barley) assembly updated to Morex V3 with IPK and BaRT gene models. The GoldenPromise and TRITEX varieties can be viewed via the [cultivar view](http://ensembl.gramene.org/Hordeum_vulgare/Info/Strains?db=core).
+
+**New & updated data** List of updated genomes. Copied from [What's New doc](https://docs.google.com/document/d/1k_LcazYtpOe5lidWABR90EbBC9fqVMog03u1fGaukYQ/edit).]
+
+- [_Zea mays_](https://ensembl.gramene.org/Zea_mays) (maize) updated with Plant Reactome cross-references.
+- SIFT predictions added to VEP output data for several plant species with variation data.
+
+
+Check which features are supported on each species [here](http://ensembl.gramene.org/species.html); if you would like to request a new species please email [Gramene’s or XYZ Pansite's helpdesk](correct URL for corresponding helpdesk, example: https://www.gramene.org/feedback).
+
+[The followimng senetences only apply to Gramene:]
+Note that a maximum of 100 genomes is included in the Compara Gene Family Trees analysis, which will change depending on data available for each release. You can find the list of included genomes in [Ensembl’s Compara github repository](https://github.com/Ensembl/ensembl-compara/blob/release/104/conf/plants/allowed_species.json). Summaries of Compara analyses currently available in Gramene:
+
+- [Protein gene tree analysis](https://ensembl.gramene.org/info/genome/compara/prot_tree_stats.html)
+- [Whole-genome alignments summary](https://ensembl.gramene.org/info/genome/compara/compara_analyses.html)
+
+
+
+## Databases {#databases}
+### Comparative Genomics
+
+[**Gene Trees**](https://ensembl.gramene.org/info/genome/compara/prot_tree_stats.html)
+A total of [Trees Number] protein-coding gene family trees were constructed using the peptide encoded by
+the canonical transcript (i.e., a representative transcript for a given gene) for each
+of [Genes Number] individual genes ([Proteins Number] input proteins) from [Genomes Number] plant genomes.
+
+[**Whole-Genome Alignments**](https://ensembl.gramene.org/info/genome/compara/compara_analyses.html)
+There are [Alignments Number] pairwise genomic alignments. The majority of species in [Gramene or Pansite] were aligned with _Oryza sativa_ Japonica (reference monocot), and _Arabidopsis thaliana_ and _Vitis vinifera_ (reference dicots).
+
+[**Synteny**](https://ensembl.gramene.org/info/genome/compara/compara_analyses.html)
+[Synteny maps Number] paired synteny maps are available. 
+
+[**Putative Split Genes**](http://ftp.gramene.org/CURRENT_RELEASE/splitgenes/)
+Updated Split Genes: Updated split genes for the current release are available on the FTP site.  These are putative gene annotation artifacts (also known as contiguous gene split models) and are based on the latest Ensembl Compara Gene Tree database. Overall statistics for each species is given in the [README](http://ftp.gramene.org/CURRENT_RELEASE/split_genes/1_ReadMe_SplitGenesBySpecies.txt).
+
+
+### Protein Annotation, GO, Xref Protein domain information 
+
+These were generated for the new and updated genomes.
+
+
+### Variation
+
+[Use this sentence only if no new variation included in current release, else describe new sets... No new nor updated genetic/structural variation data since release 54. Genetic variation data is available for [Number of species with GV] plant species in [Gramene or Pansite], including [species or strains with GV in Gramene/Pansite. Current species (b65) with GV in Gramene are: _Arabidopsis thaliana_, brachypodium, sunflower, barley, apple, rice (Japonica, Indica, _O. glaberrima_, and _O. glumaepatula_), tomato, sorghum, bread and durum wheat, graprfruit, and maize].
+
+
+### Expression
+
+Baseline gene expression data for [Number of Species with Baseline Expression in https://www.ebi.ac.uk/gxa/plant/experiments] plant genomes was curated and processed through the [EMBL-EBI Expression Atlas](https://www.ebi.ac.uk/gxa/plant/experiments) and is available via Gramene's Search, Gramene's Genome Browser, and Gramene's pathways interface, the Plant Reactome. Differential expression for most of those species is available directly in the Expression Atlas website. 
+
+
+### Pathways
+
+[Nunmber of curated rice pathways in PR] manually curated Japonica rice pathways and orthology-based pathways for [number of species with orthology-based projections] plant species cross-linked with [Gramene’s Plant Reactome](https://plantreactome.gramene.org/) entries. [Atlernatively, give the number of pathways for relevant pansite species].
+
+
+### Gramene Mart
+
+New Plant Gene [and Variation] Mart[s] generated to incorporte the new genome [and variation] data.
+
+## Infrastructure [The following sentences only apply to Gramene]
+
+**Web Services:** Gramene's [web services page](https://gramene.org/web-services) documents ways to directly connect to and analyze our databases.
+
+- Public MySQL Server: 
+
+Our partner Ensembl Genomes offers a public, read-only MySQL server with copies of the species-specific and comparative genomic databases that we use. To use this with the mysql command-line client:
+
+  $ mysql -hmysql-eg-publicsql.ebi.ac.uk -P4157 -uanonymous
+
+Please note that the versioning scheme used at this public database differs from ours; Gramene's release 65_105 is set as version 52_105 at Ensembl.
+
+
+## Citing Gramene [or Pansite] {#references} [Change to relevant publication or How to Cite]
+
+Tello-Ruiz MK, Naithani S, Gupta P, Olson A, Wei S, Preece S, Jiao Y, Wang B, Chougule K, Garg P, Elser J, Kumari S, Kumar V, Contreras-Moreira B, Naamati G, George N, Cook J, Bolser D, D’Eustachio P, Stein LD, Gupta A, Xu W, Regala J, Papatheodorou I, Kersey PJ, Flicek P, Taylor C, Jaiswal P, and Ware D. (2021). "Gramene 2021: Harnessing the power of comparative genomics and pathways for plant research." *Nucleic Acids Research* 49(D1): D1452–D1463. PMID: 33170273. DOI: [10.1093/nar/gkaa979](https://doi.org/10.1093/nar/gkaa979).
+
+
