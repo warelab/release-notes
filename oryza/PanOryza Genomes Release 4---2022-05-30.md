@@ -10,10 +10,10 @@ Gramene's Oryza Pan-Genome (https://oryza.gramene.org) is a web portal for compa
 
 * _Oryza sativa japonica_ var. KitaakeX (Jain _et al_, 2019)
 
-The rice pangenomes collection now amounts to a total of 28 Oryza genomes. Together with the genomes of _Leersia perrieri_ (the most closely related species to the Oryza in the Oryzeae tribe), 6 plant outgroups (B73 maize, sorghum, Arabidopsis thaliana, grapevine, a vascular plant, and a single-celled green algae) and Drosophila, a total of 38,308 GeneTree families were constructed comprising 1,239,682 individual genes (1,294,888 input proteins) in order to allow comparisons between higher eukaryotes, lower plants, and the model Arabidopsis. See updated stats [here](https://oryza-ensembl.gramene.org/prot_tree_stats.html).
-
+The rice pangenomes collection now amounts to a total of 28 Oryza genomes. Together with the genomes of _Leersia perrieri_ (the most closely related species to the Oryza in the Oryzeae tribe), 6 plant outgroups (B73 maize, sorghum, Arabidopsis thaliana, grapevine, a vascular plant, and a single-celled green algae) and Drosophila, a total of 38,308 GeneTree families were constructed comprising 1,239,682 individual genes (1,294,888 input proteins) in order to allow comparisons between higher eukaryotes, lower plants, and the model Arabidopsis. See updated stats [here](https://oryza-ensembl.gramene.org/prot_tree_stats.html). Our complete genome collection is being made readily available for BLAST alignments.  
 
 Core funding for the project was provided by the National Science Foundation (NSF IOS-1127112) and the Agricultural Research Service of the U.S. Department of Agriculture (USDA ARS 8062-21000-041-00D).  
+
 
 ## Release Information
 - [Overall Highlights](#overall-highlights)
