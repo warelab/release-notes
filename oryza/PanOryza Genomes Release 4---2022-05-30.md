@@ -47,7 +47,7 @@ No updates in the current release, please see [release notes for version 3.0](ht
 
 No updates in the current release, please see [release notes for version 3.0](https://oryza.gramene.org/news).
 
-## References {#references}
+## References
 
 - Herrero J, Muffato M, Beal K, Fitzgerald S, Gordon L, Pignatelli M, et al. "Ensembl comparative genomics resources." Database. 2016;2016. doi:10.1093/database/bav096
 - Jain R, Jenkins J, Shu S, Chern M, Martin JA, Copetti D, et al. "Genome sequence of the model rice variety KitaakeX." BMC Genomics. 2019;20: 905. doi:10.1186/s12864-019-6262-4
