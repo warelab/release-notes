@@ -21,12 +21,12 @@ Core funding for the project was provided by the National Science Foundation (NS
 - [Statistics](#statistics)
 - [References](#references)
 
-## Overall Highlights {#overall-highlights}
+## Overall Highlights 
 
 Our comparative genomics collection was updated to include a total of 38,308 protein-coding gene family trees using Ensembl Compara software (Herrero _et al_, 2016). The new trees were constructed with 1,294,888 input proteins from 1,239,682 individual genes from the 28 Oryza genomes, _L. perrieri_, and 7 outgroup species (Arabidopsis thaliana, sorghum, grapevine, Chlamydomonas, Selaginella, B73 maize in assembly versions 4 and 5, and Drosophila).
 
 
-## Databases {#databases}
+## Databases 
 ### Comparative Genomics
 
 [**Gene Trees.**](https://oryza-ensembl.gramene.org/prot_tree_stats.html) A total of 38,308 protein-coding gene family trees were constructed using the peptide encoded by the canonical transcript (i.e., a representative transcript for a given gene) for each of 1,239,682 individual genes (1,294,888 input proteins) from 36 genomes.
