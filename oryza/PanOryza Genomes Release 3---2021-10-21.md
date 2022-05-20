@@ -4,7 +4,7 @@
 
 Gramene's Oryza Pan-Genome (https://oryza.gramene.org) is a web portal for comparative plant genomics focused on rice varieties. In its third release, the Oryza pan-genome provides access to 15 new rice genomes: 9 indica, 2 aus, and 4 japonica varieties including Carolina Gold rice (Zhou _et al_, 2020; Wang _et al_, 2018; Stein _et al_, 2018), and one updated reference genome: _Oryza sativa indica_ (var. 93-11). These 16 new or updated Oryza genomes were added to the collection of 9 Oryza genomes also available in Gramene to a total of 25 Oryza genomes.
 
-Fifteen new rice reference genomes including Carolina Gold, and one updated (indica reference) genome, for a total of 25 Oryza genomes plus _Leersia perrieri_, the closest relative of the Oryzae.
+Fifteen new rice reference genomes including Carolina Gold, and one updated (indica reference) genome, added up to a total of 25 Oryza genomes plus _Leersia perrieri_, the closest relative of the Oryzae.
 
 Together with 6 plant outgroup species (_Arabidopsis thaliana_, sorghum, grapevine, Chlamydomonas, Selaginella, and 2 assembly versions of maize: v4 and v5), the 25 Oryza genomes and _L. perrieri_ (the most closely related species to the Oryza in the Oryzeae tribe), were used to build 37,315 protein-coding gene family trees. These family trees were constructed with 1,184,741 input proteins from 1,131,828 individual genes.
 
