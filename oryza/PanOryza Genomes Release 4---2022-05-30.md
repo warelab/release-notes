@@ -49,7 +49,7 @@ No updates in the current release, please see [release notes for version 3.0](ht
 
 ## References
 
-- Herrero J, Muffato M, Beal K, Fitzgerald S, Gordon L, Pignatelli M, et al. "Ensembl comparative genomics resources." Database. 2016;2016. doi:10.1093/database/bav096
-- Jain R, Jenkins J, Shu S, Chern M, Martin JA, Copetti D, et al. "Genome sequence of the model rice variety KitaakeX." BMC Genomics. 2019;20: 905. doi:10.1186/s12864-019-6262-4
-- Zhou Y, Chebotarov D, Kudrna D, Llaca V, Lee S, Rajasekar S, et al. "A platinum standard pan-genome resource that represents the population structure of Asian rice." Sci Data. 2020;7: 113. doi:10.1038/s41597-020-0438-2
+- Herrero J, Muffato M, Beal K, Fitzgerald S, Gordon L, Pignatelli M, et al. "Ensembl comparative genomics resources." Database. 2016;2016. doi: [10.1093/database/bav096](http://doi.org/10.1093/database/bav096).
+- Jain R, Jenkins J, Shu S, Chern M, Martin JA, Copetti D, et al. "Genome sequence of the model rice variety KitaakeX." BMC Genomics. 2019;20: 905. doi: [10.1186/s12864-019-6262-4](http://doi.org/10.1186/s12864-019-6262-4).
+- Zhou Y, Chebotarov D, Kudrna D, Llaca V, Lee S, Rajasekar S, et al. "A platinum standard pan-genome resource that represents the population structure of Asian rice." Sci Data. 2020;7: 113. doi: [10.1038/s41597-020-0438-2](http://doi.org/10.1038/s41597-020-0438-2).
 
