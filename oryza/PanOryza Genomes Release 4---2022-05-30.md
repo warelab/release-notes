@@ -4,11 +4,15 @@
 
 Gramene's Oryza Pan-Genome (https://oryza.gramene.org) is a web portal for comparative plant genomics focused on rice varieties. In its fourth release, three new rice genomes were added to the portal: 
 
-* _Oryza sativa indica_ XI-adm var. MH63 (Zhou _et al_, 2020)
+* _Oryza sativa indica_ XI-adm var. MH63 [(Zhou _et al_, 2020)](https://doi.org/10.1038/s41597-020-0438-2)
 
-* _Oryza sativa indica_ XI-1A var. ZS97 (Zhou _et al_, 2020)
+* _Oryza sativa indica_ XI-1A var. ZS97 [(Zhou _et al_, 2020)](https://doi.org/10.1038/s41597-020-0438-2)
 
-* _Oryza sativa japonica_ var. KitaakeX (Jain _et al_, 2019)
+* _Oryza sativa japonica_ var. KitaakeX [(Jain _et al_, 2019)](https://doi.org/10.1186/s12864-019-6262-4)
+
+In this fourth release, we completed the 16 accessions of the Platinum Standard RefSeqs (also known as the 16 MAGIC rice cultivars) or PSRefSeq collection with Oryza sativa indica cv. Minghui 63 or MH63, a representative of the XI-adm subpopulation, and O. sativa indica cv. Zhengshan 97, Zhenshan 97 or ZS97, representing the XI-1A subpopulation. The 16 MAGIC cultivars were selected to represent the 15 rice subpopulations and the largest admixed rice population, i.e. XI-adm described by [Zhou et al (2020)](https://doi.org/10.1038/s41597-020-0438-2). Notably, the assembly for MH63 and ZS97 are considered to be T2T (or Telomere-to-Telemere), which means that thy are complete and gapless: MH63 has 10 T2T chromosomes, and ZS97 has 7 of them [(Song et al, 2021)](https://doi.org/10.1016/j.molp.2021.06.018).
+
+The Kitaake accession is a fast cycling rice variety (seed to seed in nine weeks), making it an excellent model for functional genomics in rice. The accession carries the rice XA21 immune receptor and its genome was sequenced and assembled, annotated and analyzed for variation by Pamela Ronalds and collaborators [(Jain et al, 2019)](https://doi.org/10.1186/s12864-019-6262-4) and it was used to generate mutagenized lines, of which 1,504 have been sequenced and indexed [(Li et al, 2017)](https://doi.org/10.1105/tpc.17.00154). 
 
 The rice pangenomes collection now amounts to a total of 28 Oryza genomes. Together with the genomes of _Leersia perrieri_ (the most closely related species to the Oryza in the Oryzeae tribe), 6 plant outgroups (B73 maize, sorghum, Arabidopsis thaliana, grapevine, a vascular plant, and a single-celled green algae) and Drosophila, a total of 38,308 GeneTree families were constructed comprising 1,239,682 individual genes (1,294,888 input proteins) in order to allow comparisons between higher eukaryotes, lower plants, and the model Arabidopsis. See updated stats [here](https://oryza-ensembl.gramene.org/prot_tree_stats.html). Our complete genome collection is being made readily available for BLAST alignments.  
 
