@@ -27,15 +27,15 @@ New to this release are 27 new synteny maps between the IRGSP1 Nipponbare assemb
 
 ### Variation
 
-No updates in the current release, please see [release notes for version 4.0](https://oryza.gramene.org/news).
+No updates in the current release, please see [release notes for version 3.0](https://oryza.gramene.org/news).
 
 ### Expression
 
-No updates in the current release, please see [release notes for version 4.0](https://oryza.gramene.org/news).
+No updates in the current release, please see [release notes for version 3.0](https://oryza.gramene.org/news).
 
 ### Pathways
 
-No updates in the current release, please see [release notes for version 4.0](https://oryza.gramene.org/news).
+No updates in the current release, please see [release notes for version 3.0](https://oryza.gramene.org/news).
 
 ## References
 
