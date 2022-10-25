@@ -4,7 +4,7 @@
 
 [**Synteny**](https://oryza-ensembl.gramene.org/compara_analyses.html). Twenty-seven synteny maps between the IRGSP1 Nipponbare assembly and all rice accessions (for example, see [Nipponbare vs KitaakeX](https://oryza-ensembl.gramene.org/Oryza_sativa/Location/Synteny?db=core;otherspecies=Oryza_sativakitaake;r=1:8950777-9114776), and three new synteny maps between the Nipponbare and each of Leersia, sorghum and maize. See the same region of [Nipponbare compared to sorghum](https://oryza-ensembl.gramene.org/Oryza_sativa/Location/Synteny?db=core&r=1%3A8950777-9114776&otherspecies=Sorghum_bicolor).
 
-[**Gene Trees**](https://oryza-ensembl.gramene.org/prot_tree_stats.html). No updates in the current release, please see [release notes for version 4.0](./?section=PanOryza Release 4/Databases).
+[**Gene Trees**](https://oryza-ensembl.gramene.org/prot_tree_stats.html). No updates in the current release, please see [release notes for version 4.0](/News?section=PanOryza Release 4/Databases).
 
 ### Variation
 
