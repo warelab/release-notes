@@ -13,7 +13,6 @@ committed step of jasmonic acid biosynthesis. For more info on this gene see [Gl
 - [Regulation](#regulation)
 - [Gene expression](#gene-expression)
 - [Variation](#variation)
-- [Structural variation](#structural-variation)
 - [QTLs](#qtls)
   
 ## Using the genes search interface {#search-interface}
@@ -151,12 +150,6 @@ Currently in SorghumBase, there are two SNPs data sets for sorghum BTx623:
 ### Chemically induced variation -  Ethyl methanesulfonate (EMS)-induced mutations
 Currently in SorghumBase, there is one collection of EMS-induced mutant lines. EMS is a chemical commonly used to cause point mutations, that is, to change single nucleotides in the DNA of a plant seed.
 - The Xin EMS dataset (Jiao et al. 2016) includes almost 1.5 million EMS-induced G/C to A/T transition mutations annotated from 252 M3 families selected from the 6,400 sorghum mutant library in BTx623 background described by Xin and colleagues (Xin et al. 2008). Genomic DNA used for sequencing was pooled from 20 M3 plants per M2 family (Jiao et al. 2016).
-
-## Structural Variation {#structural-variation}
-Data for structural variation for the sorghum BTx623 reference has been imported from the
-[Database of Genomic Variants Archive](http://www.ebi.ac.uk/dgva/) (dGVA) from a single study containing around 28
-thousand structural variations described by (Zheng et al. 2011). [Here is an example](https://ensembl.sorghumbase.org/Sorghum_bicolor/StructuralVariation/Explore?db=core;r=1:96756-143685;sv=nsv838266;svf=32426;vdb=variation).
-![](images/image3.png)
 
 ## Phenotypic Variation - Quantitative Trait Locus (QTLs) {#qtls}
 Data corresponding to 5,843 QTL features for 220 sorghum traits were imported from [Sorghum QTL Atlas]()
