@@ -151,6 +151,7 @@ Currently in SorghumBase, there are two SNPs data sets for sorghum BTx623:
 Currently in SorghumBase, there is one collection of EMS-induced mutant lines. EMS is a chemical commonly used to cause point mutations, that is, to change single nucleotides in the DNA of a plant seed.
 - The Xin EMS dataset (Jiao et al. 2016) includes almost 1.5 million EMS-induced G/C to A/T transition mutations annotated from 252 M3 families selected from the 6,400 sorghum mutant library in BTx623 background described by Xin and colleagues (Xin et al. 2008). Genomic DNA used for sequencing was pooled from 20 M3 plants per M2 family (Jiao et al. 2016).
 
+
 ## Phenotypic Variation - Quantitative Trait Locus (QTLs) {#qtls}
 Data corresponding to 5,843 QTL features for 220 sorghum traits were imported from [Sorghum QTL Atlas]()
 and are provided with predicted syntenic locations in maize and rice.
