@@ -3,7 +3,7 @@
 ## Summary
 
 Gramene's Oryza Pan-Genome (https://oryza.gramene.org) is a web portal for comparative plant genomics focused on rice varieties. 
-In its sixth release, we are including new and updated 3K SNP data and functional curation from RAP-DB and NCBI's geneRIFs.
+In its sixth release, we are including new and updated 3K SNP data and functional gene curation from RAP-DB and NCBI's geneRIFs.
 
 ## Release Information
 - [Overall Highlights](#overall-highlights)
@@ -14,8 +14,9 @@ In its sixth release, we are including new and updated 3K SNP data and functiona
 
 ## Overall Highlights
 
-New to this release are updated 3K SNP data called by [KAUST](https://cda.kaust.edu.sa/) using GATK4 for Nipponbare, MH63, IR64 and Azucena.
+New to this release are new and updated 3K SNP data called by [KAUST](https://cda.kaust.edu.sa/) using GATK4 for Nipponbare, MH63, IR64 and Azucena.
 Having variation data called on these additional genomes provides additional coverage of genetic variation in regions not present in the Nipponbare reference genome.
+
 A new search feature has been added by indexing curated gene annotations from RAP-DB and NCBI's geneRIF. These resources include publications detailing the functions of over 4000 rice genes.
 
 
@@ -26,7 +27,9 @@ No updates in the current release, please see [release notes for version 5.0](ht
 
 ### Variation
 
-No updates in the current release, please see [release notes for version 3.0](https://oryza.gramene.org/News?section=PanOryza%20Release%203).
+3K SNP variation data for Nipponbare, MH63, IR64 and Azucena, called by scientists at the [Center for Desert Agriculture at King Abdullah University of Science and Technology, KAUST](https://cda.kaust.edu.sa/) using the Genome Analysis Toolkit [GATK4](https://gatk.broadinstitute.org/hc/en-us).
+
+20,483 Quantitative Trait Locus (QTL) were remapped to the IRGSP-1.0 assembly by industry collaborator [KeyGene](http://www.keygene.com). Of those, 19,435 were taken from [Gramene's legacy QTLs database](http://archive.gramene.org/qtl), and 1,048 from the [Q-Taro database](http://qtaro.abr.affrc.go.jp).
 
 ### Expression
 
@@ -38,7 +41,6 @@ No updates in the current release, please see [release notes for version 3.0](ht
 
 ## References
 
-Zhou _et al_ (2022). Pan-genome inversion index reveals evolutionary insights into the subpopulation structure of Asian rice (Oryza sativa). bioRxiv. doi: [10.1101/2022.06.11.49568](https://doi.org/10.1101/2022.06.11.495682).
 
 ## Funding
 
