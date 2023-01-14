@@ -1,6 +1,6 @@
 **_Oryza_ PanGenome User Guide**
 
-This user guide refers to the contents of the Third Public Release (November 2021) of the Rice PanGenome. Currently, the PanGenome hosts 25 rice genomes and Leersia perrieri, an ancestor of rice, 11 of those Oryzae genomes were recently described (Zhou et al, 2021), and 7 outgroups (Arabidopsis thaliana, Sorghum bicolor, Vitis vinifera ssp. vinifera PN40024, Selaginella moellendorffii, Chlamydomonas reinhardtii, Drosophila melanogaster, and 2 versions of Zea mays B73  (Hufford et al, 2021; Jiao et al, 2017)).
+This user guide refers to the contents of the Third Public Release (November 2021) of the Rice PanGenome. Currently, the PanGenome hosts 25 rice genomes and Leersia perrieri, an ancestor of rice, 11 of those Oryzae genomes were recently described (Zhou et al, 2020), and 7 outgroups (Arabidopsis thaliana, Sorghum bicolor, Vitis vinifera ssp. vinifera PN40024, Selaginella moellendorffii, Chlamydomonas reinhardtii, Drosophila melanogaster, and 2 versions of Zea mays B73  (Hufford et al, 2021; Jiao et al, 2017)).
 
 At present, most data types are only available for Japonica rice, so this guide will focus on the Grain Width on chromosome 8 gene model, also known as GW8.
 
@@ -220,10 +220,11 @@ GW8 gene expression in the Expression Atlas
 
 ## Genetic, Structural & Phenotypic Variation {#variation}
 
-Coming soon… 
+QTL data and 3K SNP variation data for Nipponbare, MH63, IR64 and Azucena, called by scientists KAUST scientists using the Genome Analysis Toolkit GATK4 were introduced in the PanOryza site in release 6. 
 
-Genetic variation and QTL phenotypic variation is available for the *O. sativa Japonica* and *Indica* references, *O. glaberrima* and *O. glumaepatula* in the main Gramene website. Genetic variation data sets will be made available here in future releases. Click here for an image or a table of genetic variation for the GW8 gene in the Gramene Ensembl browser. There are no structural / copy number variants associated with the WG8 gene. Phenotypic (QTL) associations are available under the Variation (Phenotype annotations) track of the Gene page “Configure this image” option.
+Click here for an image or a table of genetic variation for the GW8 gene in the Gramene Ensembl browser. There are no structural / copy number variants associated with the WG8 gene. Phenotypic (QTL) associations are available under the Variation (Phenotype annotations) track of the Gene page “Configure this image” option.
 
+Additional genetic variation (SNPs, RFLP and SSR markers) is available for *O. sativa Japonica* and *Indica*, *O. glaberrima* and *O. glumaepatula* in the main Gramene website.
 
 
 ## Literature References {#references}
