@@ -41,6 +41,7 @@ No updates in the current release, please see [release notes for version 3.0](ht
 
 ## References
 
+Zhou Y, Chebotarov D, Kudrna D, Llaca V, Lee S, Rajasekar S, et al. "A platinum standard pan-genome resource that represents the population structure of Asian rice." Sci Data. 2020;7: 113. doi: [10.1038/s41597-020-0438-2](https://doi.org/10.1038/s41597-020-0438-2).
 
 ## Funding
 
