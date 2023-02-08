@@ -76,14 +76,13 @@ Sobic.006G095600 = SORBI_3006G095600
 More detailed views available in the SorghumBase Ensembl genome browser include
 a [gene page](https://ensembl.sorghumbase.org/Sorghum_bicolor/Gene/Summary?g=SORBI_3006G095600;r=6:46566240-46571064),
 [transcript page](https://ensembl.sorghumbase.org/Sorghum_bicolor/Transcript/Summary?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=OQU81659),
-[(SNP) variant page](https://ensembl.sorghumbase.org/Sorghum_bicolor/Variation/Explore?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=OQU81659;v=tmp_6_47487513_G_A;vdb=variation;vf=7758800),
-and [structural variant page](https://ensembl.sorghumbase.org/Sorghum_bicolor/StructuralVariation/Explore?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;sv=nsv856002;svf=54084;t=OQU81659;v=tmp_6_47487513_G_A;vdb=variation;vf=7758800).
+and [(SNP) variant page](https://ensembl.sorghumbase.org/Sorghum_bicolor/Variation/Explore?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=OQU81659;v=tmp_6_47487513_G_A;vdb=variation;vf=7758800).
 
 ![Ensembl Gene Page](images/image5.png)
 
 ## Add/remove data tracks or configure an image on the genome browser {#configure-image}
 
-Find the spider gear icon on a browser page, it might precede a "Configure this page" or have a "Configure this image" title when you mouse over it (see image below). When you click on it, you will be able to select or turn on/off a data track (click on a category to disclose all the tracks under it, the number of data sets (tracks) is indicated to the right of each category, for example in the first release of SorghumBase, there are 4 data sets (tracks) under Variation: Sequence variants (all sources), Morris 2013 variants, Mace_2013 variants, and Sorghum_EMS_mutants variants. Click on the square to the left of each data set (track) to select from several options. For example, you may choose to turn the track off or display its data in a collapsed or expanded manner, with or without labels for each data point.
+Find the spider gear icon on a browser page, it might precede a "Configure this page" or have a "Configure this image" title when you mouse over it (see image below). When you click on it, you will be able to select or turn on/off a data track (click on a category to disclose all the tracks under it, the number of data sets (tracks) is indicated to the right of each category, for example in the first release of SorghumBase, there are 5 data tracks under Variation (the later two being EMS mutations): Sequence variants (all sources), SAP_Boatwrigjt_study variants, Lozano_study variants, Yinping-Jiao-2016-Study variants, and Addo-Quaye variants. Click on the square to the left of each data set (track) to select from several options. For example, you may choose to turn the track off or display its data in a collapsed or expanded manner, with or without labels for each data point.
 
 ![Configure_icon](images/image16.png)
 ![Configure_variation](images/image17.png)
@@ -124,14 +123,12 @@ BioProject [PRJNA293229](https://www.ncbi.nlm.nih.gov//bioproject/PRJNA293229)/[
 ![atlas](images/image10.png)
 
 ## Variation {#variation}
-Variation in SorghumBase is available for short variants (genetic variation, which in turn may be naturally occurring or chemically induced), longer than 50 nucleotides (structural variants) and QTL variants associated with physical traits.
+Variation in SorghumBase is available for short variants (genetic variation, which in turn may be naturally occurring or chemically induced) and QTL variants associated with physical traits.
+
 
 ### Genetic Variation
 
-Genetic variation data sets are available as over 61 million sorghum variants including more than 57 million naturally ocurring Single Nucleotide Polymorphisms (SNPs), and 4.3 million chemically-induced variants or ethyl methanesulfonate (EMS)-induced mutations.
-
-almost 51 million SNPs (44 million of which plus 5 million indels genotyped by sequencing in the SAP lines Boatwright et al, 2022), 4.3 EMS-induced mutations (Addo-Quaye et al, 2018) and (Jiao et al, 2016), and nearly 6,000 QTLs for 220 sorghum traits from the Sorghum QTL Atlas.
-
+Genetic variation data sets are available as over 61 million sorghum variants including more than 57 million naturally ocurring Single Nucleotide Polymorphisms (SNPs), and 4.3 million chemically-induced variants (i.e., ethyl methanesulfonate (EMS)-induced mutations). SNP data comes from the studies by Lucas Boatwright (Boatwright et al, 2021), and Michael Gore (Lozano et al, 2021); while the EMS data comes from the studies by Charles Addo-Quaye (Addo-Quaye et al, 2018), and Zhanguo Xin (Jiao et al, 2016). Scroll down for additional details on these datasets. In addition, we host nearly 6,000 QTLs for 220 sorghum traits from the Sorghum QTL Atlas.
 
 Genetic variation data for a sorghum gene is available graphically and in tabular form, and for each variant, a Variant page provides more detailed information. Below are provided examples of each of these data representations.
 - An [image](https://ensembl.sorghumbase.org/Sorghum_bicolor/Transcript/Variation_Transcript/Image?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=OQU81659;v=tmp_6_47486074_T_C;vdb=variation;vf=3821694) of all the genetic variants mapping to the smaller transcript of the msd2 gene.
@@ -139,17 +136,16 @@ Genetic variation data for a sorghum gene is available graphically and in tabula
 - A partial [table](https://ensembl.sorghumbase.org/Sorghum_bicolor/Transcript/Variation_Transcript/Table?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=OQU81659;v=tmp_6_47486074_T_C;vdb=variation;vf=3821694) of all the genetic variants mapping to the smaller transcript of the msd2 gene.
 ![](images/image7.png)![](images/image6.png)
 - An example of a [Variant summary page](https://ensembl.sorghumbase.org/Sorghum_bicolor/Variation/Explore?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=OQU81659;v=tmp_6_47487513_G_A;vdb=variation;vf=7758800)
-  for a chemically induced variant (tmp_6_47487513_G_A) with a smaller inset of the [genotype frequency panel](https://ensembl.sorghumbase.org/Sorghum_bicolor/Variation/Population?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=OQU81659;v=tmp_6_47487513_G_A;vdb=variation;vf=7758800#14_tablePanel)
-  showing the accession (ARS105) bearing the mutation (G|A).
+  for a chemically induced variant (tmp_6_47487513_G_A) with a smaller inset of the [genotype frequency panel](https://ensembl.sorghumbase.org/Sorghum_bicolor/Variation/Population?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=OQU81659;v=tmp_6_47487513_G_A;vdb=variation;vf=7758800#14_tablePanel) showing the accession (ARS105) bearing the mutation (G|A).
 ![](images/image14.png)![](images/image11.png)
 
-### Naturally occurring genetic variation - Single Nucleotide Polymorphisms (SNPs)
+### Naturally occurring genetic variation - SNPs
 Currently in SorghumBase, there are two SNPs data sets for sorghum BTx623:
 - The Lozano SNP dataset (Lozano et al, 2021) consists of nearly 13 million SNPs in 499 sorghum accessions, including lines from the TERRA-MEPP and TERRA-REF population panels, and the samples previously reported by Emma Mace and collaborators (Mace et al, 2013).
 - The Boatwright SNP dataset (Boatwright et al, 2022) consists of almost 44 million genetic variants including nearly 38 millon SNPs and 5 million indels genotyped in 400 Sorghum Association Panel (SAP) accessions via whole-genome sequencing (WGS).
 
 
-### Chemically induced variation -  Ethyl methanesulfonate (EMS)-induced mutations
+### Chemically induced variation -  EMS-induced mutations
 Currently in SorghumBase, there are two collections of EMS-induced mutant lines. EMS is a chemical commonly used to cause point mutations, that is, to change single nucleotides in the DNA of a plant seed.
 
 - The Xin EMS dataset (Jiao et al. 2016) includes over 1.7 million EMS-induced G/C to A/T transition mutations annotated from 252 M3 mutant family pools selected from the 6,400 sorghum mutant library in BTx623 background described by Xin and colleagues (Xin et al. 2008). Genomic DNA used for sequencing was pooled from 20 x M3 plants per M2 family (Jiao et al. 2016). This set superseded the 1.5 million mutations originally called in the Jiao study. 
