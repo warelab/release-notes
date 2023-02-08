@@ -26,18 +26,3 @@ Genetic variation data for a sorghum gene is available graphically and in tabula
 - An example of a [Variant summary page](https://ensembl.sorghumbase.org/Sorghum_bicolor/Variation/Explore?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=OQU81659;v=tmp_6_47487513_G_A;vdb=variation;vf=7758800)
   for a chemically induced variant (tmp_6_47487513_G_A) with a smaller inset of the [genotype frequency panel](https://ensembl.sorghumbase.org/Sorghum_bicolor/Variation/Population?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=OQU81659;v=tmp_6_47487513_G_A;vdb=variation;vf=7758800#14_tablePanel) showing the accession (ARS105) bearing the mutation (G|A).
 ![](images/image14.png)![](images/image11.png)
-
-
-### Phenotypic Variation - Quantitative Trait Locus (QTLs) {#qtls}
-Data corresponding to 5,843 QTL features for 220 sorghum traits were imported from [Sorghum QTL Atlas]()
-and are provided with predicted syntenic locations in maize and rice.
-
-[Example region](https://ensembl.sorghumbase.org/Sorghum_bicolor/Location/View?db=core;g=SORBI_3006G095600;r=7:61190510-61277060;sv=nsv856002;svf=54084;t=OQU81659;vdb=variation) with QTLs associated with multiple traits including greenbug resistance, fresh biomass, and flag leaf height. 
-  
-You may need to turn on the QTLs track and select how you would like the data displayed on your browser. For the figure shown below, I selected "Collapsed" style, which limits the dispaly to only 5 QTLs in the image. Click on a track to disclose more information about that data point (for example, QTL name, location, associated phenotype and data source). In the example below, if you click on a phenotype/trait, such as "Green bug resistance", you will be taken to a page listing all the genomic locations of QTL features associated with Green bug resistance. See an [example of such list for Panicle length](https://ensembl.sorghumbase.org/Sorghum_bicolor/Phenotype/Locations?ph=114). 
-  
-![Configure QTLs track](images/image19.png)
-
-Hint: For additional regions with QTL data in the current sorghum assembly (v.3), use the [physical or genetic (cM) coordinates](http://aussorgm.org.au/dev/wp-content/uploads/2018/08/Consensus-Map_cM-and-bp-coordinates.xlsx) kindly provided by the Sorghum QTL Atlas team.
-
-![](images/image2.png)
