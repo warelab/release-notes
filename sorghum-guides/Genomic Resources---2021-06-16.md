@@ -128,6 +128,11 @@ Variation in SorghumBase is available for short variants (genetic variation, whi
 
 ### Genetic Variation
 
+Genetic variation data sets are available as over 61 million sorghum variants including more than 57 million naturally ocurring Single Nucleotide Polymorphisms (SNPs), and 4.3 million chemically-induced variants or ethyl methanesulfonate (EMS)-induced mutations.
+
+almost 51 million SNPs (44 million of which plus 5 million indels genotyped by sequencing in the SAP lines Boatwright et al, 2022), 4.3 EMS-induced mutations (Addo-Quaye et al, 2018) and (Jiao et al, 2016), and nearly 6,000 QTLs for 220 sorghum traits from the Sorghum QTL Atlas.
+
+
 Genetic variation data for a sorghum gene is available graphically and in tabular form, and for each variant, a Variant page provides more detailed information. Below are provided examples of each of these data representations.
 - An [image](https://ensembl.sorghumbase.org/Sorghum_bicolor/Transcript/Variation_Transcript/Image?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=OQU81659;v=tmp_6_47486074_T_C;vdb=variation;vf=3821694) of all the genetic variants mapping to the smaller transcript of the msd2 gene.
 ![variant image](images/image15.png)
@@ -140,16 +145,15 @@ Genetic variation data for a sorghum gene is available graphically and in tabula
 
 ### Naturally occurring genetic variation - Single Nucleotide Polymorphisms (SNPs)
 Currently in SorghumBase, there are two SNPs data sets for sorghum BTx623:
-- The Morris SNP dataset (Morris et al. 2013) consists of ~265,000 SNPs genotyped in 378 accessions from the US sorghum association panel (SAP).
-- The Mace SNP dataset (Mace et al. 2013) includes almost 6.5 million SNPs genotyped in 45 *Sorghum bicolor* lines
-  including the BTx623 reference genome plus 2 *S. propinquum* lines reported by Mace and colleagues (Mace et al. 2013).
-  The data were obtained by resequencing the genomes of the 44 *S. bicolor* lines representing the primary gene pool and
-  spanning dimensions of geographic origin, end-use and taxonomic group (i.e., major races of cultivated *S. bicolor*,
-  landraces, improved inbreds, progenitors, wild and weedy), and the first resequenced genome of *S. propinquum*, all of
-  which were mapped to the BTx623 *S. bicolor* reference genome.
+- The Lozano SNP dataset (Lozano et al, 2021) consists of nearly 13 million SNPs in 499 sorghum accessions, including lines from the TERRA-MEPP and TERRA-REF population panels, and the samples previously reported by Emma Mace and collaborators (Mace et al, 2013).
+- The Boatwright SNP dataset (Boatwright et al, 2022) consists of almost 44 million genetic variants including nearly 38 millon SNPs and 5 million indels genotyped in 400 Sorghum Association Panel (SAP) accessions via whole-genome sequencing (WGS).
+
+
 ### Chemically induced variation -  Ethyl methanesulfonate (EMS)-induced mutations
-Currently in SorghumBase, there is one collection of EMS-induced mutant lines. EMS is a chemical commonly used to cause point mutations, that is, to change single nucleotides in the DNA of a plant seed.
-- The Xin EMS dataset (Jiao et al. 2016) includes almost 1.5 million EMS-induced G/C to A/T transition mutations annotated from 252 M3 families selected from the 6,400 sorghum mutant library in BTx623 background described by Xin and colleagues (Xin et al. 2008). Genomic DNA used for sequencing was pooled from 20 M3 plants per M2 family (Jiao et al. 2016).
+Currently in SorghumBase, there are two collections of EMS-induced mutant lines. EMS is a chemical commonly used to cause point mutations, that is, to change single nucleotides in the DNA of a plant seed.
+
+- The Xin EMS dataset (Jiao et al. 2016) includes over 1.7 million EMS-induced G/C to A/T transition mutations annotated from 252 M3 mutant family pools selected from the 6,400 sorghum mutant library in BTx623 background described by Xin and colleagues (Xin et al. 2008). Genomic DNA used for sequencing was pooled from 20 x M3 plants per M2 family (Jiao et al. 2016). This set superseded the 1.5 million mutations originally called in the Jiao study. 
+- The Addo-Quaye dataset (Addo-Quaye et al. 2018) with over 2.5 million variations identified in 486 sorghum accessions from the M3 generation of an EMS-mutagenized sorghum population.
 
 
 ## Phenotypic Variation - Quantitative Trait Locus (QTLs) {#qtls}
@@ -167,10 +171,17 @@ Hint: For additional regions with QTL data in the current sorghum assembly (v.3)
 ![](images/image2.png)
 
 ## References {#references}
+
+Addo-Quaye C, Tuinstra M, Carraro N, Weil C, Dilkes BP. 2018. "Whole-Genome Sequence Accuracy Is Improved by Replication in a Population of Mutagenized Sorghum." *G3* 8: 1079–1094. 
+PMID: 29378822. https://doi.org/10.1534/g3.117.300301.
+
 Aken, Bronwen L., Sarah Ayling, Daniel Barrell, Laura Clarke, Valery Curwen, Susan Fairley, Julio Fernandez Banet, et al. 2016.
 "The Ensembl Gene Annotation System."
 *Database: The Journal of Biological Databases and Curation*.
 PMID: 27337980. https://doi.org/10.1093/database/baw093.
+
+Boatwright JL, Sapkota S, Jin H, Schnable JC, Brenton Z, Boyles R, Kresovich S. 2022. "Sorghum Association Panel whole-genome sequencing establishes cornerstone resource for dissecting genomic diversity". *Plant J* 
+PMID: 35653240. https://doi.org/10.1111/tpj.15853.
 
 Brenton, Zachary W., Elizabeth A. Cooper, Mathew T. Myers, Richard E. Boyles, Nadia Shakoor, Kelsey J. Zielinski, Bradley L. Rauh, William C. Bridges, Geoffrey P. Morris, and Stephen Kresovich. 2016.
 "A Genomic Resource for the Development, Improvement, and Exploitation of Sorghum for Bioenergy."
@@ -203,6 +214,9 @@ Jiao, Yinping, John J. Burke, Ratan Chopra, Gloria Burow, Junping Chen, Bo Wang,
 "A Sorghum Mutant Resource as an Efficient Platform for Gene Discovery in Grasses."
 *The Plant Cell*.
 PMID: 27354556. https://doi.org/10.1105/tpc.16.00373.
+
+Lozano R, Gazave E, Dos Santos JPR, Stetter MG, Valluru R, Bandillo N, et al. 2021. "Comparative evolutionary genetics of deleterious load in sorghum and maize." *Nat Plants* 7:17–24. 
+PMID: 33452486. https://doi.org/10.1038/s41477-020-00834-5.
 
 McCormick, Ryan F., Sandra K. Truong, Avinash Sreedasyam, Jerry Jenkins, Shengqiang Shu, David Sims, Megan Kennedy, et al. 2018.
 "The Sorghum Bicolor Reference Genome: Improved Assembly, Gene Annotations, a Transcriptome Atlas, and Signatures of Genome Organization."
