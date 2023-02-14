@@ -3,7 +3,7 @@
 
 This user guide refers to the contents of the Third Public Release (March 2023) of the Maize PanGenome with 43 genomes including 3 versions of the B73 _Zea mays_ reference* (Hufford _et al_, 2021; Jiao _et al_, 2017; Schnable _et al_, 2009), 25 NAM maize founder genomes (Hufford _et al_, 2021; Gage _et al_, 2020; Yu _et al_, 2008; McMullen _et al_, 2009), 4 [European flint maize genomes](http://www.europeanmaize.net/)) (DK105, EP1, F7 and PE0075), Mo17 (Sun et al, 2018), W22 (Springer et al, 2018), PH207 (Hirsch et al, 2016), A188 (Lin et al, 2021), and 7 outgroups (_Arabidopsis thaliana_, _Oryza sativa_ Japonica, _Sorghum bicolor_, _Vitis vinifera_ ssp. _vinifera_ PN40024, _Selaginella moellendorffii_, _Chlamydomonas reinhardtii_, and _Drosophila melanogaster_).
 
-This guide will focus on the lipoxygenase 9 gene model, also known as lox9 or Zm00001eb005920. Additional funtional annotations are only available for B73 version 4, and will be made available in the site when projected to the current assembly version5. 
+The lipoxygenase 9 gene model, also known as lox9, Zm00001eb005920 (RefGen_v5 or v5) or Zm00001d027893 (RefGen_v4 or v4), will be used as example. Additional funtional annotations currently available for the B73 maize v4 will be made available in this pansite when projected to the current assembly v5. 
 
 ---
 
@@ -36,15 +36,15 @@ But first, here is a summary of the five data categories in which the results of
 * **Pathways** - Association to pathways in [Gramene’s Plant Reactome](https://plantreactome.gramene.org)
 * **Xrefs** - Cross-references to other databases
 
-To reproduce the screen capture shown below, select the “lox9” gene from the suggested results. Please note that searching for lox9 also yields results for LOX9 (capitalized letters), which are not necessarily identical. LOX9 has a number 2 next to it, which indicates two genes associated with it; meanwhile lox9 has a number 1 next to it, which indicates that there is a single gene associated with it. 
+To reproduce the screen capture shown below, select the “lox9” gene from the suggested results. Please note that searching for lox9 also yields results for LOX9 (capitalized letters), which are not necessarily identical. LOX9 (capital letters are commonly used to designate protein names) has a number 2 next to it, which indicates two genes associated with it (Sellaginella SELMODRAFT_109226 and maize GRMZM2G017616); meanwhile lox9 has a number 1 next to it, which indicates that there is a single gene associated with it (maize Zm00001eb005920, also known as GRMZM2G017616, Zm00001d027893, Zm00001e000580, and lipoxygenase9). 
 
-To limit the results to maize genomes, click on the spider gear icon and deselect the non-maize outgroups (e.g., _Arabidopsis_, _Oryza_, _Sorghum_, _Vitis_, _Selaginella_, _Chlamydomonas_, and _Drosophila_). This filtering step should render one or more of the following results:
+To limit the results to maize genomes, click on the spider gear icon and deselect the non-maize outgroups (e.g., _Arabidopsis_, _Oryza_, _Sorghum_, _Vitis_, _Selaginella_, _Chlamydomonas_, and _Drosophila_) or deselectt "All" and reselect only "B73 Zea mays". This filtering step should render one or more of the following results:
 
 GRMZM2G017616 (B73 _Zea mays_ v3)
 
 Zm00001d027893 (B73 _Zea mays_ v4) 
 
-Zm00001eb005920 (B73 _Zea mays_ v5)
+Zm00001eb005920, Zm00001e000580 (B73 _Zea mays_ v5)
 
 
 ![lox9](images/panmaize2.png "Search lox9")
@@ -92,13 +92,13 @@ You may expand collapsed taxonomic clades, which are symbolized by triangles alo
 ![expand or collapse](images/panmaize8.png "Expand or collapse tree clades")
 
 
-You may also prune the tree to only display a subset of the 35 species, by clicking on the spider gear of the Search Filters panel. Hover your mouse over to see a message like: “Genomes Filter” and Searching 35 genomes. Click on it and select the species you want to limit your search to, and also those that you wish to be included in the Homology tree view.
+You may also prune the tree to only display a subset of the 43 species, by clicking on the spider gear of the Search Filters panel. Hover your mouse over to see a message like: “Genomes Filter” and Searching 43 genomes. Click on it and select the species you want to limit your search to, and also those that you wish to be included in the Homology tree view.
 
 
 ![prune tree](images/panmaize9.png "Select Genomes")
 
 
-![select genomes](images/panmaize10.png "35 genomes")
+![select genomes](images/panmaize10.png "35 genomes") -- _Swap image for one with 43 genomes_
 
 
 Please note that resizing the gray slider that surrounds the entire protein allows you to navigate along it. Also, at the bottom of the panel notice the number of Homologs, Orthologs, and Paralogs. By clicking on any of them, the corresponding gene list will be displayed. See for example, the list of 13 paralogs in the figure below.
@@ -260,17 +260,22 @@ Coming soon...
 
 Gage, Joseph L., Brandon Monier, Anju Giri, and Edward S. Buckler. 2020. “Ten Years of the Maize Nested Association Mapping Population: Impact, Limitations, and Future Directions.” _The Plant Cell_ 32 (7): 2083–93.
 
+Haberer, Georg, Nadia Kamal, Eva Bauer, Heidrun Gundlach, Iris Fischer, Michael A. Seidel, Manuel Spannagl, et al. 2020. “European Maize Genomes Highlight Intraspecies Variation in Repeat and Gene Content.” _Nature Genetics_ 52 (9): 950–57.
+
+Hirsch, Candice N., Cory D. Hirsch, Alex B. Brohammer, Megan J. Bowman, Ilya Soifer, Omer Barad, Doron Shem-Tov, et al. 2016. “Draft Assembly of Elite Inbred Line PH207 Provides Insights into Genomic and Transcriptome Diversity in Maize.” _The Plant Cell_ 28 (11): 2700–2714.
 
 Hufford, Matthew B., Arun S. Seetharam, Margaret R. Woodhouse, Kapeel M. Chougule, Shujun Ou, Jianing Liu, William A. Ricci, et al. 2021. “De novo assembly, annotation, and comparative analysis of 26 diverse maize genomes.” _Science_ 373(6555): 655-662. doi: [10.1126/science.abg5289](http://dx.doi.org/10.1126/science.abg5289)
 
-
 Jiao, Yinping, Paul Peluso, Jinghua Shi, Tiffany Liang, Michelle C. Stitzer, Bo Wang, Michael S. Campbell, et al. 2017. “Improved Maize Reference Genome with Single-Molecule Technologies.” _Nature_ 546 (7659): 524–27.
 
+Lin, Guifang, Cheng He, Jun Zheng, Dal-Hoe Koo, Ha Le, Huakun Zheng, Tej Man Tamang, et al. 2021. “Chromosome-Level Genome Assembly of a Regenerable Maize Inbred Line A188.” _Genome Biology_ 22 (1): 175.
 
 McMullen, Michael D., Stephen Kresovich, Hector Sanchez Villeda, Peter Bradbury, Huihui Li, Qi Sun, Sherry Flint-Garcia, et al. 2009. “Genetic Properties of the Maize Nested Association Mapping Population.” _Science_ 325 (5941): 737–40.
 
-
 Schnable, Patrick S., Doreen Ware, Robert S. Fulton, Joshua C. Stein, Fusheng Wei, Shiran Pasternak, Chengzhi Liang, et al. 2009. “The B73 Maize Genome: Complexity, Diversity, and Dynamics.” _Science_ 326 (5956): 1112–15.
 
+Springer, Nathan M., Sarah N. Anderson, Carson M. Andorf, Kevin R. Ahern, Fang Bai, Omer Barad, W. Brad Barbazuk, et al. 2018. “The Maize W22 Genome Provides a Foundation for Functional Genomics and Transposon Biology.” _Nature Genetics_ 50 (9): 1282–88.
+
+Sun, Silong, Yingsi Zhou, Jian Chen, Junpeng Shi, Haiming Zhao, Hainan Zhao, Weibin Song, et al. 2018. “Extensive Intraspecific Gene Order and Gene Structural Variations between Mo17 and Other Maize Genomes.” _Nature Genetics_ 50 (9): 1289–95.
 
 Yu, Jianming, James B. Holland, Michael D. McMullen, and Edward S. Buckler. 2008. “Genetic Design and Statistical Power of Nested Association Mapping in Maize.” _Genetics_ 178 (1): 539–51.
