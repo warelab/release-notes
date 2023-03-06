@@ -276,6 +276,6 @@ Schnable, Patrick S., Doreen Ware, Robert S. Fulton, Joshua C. Stein, Fusheng We
 
 Springer, Nathan M., Sarah N. Anderson, Carson M. Andorf, Kevin R. Ahern, Fang Bai, Omer Barad, W. Brad Barbazuk, et al. 2018. “The Maize W22 Genome Provides a Foundation for Functional Genomics and Transposon Biology.” _Nature Genetics_ 50 (9): 1282–88.
 
-Sun, Silong, Yingsi Zhou, Jian Chen, Junpeng Shi, Haiming Zhao, Hainan Zhao, Weibin Song, et al. 2018. “Extensive Intraspecific Gene Order and Gene Structural Variations between Mo17 and Other Maize Genomes.” _Nature Genetics_ 50 (9): 1289–95.
+Yang, Ning, Xi-Wen Xu, Rui-Ru Wang, Wen-Lei Peng, Lichun Cai, Jia-Ming Song, Wenqiang Li, et al. 2017. “Contributions of Zea Mays Subspecies Mexicana Haplotypes to Modern Maize.” _Nature Communications_ 8 (1): 1874.
 
 Yu, Jianming, James B. Holland, Michael D. McMullen, and Edward S. Buckler. 2008. “Genetic Design and Statistical Power of Nested Association Mapping in Maize.” _Genetics_ 178 (1): 539–51.
