@@ -262,8 +262,6 @@ Gage, Joseph L., Brandon Monier, Anju Giri, and Edward S. Buckler. 2020. “Ten 
 
 Haberer, Georg, Nadia Kamal, Eva Bauer, Heidrun Gundlach, Iris Fischer, Michael A. Seidel, Manuel Spannagl, et al. 2020. “European Maize Genomes Highlight Intraspecies Variation in Repeat and Gene Content.” _Nature Genetics_ 52 (9): 950–57.
 
-Hirsch, Candice N., Cory D. Hirsch, Alex B. Brohammer, Megan J. Bowman, Ilya Soifer, Omer Barad, Doron Shem-Tov, et al. 2016. “Draft Assembly of Elite Inbred Line PH207 Provides Insights into Genomic and Transcriptome Diversity in Maize.” _The Plant Cell_ 28 (11): 2700–2714.
-
 Hufford, Matthew B., Arun S. Seetharam, Margaret R. Woodhouse, Kapeel M. Chougule, Shujun Ou, Jianing Liu, William A. Ricci, et al. 2021. “De novo assembly, annotation, and comparative analysis of 26 diverse maize genomes.” _Science_ 373(6555): 655-662. doi: [10.1126/science.abg5289](http://dx.doi.org/10.1126/science.abg5289)
 
 Jiao, Yinping, Paul Peluso, Jinghua Shi, Tiffany Liang, Michelle C. Stitzer, Bo Wang, Michael S. Campbell, et al. 2017. “Improved Maize Reference Genome with Single-Molecule Technologies.” _Nature_ 546 (7659): 524–27.
@@ -275,6 +273,8 @@ McMullen, Michael D., Stephen Kresovich, Hector Sanchez Villeda, Peter Bradbury,
 Schnable, Patrick S., Doreen Ware, Robert S. Fulton, Joshua C. Stein, Fusheng Wei, Shiran Pasternak, Chengzhi Liang, et al. 2009. “The B73 Maize Genome: Complexity, Diversity, and Dynamics.” _Science_ 326 (5956): 1112–15.
 
 Springer, Nathan M., Sarah N. Anderson, Carson M. Andorf, Kevin R. Ahern, Fang Bai, Omer Barad, W. Brad Barbazuk, et al. 2018. “The Maize W22 Genome Provides a Foundation for Functional Genomics and Transposon Biology.” _Nature Genetics_ 50 (9): 1282–88.
+
+Wang, Baobao, Mei Hou, Junpeng Shi, Lixia Ku, Wei Song, Chunhui Li, Qiang Ning, et al. 2023. “De Novo Genome Assembly and Analyses of 12 Founder Inbred Lines Provide Insights into Maize Heterosis.” _Nature Genetics_ 55 (2): 312–23. 
 
 Yang, Ning, Xi-Wen Xu, Rui-Ru Wang, Wen-Lei Peng, Lichun Cai, Jia-Ming Song, Wenqiang Li, et al. 2017. “Contributions of Zea Mays Subspecies Mexicana Haplotypes to Modern Maize.” _Nature Communications_ 8 (1): 1874.
 
