@@ -9,7 +9,7 @@ The lipoxygenase 9 gene model, also known as lox9, Zm00001eb005920 (RefGen_v5 or
 
 Let’s begin!
 
-Go to [http://maize-pangenome.gramene.org/](http://maize-pangenome.gramene.org/)
+Go to [https://maize-pangenome.gramene.org/](https://maize-pangenome.gramene.org/)
 
 Locate the search box at the top left corner of the page. Type a search term (gene, species, pathway, ontology term, protein domain, etc.). For the exercises below, we will focus on searching for the maize lipoxygenase 9 (lox9) gene.
 
@@ -27,18 +27,19 @@ But first, here is a summary of the five data categories in which the results of
 
 * **Location** - Genomic context
     * Ensembl Browser (Gramene Maize PanGenome)
-    * Phytomine
+    * MaizeGDB
 * **Expression** - Baseline gene expression from [EBI-Expression Atlas](https://www.ebi.ac.uk/gxa)
 * **Homology** - Customizable Ensembl Compara gene family trees with displays:
     * Alignment Overview (full-length gene)
     * Multiple-Sequence Alignment (zoom into the amino acid level)
     * Neighborhood Conservation View (zoom out +/- 10 flanking genes)
 * **Pathways** - Association to pathways in [Gramene’s Plant Reactome](https://plantreactome.gramene.org)
+* **Papers** - Curated literature references describing gene function
 * **Xrefs** - Cross-references to other databases
 
 To reproduce the screen capture shown below, select the “lox9” gene from the suggested results. Please note that searching for lox9 also yields results for LOX9 (capitalized letters), which are not necessarily identical. LOX9 (capital letters are commonly used to designate protein names) has a number 2 next to it, which indicates two genes associated with it (Sellaginella SELMODRAFT_109226 and maize GRMZM2G017616); meanwhile lox9 has a number 1 next to it, which indicates that there is a single gene associated with it (maize Zm00001eb005920, also known as GRMZM2G017616, Zm00001d027893, Zm00001e000580, and lipoxygenase9). 
 
-To limit the results to maize genomes, click on the spider gear icon and deselect the non-maize outgroups (e.g., _Arabidopsis_, _Oryza_, _Sorghum_, _Vitis_, _Selaginella_, _Chlamydomonas_, and _Drosophila_) or deselectt "All" and reselect only "B73 Zea mays". This filtering step should render one or more of the following results:
+To limit the results to maize genomes, click on the spider gear icon and deselect the non-maize outgroups (e.g., _Arabidopsis_, _Oryza_, _Sorghum_, _Vitis_, _Selaginella_, _Chlamydomonas_, and _Drosophila_) or deselect "All" and reselect only "B73 Zea mays". This filtering step should render one or more of the following results:
 
 GRMZM2G017616 (B73 _Zea mays_ v3)
 
@@ -140,23 +141,23 @@ Switch to the “Location” tab to observe the gene structure and alternative t
 **Expression**
 
 
-This view depicts baseline gene expression data for a whole plant (top anatogram on the left of the results box) and for the plant’s reproductive organs (bottom anatogram). Experiments are organized by study on the left side, and by tissue or developmental stage on the top of the graph. 
+This view depicts baseline gene expression data for a whole plant (top anatomogram on the left of the results box) and for the plant’s reproductive organs (bottom anatomogram). Experiments are organized by study on the left side, and by tissue or developmental stage on the top of the graph. 
 
 
 Unique data points are colored in blue, with intensity increasing in proportion to the level of expression. What this means is that higher expression data points are shown in darker blue. 
 
 
-When you hover the cursor over a data point, the data point is highlighted in yellow, and a more detailed data summary pops up. The corresponding tissue is also colored in pink in the anatograms.
+When you hover the cursor over a data point, the data point is highlighted in yellow, and a more detailed data summary pops up. The corresponding tissue is also colored in pink in the anatomograms.
 
 
-If instead, you hover over a tissue on the anatogram on the left, the name of the tissue will pop up, and the points corresponding to expression data from that tissue will light up. 
+If instead, you hover over a tissue on the anatomogram on the left, the name of the tissue will pop up, and the points corresponding to expression data from that tissue will light up. 
 
 
-![anatogram plant](images/panmaize15.png "Expression whole plant")
+![anatomogram plant](images/panmaize15.png "Expression whole plant")
 
 
 
-![anatogram fruit](images/panmaize16.png "Expression reproductive organs")
+![anatomogram fruit](images/panmaize16.png "Expression reproductive organs")
 
 
 
@@ -174,7 +175,15 @@ An example of such an analysis is illustrated in a short video in the Gramene se
 ![pathways](images/panmaize17.png "Pathways")
 
 
-**Cross-References**
+**Curated Papers**
+
+In the Papers tab, you will find references to scientific publications that have reported on this gene. These associations have been curated by RAP-DB for _Oryza sativa_ Japonica and by NCBI's GeneRIF project for other genomes.
+
+
+![papers](images/panmaize29.png "Papers")
+
+
+**Xrefs**
 
 In the Xref tab, you will find references to your gene of interest in other databases, including UniProt, UniParc, and UniGene. Please note that the image below shows cross-references for the v3 model, GRMZM2G017616. As described above, additional databases such as Phytomine and MaizeGDB are cross-referenced in the Location tab.
 
@@ -184,7 +193,7 @@ In the Xref tab, you will find references to your gene of interest in other data
 
 **Gene & Transcript pages**
 
-From the Location tab, click on the Ensembl Browser link and you will be taken to the gene summary page (shown below). Click on any of the transcripts from the Transcripts Table and you will reach the selected transcript page.  Here are the links for the corresponding lox9 [gene page](http://maize-pangenome-ensembl.gramene.org/Zea_maysb73v4/Gene/Summary?db=core;g=Zm00001d027893;r=1:16948608-16955122;t=Zm00001d027893_T001) and [transcript page](http://maize-pangenome-ensembl.gramene.org/Zea_maysb73v4/Transcript/Summary?db=core;g=Zm00001d027893;r=1:16948608-16955122;t=Zm00001d027893_T001) (tabs) in the Maize Pan-Genome browser. Click on the options on the left menu to visualize a gene tree, obtain a list of orthologues or paralogues, gene ontology associations, gene expression anatograms, sequence (cDNA, exons, protein), protein domains, etc. 
+From the Location tab, click on the Ensembl Browser link and you will be taken to the gene summary page (shown below). Click on any of the transcripts from the Transcripts Table and you will reach the selected transcript page.  Here are the links for the corresponding lox9 [gene page](http://maize-pangenome-ensembl.gramene.org/Zea_maysb73v4/Gene/Summary?db=core;g=Zm00001d027893;r=1:16948608-16955122;t=Zm00001d027893_T001) and [transcript page](http://maize-pangenome-ensembl.gramene.org/Zea_maysb73v4/Transcript/Summary?db=core;g=Zm00001d027893;r=1:16948608-16955122;t=Zm00001d027893_T001) (tabs) in the Maize Pan-Genome browser. Click on the options on the left menu to visualize a gene tree, obtain a list of orthologues or paralogues, gene ontology associations, gene expression anatomograms, sequence (cDNA, exons, protein), protein domains, etc. 
 
 
 ![gene page](images/panmaize19.png "Ensembl gene page")
