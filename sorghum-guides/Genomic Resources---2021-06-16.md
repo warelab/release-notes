@@ -71,6 +71,9 @@ For example:
 Sobic.006G095600 = SORBI_3006G095600
 
 
+**To search for genes in the v5.1 browser, please append ".v5.1" to the corresponding Sobic gene identifier like so: [Sobic.001G121600.v5.1](https://ensembl.sorghumbase.org/Sorghum_bicolorv5/Gene/Summary?db=core;g=Sobic.001G121600.v5.1;r=1:9578725-9579867;t=Sobic.001G121600.1.v5.1).**
+
+
 
 ## Gene page {#gene-page}
 More detailed views available in the SorghumBase Ensembl genome browser include
@@ -131,19 +134,29 @@ Variation in SorghumBase is available for short variants (genetic variation, whi
 
 ### Genetic & Phenotypic Variation
 
-Genetic variation data sets are available as over 61 million sorghum variants including more than 57 million naturally ocurring Single Nucleotide Polymorphisms (SNPs), and 4.3 million chemically-induced variants (i.e., ethyl methanesulfonate (EMS)-induced mutations). In addition, we host nearly 6,000 QTLs for 220 sorghum traits from the Sorghum QTL Atlas.
+Genetic variation data sets are available as over 59 million sorghum variants including more than 46 million naturally ocurring Single Nucleotide Polymorphisms (SNPs), and almost 13 million chemically-induced variants (i.e., ethyl methanesulfonate (EMS)-induced mutations). In addition, we host nearly 6,000 QTLs for 148 sorghum traits from the Sorghum QTL Atlas.
 
 ### Naturally occurring genetic variation - SNPs
-Currently in SorghumBase, there are two SNPs data sets for sorghum BTx623:
+
+Currently in SorghumBase, there are three SNPs data sets, two on sorghum BTx623 and one on Tx2783.
+
+#### BTx623
+
 - The Lozano SNP dataset (Lozano et al, 2021) consists of nearly 13 million SNPs in 499 sorghum accessions, including lines from the TERRA-MEPP and TERRA-REF population panels, and the samples previously reported by Emma Mace and collaborators (Mace et al, 2013).
+
 - The Boatwright SNP dataset (Boatwright et al, 2022) consists of almost 44 million genetic variants including nearly 38 millon SNPs and 5 million indels genotyped in 400 Sorghum Association Panel (SAP) accessions via whole-genome sequencing (WGS).
+
+#### Tx2783
+
+- About 32.5 million SNPs were called in 400 SAP lines by Rod Wing's group at King Abdullah University of Science and Technology with the GATK4 pipeline [Yong Zhou, Nagarajan Kathiresan and Rod A. Wing (2023), manuscript in preparation], and are now available from the Tx2783 genome browser. See for example [4_6047465_C_T](https://ensembl.sorghumbase.org/Sorghum_tx2783pac/Variation/Sample?db=core;r=4:6046965-6047965;v=4_6047465_C_T;vdb=variation;vf=11387812), a SNP predicted to introduce a STOP codon and result in a truncated [SbiRTX2783.04G076100](https://ensembl.sorghumbase.org/Sorghum_tx2783pac/Gene/Summary?db=core;g=SbiRTX2783.04G076100;r=4:6046424-6048133;t=SbiRTX2783.04G076100.1;v=4_6047465_C_T;vdb=variation;vf=11387812) protein product.
 
 
 ### Chemically induced genetic variation -  EMS-induced mutations
-Currently in SorghumBase, there are two collections of EMS-induced mutant lines. EMS is a chemical commonly used to cause point mutations, that is, to change single nucleotides in the DNA of a plant seed.
+Currently in SorghumBase, there are three collections of EMS-induced mutant lines. EMS is a chemical commonly used to cause point mutations, that is, to change single nucleotides in the DNA of a plant seed.
 
 - The Xin EMS dataset (Jiao et al. 2016) includes over 1.7 million EMS-induced G/C to A/T transition mutations annotated from 252 M3 mutant family pools selected from the 6,400 sorghum mutant library in BTx623 background described by Xin and colleagues (Xin et al. 2008). Genomic DNA used for sequencing was pooled from 20 x M3 plants per M2 family (Jiao et al. 2016). This set superseded the 1.5 million mutations originally called in the Jiao study. 
 - The Addo-Quaye dataset (Addo-Quaye et al. 2018) with over 2.5 million variations identified in 486 sorghum accessions from the M3 generation of an EMS-mutagenized sorghum population.
+- 
 
 Genetic variation data for a sorghum gene is available graphically and in tabular form, and for each variant, a Variant page provides more detailed information. Below are provided examples of each of these data representations.
 
@@ -157,10 +170,9 @@ Genetic variation data for a sorghum gene is available graphically and in tabula
 
 
 ### Phenotypic Variation - Quantitative Trait Locus (QTLs) {#qtls}
-Data corresponding to 5,843 QTL features for 220 sorghum traits were imported from [Sorghum QTL Atlas]()
-and are provided with predicted syntenic locations in maize and rice.
+Data corresponding to 5,843 QTL features for 220 sorghum traits were imported from [OZ Sorghum QTL Atlas](https://aussorgm.org.au/sorghum-qtl-atlas/), and 7,123 rice QTLs from [Gramene](https://www.gramene.org/). All QTLs are now searchable, for example: [sorghum grain mold](https://sorghumbase.org/genes?filters=%7B%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:%5B%7B%22fq_field%22:%22QTL_TO__ancestors%22,%22fq_value%22:%2220008%22,%22name%22:%22sorghum%20grain%20mold%22,%22category%22:%22QTLs%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true%7D%5D,%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20%7D&genomes=).
 
-[Example region](https://ensembl.sorghumbase.org/Sorghum_bicolor/Location/View?db=core;g=SORBI_3006G095600;r=7:61190510-61277060;sv=nsv856002;svf=54084;t=OQU81659;vdb=variation) with QTLs associated with multiple traits including greenbug resistance, fresh biomass, and flag leaf height. 
+Check another [example region](https://ensembl.sorghumbase.org/Sorghum_bicolor/Location/View?db=core;g=SORBI_3006G095600;r=7:61190510-61277060;sv=nsv856002;svf=54084;t=OQU81659;vdb=variation) with QTLs associated with multiple traits including greenbug resistance, fresh biomass, and flag leaf height. 
   
 You may need to turn on the QTLs track and select how you would like the data displayed on your browser. For the figure shown below, I selected "Collapsed" style, which limits the dispaly to only 5 QTLs in the image. Click on a track to disclose more information about that data point (for example, QTL name, location, associated phenotype and data source). In the example below, if you click on a phenotype/trait, such as "Green bug resistance", you will be taken to a page listing all the genomic locations of QTL features associated with Green bug resistance. See an [example of such list for Panicle length](https://ensembl.sorghumbase.org/Sorghum_bicolor/Phenotype/Locations?ph=114). 
   
