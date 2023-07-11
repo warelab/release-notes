@@ -33,12 +33,16 @@ Approximately 19 million SNPs called per each of four [Magic16](www.nature.com/a
 
 Genetic variation for _O. sativa_ Japonica Nipponbare IRGSP1 was imported from the Euorpean Variation Archive (EVA). It consists of the following data sets:
 
-- 25.8 million SNPs from Duitama _et al_ (2015)
-- 3 million SNPs from BGI (2004)
-- 1.6 million SNPs from OMAP (2007)
-- 366K SNPs from the [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7)
-- 157K SNPs from McNally _et al_ (2009)
-- 1.3K SNPs from Zhao et al (2010)
+1) 25.8 million SNPs from Duitama _et al_ (2015)
+2) 3 million SNPs from BGI (2004)
+3) 1.6 million SNPs from OMAP (2007)
+4) 366K SNPs from the [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7)
+5) 157K SNPs from McNally _et al_ (2009)
+6) 1.3K SNPs from Zhao et al (2010)
+
+- 20,483 Quantitative Trait Locus (QTL) remapped to the IRGSP-1.0 assembly by [KeyGene](http://www.keygene.com), and imported from [Gramene's legacy QTLs database](http://archive.gramene.org/qtl) and the [Q-Taro database](http://qtaro.abr.affrc.go.jp).
+
+- 990 RFLPs and 288 SSRs from [Gramene’s legacy markers database](http://archive.gramene.org/markers).
 
 
 ## Summary
@@ -70,7 +74,7 @@ _Should we mention # of genes or any other stats? _
  5) The Oryza Map Alignment Project ([OMAP](http://www.omap.org/), 2007): approximately 1.6 million variant loci detected by comparing BAC End Sequences from four rice varieties to Japonica [submitted to dbSNP].
  6) Adaptive loss-of-function in domesticated rice (BGI 2004): A collection of approximately 3M variant loci from the comparison of the Indica (93-11) and Japonica (Nipponbare) genomes.
 
-- 20,483 Quantitative Trait Locus (QTL) remapped to the IRGSP-1.0 assembly by industry collaborator [KeyGene](http://www.keygene.com). Of those, 19,435 were taken from [Gramene's legacy QTLs database](http://archive.gramene.org/qtl), and 1,048 from the [Q-Taro database](http://qtaro.abr.affrc.go.jp).
+- 20,483 QTLs remapped to the IRGSP-1.0 assembly by industry collaborator [KeyGene](http://www.keygene.com). Of those, 19,435 were taken from [Gramene's legacy QTLs database](http://archive.gramene.org/qtl), and 1,048 from the [Q-Taro database](http://qtaro.abr.affrc.go.jp).
 
 - 1,278 genetic markers (990 RFLPs and 288 SSRs) from [Gramene’s legacy markers database](http://archive.gramene.org/markers).
 
