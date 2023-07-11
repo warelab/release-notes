@@ -72,6 +72,8 @@ _Should we mention # of genes or any other stats? _
 
 - 20,483 Quantitative Trait Locus (QTL) remapped to the IRGSP-1.0 assembly by industry collaborator [KeyGene](http://www.keygene.com). Of those, 19,435 were taken from [Gramene's legacy QTLs database](http://archive.gramene.org/qtl), and 1,048 from the [Q-Taro database](http://qtaro.abr.affrc.go.jp).
 
+- 1,278 genetic markers (990 RFLPs and 288 SSRs) from [Gramene’s legacy markers database](http://archive.gramene.org/markers).
+
 
 ### Expression
 
