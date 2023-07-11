@@ -5,7 +5,7 @@ GrameneOryza (https://oryza.gramene.org) is an open source resource released to 
 
 ## What's New in release 7?
 
-### New Functionality
+### New Functionality & Features
 
 - Oryza CLIMtools portal with interactive web-based views of environment x genome associations, RiboSNitch prediction, and correlations between the local environment and a pool of curated phenotypes. 
 
@@ -15,6 +15,8 @@ GrameneOryza (https://oryza.gramene.org) is an open source resource released to 
 
 - Links to the Gene Tree Curation Tool in the Homology tab of Nipponbare genes. Example: [Os05g0569300](http://curate.gramene.org/admin/curationUI/oryza_v5/?since=4479&gene=Os05g0569300) - _Not new, but wasn't reported before_
 
+- Links to the GrameneOryza search interface results. See example: [Os05g0113900](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/GrameneSearch?g=Os05g0113900;r=5:738208-739079;t=Os05t0113900-01)
+  
 - Updated nomenclature for reference sequence assemblies based on standard recommendations from the NSF-DBI (#2029854): CIBR-BBSRC: PanOryza: Globally coordinated genomes, proteomes and pathways for rice, see [species list]([https://ensembl.sorghumbase.org/species.html](https://oryza-ensembl.gramene.org/species.html)). [remove?  ask Sharon: is this different from the update in R5?]
 
 
