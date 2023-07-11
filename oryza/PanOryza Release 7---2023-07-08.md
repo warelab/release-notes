@@ -42,7 +42,7 @@ Genetic variation for _O. sativa_ Japonica Nipponbare IRGSP1 was imported from t
 
 - 20,483 Quantitative Trait Locus (QTL) remapped to the IRGSP-1.0 assembly by [KeyGene](http://www.keygene.com), and imported from [Gramene's legacy QTLs database](http://archive.gramene.org/qtl) and the [Q-Taro database](http://qtaro.abr.affrc.go.jp).
 
-- 990 RFLPs and 288 SSRs from [Gramene’s legacy markers database](http://archive.gramene.org/markers).
+- 990 RFLPs and 288 SSRs from [Gramene’s legacy markers database](http://archive.gramene.org/markers). See for example:[R2382](https://oryza-ensembl.gramene.org/Oryza_sativa/StructuralVariation/Explore?db=core;r=8:23502736-23503637;sv=R2382;svf=1;vdb=variation)
 
 
 ## Summary
