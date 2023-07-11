@@ -65,7 +65,7 @@ _Should we mention # of genes or any other stats? _
 
 - Approximately 19 million SNPs called per each of 8 [Magic16](https://doi.org/10.1038/s41597-020-0438-2) genomes from the [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): Nipponbare, MH63, IR64, Azucena, ARC 10497, Zhenshan 97, Liu Xu, and N22.
 
-- 31 million SNPs determined in _O. sativa_ Japonica Nipponbare IRGSP1 from the following data sets were imported from the European Variation Archive (EVA):
+- 31 million SNPs determined in _O. sativa_ Japonica Nipponbare IRGSP1 from the following data sets were imported from EBI EVA:
 
  1) The 3000 Rice Genome Project (2015), an international effort to sequence the genomes of 3,024 rice varieties from 89 countries providing 365,710 variant loci (SNPs and InDels).
  2) Whole-genome sequencing of 104 elite rice cultivars (Duitama _et al_, 2015), described as, "a comprehensive information resource for marker assisted selection" providing 25,769,548 variant loci.
