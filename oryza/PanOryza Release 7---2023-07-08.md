@@ -24,7 +24,7 @@ GrameneOryza (https://oryza.gramene.org) is an open source resource released to 
 
 ***Genetic Variation***
 
-Approximately 19 million SNPs called per each of four [Magic16](www.nature.com/articles/s41597-020-0438-2) genomes from the [3000 rice genome project](https://doi.org/10.1186/2047-217x-3-7) were called by Dr. Robert Wing's group from resequencing reads using [GATK4](https://gatk.broadinstitute.org/hc/en-us) software:
+Approximately 19 million SNPs called per each of four [Magic16](https://www.nature.com/articles/s41597-020-0438-2) genomes from the [3000 rice genome project](https://doi.org/10.1186/2047-217x-3-7) were called by Dr. Robert Wing's group from resequencing reads using [GATK4](https://gatk.broadinstitute.org/hc/en-us) software:
 
 - _Oryza sativa_ circum-Basmati var. ARC 10497
 - _Oryza sativa_ Xian/Indica-1A var. Zhenshan 97
