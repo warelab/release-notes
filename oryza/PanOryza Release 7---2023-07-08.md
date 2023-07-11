@@ -61,12 +61,12 @@ _Should we mention # of genes or any other stats? _
 
 - 31 million SNPs determined in _O. sativa_ Japonica Nipponbare IRGSP1 from the following data sets were imported from the European Variation Archive (EVA):
 
-* The 3000 Rice Genome Project (2015), an international effort to sequence the genomes of 3,024 rice varieties from 89 countries providing 365,710 variant loci (SNPs and InDels).
-* Whole-genome sequencing of 104 elite rice cultivars (Duitama _et al_, 2015), described as, "a comprehensive information resource for marker assisted selection" providing 25,769,548 variant loci.
-* Chip-based analysis of 1,310 SNPs across 395 samples (Zhao _et al_, 2010), described as, "revealing the impact of domestication and breeding on the rice genome".
-* Chip-based analysis of approximately 160k SNPs across 20 diversity rice accessions (OryzaSNP; McNally _et al_, 2009), described as, "revealing relationships among landraces and modern varieties of rice".
-* The Oryza Map Alignment Project ([OMAP](http://www.omap.org/), 2007): approximately 1.6 million variant loci detected by comparing BAC End Sequences from four rice varieties to Japonica [submitted to dbSNP].
-* Adaptive loss-of-function in domesticated rice (BGI 2004): A collection of approximately 3M variant loci from the comparison of the Indica (93-11) and Japonica (Nipponbare) genomes.
+* 1) The 3000 Rice Genome Project (2015), an international effort to sequence the genomes of 3,024 rice varieties from 89 countries providing 365,710 variant loci (SNPs and InDels).
+* 2) Whole-genome sequencing of 104 elite rice cultivars (Duitama _et al_, 2015), described as, "a comprehensive information resource for marker assisted selection" providing 25,769,548 variant loci.
+* 3) Chip-based analysis of 1,310 SNPs across 395 samples (Zhao _et al_, 2010), described as, "revealing the impact of domestication and breeding on the rice genome".
+* 4) Chip-based analysis of approximately 160k SNPs across 20 diversity rice accessions (OryzaSNP; McNally _et al_, 2009), described as, "revealing relationships among landraces and modern varieties of rice".
+* 5) The Oryza Map Alignment Project ([OMAP](http://www.omap.org/), 2007): approximately 1.6 million variant loci detected by comparing BAC End Sequences from four rice varieties to Japonica [submitted to dbSNP].
+* 6) Adaptive loss-of-function in domesticated rice (BGI 2004): A collection of approximately 3M variant loci from the comparison of the Indica (93-11) and Japonica (Nipponbare) genomes.
 
 - 20,483 Quantitative Trait Locus (QTL) remapped to the IRGSP-1.0 assembly by industry collaborator [KeyGene](http://www.keygene.com). Of those, 19,435 were taken from [Gramene's legacy QTLs database](http://archive.gramene.org/qtl), and 1,048 from the [Q-Taro database](http://qtaro.abr.affrc.go.jp).
 
