@@ -48,44 +48,44 @@ Genetic variation for _O. sativa_ Japonica Nipponbare IRGSP1 was imported from t
 
 The gene name prefix for each of the Magic 16 genomes was modified as follows:
 
-**Old gene prefix  New gene prefix**
+**Old gene prefix      New gene prefix**
 
-Oszs97.  OsZS97_
+Oszs97.      OsZS97_
 
-Osmh63.  OsMH63_
+Osmh63.      OsMH63_
 
-Osir64_  OsIR64_
+Osir64_      OsIR64_
 
-Os127742_  OsPr106_
+Os127742_      OsPr106_
 
-Os132424_  OsGoSa_
+Os132424_      OsGoSa_
 
-Os125619_  OsLaMu_
+Os125619_      OsLaMu_
 
-Os127564_  OsLima_
+Os127564_      OsLima_
 
-Os127518_  OsKYG_
+Os127518_      OsKYG_
 
-Os125827_  OsLiXu_
+Os125827_      OsLiXu_
 
-Osaus.  OsN22_
+Osaus.      OsN22_
 
-Os127652_  OsNaBo_
+Os127652_      OsNaBo_
 
-Os117425_  OsARC_
+Os117425_      OsARC_
 
-Os128077_  OsKeNa_
+Os128077_      OsKeNa_
 
-Os132278_  OsCMeo_
+Os132278_      OsCMeo_
 
-Osazucena_  OsAzu_
+Osazucena_      OsAzu_
 
 
 ## Summary
 
 Gramene's Oryza Pan-Genome (https://oryza.gramene.org) is a web portal for comparative plant genomics focused on rice varieties. 
 
-In its seventh release, we feature new 3K SNP data for four Magic16 genomes: ARC 10497, Zhenshan 97, Liu Xu, and N22, and updated the gene names for all . We are also introducing the Oryza CLIMtools portal to study Environment x Genome x Phenotype Associations in rice.
+In its seventh release, we feature new 3K SNP data for four Magic16 genomes: ARC 10497, Zhenshan 97, Liu Xu, and N22, and have updated the gene names of all Magic16 genomes. We are also introducing the Oryza CLIMtools portal to study Environment x Genome x Phenotype Associations in rice.
 
 In addition to genomic resources, GrameneOryza provides updates of news items, conferences, and community events; and feedback may be provided via a [contact form](https://oryza.gramene.org/feedback). 
 
