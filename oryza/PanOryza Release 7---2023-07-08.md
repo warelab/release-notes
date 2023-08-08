@@ -17,7 +17,7 @@ GrameneOryza (https://oryza.gramene.org), funded by the USDA-ARS,  is an open re
 
 - Links to the GrameneOryza search interface results, see for example: [Os05g0113900](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/GrameneSearch?g=Os05g0113900;r=5:738208-739079;t=Os05t0113900-01)
   
-- Updated gene names for the Magic16 genomes with new prefixes:  
+- Updated gene names for the Magic16 genomes with new prefixes: OsZS97_, OsMH63_, OsIR64_, OsPr106_, OsGoSa_, OsLaMu_, OsLima_, OsKYG_, OsLiXu_, OsN22_, OsNaBo_, OsARC_, OsKeNa_, OsCMeo_, and OsAzu_.
 
 
 ### New Data
@@ -47,6 +47,7 @@ Genetic variation for _O. sativa_ Japonica Nipponbare IRGSP1 was imported from t
 ***Gene nonmenclature***
 
 The gene name prefix for each of the Magic 16 genomes was modified as follows:
+
 **Old gene prefix  New gene prefix**
 
 Oszs97.  OsZS97_
