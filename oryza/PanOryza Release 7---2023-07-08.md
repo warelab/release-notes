@@ -7,9 +7,7 @@ GrameneOryza (https://oryza.gramene.org), funded by the USDA-ARS,  is an open re
 
 ### New Functionality & Features
 
-- Oryza CLIMtools portal with interactive web-based views of environment x genome associations, RiboSNitch prediction, and correlations between the local environment and a pool of curated phenotypes. 
-  
-- Updated gene names for the Magic16 genomes with new prefixes: OsZS97, OsMH63, OsIR64, OsPr106, OsGoSa, OsLaMu, OsLima, OsKYG, OsLiXu, OsN22, OsNaBo, OsARC, OsKeNa, OsCMeo, and OsAzu.
+- Oryza CLIMtools portal with interactive web-based views of environment x genome associations, RiboSNitch prediction, and correlations between the local environment and a pool of curated phenotypes.
 
 - Updated gene nomenclature from RAP-DB (Sept. 2022), see for example [Os01g0104200](http://oryza.gramene.org?idList=Os01g0104200).
 
@@ -18,7 +16,11 @@ GrameneOryza (https://oryza.gramene.org), funded by the USDA-ARS,  is an open re
 - Added new links to the GrameneOryza search interface results, see for example: [Os05g0113900](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/GrameneSearch?g=Os05g0113900;r=5:738208-739079;t=Os05t0113900-01).
 
 
-### New Data
+### New & Updated Data
+
+***Genes***
+
+- Updated gene names for the Magic16 genomes with new prefixes: OsZS97, OsMH63, OsIR64, OsPr106, OsGoSa, OsLaMu, OsLima, OsKYG, OsLiXu, OsN22, OsNaBo, OsARC, OsKeNa, OsCMeo, and OsAzu.
 
 ***Genetic Variation***
 
