@@ -11,7 +11,7 @@ GrameneOryza (https://oryza.gramene.org), funded by the USDA-ARS,  is an open re
   
 - Updated gene names for the Magic16 genomes with new prefixes: OsZS97, OsMH63, OsIR64, OsPr106, OsGoSa, OsLaMu, OsLima, OsKYG, OsLiXu, OsN22, OsNaBo, OsARC, OsKeNa, OsCMeo, and OsAzu.
 
-- 11,793 [functionally curated genes from GeneRIF and RAP-DB (Sept. 2022)](https://oryza.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22capabilities%22,%22fq_value%22:%22pubs%22,%22name%22:%22publication%22,%22category%22:%22Curated%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=) in 6 species (7184 Arabidopsis, 4102 rice, 354 maize, 135 chlamy, 15 sorghum, 3 Selaginella). For each of the genes, GrameneOryza's search results include a Papers tab listing directly relevant PubMed articles. Moreover, the associated Plant Ontology (PO) and Trait Ontology (TO) terms are searchable, for example: [PO: Anatomy: root](https://oryza.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22PO__ancestors%22,%22fq_value%22:%229005%22,%22name%22:%22root%22,%22category%22:%22Plant%20Ontology:%20anatomy%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=) or [TO: drought tolerance](https://oryza.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22TO__ancestors%22,%22fq_value%22:%22276%22,%22name%22:%22drought%20tolerance%22,%22category%22:%22Trait%20ontology%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=).
+- Updated gene nomenclature from RAP-DB (Sept. 2022), see for example [Os01g0104200](http://oryza.gramene.org?idList=Os01g0104200).
 
 - Added new links to the Gene Tree Curation Tool in the Homology tab of Nipponbare genes, see for example: [Os05g0569300](http://curate.gramene.org/admin/curationUI/oryza_v5/?since=4479&gene=Os05g0569300).
 
@@ -42,9 +42,24 @@ Genetic variation for _O. sativa_ Japonica Nipponbare IRGSP1 was imported from t
 
 - 990 RFLPs and 288 SSRs from [Gramene’s legacy markers database](http://archive.gramene.org/markers). See for example: [R2382](https://oryza-ensembl.gramene.org/Oryza_sativa/StructuralVariation/Explore?db=core;r=8:23502736-23503637;sv=R2382;svf=1;vdb=variation).
 
-***Gene nonmenclature***
 
-The gene name prefix for each of the Magic 16 genomes was modified as follows:
+
+## Summary
+
+Gramene's Oryza Pan-Genome (https://oryza.gramene.org) is a web portal for comparative plant genomics focused on rice varieties. 
+
+In its seventh release, we feature new 3K SNP data for four Magic16 genomes: ARC 10497, Zhenshan 97, Liu Xu, and N22, and have updated the gene names of all Magic16 genomes. We provide updated functional gene associations from RAP-DB (Sept. 2022) and GeneRIF from curated scientific literature. We are also introducing the Oryza CLIMtools portal to study Environment x Genome x Phenotype Associations in rice.
+
+In addition to genomic resources, GrameneOryza provides updates of news items, conferences, and community events; and feedback may be provided via a [contact form](https://oryza.gramene.org/feedback). 
+
+
+## Release Contents -- Databases
+
+### Genomes & Gene Annotations
+
+There are a total of **36 genomes** in GrameneOryza: 28 rice genomes and 6 plant outgroups (B73 maize V4 and V5, _Sorghum bicolor_, _Arabidopsis thaliana_, grapevine, Selaginella and Chlamydomonas, a single-celled green algae) and fruit fly Drosophila, in order to allow comparisons between higher eukaryotes, lower plants, and the model Arabidopsis in the Oryza pan-genome.
+
+The gene name prefix for the Magic16 genomes (except Nipponbare) was modified as follows:
 
 **Old gene prefix      New gene prefix**
 
@@ -78,22 +93,7 @@ Os132278_      OsCMeo_
 
 Osazucena_      OsAzu_
 
-
-## Summary
-
-Gramene's Oryza Pan-Genome (https://oryza.gramene.org) is a web portal for comparative plant genomics focused on rice varieties. 
-
-In its seventh release, we feature new 3K SNP data for four Magic16 genomes: ARC 10497, Zhenshan 97, Liu Xu, and N22, and have updated the gene names of all Magic16 genomes. We provide updated functional gene associations from RAP-DB (Sept. 2022) and GeneRIF from curated scientific literature. We are also introducing the Oryza CLIMtools portal to study Environment x Genome x Phenotype Associations in rice.
-
-In addition to genomic resources, GrameneOryza provides updates of news items, conferences, and community events; and feedback may be provided via a [contact form](https://oryza.gramene.org/feedback). 
-
-
-## Release Contents -- Databases
-
-### Genomes & Gene Annotations
-
-There are a total of **36 genomes** in GrameneOryza: 28 rice genomes and 6 plant outgroups (B73 maize V4 and V5, _Sorghum bicolor_, _Arabidopsis thaliana_, grapevine, Selaginella and Chlamydomonas, a single-celled green algae) and fruit fly Drosophila, in order to allow comparisons between higher eukaryotes, lower plants, and the model Arabidopsis in the Oryza pan-genome.
-
+The site now includes 11,793 [functionally curated gene annotations from GeneRIF and RAP-DB (Sept. 2022)](https://oryza.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22capabilities%22,%22fq_value%22:%22pubs%22,%22name%22:%22publication%22,%22category%22:%22Curated%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=) in 6 species (7184 Arabidopsis, 4102 rice, 354 maize, 135 chlamy, 15 sorghum, 3 Selaginella). For each of the genes, GrameneOryza's search results include a Papers tab listing directly relevant PubMed articles. Moreover, the associated Plant Ontology (PO) and Trait Ontology (TO) terms are searchable, for example: [PO: Anatomy: root](https://oryza.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22PO__ancestors%22,%22fq_value%22:%229005%22,%22name%22:%22root%22,%22category%22:%22Plant%20Ontology:%20anatomy%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=) or [TO: drought tolerance](https://oryza.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22TO__ancestors%22,%22fq_value%22:%22276%22,%22name%22:%22drought%20tolerance%22,%22category%22:%22Trait%20ontology%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=)
 
 ### Variation
 
