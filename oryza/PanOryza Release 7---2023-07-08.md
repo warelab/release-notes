@@ -17,7 +17,7 @@ GrameneOryza (https://oryza.gramene.org), funded by the USDA-ARS,  is an open re
 
 - Links to the GrameneOryza search interface results, see for example: [Os05g0113900](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/GrameneSearch?g=Os05g0113900;r=5:738208-739079;t=Os05t0113900-01)
   
-- Updated gene names for the Magic16 genomes with new prefixes: OsZS97_, OsMH63_, OsIR64_, OsPr106_, OsGoSa_, OsLaMu_, OsLima_, OsKYG_, OsLiXu_, OsN22_, OsNaBo_, OsARC_, OsKeNa_, OsCMeo_, and OsAzu_.
+- Updated gene names for the Magic16 genomes with new prefixes: OsZS97, OsMH63, OsIR64, OsPr106, OsGoSa, OsLaMu, OsLima, OsKYG, OsLiXu, OsN22, OsNaBo, OsARC, OsKeNa, OsCMeo, and OsAzu.
 
 
 ### New Data
@@ -53,18 +53,31 @@ The gene name prefix for each of the Magic 16 genomes was modified as follows:
 Oszs97.  OsZS97_
 
 Osmh63.  OsMH63_
+
 Osir64_  OsIR64_
+
 Os127742_  OsPr106_
+
 Os132424_  OsGoSa_
+
 Os125619_  OsLaMu_
+
 Os127564_  OsLima_
+
 Os127518_  OsKYG_
+
 Os125827_  OsLiXu_
+
 Osaus.  OsN22_
+
 Os127652_  OsNaBo_
+
 Os117425_  OsARC_
+
 Os128077_  OsKeNa_
+
 Os132278_  OsCMeo_
+
 Osazucena_  OsAzu_
 
 
