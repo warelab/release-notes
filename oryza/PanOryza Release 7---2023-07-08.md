@@ -83,7 +83,7 @@ Osazucena_      OsAzu_
 
 Gramene's Oryza Pan-Genome (https://oryza.gramene.org) is a web portal for comparative plant genomics focused on rice varieties. 
 
-In its seventh release, we feature new 3K SNP data for four Magic16 genomes: ARC 10497, Zhenshan 97, Liu Xu, and N22, and have updated the gene names of all Magic16 genomes. We are also introducing the Oryza CLIMtools portal to study Environment x Genome x Phenotype Associations in rice.
+In its seventh release, we feature new 3K SNP data for four Magic16 genomes: ARC 10497, Zhenshan 97, Liu Xu, and N22, and have updated the gene names of all Magic16 genomes. We provide updated functional gene associations from RAP-DB (Sept. 2022) and GeneRIF from curated scientific literature. We are also introducing the Oryza CLIMtools portal to study Environment x Genome x Phenotype Associations in rice.
 
 In addition to genomic resources, GrameneOryza provides updates of news items, conferences, and community events; and feedback may be provided via a [contact form](https://oryza.gramene.org/feedback). 
 
@@ -92,7 +92,7 @@ In addition to genomic resources, GrameneOryza provides updates of news items, c
 
 ### Genomes & Gene Annotations
 
-There are a total of **36 genomes** in GrameneOryza: 28 rice genomes and 6 plant outgroups (B73 maize V4 and V5, Sorghum bicolor, Arabidopsis thaliana, Grapevine, Selagineela and Chlamydomonas, a single-celled green algae) and fruit fly Drosophila, in order to allow comparisons between higher eukaryotes, lower plants, and the model Arabidopsis in the Oryza pan-genome.
+There are a total of **36 genomes** in GrameneOryza: 28 rice genomes and 6 plant outgroups (B73 maize V4 and V5, _Sorghum bicolor_, _Arabidopsis thaliana_, grapevine, Selaginella and Chlamydomonas, a single-celled green algae) and fruit fly Drosophila, in order to allow comparisons between higher eukaryotes, lower plants, and the model Arabidopsis in the Oryza pan-genome.
 
 
 ### Variation
