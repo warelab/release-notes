@@ -17,7 +17,7 @@ GrameneOryza (https://oryza.gramene.org), funded by the USDA-ARS,  is an open re
 
 - Links to the GrameneOryza search interface results, see for example: [Os05g0113900](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/GrameneSearch?g=Os05g0113900;r=5:738208-739079;t=Os05t0113900-01)
   
-- Updated nomenclature for reference sequence assemblies based on standard recommendations from the NSF-DBI (#2029854): CIBR-BBSRC: PanOryza: Globally coordinated genomes, proteomes and pathways for rice, see [species list]([https://ensembl.sorghumbase.org/species.html](https://oryza-ensembl.gramene.org/species.html)). [remove?  ask Sharon: is this different from the update in R5?]
+- Updated gene names for the Magic16 genomes with new prefixes:  
 
 
 ### New Data
@@ -44,12 +44,34 @@ Genetic variation for _O. sativa_ Japonica Nipponbare IRGSP1 was imported from t
 
 - 990 RFLPs and 288 SSRs from [Gramene’s legacy markers database](http://archive.gramene.org/markers). See for example: [R2382](https://oryza-ensembl.gramene.org/Oryza_sativa/StructuralVariation/Explore?db=core;r=8:23502736-23503637;sv=R2382;svf=1;vdb=variation).
 
+***Gene nonmenclature***
+
+The gene name prefix for each of the Magic 16 genomes was modified as follows:
+**Old gene prefix  New gene prefix**
+
+Oszs97.  OsZS97_
+
+Osmh63.  OsMH63_
+Osir64_  OsIR64_
+Os127742_  OsPr106_
+Os132424_  OsGoSa_
+Os125619_  OsLaMu_
+Os127564_  OsLima_
+Os127518_  OsKYG_
+Os125827_  OsLiXu_
+Osaus.  OsN22_
+Os127652_  OsNaBo_
+Os117425_  OsARC_
+Os128077_  OsKeNa_
+Os132278_  OsCMeo_
+Osazucena_  OsAzu_
+
 
 ## Summary
 
 Gramene's Oryza Pan-Genome (https://oryza.gramene.org) is a web portal for comparative plant genomics focused on rice varieties. 
 
-In its seventh release, we feature new 3K SNP data for four Magic16 genomes: ARC 10497, Zhenshan 97, Liu Xu, and N22. We are also introducing the Oryza CLIMtools portal to study Environment x Genome x Phenotype Associations in rice.
+In its seventh release, we feature new 3K SNP data for four Magic16 genomes: ARC 10497, Zhenshan 97, Liu Xu, and N22, and updated the gene names for all . We are also introducing the Oryza CLIMtools portal to study Environment x Genome x Phenotype Associations in rice.
 
 In addition to genomic resources, GrameneOryza provides updates of news items, conferences, and community events; and feedback may be provided via a [contact form](https://oryza.gramene.org/feedback). 
 
