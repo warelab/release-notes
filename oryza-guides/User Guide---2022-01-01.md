@@ -220,9 +220,30 @@ GW8 gene expression in the Expression Atlas
 
 ## Genetic, Structural & Phenotypic Variation {#variation}
 
-QTL data and 3K SNP variation data for Nipponbare, MH63, IR64 and Azucena, called by scientists KAUST scientists using the Genome Analysis Toolkit GATK4 were introduced in the PanOryza site in release 6. 
+Genetic variation data for Nipponbare is available from six different large scale studies:
 
-Click here for an [image](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/Variation_Gene/Image?g=Os08g0531600;r=8:26501167-26506198;t=Os08t0531600-01) or a [table](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/Variation_Gene/Table?g=Os08g0531600;r=8:26501167-26506198;t=Os08t0531600-01) of genetic variation for the GW8 gene in the Gramene Ensembl browser. **RM502** is a structural or copy number variant (Gramene marker) in the WG8 gene region, that are associated with seven distinct QTLs in the [archival Gramene QTL database](https://archive.gramene.org/db/markers/marker_view?marker_name=RM502&vocabulary=markers&search_box_name=marker_name&search_box_id=marker_search_for&action=marker_search&x=14&y=8). Those same [Phenotypic (QTL) associations](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/Summary?g=Os08g0531600;r=8:26501167-26506198;t=Os08t0531600-01) correspond to five distinct phenotypes or traits: tiller number, root thickness, filled grain percentage, seed density, and gelatinization temperature, are available under the Variation (Phenotype annotations) track of the Gene page “Configure this image” option.
+1) The 3000 Rice Genome Project (2015), an international effort to sequence the genomes of 3,024 rice varieties from 89 countries providing 365,710 variant loci (SNPs and InDels).
+
+2) Whole genome sequencing of 104 elite rice cultivars (Duitama et al. 2015), described as "a comprehensive information resource for marker assisted selection providing 25,769,548 variant loci".
+
+3) Chip-based analysis of 1,310 SNPs across 395 samples (Zhao et al. 2010), described as "revealing the impact of domestication and breeding on the rice genome".
+
+4) Chip-based analysis of approximately 160k SNPs across 20 diversity rice accessions (OryzaSNP, McNally et al. 2009), described as "revealing relationships among landraces and modern varieties of rice".
+
+5) The Oryza Map Alignment Project (OMAP 2007): approximately 1.6M variant loci detected by comparing BAC End Sequences from four rice varieties to Japonica. [dbSNP]
+   
+6) Adaptive loss-of-function in domesticated rice (BGI 2004): A collection of approximately 3M variant loci from the comparison of the Indica (93-11) and Japonica (Nipponbare) genomes. [dbSNP]
+
+In addition, the following genetic markers were remapped to the IRGSP-1.0 assembly by industry collaborator KeyGene:
+
+- 20,483 Quantitative Trait Locus (QTL): 19,435 from Gramene's legacy QTLs database and 1,048 from the Q-Taro database
+
+- 1,278 genetic markers (990 RFLPs and 288 SSRs) from Gramene's legacy markers database
+
+
+3K SNP variation data for nine Magic16 genomes (Nipponbare, MH63, IR64, Azucena, ARC 10497, Zhenshan 97, Liu Xu, and N22) called by KAUST scientists using the Genome Analysis Toolkit GATK4 was introduced in the PanOryza site in releases 6 & 7. 
+
+Click here for an [image](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/Variation_Gene/Image?g=Os08g0531600;r=8:26501167-26506198;t=Os08t0531600-01) or a [table](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/Variation_Gene/Table?g=Os08g0531600;r=8:26501167-26506198;t=Os08t0531600-01) of genetic variation for the GW8 gene in the Gramene Ensembl browser. In addition, the inquisitive researcher will notice that **RM502** is a structural or copy number variant (Gramene marker) in the GW8 gene region, that is associated with seven distinct QTLs in the [archival Gramene QTL database](https://archive.gramene.org/db/markers/marker_view?marker_name=RM502&vocabulary=markers&search_box_name=marker_name&search_box_id=marker_search_for&action=marker_search&x=14&y=8). Those seven [Phenotypic (QTL) associations](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/Summary?g=Os08g0531600;r=8:26501167-26506198;t=Os08t0531600-01) correspond to five distinct phenotypes or traits: tiller number, root thickness, filled grain percentage, seed density, and gelatinization temperature, and are available under the Variation (Phenotype annotations) track of the Gene page “Configure this image” option and searchable from the homepage.
 
 Additional genetic variation (SNPs, RFLP and SSR markers) is available for *O. sativa Japonica* and *Indica*, *O. glaberrima* and *O. glumaepatula* in the main Gramene website.
 
