@@ -40,11 +40,6 @@ Genetic variation for _O. sativa_ Japonica Nipponbare IRGSP1 was imported from t
 5) McNally _et al_ (2009): 157K SNPs
 6) Zhao et al (2010): 1.3K SNPs
 
-- 20,483 Quantitative Trait Locus (QTL) remapped to the IRGSP-1.0 assembly by [KeyGene](http://www.keygene.com), and imported from [Gramene's legacy QTLs database](http://archive.gramene.org/qtl) and the [Q-Taro database](http://qtaro.abr.affrc.go.jp).
-
-- 990 RFLPs and 288 SSRs from [Gramene’s legacy markers database](http://archive.gramene.org/markers). See for example: [R2382](https://oryza-ensembl.gramene.org/Oryza_sativa/StructuralVariation/Explore?db=core;r=8:23502736-23503637;sv=R2382;svf=1;vdb=variation).
-
-
 
 ## Summary
 
@@ -110,9 +105,9 @@ The site now includes 11,793 [functionally curated gene annotations from GeneRIF
  5) The Oryza Map Alignment Project ([OMAP](http://www.omap.org/), 2007): approximately 1.6 million variant loci detected by comparing BAC End Sequences from four rice varieties to Japonica [submitted to dbSNP].
  6) Adaptive loss-of-function in domesticated rice (BGI 2004): A collection of approximately 3M variant loci from the comparison of the Indica (93-11) and Japonica (Nipponbare) genomes.
 
-- 20,483 QTLs remapped to the IRGSP-1.0 assembly by industry collaborator [KeyGene](http://www.keygene.com). Of those, 19,435 were taken from [Gramene's legacy QTLs database](http://archive.gramene.org/qtl), and 1,048 from the [Q-Taro database](http://qtaro.abr.affrc.go.jp).
+- 20,483 Quantitative Trait Locus (QTL) remapped to the IRGSP-1.0 assembly by [KeyGene](http://www.keygene.com), and imported from [Gramene's legacy QTLs database](http://archive.gramene.org/qtl) and the [Q-Taro database](http://qtaro.abr.affrc.go.jp). Click [here](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/Summary?g=Os08g0531600;r=8:26501167-26506198;t=Os08t0531600-01) for a region rich in QTLs.
 
-- 1,278 genetic markers (990 RFLPs and 288 SSRs) from [Gramene’s legacy markers database](http://archive.gramene.org/markers).
+- 990 RFLPs and 288 SSRs from [Gramene’s legacy markers database](http://archive.gramene.org/markers). Example: [R2382](https://oryza-ensembl.gramene.org/Oryza_sativa/StructuralVariation/Explore?db=core;r=8:23502736-23503637;sv=R2382;svf=1;vdb=variation).
 
 
 ### Expression
