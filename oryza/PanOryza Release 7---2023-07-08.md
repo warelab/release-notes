@@ -11,7 +11,7 @@ GrameneOryza (https://oryza.gramene.org), funded by the USDA-ARS,  is an open re
 
 - Updated gene nomenclature from RAP-DB (Sept. 2022), see for example [Os01g0104200](http://oryza.gramene.org?idList=Os01g0104200).
 
-- Added new links to the Gene Tree Curation Tool in the Homology tab of Nipponbare genes, see for example: [Os05g0569300](http://curate.gramene.org/admin/curationUI/oryza_v5/?since=4479&gene=Os05g0569300).
+- Added new links to the Gene Tree Curation Tool in the Homology tab of Nipponbare genes, see for example: [Os05g0569300](http://curate.gramene.org/admin/curationUI/oryza_v7/?since=4479&gene=Os05g0569300).
 
 - Added new links to the GrameneOryza search interface results, see for example: [Os05g0113900](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/GrameneSearch?g=Os05g0113900;r=5:738208-739079;t=Os05t0113900-01).
 
