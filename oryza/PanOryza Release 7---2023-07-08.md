@@ -131,6 +131,8 @@ No updates in the current release, please see [release notes for version 5.0](ht
 
 - Duitama J, Silva A, Sanabria Y, Cruz DF, Quintero C, Ballen C, et al. Whole genome sequencing of elite rice cultivars as a comprehensive information resource for marker assisted selection. PLoS One. 2015;10: e0124617. doi:10.1371/journal.pone.0124617
 
+- Ferrero-Serrano A, Chakravorty D, Kirven KJ, Assmann SM. Oryza CLIMtools: An Online Portal for Investigating Genome-Environment Associations in Rice. bioRxiv. 2023 doi: 10.1101/2023.05.10.540241. 
+
 - McNally KL, Childs KL, Bohnert R, Davidson RM, Zhao K, Ulat VJ, et al. Genomewide SNP variation reveals relationships among landraces and modern varieties of rice. Proc Natl Acad Sci U S A. 2009;106: 12273–12278. doi:10.1073/pnas.0900992106
 
 - Yu J, Wang J, Lin W, Li S, Li H, Zhou J, et al. The Genomes of Oryza sativa: a history of duplications. PLoS Biol. 2005;3: e38. doi:10.1371/journal.pbio.0030038
