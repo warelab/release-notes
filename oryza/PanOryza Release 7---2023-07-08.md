@@ -1,5 +1,5 @@
 ### Oryza PanGenome Release 7.0
-### Released: July 2023
+### Released: August 2023
 
 GrameneOryza (https://oryza.gramene.org), funded by the USDA-ARS,  is an open resource released to the public in 2015. The GrameneOryza team works closely with the community to support stewardship of rice genomics data, establish best-practices on managing the data, and provide opportunities for networking and capacity building within the community. We maintain a database of genome sequences, gene structure annotations, and comparative genomic analyses integrated with curated data from [EBI's Gene Expression Atlas](https://www.ebi.ac.uk/gxa/plant/experiments) and [Gramene's Plant Reactome](https://plantreactome.gramene.org).
 
