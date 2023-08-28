@@ -93,7 +93,7 @@ The site now includes 11,793 [functionally curated gene annotations from GeneRIF
  2) Whole-genome sequencing of 104 elite rice cultivars (Duitama _et al_, 2015), described as, "a comprehensive information resource for marker assisted selection" providing 25,769,548 variant loci.
  3) Chip-based analysis of 1,310 SNPs across 395 samples (Zhao _et al_, 2010), described as, "revealing the impact of domestication and breeding on the rice genome".
  4) Chip-based analysis of approximately 160k SNPs across 20 diversity rice accessions (OryzaSNP; McNally _et al_, 2009), described as, "revealing relationships among landraces and modern varieties of rice".
- 5) The Oryza Map Alignment Project ([OMAP](http://www.omap.org/), 2007): approximately 1.6 million variant loci detected by comparing BAC End Sequences from four rice varieties to Japonica [submitted to dbSNP].
+ 5) The Oryza Map Alignment Project ([OMAP](http://www.omap.org/), 2007 &2023): approximately 1.6 million variant loci detected by comparing BAC End Sequences from four rice varieties to Japonica [submitted to dbSNP].
  6) Adaptive loss-of-function in domesticated rice (BGI 2004): A collection of approximately 3M variant loci from the comparison of the Indica (93-11) and Japonica (Nipponbare) genomes.
 
 - 20,483 Quantitative Trait Locus (QTL) remapped to the IRGSP-1.0 assembly by [KeyGene](http://www.keygene.com), and imported from [Gramene's legacy QTLs database](http://archive.gramene.org/qtl) and the [Q-Taro database](http://qtaro.abr.affrc.go.jp). Click [here](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/Summary?g=Os08g0531600;r=8:26501167-26506198;t=Os08t0531600-01) for a region rich in QTLs.
@@ -118,7 +118,7 @@ No updates in the current release, please see [release notes for version 5.0](ht
 
 - 3,000 rice genomes project. The 3,000 rice genomes project. Gigascience. 2014;3: 7. doi:10.1186/2047-217X-3-7
 
-- Alsantely A, Gutaker R, Navarrete Rodríguez ME, Arrieta-Espinoza G, Fuchs EJ, Costa de Oliveira A, et al. The International Oryza Map Alignment Project (IOMAP): the Americas-past achievements and future directions. J Exp Bot. 2023;74: 1331–1342. doi:10.1093/jxb/erac490
+- Alsantely A, Gutaker R, Navarrete Rodríguez ME, Arrieta-Espinoza G, Fuchs EJ, Costa de Oliveira A, et al. The International Oryza Map Alignment Project (I-OMAP): the Americas-past achievements and future directions. J Exp Bot. 2023;74: 1331–1342. doi:10.1093/jxb/erac490
 
 - Duitama J, Silva A, Sanabria Y, Cruz DF, Quintero C, Ballen C, et al. Whole genome sequencing of elite rice cultivars as a comprehensive information resource for marker assisted selection. PLoS One. 2015;10: e0124617. doi:10.1371/journal.pone.0124617
 
