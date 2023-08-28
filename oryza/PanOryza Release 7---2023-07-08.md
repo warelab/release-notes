@@ -31,15 +31,6 @@ Approximately 19 million SNPs called per each of four [Magic16](https://www.natu
 - [_Oryza sativa_ Xian/Indica-3B2 var. Liu Xu](https://oryza-ensembl.gramene.org/Oryza_sativa125827)
 - [_Oryza sativa_ circum-Aus1 var. N22](https://oryza-ensembl.gramene.org/Oryza_aus)
 
-Genetic variation for _O. sativa_ Japonica Nipponbare IRGSP1 was imported from the Euorpean Variation Archive (EVA). It consists of the following data sets:
-
-1) Duitama _et al_ (2015): 25.8 million SNPs
-2) BGI (2004): 3 million SNPs
-3) OMAP (2007): 1.6 million SNPs
-4) [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): 366K SNPs
-5) McNally _et al_ (2009): 157K SNPs
-6) Zhao et al (2010): 1.3K SNPs
-
 
 ## Summary
 
