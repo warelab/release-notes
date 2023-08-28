@@ -48,7 +48,21 @@ No updates in the current release, please see [release notes for version 3.0](ht
 
 ## References
 
-Zhou _et al_ (2022). Pan-genome inversion index reveals evolutionary insights into the subpopulation structure of Asian rice (Oryza sativa). bioRxiv. doi: [10.1101/2022.06.11.49568](https://doi.org/10.1101/2022.06.11.495682).
+- 3,000 rice genomes project. The 3,000 rice genomes project. Gigascience. 2014;3: 7. doi:10.1186/2047-217X-3-7
+
+- Alsantely A, Gutaker R, Navarrete Rodríguez ME, Arrieta-Espinoza G, Fuchs EJ, Costa de Oliveira A, et al. The International Oryza Map Alignment Project (I-OMAP): the Americas-past achievements and future directions. J Exp Bot. 2023;74: 1331–1342. doi:10.1093/jxb/erac490
+
+- Duitama J, Silva A, Sanabria Y, Cruz DF, Quintero C, Ballen C, et al. Whole genome sequencing of elite rice cultivars as a comprehensive information resource for marker assisted selection. PLoS One. 2015;10: e0124617. doi:10.1371/journal.pone.0124617
+
+- McNally KL, Childs KL, Bohnert R, Davidson RM, Zhao K, Ulat VJ, et al. Genomewide SNP variation reveals relationships among landraces and modern varieties of rice. Proc Natl Acad Sci U S A. 2009;106: 12273–12278. doi:10.1073/pnas.0900992106
+
+- Yu J, Wang J, Lin W, Li S, Li H, Zhou J, et al. The Genomes of Oryza sativa: a history of duplications. PLoS Biol. 2005;3: e38. doi:10.1371/journal.pbio.0030038
+
+- Zhao K, Wright M, Kimball J, Eizenga G, McClung A, Kovach M, et al. Genomic diversity and introgression in O. sativa reveal the impact of domestication and breeding on the rice genome. PLoS One. 2010;5: e10780. doi:10.1371/journal.pone.0010780
+
+- Zhou Y, Chebotarov D, Kudrna D, Llaca V, Lee S, Rajasekar S, et al. "A platinum standard pan-genome resource that represents the population structure of Asian rice." Sci Data. 2020;7: 113. doi: [10.1038/s41597-020-0438-2](https://doi.org/10.1038/s41597-020-0438-2).
+  
+- Zhou _et al_ (2022). Pan-genome inversion index reveals evolutionary insights into the subpopulation structure of Asian rice (Oryza sativa). bioRxiv. doi: [10.1101/2022.06.11.49568](https://doi.org/10.1101/2022.06.11.495682).
 
 ## Funding
 
