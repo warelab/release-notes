@@ -27,7 +27,16 @@ New to this release are 27 new synteny maps between the IRGSP1 Nipponbare assemb
 
 ### Variation
 
-No updates in the current release, please see [release notes for version 3.0](https://oryza.gramene.org/news).
+No updates in the current release, please see [release notes for version 3.0](https://oryza.gramene.org/news). 
+
+[Possibly] Genetic variation for _O. sativa_ Japonica Nipponbare IRGSP1 was imported from the Euorpean Variation Archive (EVA). It consists of the following data sets:
+
+1) Duitama _et al_ (2015): 25.8 million SNPs
+2) BGI (2004): 3 million SNPs
+3) OMAP (2007): 1.6 million SNPs
+4) [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): 366K SNPs
+5) McNally _et al_ (2009): 157K SNPs
+6) Zhao et al (2010): 1.3K SNPs
 
 ### Expression
 
