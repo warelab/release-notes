@@ -29,14 +29,14 @@ New to this release are 27 new synteny maps between the IRGSP1 Nipponbare assemb
 
 No updates in the current release, please see [release notes for version 3.0](https://oryza.gramene.org/news). 
 
-[Possibly] Genetic variation for _O. sativa_ Japonica Nipponbare IRGSP1 was imported from the Euorpean Variation Archive (EVA). It consists of the following data sets:
+[Possibly in this release] Genetic variation for _O. sativa_ Japonica Nipponbare IRGSP1 (31 million SNPs) was imported from the Euorpean Variation Archive (EVA), and consists of the following data sets:
 
-1) Duitama _et al_ (2015): 25.8 million SNPs
-2) BGI (2004): 3 million SNPs
-3) OMAP (2007): 1.6 million SNPs
-4) [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): 366K SNPs
-5) McNally _et al_ (2009): 157K SNPs
-6) Zhao et al (2010): 1.3K SNPs
+ 1) The 3000 Rice Genome Project (2015), an international effort to sequence the genomes of 3,024 rice varieties from 89 countries providing 365,710 variant loci (SNPs and InDels).
+ 2) Whole-genome sequencing of 104 elite rice cultivars (Duitama _et al_, 2015), described as, "a comprehensive information resource for marker assisted selection" providing 25,769,548 variant loci.
+ 3) Chip-based analysis of 1,310 SNPs across 395 samples (Zhao _et al_, 2010), described as, "revealing the impact of domestication and breeding on the rice genome".
+ 4) Chip-based analysis of approximately 160k SNPs across 20 diversity rice accessions (OryzaSNP; McNally _et al_, 2009), described as, "revealing relationships among landraces and modern varieties of rice".
+ 5) The Oryza Map Alignment Project ([OMAP](http://www.omap.org/), 2007 &2023): approximately 1.6 million variant loci detected by comparing BAC End Sequences from four rice varieties to Japonica [submitted to dbSNP].
+ 6) Adaptive loss-of-function in domesticated rice (BGI 2004): A collection of approximately 3M variant loci from the comparison of the Indica (93-11) and Japonica (Nipponbare) genomes.
 
 ### Expression
 
