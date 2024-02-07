@@ -28,15 +28,15 @@ The image below shows the default view of the [results from searching for PHYB](
 ![PHYB](images/pangrape2.png "Search PHYB")
 
 
-Select “PHYB” from the Gene list of results. Notice that it has a number  next to it; this indicates that there are four genes associated with it. You will see five closely related gene names associated with this term, including the grape Vitvi05g00130 model. Even though the v4 (Vitvi05g00130) model is identical to Vitvi05g00130.
+Select “PHYB” from the Gene list of results. Notice that it has a number  next to it; this indicates that there are 72 hits associated with it (altough only 49 genes in 35 genomes). You will see five closely related gene names associated with this term, including the grape Vitvi05g00130 model.
 
 
 ![search results](images/pangrape3.png "Search results")
 
 
-If you click on the Homology tab for VIT_05s0077g00940, you will notice that the v3 (VIT_05s0077g00940) and v4 (Vitvi05g00130) models appear identical. As mentioned above, we will focus on v3 models because data for v4 models is limited. For example, gene expression and pathways data has only been associated with v3 models.
+If you click on the Homology tab for Vitvi05g00130, you will notice that the v3 (VIT_05s0077g00940) and v4 (Vitvi05g00130) models appear identical. As mentioned above, we will focus on v4 models, for which gene expression and pathways data is available.
 
-Before we go on, here is a summary of the five data categories in which the results of a gene search are organized. These also correspond to the tabs at the top of the results panel for each gene in the image above.
+Before we go on, here is a summary of the seven data categories in which the results of a gene search are organized. These also correspond to the tabs at the top of the results panel for each gene in the image above.
 
 * **Sequences** - Genomic, transcript and peptide sequences
 * **Location** - Genomic context
@@ -51,7 +51,7 @@ Before we go on, here is a summary of the five data categories in which the resu
 * **Papers** - Curated publications supporting function for the gene. Includes link to a form to submit a gene's function
 * **Xrefs** - Cross-references to other databases
 
-To limit the results to grape genomes, may click on the spider gear icon and deselect the non-grape outgroups (e.g., _Arabidopsis_, _Oryza_, _Sorghum_, _Vitis_, _Selaginella_, _Chlamydomonas_, and _Drosophila_), then click on “Submit”. This filtering step should render the v3 model as a single result with the Homology tab open:
+To limit the results to grape genomes, you may click on the spider gear icon and deselect the non-grape outgroups (e.g., _Arabidopsis_, _Oryza_, _Solanum_, _Sorghum_, _Vitis_, _Selaginella_, _Chlamydomonas_, and _Drosophila_). Or deselect all genomes using the "None" option and select only PN40024 v4, then click on “Submit”. This filtering step should render the v4 model as a single result with the Homology tab open:
 
 
 ![search genomes](images/pangrape4.png "Select species")
@@ -65,7 +65,7 @@ Note: More complex queries can be constructed using junctions such as AND/OR (cl
 
 Note that the number of hits for your search is reflected in the karyotype view on top, where every chromosome of a genome is represented as a colorful box and every hit of a query is represented as a tick mark overlaid on its corresponding karyotype. Therefore, you will see six tick marks along the karyotype corresponding to the six genes in the “inflorescence development” pathway.
 
-To follow this exercise, you could click on “delete” for the inflorescence pathway and select “All” the available species in the gene tree, then select the Homology view for the VIT_05s0077g00940 gene. However, to simplify the images, I will redo a new search using “VIT_05s0077g00940”.
+To follow this exercise, you could click on “delete” for the inflorescence pathway and select “All” the available species in the gene tree, then select the Homology view for the Vitvi05g00130 gene. However, to simplify the images, I will redo a new search using “Vitvi05g00130”.
 
 
 ![PHYB tree view](images/pangrape6.png "Homology default view")
@@ -88,7 +88,7 @@ Click on the “Display Mode” drop-down menu to select one of three displays f
 
 
 
-1. The** Alignment Overview** allows you to view the entire length of the protein. Proteins are color-coded by InterPro domain. Click anywhere in one of the colored protein domains to reveal its name and some statistics. 
+1. The **Alignment Overview** allows you to view the entire length of the protein. Proteins are color-coded by InterPro domain. Click anywhere in one of the colored protein domains to reveal its name and some statistics. 
 
     
 
@@ -127,14 +127,14 @@ You may also prune the tree to only display a subset of the 35 species, by click
 
 
 
-Please note that resizing the gray slider that surrounds the entire protein allows you to navigate along it. Also, at the bottom of the panel notice the number of Homologs, Orthologs, and Paralogs. By clicking on any of them, the corresponding gene list will be displayed. See for example, the list of 4 paralogs of VIT_05s0077g00940 in the figure below.
+Please note that resizing the gray slider that surrounds the entire protein allows you to navigate along it. Also, at the bottom of the panel notice the number of Homologs, Orthologs, and Paralogs. By clicking on any of them, the corresponding gene list will be displayed. See for example, the list of 4 paralogs of Vitvi05g00130 in the figure below.
 
 
 
 ![paralogs](images/pangrape14.png "Paralogs")
 
 
-Let’s go back to the Homology view of the VIT_05s0077g00940 gene search results, and select the Multiple-Sequence Alignment from the Display Mode menu.
+Let’s go back to the Homology view of the Vitvi05g00130 gene search results, and select the Multiple-Sequence Alignment from the Display Mode menu.
 
 
 
@@ -146,14 +146,14 @@ Let’s go back to the Homology view of the VIT_05s0077g00940 gene search result
 
 
 
-    Luckily, we have a tool to capture your observations for dubious annotations (please note that at present, this capability is available only for PN40024 v4 gene models). Click on the “Curate” button at the bottom of the inset, and you will be taken to Gramene’s Gene Tree tool. In it, you will see the same tree from the Homology view and on the right, you will be able to qualify gene models as OK or “poor” quality, and submit your annotations via e-mail (see below). The same display options described here are available to zoom in and out the tree view in the tool.
+    Luckily, we have a tool to capture your observations for dubious annotations. Click on the “Curate” button at the bottom of the inset, and you will be taken to Gramene’s Gene Tree tool. In it, you will see the same tree from the Homology view and on the right, you will be able to qualify gene models as OK or “poor” quality, and submit your annotations via e-mail (see below). The same display options described here are available to zoom in and out the tree view in the tool.
 
 
 ![gene tree tool](images/pangrape16.png "Gramene Gene Tree Tool")
 
 
 
-3. Neighborhood Conservation View
+3. **Neighborhood Conservation View**
 
     This view presents the target gene in the middle with a red line across the best ortholog in each species in the tree plus 10 flanking genes upstream and downstream color-coded by gene family. This allows you to identify structural variants and Presence/Absence variants in the region in question.
 
@@ -162,10 +162,14 @@ Let’s go back to the Homology view of the VIT_05s0077g00940 gene search result
 ![neighborhood](images/pangrape17.png "Neighborhood Connservation")
 
 
-    **Location**
+**Sequences**
 
 
-    Switch to the “Location” tab to observe the gene structure and alternative transcripts for your target gene. Exons are shown as red boxes, introns as lines, and UTRs as orange boxes. Use the sizing tool to modify the region under observation. The search filters allow users to list all genes in the chromosome or all the genes in the region specified in the field. Links to the [Vitis PanGenome Browser](http://vitis-ensembl.gramene.org/Vitis_vinifera/Gene/Summary?g=VIT_05s0077g00940;r=5:710743-718860;t=VIT_05s0077g00940.t01) and [PhytoMine](https://phytozome.jgi.doe.gov/phytomine/keywordSearchResults.do?searchTerm=VIT_05s0077g00940&searchSubmit=Search) are provided at the bottom of the tab.
+
+**Location**
+
+
+    Switch to the “Location” tab to observe the gene structure and alternative transcripts for your target gene. Exons are shown as red boxes, introns as lines, and UTRs as orange boxes. Use the sizing tool to modify the region under observation. The search filters allow users to list all genes in the chromosome or all the genes in the region specified in the field. Links to the [Vitis PanGenome Browser](http://vitis-ensembl.gramene.org/Vitis_vinifera/Gene/Summary?g=Vitvi05g00130;r=5:710743-718860;t=Vitvi05g00130.t01) is provided at the bottom of the tab.
 
 
 
@@ -173,7 +177,7 @@ Let’s go back to the Homology view of the VIT_05s0077g00940 gene search result
 
 
 
-    **Expression**
+**Expression**
 
 
     This view depicts baseline gene expression data for defined organism parts (as shown in the image below: fruit, pericarp, and seed), cultivars or developmental stages (the latter only available in the [Expression Atlas website](https://www.ebi.ac.uk/gxa/genes/VIT_05s0077g00940?bs=%7B%22vitis%20vinifera%22%3A%5B%22ORGANISM_PART%22%2C%22CULTIVAR%22%2C%22DEVELOPMENTAL_STAGE%22%5D%7D&ds=%7B%22kingdom%22%3A%5B%22plants%22%5D%7D#baseline)). Experiments are organized by study on the left side, and by tissue or developmental stage on the top of the graph. 
@@ -198,7 +202,6 @@ Let’s go back to the Homology view of the VIT_05s0077g00940 gene search result
 ![atlas widget PR](images/pangrape20.png "Expression in Plant Reactome")
 
 
-
     
 ![expression atlas](images/pangrape21.png "Expression Atlas")
 
@@ -214,10 +217,14 @@ Under “Search Filters”, you have the option of getting a list of all genes i
 
 An example of such analysis is illustrated in a short video in the [Gramene series](https://www.youtube.com/channel/UCMtmq20XMccsNUaACuqQJ-w) where transcriptomics data is overlaid onto orthology-based projected pathways to compare expression between mutant and wild-type tissues at distinct developmental stages.
 
-
-
 ![pathways](images/pangrape22.png "Pathways")
 
+
+**Papers**
+
+For genes with curated gene function, this tab displays a list of papers with PubMed identifiers. For all genes, a link to a form to provide gene  function (supported with ontoliogy terms and experimental validation described in publications).
+
+IMAGE
 
 
 **Cross-References**
