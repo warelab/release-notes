@@ -1,8 +1,8 @@
 **_Vitis vinifera_ PanGenome**
 
-This user guide refers to the contents of the first public release (August 2021) of the Grape PanGenome. Currently, the PanGenome hosts 18 genomes including 11 _Vitis vinifera_ genomes, and 7 outgroups (_Arabidopsis thaliana_, _Oryza sativa Japonica_, _Sorghum bicolor_, _Zea mays B73_, _Selaginella moellendorffii_, _Chlamydomonas reinhardtii_, and _Drosophila melanogaster_).
+This user guide refers to the contents of the fourth public release (February 2024) of the Grape PanGenome. Currently, the PanGenome hosts 29 genomes including 16 _Vitis vinifera_ genomes, and 8 outgroups (_Arabidopsis thaliana_, _Oryza sativa Japonica_, _Solanum lycopersicum_, _Sorghum bicolor_, _Zea mays B73_, _Selaginella moellendorffii_, _Chlamydomonas reinhardtii_, and _Drosophila melanogaster_).
 
-At present, most data types are only available for the Vitis vinifera L. ssp. vinifera Pinot noir PN40024 reference version 3, so this guide will focus on the phytochrome B gene model (PHYB), using its v3 gene identifier: VIT_05s0077g00940.
+At present, most data types are only available for the Vitis vinifera L. ssp. vinifera Pinot noir PN40024 reference version 4, so this guide will focus on the phytochrome B gene model (PHYB), using its v4 gene identifier: Vitvi05g00130 (VIT_05s0077g00940 in v3).
 
 ---
 
@@ -10,25 +10,25 @@ Let’s begin!
 
 Go to [http://vitis.gramene.org/](http://vitis.gramene.org/)
 
-Locate the search box at the top left corner of the page. Type a search term (gene, species, pathway, ontology term, protein domain, etc.). For the exercises below, we will focus on searching for the grape PHYB gene or VIT_05s0077g00940.
+Locate the search box at the top left corner of the page. Type a search term (gene, species, pathway, ontology term, protein domain, etc.). For the exercises below, we will focus on searching for the grape PHYB gene or Vitvi05g00130.
 
 **PanGenome Search Interface**
 
 **Querying a Gene**
 
-Let’s start by typing “PHY...B” in the search box and observe the auto-completion suggestions that pop-up as you type, as well as the various data categories in which the potential results are organized.
+Let’s start by typing "PHYB" in the search box and observe the auto-completion suggestions that pop-up as you type, as well as the various data categories in which the potential results are organized.
 
 
 ![auto-complete](images/pangrape1.png "PanGrape auto-complete")
 
 
-The image below shows the default view of the [results from searching for PHYB](http://vitis.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22_terms%22,%22fq_value%22:%22PHYB%22,%22name%22:%22PHYB%22,%22category%22:%22Gene%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=) (phytochrome B). Depending on how the gene name, locus name, gene synonyms and gene description were assigned to a gene model, you may get one or multiple hits for a query.
+The image below shows the default view of the [results from searching for PHYB](http://vitis.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22_terms%22,%22fq_value%22:%22PHYB%22,%22name%22:%22PHYB%22,%22category%22:%22Gene%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=) (phytochrome B). Depending on how the gene name, locus name, gene synonyms and gene description were assigned to a gene model, you may get one or multiple hits for a query. You may narrow down your search by clicking on the spider gear icon and selecting the species you are interesting in (see image).
 
 
 ![PHYB](images/pangrape2.png "Search PHYB")
 
 
-Select “PHYB” from the Gene list of results. Notice that it has a number 4 next to it; this indicates that there are four genes associated with it. You will see the four genes associated with this term, including the grape VIT_05s0077g00940 model. Even though the v4 (Vitvi05g00130) model is identical to VIT_05s0077g00940, the annotation for v4 gene models is still under way, and in this case has not been associated with “PHYB”. Therefore, we encourage you to focus on the v3 model for your gene of interest, and compare side-to-side its structure with the corresponding v4 model by looking at the pair in their corresponding gene family tree (see the Homology section below).
+Select “PHYB” from the Gene list of results. Notice that it has a number  next to it; this indicates that there are four genes associated with it. You will see five closely related gene names associated with this term, including the grape Vitvi05g00130 model. Even though the v4 (Vitvi05g00130) model is identical to Vitvi05g00130.
 
 
 ![search results](images/pangrape3.png "Search results")
@@ -38,7 +38,7 @@ If you click on the Homology tab for VIT_05s0077g00940, you will notice that the
 
 Before we go on, here is a summary of the five data categories in which the results of a gene search are organized. These also correspond to the tabs at the top of the results panel for each gene in the image above.
 
-
+* **Sequences** - Genomic, transcript and peptide sequences
 * **Location** - Genomic context
     * Ensembl Browser (Gramene Maize PanGenome)
     * Phytomine
@@ -48,6 +48,7 @@ Before we go on, here is a summary of the five data categories in which the resu
     * Multiple-Sequence Alignment (zoom into the amino acid level)
     * Neighborhood Conservation View (zoom out +/- 10 flanking genes)
 * **Pathways** - Association to pathways in [Gramene’s Plant Reactome](https://plantreactome.gramene.org)
+* **Papers** - Curated publications supporting function for the gene. Includes link to a form to submit a gene's function
 * **Xrefs** - Cross-references to other databases
 
 To limit the results to grape genomes, may click on the spider gear icon and deselect the non-grape outgroups (e.g., _Arabidopsis_, _Oryza_, _Sorghum_, _Vitis_, _Selaginella_, _Chlamydomonas_, and _Drosophila_), then click on “Submit”. This filtering step should render the v3 model as a single result with the Homology tab open:
