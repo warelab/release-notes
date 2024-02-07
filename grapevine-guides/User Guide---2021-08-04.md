@@ -22,19 +22,19 @@ Let’s start by typing "PHYB" in the search box and observe the auto-completion
 ![auto-complete](images/pangrape1.png "PanGrape auto-complete")
 
 
-The image below shows the default view of the [results from searching for PHYB](http://vitis.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22_terms%22,%22fq_value%22:%22PHYB%22,%22name%22:%22PHYB%22,%22category%22:%22Gene%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=) (phytochrome B). Depending on how the gene name, locus name, gene synonyms and gene description were assigned to a gene model, you may get one or multiple hits for a query. You may narrow down your search by clicking on the spider gear icon and selecting the species you are interesting in (see image).
-
+The image below shows the default view of the [results from searching for PHYB](http://vitis.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22_terms%22,%22fq_value%22:%22PHYB%22,%22name%22:%22PHYB%22,%22category%22:%22Gene%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=) (phytochrome B). Depending on how the gene name, locus name, gene synonyms and gene description were assigned to a gene model, you may get one or multiple hits for a query. You may narrow down your search by selecting the species you are interested in.
 
 ![PHYB](images/pangrape2.png "Search PHYB")
 
+Type "PHYB" in the search box. You will see five closely related gene names associated with this term. Select “PHYB” from the Gene category under results. Notice that it has a number next to it; this indicates that there are 72 hits associated with it (clicking on it will display the 49 genes from 35 genomes these hits refer to). To limit the results to grape genomes, you may click on the spider gear icon and deselect the non-grape outgroups (e.g., _Arabidopsis_, _Oryza_, _Solanum_, _Sorghum_, _Vitis_, _Selaginella_, _Chlamydomonas_, and _Drosophila_). Or deselect all genomes using the "None" option and select only PN40024 v4, then click on “Submit”. This filtering step should render the v4 model as a single result with the Homology tab open.
 
-Select “PHYB” from the Gene list of results. Notice that it has a number  next to it; this indicates that there are 72 hits associated with it (altough only 49 genes in 35 genomes). You will see five closely related gene names associated with this term, including the grape Vitvi05g00130 model.
+Update image: Select genomes
 
+![search genomes](images/pangrape4.png "Select species")
 
 ![search results](images/pangrape3.png "Search results")
 
-
-If you click on the Homology tab for Vitvi05g00130, you will notice that the v3 (VIT_05s0077g00940) and v4 (Vitvi05g00130) models appear identical. As mentioned above, we will focus on v4 models, for which gene expression and pathways data is available.
+For single gene results, the Homology tab will be in full display, else click on the Homology tab for your gene of interest.  For this exercise, you will notice that the v3 (VIT_05s0077g00940) and v4 (Vitvi05g00130) models appear identical. As mentioned above, we will focus on v4 models, for which gene expression and pathways data is available from the EBI Expression Atlas and Plant Reactome, respectively.
 
 Before we go on, here is a summary of the seven data categories in which the results of a gene search are organized. These also correspond to the tabs at the top of the results panel for each gene in the image above.
 
@@ -51,11 +51,6 @@ Before we go on, here is a summary of the seven data categories in which the res
 * **Papers** - Curated publications supporting function for the gene. Includes link to a form to submit a gene's function
 * **Xrefs** - Cross-references to other databases
 
-To limit the results to grape genomes, you may click on the spider gear icon and deselect the non-grape outgroups (e.g., _Arabidopsis_, _Oryza_, _Solanum_, _Sorghum_, _Vitis_, _Selaginella_, _Chlamydomonas_, and _Drosophila_). Or deselect all genomes using the "None" option and select only PN40024 v4, then click on “Submit”. This filtering step should render the v4 model as a single result with the Homology tab open:
-
-
-![search genomes](images/pangrape4.png "Select species")
-
 
 Note: More complex queries can be constructed using junctions such as AND/OR (click on your search term in the query box to see your options) to combine genes identified by gene name or gene ID, or genes that share, for example, an InterPro domain or a Gene Ontology function, or simply to retrieve a list of genes associated with a pathway. The query box below can be obtained by typing “inflorescence development” in the search box, and changing the default “AND” to “OR”). Query terms may be deleted, copied, moved or negated (see options in the Filters inset on the left).
 
@@ -65,7 +60,7 @@ Note: More complex queries can be constructed using junctions such as AND/OR (cl
 
 Note that the number of hits for your search is reflected in the karyotype view on top, where every chromosome of a genome is represented as a colorful box and every hit of a query is represented as a tick mark overlaid on its corresponding karyotype. Therefore, you will see six tick marks along the karyotype corresponding to the six genes in the “inflorescence development” pathway.
 
-To follow this exercise, you could click on “delete” for the inflorescence pathway and select “All” the available species in the gene tree, then select the Homology view for the Vitvi05g00130 gene. However, to simplify the images, I will redo a new search using “Vitvi05g00130”.
+To follow this exercise, you could click on “delete” for the inflorescence pathway and select “All” the available species in the gene tree, then select the Homology view for the Vitvi05g00130 gene. However, to simplify the images, we will simply redo a new search using “Vitvi05g00130”.
 
 
 ![PHYB tree view](images/pangrape6.png "Homology default view")
@@ -110,21 +105,18 @@ For the following exercises, let’s expand all the rosid clades so that we can 
 ![expanded tree](images/pangrape11.png "Split Chardonnay genes")
 
 
-Putative split genes are marked with a blinking yellow node (it will only blink for a few seconds after the clade is open), and when you click on it, you will read “gene_split” following the species name (see inset below for the first split gene pair). 
+Putative split genes are marked with a blinking yellow node (it will only blink for a few seconds after the clade is open), and when you click on it, you will read “gene_split” following the species name (see inset below for the first split gene pair: VvChar04.ver1.0.g339770 and VvChar04.ver1.0.g339780). 
 
 
 ![gene split](images/pangrape12.png "gene_split")
 
 
-
 Notice that these gene pairs map to contiguous regions in the chromosome and hence have consecutive gene ids, for example, the second putative split gene pair in the tree consists of VvChar04.ver1.0.g009660 at position GCs104:9825009-9826201:- (N-terminal) and VvChar04.ver1.0.g009650 at position GCs104:9816229-9824982:- (C-terminal). 
 
-You may also prune the tree to only display a subset of the 35 species, by clicking on the spider gear of the Search Filters panel. Hover your mouse over to see a message like: “Genomes Filter” and Searching 35 genomes. Click on it and select the species you want to limit your search to, and also those that you wish to be included in the Homology tree view.
-
+You may also prune the tree to only display a subset of the 37 species, by clicking on the spider gear of the Search Filters panel. Hover your mouse over to see a message like: “Genomes Filter” and Searching 37 genomes. Click on it and select the species you want to limit your search to, and also those that you wish to be included in the Homology tree view.
 
 
 ![prune tree](images/pangrape13.png "Select Genomes")
-
 
 
 Please note that resizing the gray slider that surrounds the entire protein allows you to navigate along it. Also, at the bottom of the panel notice the number of Homologs, Orthologs, and Paralogs. By clicking on any of them, the corresponding gene list will be displayed. See for example, the list of 4 paralogs of Vitvi05g00130 in the figure below.
@@ -180,7 +172,7 @@ Let’s go back to the Homology view of the Vitvi05g00130 gene search results, a
 **Expression**
 
 
-    This view depicts baseline gene expression data for defined organism parts (as shown in the image below: fruit, pericarp, and seed), cultivars or developmental stages (the latter only available in the [Expression Atlas website](https://www.ebi.ac.uk/gxa/genes/VIT_05s0077g00940?bs=%7B%22vitis%20vinifera%22%3A%5B%22ORGANISM_PART%22%2C%22CULTIVAR%22%2C%22DEVELOPMENTAL_STAGE%22%5D%7D&ds=%7B%22kingdom%22%3A%5B%22plants%22%5D%7D#baseline)). Experiments are organized by study on the left side, and by tissue or developmental stage on the top of the graph. 
+    This view depicts baseline gene expression data for defined organism parts (as shown in the image below: fruit, pericarp, and seed), cultivars or developmental stages (the latter only available in the [Expression Atlas website](https://www.ebi.ac.uk/gxa/genes/vit_05s0077g00940). Experiments are organized by study on the left side, and by tissue or developmental stage on the top of the graph. 
 
 
     Unique data points are colored in blue, with intensity increasing in proportion to the level of expression. What this means is that higher expression data points are shown in darker blue. 
@@ -194,7 +186,7 @@ Let’s go back to the Homology view of the Vitvi05g00130 gene search results, a
 
 
 
-    You may find additional expression data views in our collaborators’ sites, the [Plant Reactome (Expression tab)](https://plantreactome.gramene.org/PathwayBrowser/#/R-VVN-8934036&SEL=R-VVN-8934070&PATH=R-VVN-9030769,R-VVN-9031669,R-VVN-8934088&FLG=VIT_14s0083g01030&DTAB=EX) (cultivars only), and the [Expression Atlas](https://www.ebi.ac.uk/gxa/genes/VIT_05s0077g00940?bs=%7B%22vitis%20vinifera%22%3A%5B%22ORGANISM_PART%22%2C%22CULTIVAR%22%2C%22DEVELOPMENTAL_STAGE%22%5D%7D&ds=%7B%22kingdom%22%3A%5B%22plants%22%5D%7D#baseline) (organism parts, cultivars and developmental stages).
+    You may find additional expression data views in our collaborators’ sites, the [Plant Reactome (Pathways tab)](https://plantreactome.gramene.org/content/detail/R-VVN-8933856), and the [Expression Atlas](https://www.ebi.ac.uk/gxa/genes/VIT_05s0077g00940).
 
 
     
@@ -222,7 +214,7 @@ An example of such analysis is illustrated in a short video in the [Gramene seri
 
 **Papers**
 
-For genes with curated gene function, this tab displays a list of papers with PubMed identifiers. For all genes, a link to a form to provide gene  function (supported with ontoliogy terms and experimental validation described in publications).
+For genes with curated gene function, this tab displays a list of papers with PubMed identifiers. For all genes, a link to a form to provide gene function (supported with ontology terms and experimental validation described in publications).
 
 IMAGE
 
@@ -239,14 +231,14 @@ In the Xref tab, you will find references to your gene of interest in other data
 
 **Gene & Transcript pages**
 
-From the Location tab, click on the Ensembl Browser link and you will be taken to the gene summary page (or Gene tab, shown below). Click on a transcript from the Transcripts Table and you will reach the selected transcript page.  Here are the links for the corresponding [PHYB gene page](http://vitis-ensembl.gramene.org/Vitis_vinifera/Gene/Summary?g=VIT_05s0077g00940;r=5:710743-718860;t=VIT_05s0077g00940.t01) and [transcript page](http://vitis-ensembl.gramene.org/Vitis_vinifera/Transcript/Summary?db=core;g=VIT_05s0077g00940;r=5:710743-718860;t=VIT_05s0077g00940.t01) in the Grapevine Pan-Genome browser. Click on the options on the left menu to visualize a gene tree, obtain a list of orthologues or paralogues, gene ontology associations, gene expression anatograms, sequence (cDNA, exons, protein), protein domains, etc. 
+From the Location tab, click on the Ensembl Browser link and you will be taken to the gene summary page (or Gene tab, shown below). Click on a transcript from the Transcripts Table and you will reach the selected transcript page. Here are the links for the corresponding [PHYB gene page](http://test.gramene.org/Vitis_viniferapn40024/Gene/Summary?g=Vitvi05g00130;r=5:1193907-1202258;t=Vitvi05g00130_t001) and [transcript page](http://test.gramene.org/Vitis_viniferapn40024/Transcript/Summary?db=core;g=Vitvi05g00130;r=5:1193907-1202258;t=Vitvi05g00130_t001) in the Grapevine Pan-Genome browser. Click on the options on the left menu to visualize a gene tree, obtain a list of orthologues or paralogues, gene ontology associations, gene expression anatograms, sequence (cDNA, exons, protein), protein domains, etc. 
 
 
 
 ![gene page](images/pangrape24.png "Ensembl gene page")
 
 
-The image below corresponds to the [Protein summary view of the VIT_05s0077g00940.t01.1](http://vitis-ensembl.gramene.org/Vitis_vinifera/Transcript/ProteinSummary?db=core;g=VIT_05s0077g00940;r=5:710743-718860;t=VIT_05s0077g00940.t01) (grape PHYB) transcript.
+The image below corresponds to the [Protein summary view of the Vitvi05g00130_t001.1](http://test.gramene.org/Vitis_viniferapn40024/Transcript/ProteinSummary?db=core;g=Vitvi05g00130;r=5:1193907-1202258;t=Vitvi05g00130_t001) (grape PHYB) transcript.
 
 
 ![protein summary](images/pangrape25.png "Protein domains summary (transcript)")
@@ -258,7 +250,7 @@ The image below corresponds to the [Protein summary view of the VIT_05s0077g0094
 ####
 **Gene trees**
 
-Ensembl Compara pipeline - [Example](http://vitis-ensembl.gramene.org/Vitis_vinifera/Gene/Compara_Tree?db=core;g=VIT_05s0077g00940;r=5:710743-718860;t=VIT_05s0077g00940.t01)
+Ensembl Compara pipeline - [Example](http://test.gramene.org/Vitis_viniferapn40024/Gene/Compara_Tree?db=core;g=Vitvi05g00130;r=5:1193907-1202258;t=Vitvi05g00130_t001)
 
 
 ![gene trees](images/pangrape26.png "PHYB gene family tree")
@@ -271,7 +263,7 @@ Ensembl Compara pipeline - [Example](http://vitis-ensembl.gramene.org/Vitis_vini
 ####
 **mRNA and protein alignments**
 
-For the PN40024 v3 genome there are seven tracks with ESTs and EST clusters data available. You can get a complete list by clicking on the spider gear symbol for “Configure this page” (left side menu) or “Configure this image” (Location panel), see the inset in the image below. In addition to grape ESTs, there are EST clusters for the following species or clades: Dicots, Monocots, Arabidopsis, maize, rice, and grape.  Click on the square that precedes the name of the track to turn it on or off and configure it with the available options (normal, with labels, stacked, etc.).
+For the PN40024 v4 genome there are seven tracks with ESTs and EST clusters data available. You can get a complete list by clicking on the spider gear symbol for “Configure this page” (left side menu) or “Configure this image” (Location panel), see the inset in the image below. In addition to grape ESTs, there are EST clusters for the following species or clades: Dicots, Monocots, Arabidopsis, maize, rice, and grape.  Click on the square that precedes the name of the track to turn it on or off and configure it with the available options (normal, with labels, stacked, etc.).
 
 
 ![mRNA and protein](images/pangrape27.png "mRNA & protein alignments")
@@ -285,6 +277,10 @@ Coming soon...
 
 **Literature References**
 
+[Diploid genome assembly of the Malbec grapevine cultivar enables haplotype-aware analysis of transcriptomic differences underlying clonal phenotypic variation](https://doi.org/10.1101/2023.11.30.569420). Calderón L, Carbonell-Bejerano P, Muñoz P, Bree L, Sola C et al. 2023. biorxiv.
+
+[A super-pangenome of the North American wild grape species](https://doi.org/10.1186/s13059-023-03133-2). Cochetel N, Minio A, Guarracino A, Garcia JF, Figueroa-Balderas R et al. 2023. Genome Biology 24:290.
+
 [The grapevine genome sequence suggests ancestral hexaploidization in major angiosperm phyla](https://www.nature.com/articles/nature06148).
 Jaillon O, Aury JM, Noel B, Policriti A, Clepet C, Casagrande A, Choisne N, Aubourg S, Vitulo N, Jubin C et al. 2007. Nature. 449:463-467.
 
@@ -295,6 +291,8 @@ Jaillon O, Aury JM, Noel B, Policriti A, Clepet C, Casagrande A, Choisne N, Aubo
 [The wild grape genome sequence provides insights into the transition from dioecy to hermaphroditism during grape domestication](https://doi.org/10.1186/s13059-020-02131-y). Badouin H, Velt A, Gindraud F, Flutre T, Dumas V et al. 2020. Genome Biol. 21:223.
 
 [Haplotyping the Vitis collinear core genome with rhAmpSeq improves marker transferability in a diverse genus](https://doi.org/10.1038/s41467-019-14280-1). Zou C, Karn A, Reisch B, Nguyen A, Sun Y et al. 2019. Nat Commun. 11: 413.
+
+[An improved reference of the grapevine genome reasserts the origin of the PN40024 highly homozygous genotype](https://doi.org/10.1093/g3journal/jkad067). Velt A, Frommer B, Blanc S, Holtgräwe D, Duchêne E et al. 2023. G3. 13(5):jkad067.
 
 [The genomic diversification of clonally propagated grapevines](https://doi.org/10.1186/s12864-019-6211-2). Vondras AM, Minio A, Blanco-Ulate B, Figueroa-Balderas R, Penn MA et al. 2019. BMC Genomics.
 
