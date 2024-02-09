@@ -263,7 +263,7 @@ Ensembl Compara pipeline - [Example](http://test.gramene.org/Vitis_viniferapn400
 ####
 **mRNA and protein alignments**
 
-For the PN40024 v4 genome there are seven tracks with ESTs and EST clusters data available. You can get a complete list by clicking on the spider gear symbol for “Configure this page” (left side menu) or “Configure this image” (Location panel), see the inset in the image below. In addition to grape ESTs, there are EST clusters for the following species or clades: Dicots, Monocots, Arabidopsis, maize, rice, and grape.  Click on the square that precedes the name of the track to turn it on or off and configure it with the available options (normal, with labels, stacked, etc.).
+For the PN40024 v4 genome there are seven tracks with ESTs and EST clusters data available. You can get a complete list by clicking on the spider gear symbol for “Configure this page” (left side menu) or “Configure this image” (Location panel), see the inset in the image below. In addition to grape ESTs, there are EST clusters for the following species or clades: Dicots, Monocots, Arabidopsis, maize, rice, and grape. Click on the square that precedes the name of the track to turn it on or off and configure it with the available options (normal, with labels, stacked, etc.).
 
 
 ![mRNA and protein](images/pangrape27.png "mRNA & protein alignments")
@@ -273,7 +273,29 @@ For the PN40024 v4 genome there are seven tracks with ESTs and EST clusters data
 ### 
 **Genetic, Structural & Phenotypic Variation**
 
-Coming soon...
+## Variation {#variation}
+
+Variation in SorghumBase is available for short variants (genetic variation, which in turn may be naturally occurring or chemically induced) and QTL variants associated with physical traits.
+
+
+### Genetic & Phenotypic Variation
+
+Genetic variation data sets are available as over 59 million sorghum variants including more than 46 million naturally ocurring Single Nucleotide Polymorphisms (SNPs), and almost 13 million chemically-induced variants (i.e., ethyl methanesulfonate (EMS)-induced mutations). In addition, we host nearly 6,000 QTLs for 148 sorghum traits from the Sorghum QTL Atlas.
+
+### Naturally occurring genetic variation - SNPs
+
+Currently in SorghumBase, there are three SNPs data sets, two on sorghum BTx623 and one on Tx2783.
+
+#### BTx623
+
+- The Lozano SNP dataset (Lozano et al, 2021) consists of nearly 13 million SNPs in 499 sorghum accessions, including lines from the TERRA-MEPP and TERRA-REF population panels, and the samples previously reported by Emma Mace and collaborators (Mace et al, 2013).
+
+- The Boatwright SNP dataset (Boatwright et al, 2022) consists of almost 44 million genetic variants including nearly 38 millon SNPs and 5 million indels genotyped in 400 Sorghum Association Panel (SAP) accessions via whole-genome sequencing (WGS).
+
+#### Tx2783
+
+- About 32.5 million SNPs were called in 400 SAP lines by Rod Wing's group at King Abdullah University of Science and Technology with the GATK4 pipeline [Yong Zhou, Nagarajan Kathiresan and Rod A. Wing (2023), manuscript in preparation], and are now available from the Tx2783 genome browser. See for example [4_6047465_C_T](https://ensembl.sorghumbase.org/Sorghum_tx2783pac/Variation/Sample?db=core;r=4:6046965-6047965;v=4_6047465_C_T;vdb=variation;vf=11387812), a SNP predicted to introduce a STOP codon and result in a truncated [SbiRTX2783.04G076100](https://ensembl.sorghumbase.org/Sorghum_tx2783pac/Gene/Summary?db=core;g=SbiRTX2783.04G076100;r=4:6046424-6048133;t=SbiRTX2783.04G076100.1;v=4_6047465_C_T;vdb=variation;vf=11387812) protein product.
+
 
 **Literature References**
 
