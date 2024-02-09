@@ -19,22 +19,20 @@ Locate the search box at the top left corner of the page. Type a search term (ge
 Let’s start by typing "PHYB" in the search box and observe the auto-completion suggestions that pop-up as you type, as well as the various data categories in which the potential results are organized.
 
 
-![auto-complete](images/pangrape1.png "PanGrape auto-complete")
+![auto-complete](images/PHY_search_vitis1.png "PanGrape auto-complete")
 
 
 The image below shows the default view of the [results from searching for PHYB](http://vitis.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22_terms%22,%22fq_value%22:%22PHYB%22,%22name%22:%22PHYB%22,%22category%22:%22Gene%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=) (phytochrome B). Depending on how the gene name, locus name, gene synonyms and gene description were assigned to a gene model, you may get one or multiple hits for a query. You may narrow down your search by selecting the species you are interested in.
 
-![PHYB](images/pangrape2.png "Search PHYB")
+![PHYB](images/PHYB_results_vitis2.png "Search PHYB")
 
-Type "PHYB" in the search box. You will see five closely related gene names associated with this term. Select “PHYB” from the Gene category under results. Notice that it has a number next to it; this indicates that there are 72 hits associated with it (clicking on it will display the 49 genes from 35 genomes these hits refer to). To limit the results to grape genomes, you may click on the spider gear icon and deselect the non-grape outgroups (e.g., _Arabidopsis_, _Oryza_, _Solanum_, _Sorghum_, _Vitis_, _Selaginella_, _Chlamydomonas_, and _Drosophila_). Or deselect all genomes using the "None" option and select only PN40024 v4, then click on “Submit”. This filtering step should render the v4 model as a single result with the Homology tab open.
+Type "PHYB" in the search box. You will see five closely related gene names associated with this term. Select “PHYB” from the Gene category under results. Notice that it has a number next to it; this indicates that there are 72 hits associated with it (clicking on it will display the 49 genes from 35 genomes these hits refer to). To limit the results to grape genomes, you may click on the spider gear icon and deselect the non-grape outgroups (e.g., _Arabidopsis_, _Oryza_, _Solanum_, _Sorghum_, _Vitis_, _Selaginella_, _Chlamydomonas_, and _Drosophila_). Or deselect all genomes using the "None" option and select only PN40024 v4, then click on “Submit”. The later filtering step should render the v4 model as a single result with the Homology tab open; however, when you do this, you will be also pruning the tree to only display the species you selected so this is not ideal for most cases and you might be better off searching a gene by its unique identifer (Vitvi05g00130 in this case), so we will delete the query for PHYB by clicking on the trash icon at the top left of the results bar and type Vitvi05g00130 in the sarch box anew.
 
-Update image: Select genomes
-
-![search genomes](images/pangrape4.png "Select species")
-
-![search results](images/pangrape3.png "Search results")
+![search genomes](images/select_genomes_vitis3.png "Select species")
 
 For single gene results, the Homology tab will be in full display, else click on the Homology tab for your gene of interest.  For this exercise, you will notice that the v3 (VIT_05s0077g00940) and v4 (Vitvi05g00130) models appear identical. As mentioned above, we will focus on v4 models, for which gene expression and pathways data is available from the EBI Expression Atlas and Plant Reactome, respectively.
+
+![search results](images/Vitvi05g00130_overview_vitis4.png "Search results")
 
 Before we go on, here is a summary of the seven data categories in which the results of a gene search are organized. These also correspond to the tabs at the top of the results panel for each gene in the image above.
 
@@ -52,7 +50,7 @@ Before we go on, here is a summary of the seven data categories in which the res
 * **Xrefs** - Cross-references to other databases
 
 
-Note: More complex queries can be constructed using junctions such as AND/OR (click on your search term in the query box to see your options) to combine genes identified by gene name or gene ID, or genes that share, for example, an InterPro domain or a Gene Ontology function, or simply to retrieve a list of genes associated with a pathway. The query box below can be obtained by typing “inflorescence development” in the search box, and changing the default “AND” to “OR”). Query terms may be deleted, copied, moved or negated (see options in the Filters inset on the left).
+Note: More complex queries can be constructed using junctions such as AND/OR (click on your search term in the query box to see your options) to combine genes identified by gene name or gene ID, or genes that share, for example, an InterPro domain or a Gene Ontology function, or simply to retrieve a list of genes associated with a pathway. The query box below can be obtained by typing “inflorescence development” (trait) in the search box, and changing the default “AND” to “OR”). Query terms may be deleted, copied, moved or negated (see options in the Filters inset on the left).
 
 
 ![complex queries](images/pangrape5.png "Complex queries")
@@ -77,10 +75,7 @@ Clicking on the spider gear that precedes the “Display Mode” drop-down menu,
 Click on the “Display Mode” drop-down menu to select one of three displays for the Homology view: Alignment overview, Multiple Sequence Alignment, and Neighborhood conservation.
 
 
-
 ![display modes](images/pangrape8.png "Homology Display Modes")
-
-
 
 
 1. The **Alignment Overview** allows you to view the entire length of the protein. Proteins are color-coded by InterPro domain. Click anywhere in one of the colored protein domains to reveal its name and some statistics. 
