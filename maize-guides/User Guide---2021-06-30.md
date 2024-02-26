@@ -1,7 +1,7 @@
 
 **_Zea mays_ PanGenome User Guide**
 
-This user guide refers to the contents of the Fourth Public Release (February 2024) of the Maize PanGenome with 52 genomes including 3 assembly versions of the B73 _Zea mays_ reference (Hufford _et al_, 2021; Jiao _et al_, 2017; Schnable _et al_, 2009), 25 NAM maize founder genomes (Hufford _et al_, 2021; Gage _et al_, 2020; Yu _et al_, 2008; McMullen _et al_, 2009), 4 [European flint maize genomes](http://www.europeanmaize.net/) (DK105, EP1, F7 and PE0075), Mo17 (Sun et al, 2018), W22 (Springer et al, 2018), PH207 (Hirsch et al, 2016), A188 (Lin et al, 2021), teosinte Til11 (unpublished), and 7 outgroups (_Arabidopsis thaliana_, _Oryza sativa_ Japonica, _Sorghum bicolor_, _Vitis vinifera_ ssp. _vinifera_ PN40024, _Selaginella moellendorffii_, _Chlamydomonas reinhardtii_, and _Drosophila melanogaster_).
+This user guide refers to the contents of the Fourth Public Release (February 2024) of the Maize PanGenome with 44 genomes including 3 assembly versions and the Ab10 version of the B73 _Zea mays_ reference (Hufford _et al_, 2021; Liu _et al_, 2020; Jiao _et al_, 2017; Schnable _et al_, 2009), 25 NAM maize founder genomes (Hufford _et al_, 2021; Gage _et al_, 2020; Yu _et al_, 2008; McMullen _et al_, 2009), 4 [European flint maize genomes](http://www.europeanmaize.net/) (DK105, EP1, F7 and PE0075), Mo17 (Sun et al, 2018), W22 (Springer et al, 2018), PH207 (Hirsch et al, 2016), A188 (Lin et al, 2021), teosinte Til11 (unpublished), and 7 outgroups (_Arabidopsis thaliana_, _Oryza sativa_ Japonica, _Sorghum bicolor_, _Vitis vinifera_ ssp. _vinifera_ PN40024, _Selaginella moellendorffii_, _Chlamydomonas reinhardtii_, and _Drosophila melanogaster_).
 
 The lipoxygenase 9 gene model, also known as lox9, Zm00001eb005920 (RefGen_v5 or v5) or Zm00001d027893 (RefGen_v4 or v4), will be used as example. Additional funtional annotations currently available for the B73 maize v4 will be made available in this pansite when projected to the current assembly v5. 
 
@@ -267,24 +267,26 @@ Coming soon...
 **Literature References**
 
 
-Gage, Joseph L., Brandon Monier, Anju Giri, and Edward S. Buckler. 2020. “Ten Years of the Maize Nested Association Mapping Population: Impact, Limitations, and Future Directions.” _The Plant Cell_ 32 (7): 2083–93.
+Gage JL, Brandon Monier, Anju Giri, and Edward S. Buckler. 2020. “Ten Years of the Maize Nested Association Mapping Population: Impact, Limitations, and Future Directions.” _The Plant Cell_ 32 (7): 2083–93.
 
-Haberer, Georg, Nadia Kamal, Eva Bauer, Heidrun Gundlach, Iris Fischer, Michael A. Seidel, Manuel Spannagl, et al. 2020. “European Maize Genomes Highlight Intraspecies Variation in Repeat and Gene Content.” _Nature Genetics_ 52 (9): 950–57.
+Haberer G, Nadia Kamal, Eva Bauer, Heidrun Gundlach, Iris Fischer, Michael A. Seidel, Manuel Spannagl, et al. 2020. “European Maize Genomes Highlight Intraspecies Variation in Repeat and Gene Content.” _Nature Genetics_ 52 (9): 950–57.
 
-Hirsch, Candice N., Cory D. Hirsch, Alex B. Brohammer, Megan J. Bowman, Ilya Soifer, Omer Barad, Doron Shem-Tov, et al. 2016. “Draft Assembly of Elite Inbred Line PH207 Provides Insights into Genomic and Transcriptome Diversity in Maize.” _The Plant Cell_ 28 (11): 2700–2714.
+Hirsch CN, Cory D. Hirsch, Alex B. Brohammer, Megan J. Bowman, Ilya Soifer, Omer Barad, Doron Shem-Tov, et al. 2016. “Draft Assembly of Elite Inbred Line PH207 Provides Insights into Genomic and Transcriptome Diversity in Maize.” _The Plant Cell_ 28 (11): 2700–2714.
 
-Hufford, Matthew B., Arun S. Seetharam, Margaret R. Woodhouse, Kapeel M. Chougule, Shujun Ou, Jianing Liu, William A. Ricci, et al. 2021. “De novo assembly, annotation, and comparative analysis of 26 diverse maize genomes.” _Science_ 373(6555): 655-662. doi: [10.1126/science.abg5289](http://dx.doi.org/10.1126/science.abg5289)
+Hufford MB, Arun S. Seetharam, Margaret R. Woodhouse, Kapeel M. Chougule, Shujun Ou, Jianing Liu, William A. Ricci, et al. 2021. “De novo assembly, annotation, and comparative analysis of 26 diverse maize genomes.” _Science_ 373(6555): 655-662. doi: [10.1126/science.abg5289](http://dx.doi.org/10.1126/science.abg5289)
 
-Jiao, Yinping, Paul Peluso, Jinghua Shi, Tiffany Liang, Michelle C. Stitzer, Bo Wang, Michael S. Campbell, et al. 2017. “Improved Maize Reference Genome with Single-Molecule Technologies.” _Nature_ 546 (7659): 524–27.
+Jiao Y, Paul Peluso, Jinghua Shi, Tiffany Liang, Michelle C. Stitzer, Bo Wang, Michael S. Campbell, et al. 2017. “Improved Maize Reference Genome with Single-Molecule Technologies.” _Nature_ 546 (7659): 524–27.
 
-Lin, Guifang, Cheng He, Jun Zheng, Dal-Hoe Koo, Ha Le, Huakun Zheng, Tej Man Tamang, et al. 2021. “Chromosome-Level Genome Assembly of a Regenerable Maize Inbred Line A188.” _Genome Biology_ 22 (1): 175.
+Lin G, Cheng He, Jun Zheng, Dal-Hoe Koo, Ha Le, Huakun Zheng, Tej Man Tamang, et al. 2021. “Chromosome-Level Genome Assembly of a Regenerable Maize Inbred Line A188.” _Genome Biology_ 22 (1): 175.
 
-McMullen, Michael D., Stephen Kresovich, Hector Sanchez Villeda, Peter Bradbury, Huihui Li, Qi Sun, Sherry Flint-Garcia, et al. 2009. “Genetic Properties of the Maize Nested Association Mapping Population.” _Science_ 325 (5941): 737–40.
+Liu J, Seetharam AS, Chougule K, Ou S, Swentowsky KW, Gent JI, et al. "Gapless assembly of maize chromosomes using long-read technologies." Genome Biol. 2020;21: 121.
 
-Schnable, Patrick S., Doreen Ware, Robert S. Fulton, Joshua C. Stein, Fusheng Wei, Shiran Pasternak, Chengzhi Liang, et al. 2009. “The B73 Maize Genome: Complexity, Diversity, and Dynamics.” _Science_ 326 (5956): 1112–15.
+McMullen MD, Stephen Kresovich, Hector Sanchez Villeda, Peter Bradbury, Huihui Li, Qi Sun, Sherry Flint-Garcia, et al. 2009. “Genetic Properties of the Maize Nested Association Mapping Population.” _Science_ 325 (5941): 737–40.
 
-Springer, Nathan M., Sarah N. Anderson, Carson M. Andorf, Kevin R. Ahern, Fang Bai, Omer Barad, W. Brad Barbazuk, et al. 2018. “The Maize W22 Genome Provides a Foundation for Functional Genomics and Transposon Biology.” _Nature Genetics_ 50 (9): 1282–88.
+Schnable PS, Doreen Ware, Robert S. Fulton, Joshua C. Stein, Fusheng Wei, Shiran Pasternak, Chengzhi Liang, et al. 2009. “The B73 Maize Genome: Complexity, Diversity, and Dynamics.” _Science_ 326 (5956): 1112–15.
 
-Yang, Ning, Xi-Wen Xu, Rui-Ru Wang, Wen-Lei Peng, Lichun Cai, Jia-Ming Song, Wenqiang Li, et al. 2017. “Contributions of Zea Mays Subspecies Mexicana Haplotypes to Modern Maize.” _Nature Communications_ 8 (1): 1874.
+Springer NM, Sarah N. Anderson, Carson M. Andorf, Kevin R. Ahern, Fang Bai, Omer Barad, W. Brad Barbazuk, et al. 2018. “The Maize W22 Genome Provides a Foundation for Functional Genomics and Transposon Biology.” _Nature Genetics_ 50 (9): 1282–88.
 
-Yu, Jianming, James B. Holland, Michael D. McMullen, and Edward S. Buckler. 2008. “Genetic Design and Statistical Power of Nested Association Mapping in Maize.” _Genetics_ 178 (1): 539–51.
+Yang N, Xi-Wen Xu, Rui-Ru Wang, Wen-Lei Peng, Lichun Cai, Jia-Ming Song, Wenqiang Li, et al. 2017. “Contributions of Zea Mays Subspecies Mexicana Haplotypes to Modern Maize.” _Nature Communications_ 8 (1): 1874.
+
+Yu J, James B. Holland, Michael D. McMullen, and Edward S. Buckler. 2008. “Genetic Design and Statistical Power of Nested Association Mapping in Maize.” _Genetics_ 178 (1): 539–51.
