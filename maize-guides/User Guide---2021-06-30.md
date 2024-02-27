@@ -3,7 +3,7 @@
 
 This user guide refers to the contents of the Fourth Public Release (February 2024) of the Maize PanGenome with 45 genomes including 3 assembly versions and the Ab10 version of the B73 _Zea mays_ reference (Hufford _et al_, 2021; Liu _et al_, 2020; Jiao _et al_, 2017; Schnable _et al_, 2009), 25 NAM maize founder genomes (Hufford _et al_, 2021; Gage _et al_, 2020; Yu _et al_, 2008; McMullen _et al_, 2009), 4 [European flint maize genomes](http://www.europeanmaize.net/) (DK105, EP1, F7 and PE0075), Mo17 (Sun et al, 2018), W22 (Springer et al, 2018), PH207 (Hirsch et al, 2016), A188 (Lin et al, 2021), teosinte Til11 (unpublished), and 7 outgroups (_Arabidopsis thaliana_, _Oryza sativa_ Japonica, _Sorghum bicolor_, _Vitis vinifera_ ssp. _vinifera_ PN40024, _Selaginella moellendorffii_, _Chlamydomonas reinhardtii_, and _Drosophila melanogaster_).
 
-The lipoxygenase 9 gene model, also known as lox9, Zm00001eb005920 (RefGen_v5 or v5) or Zm00001d027893 (RefGen_v4 or v4), will be used as example. Additional funtional annotations currently available for the B73 maize v4 will be made available in this pansite when projected to the current assembly v5. 
+The lipoxygenase 9 gene model, also known as lox9, Zm00001eb005920 (RefGen_v5 or v5), also known as Zm00001d027893 (RefGen_v4 or v4) and GRMZM2G017616 (RefGen_v3 or v3), will be used as example.  
 
 ---
 
@@ -21,14 +21,15 @@ Let’s start by typing “lox” in the search box and observe the auto-complet
 
 ![auto-complete](images/panmaize1.png "PanMaize auto-complete")
 
-The image below shows the default view of the [results from searching for lox9](http://maize-pangenome.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22_terms%22,%22fq_value%22:%22lox9%22,%22name%22:%22lox9%22,%22category%22:%22Gene%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=) (lipoxygenase 9). Depending on how the gene name, locus name, gene synonyms and gene description were assigned to a gene model, you may get one or multiple hits for this query.
+The image below shows the default view of the [results from searching for lox9](http://maize-pangenome.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22_terms%22,%22fq_value%22:%22lox9%22,%22name%22:%22lox9%22,%22category%22:%22Gene%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=) (lipoxygenase 9) in one of our test servers. Depending on how the gene name, locus name, gene synonyms and gene description were assigned to a gene model, you may get one or multiple hits for this query.
 
 But first, here is a summary of the five data categories in which the results of a gene search are organized. These also correspond to the tabs at the top of the results panel in the image below.
 
-* **Location** - Genomic context
+* **Sequences** - Genomic, transcript and peptide sequences
+* **Location** - Genomic context and links to:
     * Ensembl Browser (Gramene Maize PanGenome)
     * MaizeGDB
-* **Expression** - Baseline gene expression from [EBI-Expression Atlas](https://www.ebi.ac.uk/gxa)
+* **Expression** - Baseline gene expression from [EBI-Expression Atlas](https://www.ebi.ac.uk/gxa/plant/experiments) and eFP expression data from the [BioAnalytic Resource for Plant Biology](https://bar.utoronto.ca/eplant_maize/)
 * **Homology** - Customizable Ensembl Compara gene family trees with displays:
     * Alignment Overview (full-length gene)
     * Multiple-Sequence Alignment (zoom into the amino acid level)
@@ -37,7 +38,7 @@ But first, here is a summary of the five data categories in which the results of
 * **Papers** - Curated literature references describing gene function
 * **Xrefs** - Cross-references to other databases
 
-To reproduce the screen capture shown below, select the “lox9” gene from the suggested results. Please note that searching for lox9 also yields results for LOX9 (capitalized letters), which are not necessarily identical. LOX9 (capital letters are commonly used to designate protein names) has a number 2 next to it, which indicates two genes associated with it (Sellaginella SELMODRAFT_109226 and maize GRMZM2G017616); meanwhile lox9 has a number 1 next to it, which indicates that there is a single gene associated with it (maize Zm00001eb005920, also known as GRMZM2G017616, Zm00001d027893, Zm00001e000580, and lipoxygenase9). 
+To reproduce the screen capture shown below, select the “lox9” gene from the suggested results. Please note that searching for lox9 also yields results for LOX9 (capitalized letters), which are not necessarily identical. LOX9 (capital letters are commonly used to designate protein names) has a number 1 next to it, which indicates a single gene is associated with it (OsLOX9 or Japonica rice Os08g0508800 in this case); meanwhile lox9 corresponds to the maize lox9 gene Zm00001eb005920, also known as GRMZM2G017616, Zm00001d027893, and lipoxygenase9). 
 
 To limit the results to maize genomes, click on the spider gear icon and deselect the non-maize outgroups (e.g., _Arabidopsis_, _Oryza_, _Sorghum_, _Vitis_, _Selaginella_, _Chlamydomonas_, and _Drosophila_) or deselect "All" and reselect only "B73 Zea mays". This filtering step should render one or more of the following results:
 
@@ -45,7 +46,7 @@ GRMZM2G017616 (B73 _Zea mays_ v3)
 
 Zm00001d027893 (B73 _Zea mays_ v4) 
 
-Zm00001eb005920, Zm00001e000580 (B73 _Zea mays_ v5)
+Zm00001eb005920 (B73 _Zea mays_ v5)
 
 
 ![lox9](images/panmaize2.png "Search lox9")
