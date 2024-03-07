@@ -33,11 +33,12 @@ The search results page is organized into three areas:
 3. Below this is a paginated list of genes
 
 Each gene has a set of tabs that can be expanded to explore more details:
-- Location - Lightweight genome browser showing gene structure
-- Expression - Baseline gene expression viewer from [EBI-Expression Atlas](https://www.ebi.ac.uk/gxa)
-- Homology - Gene family tree viewer (opens by default if only one gene is found)
-- Pathways - Associated pathways in [Gramene’s Plant Reactome](https://plantreactome.gramene.org)
-- Xrefs - Cross-references to other databases
+- **Sequences** - Genomic, transcript and peptide sequences
+- **Location** - Lightweight genome browser showing gene structure
+- **Expression** - Baseline gene expression viewer from [EBI-Expression Atlas](https://www.ebi.ac.uk/gxa)
+- **Homology** - Gene family tree viewer (opens by default if only one gene is found)
+- **Pathways** - Associated pathways in [Gramene’s Plant Reactome](https://plantreactome.gramene.org)
+- **Xrefs** - Cross-references to other databases
 
 ![LOX3 ortholog](images/image13.png)
 
