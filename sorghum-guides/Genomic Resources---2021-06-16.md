@@ -19,11 +19,12 @@ committed step of jasmonic acid biosynthesis. For more info on this gene see [Gl
 
 Watch the [demo video on YouTube](https://www.youtube.com/watch?v=nnAEnA9qTMY&t=2s).
 
-Searching for a gene given a gene id can be done in a couple of ways:
-- Click the spyglass icon and type/paste `SORBI_3006G095600` it into the search box
+Searching for a gene given a standard gene identifier can be done in a couple of ways:
+- Click the spyglass icon and type/paste `SORBI_3006G095600` it into the search box, for example 
 - Link directly to [http://sorghumbase.org/genes?idList=SORBI_3006G095600](https://www.sorghumbase.org/genes?idList=SORBI_3006G095600)
 
 If you don't know the gene id you can search by pathway and taxonomy [example](https://www.sorghumbase.org/genes?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:5,%22children%22:[{%22fq_field%22:%22pathways__ancestors%22,%22fq_value%22:%221119332%22,%22name%22:%22Jasmonic%20acid%20biosynthesis%22,%22category%22:%22Plant%20Reactome%20Pathway%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:false},{%22fq_field%22:%22taxonomy__ancestors%22,%22fq_value%22:%224558%22,%22name%22:%22Sorghum%20BTx623%22,%22category%22:%22Taxonomy%22,%22leftIdx%22:3,%22rightIdx%22:4,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=):
+
 1. In the search box, start typing `jasmonic acid biosynthesis` and choose the matching Plant Reactome Pathway term
 2. To limit the search to genes in *Sorghum bicolor* BTx623, type `sorghum` in the search box and select the matching Taxonomy term
 
@@ -33,12 +34,14 @@ The search results page is organized into three areas:
 3. Below this is a paginated list of genes
 
 Each gene has a set of tabs that can be expanded to explore more details:
+- **Germplasm** - Germplasm bearing a protein-truncating variant (PTV), which are putative loss-of-function gene alleles
 - **Sequences** - Genomic, transcript and peptide sequences
 - **Location** - Lightweight genome browser showing gene structure
 - **Expression** - Baseline gene expression viewer from [EBI-Expression Atlas](https://www.ebi.ac.uk/gxa)
 - **Homology** - Gene family tree viewer (opens by default if only one gene is found)
 - **Pathways** - Associated pathways in [Gramene’s Plant Reactome](https://plantreactome.gramene.org)
 - **Xrefs** - Cross-references to other databases
+
 
 ![LOX3 ortholog](images/image13.png)
 
@@ -48,9 +51,9 @@ Each gene has a set of tabs that can be expanded to explore more details:
 _**To search for genes in the v5.1 browser, please append ".v5.1" to the corresponding Sobic gene identifier like so: [Sobic.001G121600.v5.1](https://ensembl.sorghumbase.org/Sorghum_bicolorv5/Gene/Summary?db=core;g=Sobic.001G121600.v5.1;r=1:9578725-9579867;t=Sobic.001G121600.1.v5.1).**_
 
 
-The SorghumBase search interface is not case sensitive and it allows you to search older sorghum gene identifiers (IDs) of the form SbXXX (MIPS/JGI Sbi1.4 in Phytozome) as well as Ensembl gene IDs of the form SORBI_3* and Sobic.* gene IDs (JGI v2.1). Thus, you may search for our exemplar MSD2 gene using SORBI_3006G095600, Sb06g018040, Sobic.006G095600.1 or Sobic.006G095600.2 (gene synonyms or different versions of the same gene model).
+The SorghumBase search interface is not case sensitive and it allows you to search older sorghum gene identifiers (IDs) of the form SbXXX (MIPS/JGI Sbi1.4 in Phytozome) as well as Ensembl gene IDs of the form SORBI_3* and Sobic.* gene IDs (JGI v2.1 and v5.1). Thus, you may search for our exemplar MSD2 gene using SORBI_3006G095600, Sb06g018040, Sobic.006G095600 or Sobic.006G095600.v5.1 (gene synonyms or different versions of the same gene model).
 
-You may convert any Sobic.* to its corresponding SbXXX gene ID (JGI v2.1) using [this conversion file](https://ftp.sorghumbase.org/release-4/Mapping_SbiV3.1.1.txt). The file provides mapping of *S. bicolor* gene IDs from MIPS/JGI Sbi1.4 to v2.1 and higher builds.
+You may convert any Sobic.* to its corresponding SbXXX gene ID (JGI v2.1) using [this conversion file](https://ftp.sorghumbase.org/release-4/Mapping_SbiV3.1.1.txt). Gene identifiers may be converted to JGI v5.1 by adding the '.v5.1' suffix to the JGI v2.1 identifer. The file provides mapping of *S. bicolor* gene IDs from MIPS/JGI Sbi1.4 to v2.1 and higher builds.
 
 The file looks like this:
 
@@ -73,6 +76,10 @@ Sobic.* => SORBI_3*
 For example:
 
 Sobic.006G095600 = SORBI_3006G095600
+
+and 
+
+Sobic.006G095600.v5.1 = Sobic.006G095600
 
 
 
