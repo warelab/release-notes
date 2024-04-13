@@ -55,7 +55,7 @@ _**To search for genes in the v5.1 browser, please append ".v5.1" to the corresp
 
 The SorghumBase search interface is not case sensitive and it allows you to search older sorghum gene identifiers (IDs) of the form SbXXX (MIPS/JGI Sbi1.4 in Phytozome) as well as Ensembl gene IDs of the form SORBI_3* and Sobic.* gene IDs (JGI v2.1 and v5.1). Thus, you may search for our exemplar MSD2 gene using SORBI_3006G095600, Sb06g018040, Sobic.006G095600 or Sobic.006G095600.v5.1 (gene synonyms or different versions of the same gene model).
 
-You may convert any Sobic.* to its corresponding SbXXX gene ID (JGI v2.1) using [this conversion file](https://ftp.sorghumbase.org/release-4/Mapping_SbiV3.1.1.txt). Gene identifiers may be converted to JGI v5.1 by adding the '.v5.1' suffix to the JGI v2.1 identifer. The file provides mapping of *S. bicolor* gene IDs from MIPS/JGI Sbi1.4 to v2.1 and higher builds.
+You may convert any Sobic.* to its corresponding SbXXX gene ID (JGI v2.1) using a synonyms mapping file such as Sbicolor_730_v5.1.synonym.txt from Phytozome. Gene identifiers may be converted to JGI v5.1 by adding the '.v5.1' suffix to the JGI v2.1 identifer. The file provides mapping of *S. bicolor* gene IDs from MIPS/JGI Sbi1.4 to v2.1 and higher builds.
 
 The file looks like this:
 
