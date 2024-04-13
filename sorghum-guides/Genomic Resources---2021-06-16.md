@@ -50,10 +50,10 @@ Each gene has a set of tabs that can be expanded to explore more details:
 
 ## Searching for a gene – Gene ID equivalences {#gene-search}
 
-_**Gene models mapped to the v5.1 assembly have a ".v5.1" suffix appended to the corresponding Sobic gene identifier like so: [Sobic.006G095600.v5.1](https://ensembl.sorghumbase.org/sorghum_bicolorv5/Gene/Summary?g=Sobic.001G121600.v5.1).**_ However, searching for the Sobic gene identifier [(Sobic.006G095600)](https://www.sorghumbase.org/genes?idList=Sobic.006G095600) will return both models (v3 and v5).
+_**Gene models mapped to the v5.1 assembly have a ".v5.1" suffix appended to the corresponding Sobic gene identifier like so: [Sobic.006G095600.v5.1](https://ensembl.sorghumbase.org/sorghum_bicolorv5/Gene/Summary?g=Sobic.001G121600.v5.1). However, searching for the Sobic gene identifier (Sobic.006G095600) will return both models (v3 and v5).**_
 
 
-The SorghumBase search interface is not case sensitive and it allows you to search older sorghum gene identifiers (IDs) of the form SbXXX (MIPS/JGI Sbi1.4 in Phytozome) as well as Ensembl gene IDs of the form SORBI_3* and Sobic.* gene IDs (JGI v2.1 and v5.1). Thus, you may search for our exemplar MSD2 gene using SORBI_3006G095600, Sb06g018040, Sobic.006G095600 or Sobic.006G095600.v5.1 (gene synonyms or different versions of the same gene model).
+The SorghumBase search interface is not case sensitive and it allows you to search older sorghum gene identifiers (IDs) of the form SbXXX (MIPS/JGI Sbi1.4 in Phytozome) as well as Ensembl gene IDs of the form SORBI_3* and Sobic.* gene IDs (JGI v2.1 and above). Thus, you may search for our exemplar MSD2 gene using SORBI_3006G095600, Sb06g018040, Sobic.006G095600 or Sobic.006G095600.v5.1 (gene synonyms or different versions of the same gene model).
 
 You may convert any Sobic.* to its corresponding SbXXX gene ID (JGI v2.1) using a synonyms mapping file such as Sbicolor_730_v5.1.synonym.txt from Phytozome. Gene identifiers may be converted to JGI v5.1 by adding the '.v5.1' suffix to the JGI v2.1 identifer. The file provides mapping of *S. bicolor* gene IDs from MIPS/JGI Sbi1.4 to v2.1 and higher builds.
 
