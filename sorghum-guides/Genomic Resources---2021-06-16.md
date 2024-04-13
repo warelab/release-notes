@@ -29,11 +29,13 @@ If you don't know the gene id you can search by pathway and taxonomy [example](h
 2. To limit the search to genes in *Sorghum bicolor* BTx623, type `sorghum` in the search box and select the matching Taxonomy term
 
 The search results page is organized into three areas:
+
 1. A panel on the left side shows the status of the search
 2. At the top is a visualization of the genomic locations of genes matching the search
 3. Below this is a paginated list of genes
 
 Each gene has a set of tabs that can be expanded to explore more details:
+
 - **Germplasm** - Germplasm bearing a protein-truncating variant (PTV), which are putative loss-of-function gene alleles
 - **Sequences** - Genomic, transcript and peptide sequences
 - **Location** - Lightweight genome browser showing gene structure
@@ -104,8 +106,10 @@ The following comparative genomics data for BTx623 are available in the SorghumB
 
 - Gene trees - [Example](http://ensembl.sorghumbase.org/Sorghum_bicolor/Gene/Compara_Tree?g=SORBI_3006G095600;r=6:46566240-46571064;collapse=2831659,2829950,2830021)
 ![Ensembl GeneTree](images/image8.png)
+
 - Genome-wide alignment to *Oryza sativa* Japonica (see [example region](http://ensembl.sorghumbase.org/Sorghum_bicolor/Location/Multi?align=23;db=core;g=SORBI_3006G095600;r=6:46563088-46605099;r1=4:22284737-22339738:1;s1=Oryza_sativa))
 ![Ensembl Alignment](images/image4.png)
+
 - Synteny maps with:
   - Rio
   - RTx430
