@@ -36,7 +36,7 @@ The search results page is organized into three areas:
 
 Each gene has a set of tabs that can be expanded to explore more details:
 
-- **Germplasm** - Germplasm bearing a protein-truncating variant (PTV), which are putative loss-of-function gene alleles
+- **Germplasm** - Germplasm bearing a protein-truncating variant (PTV), specifically a PTV's putative loss-of-function allele
 - **Sequences** - Genomic, transcript and peptide sequences
 - **Location** - Lightweight genome browser showing gene structure
 - **Expression** - Baseline gene expression viewer from [EBI-Expression Atlas](https://www.ebi.ac.uk/gxa)
