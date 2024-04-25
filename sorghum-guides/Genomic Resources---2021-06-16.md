@@ -65,10 +65,6 @@ new MIPS/JGI Sbi2.1 [Sobic.006G095600] ⇔ old MIPS/JGI Sbi1.4 [Sb06g018040]
 
 Sobic.006G095600	Sb06g018040	
 
-#new-transcriptName    old-transcriptName
-
-Sobic.006G095600.1	Sb06g018040.1
-
 
 The following rule applies for the conversion between Sobic.* and Ensembl gene nomenclature in use at SorghumBase:
 
@@ -87,9 +83,9 @@ Sobic.006G095600.v5.1 = Sobic.006G095600
 
 ## Gene page {#gene-page}
 More detailed views available in the SorghumBase Ensembl genome browser include
-a [gene page](https://ensembl.sorghumbase.org/Sorghum_bicolor/Gene/Summary?g=SORBI_3006G095600;r=6:46566240-46571064),
+[gene pages](https://ensembl.sorghumbase.org/Sorghum_bicolor/Gene/Summary?g=SORBI_3006G095600;r=6:46566240-46571064),
 [transcript pages](https://ensembl.sorghumbase.org/Sorghum_bicolor/Transcript/Summary?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=OQU81659),
-and [(SNP) variant pages](https://ensembl.sorghumbase.org/Sorghum_bicolor/Variation/Explore?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=OQU81659;v=tmp_6_47487513_G_A;vdb=variation;vf=7758800).
+and [(SNP) variant pages](https://ensembl.sorghumbase.org/Sorghum_bicolor/Variation/Explore?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;v=rs5437819034;vdb=variation;vf=47523480).
 
 ![Ensembl Gene Page](images/image5.png)
 
@@ -107,10 +103,19 @@ The following comparative genomics data for BTx623 are available in the SorghumB
 - Gene trees - [Example](http://ensembl.sorghumbase.org/Sorghum_bicolor/Gene/Compara_Tree?g=SORBI_3006G095600;r=6:46566240-46571064;collapse=2831659,2829950,2830021)
 ![Ensembl GeneTree](images/image8.png)
 
-- Genome-wide alignment to *Oryza sativa* Japonica (see [example region](http://ensembl.sorghumbase.org/Sorghum_bicolor/Location/Multi?align=23;db=core;g=SORBI_3006G095600;r=6:46563088-46605099;r1=4:22284737-22339738:1;s1=Oryza_sativa))
+- Genome-wide alignments - As of release 7, we have 15 pairwise genomic alignments are available for each one of the following sorghum genomes against Japonica rice, Arabidopsis TAIR10, and maize B73_v5:
+
+  - [_Sorghum bicolor_ ssp. _bicolor_ BTx623](https://ensembl.sorghumbase.org/Sorghum_bicolor/Location/Compara_Alignments/Image?align=1;db=core;otherspecies=Zea_maysb73;r=4:41625307-41663480;time=1668636258419.419)
+  - [_Sorghum bicolor_ ssp. _bicolor_ RTx430](https://ensembl.sorghumbase.org/sorghum_tx430nano/Location/Compara_Alignments/Image?align=30;db=core;r=Scaffold_2:9298671-9344179)
+  - [_Sorghum bicolor_ ssp. _bicolor_ RTx436](https://ensembl.sorghumbase.org/sorghum_tx436pac/Location/Compara_Alignments/Image?align=29;db=core;r=4:40945993-40992222)
+  - [_Sorghum bicolor_ ssp. _bicolor_ Tx2783](https://ensembl.sorghumbase.org/sorghum_tx2783pac/Location/Compara_Alignments/Image?align=28;db=core;r=4:38544936-38590672)
+  - [_Sorghum bicolor_ ssp. _bicolor_ Rio](https://ensembl.sorghumbase.org/sorghum_rio/Location/Compara_Alignments/Image?align=31;db=core;r=4:37447216-37493025)
+
+See [*Oryza sativa* Japonica example region](http://ensembl.sorghumbase.org/Sorghum_bicolor/Location/Multi?align=23;db=core;g=SORBI_3006G095600;r=6:46563088-46605099;r1=4:22284737-22339738:1;s1=Oryza_sativa))
+
 ![Ensembl Alignment](images/image4.png)
 
-- Synteny maps with:
+- Synteny maps - As of release 7, we have 83 synteny maps across 28 sorghum genomes, and between maize B73 v5, Japonica rice IRGSPv1, and each of the same 28 sorghum varieties. Synteny map for sorghum BTx623 at chr4:61,032,110-61,070,283 and the maize B73 subgenomes.
   - Rio
   - RTx430
   - TX2783
