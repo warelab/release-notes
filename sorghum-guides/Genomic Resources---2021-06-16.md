@@ -114,7 +114,7 @@ The following comparative genomics data for BTx623 are available in the SorghumB
 
 ![Ensembl Alignment](images/image4.png)
 
-- Synteny maps - As of release 7, we have 83 synteny maps between sorghum BTx623 v3 and each of 27 sorghum genomes, Nipponbare rice IRGSPv1, and poplar v4; and between each of the sorghum genomes and Nipponbare. Example of [synteny map for sorghum BTx623 v3 at chr4:61,032,110-61,070,283 and Nipponbare IRGSPv1](https://ensembl.sorghumbase.org/Sorghum_bicolor/Location/Synteny?r=4%3A61032110-61070283&db=core&otherspecies=Oryza_sativa).
+- Synteny maps - As of release 7, we have 56 synteny maps between sorghum BTx623 v3 and each of 27 sorghum genomes, Nipponbare rice IRGSPv1, and poplar v4; and between each of the sorghum genomes and Nipponbare. Example of [synteny map for sorghum BTx623 v3 at chr4:61,032,110-61,070,283 and Nipponbare IRGSPv1](https://ensembl.sorghumbase.org/Sorghum_bicolor/Location/Synteny?r=4%3A61032110-61070283&db=core&otherspecies=Oryza_sativa).
 
 
 ![Ensembl Synteny](images/image9.png)
@@ -153,30 +153,30 @@ Currently in SorghumBase, there are three SNPs data sets, two on sorghum BTx623 
 
 #### BTx623
 
-- The Lozano SNP dataset (Lozano et al, 2021) consists of nearly 13 million SNPs in 499 sorghum accessions, including lines from the TERRA-MEPP and TERRA-REF population panels, and the samples previously reported by Emma Mace and collaborators (Mace et al, 2013).
+- The Lozano SNP dataset [(Lozano et al, 2021)](https://www.sorghumbase.org/paper/comparative-evolutionary-genetics-of-deleterious-load-in-sorghum-and-maize) consists of about 13 million SNPs in 499 sorghum accessions, including lines from the TERRA-MEPP and TERRA-REF population panels, and the samples previously reported by Emma Mace and collaborators [(Mace et al, 2013)](https://www.sorghumbase.org/paper/21275).
 
-- The Boatwright SNP dataset (Boatwright et al, 2022) consists of almost 44 million genetic variants including nearly 38 millon SNPs and 5 million indels genotyped in 400 Sorghum Association Panel (SAP) accessions via whole-genome sequencing (WGS).
+- The Boatwright SNP dataset [(Boatwright et al, 2022)](https://www.sorghumbase.org/paper/20741) consists of over 33 million SNPs and indels genotyped in 378 Sorghum Association Panel (SAP) accessions via whole-genome sequencing (WGS).
 
 #### Tx2783
 
-- About 32.5 million SNPs were called in 400 SAP lines by Rod Wing's group at King Abdullah University of Science and Technology with the GATK4 pipeline [Yong Zhou, Nagarajan Kathiresan and Rod A. Wing (2023), manuscript in preparation], and are now available from the Tx2783 genome browser. See for example [4_6047465_C_T](https://ensembl.sorghumbase.org/Sorghum_tx2783pac/Variation/Sample?db=core;r=4:6046965-6047965;v=4_6047465_C_T;vdb=variation;vf=11387812), a SNP predicted to introduce a STOP codon and result in a truncated [SbiRTX2783.04G076100](https://ensembl.sorghumbase.org/Sorghum_tx2783pac/Gene/Summary?db=core;g=SbiRTX2783.04G076100;r=4:6046424-6048133;t=SbiRTX2783.04G076100.1;v=4_6047465_C_T;vdb=variation;vf=11387812) protein product.
+- About 32.5 million SNPs were called in 400 SAP lines by Rod Wing's group at King Abdullah University of Science and Technology with the GATK4 pipeline [Zhou et al (2024)](https://www.sorghumbase.org/paper/23243), and are now available from the Tx2783 genome browser. See for example [4_6047465_C_T](https://ensembl.sorghumbase.org/Sorghum_tx2783pac/Variation/Sample?db=core;r=4:6046965-6047965;v=4_6047465_C_T;vdb=variation;vf=11387812), a SNP predicted to introduce a STOP codon and result in a truncated [SbiRTX2783.04G076100](https://ensembl.sorghumbase.org/Sorghum_tx2783pac/Gene/Summary?db=core;g=SbiRTX2783.04G076100;r=4:6046424-6048133;t=SbiRTX2783.04G076100.1;v=4_6047465_C_T;vdb=variation;vf=11387812) protein product.
 
 
 ### Chemically induced genetic variation -  EMS-induced mutations
 Currently in SorghumBase, there are three collections of EMS-induced mutant lines. EMS is a chemical commonly used to cause point mutations, that is, to change single nucleotides in the DNA of a plant seed.
 
-- The Xin EMS dataset (Jiao et al. 2016) includes over 1.7 million EMS-induced G/C to A/T transition mutations annotated from 252 M3 mutant family pools selected from the 6,400 sorghum mutant library in BTx623 background described by Xin and colleagues (Xin et al. 2008). Genomic DNA used for sequencing was pooled from 20 x M3 plants per M2 family (Jiao et al. 2016). This set superseded the 1.5 million mutations originally called in the Jiao study. 
-- The Addo-Quaye dataset (Addo-Quaye et al. 2018) with over 2.5 million variations identified in 486 sorghum accessions from the M3 generation of an EMS-mutagenized sorghum population.
-- 
+- The Jiao_2016 dataset [(Jiao et al, 2016)](https://www.sorghumbase.org/paper/21276) includes over 1.7 million EMS-induced G/C to A/T transition mutations annotated from 252 M3 mutant family pools selected from the 6,400 sorghum mutant library in BTx623 background described by Xin and colleagues (Xin et al. 2008). Genomic DNA used for sequencing was pooled from 20 x M3 plants per M2 family (Jiao et al. 2016). This set superseded the 1.5 million mutations originally called in the Jiao study. 
+- The Addo-Quaye dataset [(Addo-Quaye et al, 2018)](https://www.sorghumbase.org/paper/19942) with over 2.5 million variations identified in 486 sorghum accessions from the M3 generation of an EMS-mutagenized sorghum population.
+- The Jiao_2023 dataset [(Jiao et al, 2023)](https://www.sorghumbase.org/paper/23165) includes 8.9 million EMS mutations in 890 accessions, also available from the SorbMutDB resource.
 
 Genetic variation data for a sorghum gene is available graphically and in tabular form, and for each variant, a Variant page provides more detailed information. Below are provided examples of each of these data representations.
 
-- An [image](https://ensembl.sorghumbase.org/Sorghum_bicolor/Transcript/Variation_Transcript/Image?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=OQU81659;v=tmp_6_47486074_T_C;vdb=variation;vf=3821694) of all the genetic variants mapping to the smaller transcript of the msd2 gene.
+- An [image](https://ensembl.sorghumbase.org/Sorghum_bicolor/Transcript/Variation_Transcript/Image?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=SORBI_3006G095600.2;v=tmp_3_61561138_G_A;vdb=variation;vf=3821694) of all the genetic variants mapping to the smaller transcript of the msd2 gene.
 ![variant image](images/image15.png)
-- A partial [table](https://ensembl.sorghumbase.org/Sorghum_bicolor/Transcript/Variation_Transcript/Table?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=OQU81659;v=tmp_6_47486074_T_C;vdb=variation;vf=3821694) of all the genetic variants mapping to the smaller transcript of the msd2 gene.
+- A [table](https://ensembl.sorghumbase.org/Sorghum_bicolor/Transcript/Variation_Transcript/Table?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=SORBI_3006G095600.2;v=tmp_3_61561138_G_A;vdb=variation;vf=3821694) of all the Protein Truncated Variants (PTVs) mapping to the smaller transcript of the msd2 gene.
 ![](images/image7.png)![](images/image6.png)
-- An example of a [Variant summary page](https://ensembl.sorghumbase.org/Sorghum_bicolor/Variation/Explore?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=OQU81659;v=tmp_6_47487513_G_A;vdb=variation;vf=7758800)
-  for a chemically induced variant (tmp_6_47487513_G_A) with a smaller inset of the [genotype frequency panel](https://ensembl.sorghumbase.org/Sorghum_bicolor/Variation/Population?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=OQU81659;v=tmp_6_47487513_G_A;vdb=variation;vf=7758800#14_tablePanel) showing the accession (ARS105) bearing the mutation (G|A).
+- An example of a [Variant summary page](https://ensembl.sorghumbase.org/Sorghum_bicolor/Variation/Explore?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=SORBI_3006G095600.2;v=tmp_6_46568836_C_T;vdb=variation;vf=23559994)
+  for a chemically induced variant (tmp_6_46568836_C_T) that results in a _STOP gained_ with a smaller inset of the [genotype frequency panel](https://ensembl.sorghumbase.org/Sorghum_bicolor/Variation/Sample?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=SORBI_3006G095600.2;v=tmp_6_46568836_C_T;vdb=variation;vf=23559994) showing the accession (LBK_15M2-1535) bearing the mutation (C|T).
 ![](images/image14.png)![](images/image11.png)
 
 
@@ -238,6 +238,8 @@ Jiao, Yinping, John J. Burke, Ratan Chopra, Gloria Burow, Junping Chen, Bo Wang,
 *The Plant Cell*.
 PMID: 27354556. https://doi.org/10.1105/tpc.16.00373.
 
+Jiao Y, Nigam D, Barry K, Daum C, Yoshinaga Y, Lipzen A, Khan A, Parasa SP, Wei S, Lu Z, Tello-Ruiz MK, Dhiman P, Burow G, Hayes C, Chen J, Brandizzi F, Mortimer J, Ware D, Xin Z. 2023. "A large sequenced mutant library – valuable reverse genetic resource that covers 98% of sorghum genes." The Plant Journal 117(5):1543-1557. doi: [10.1111/tpj.16582](https://doi.org/10.1111/tpj.16582).
+
 Lozano R, Gazave E, Dos Santos JPR, Stetter MG, Valluru R, Bandillo N, et al. 2021. "Comparative evolutionary genetics of deleterious load in sorghum and maize." *Nat Plants* 7:17–24. 
 PMID: 33452486. https://doi.org/10.1038/s41477-020-00834-5.
 
@@ -261,6 +263,8 @@ Morris, Geoffrey P., Punna Ramu, Santosh P. Deshpande, C. Thomas Hash, Trushar S
 *Proceedings of the National Academy of Sciences of the United States of America* 110 (2): 453–58.
 PMID: 23267105. https://doi.org/10.1073/pnas.1215985110.
 
+Mural RV, Grzybowski M, Miao C, Damke A, Sapkota S, Boyles RE, Fernandez MGS, Schnable PS, Sigmon B, Kresovich S, Schnable JC. 2021. "Meta-analysis identifies pleiotropic loci controlling phenotypic trade-offs in sorghum." Genetics 218:3. doi: [10.1093/genetics/iyab087](https://doi.org/10.1093/genetics/iyab087).
+
 Olson, Andrew, Robert R. Klein, Diana V. Dugas, Zhenyuan Lu, Michael Regulski, Patricia E. Klein, and Doreen Ware. 2014.
 "Expanding and Vetting Sorghum Bicolor Gene Annotations through Transcriptome and Methylome Sequencing."
 *The Plant Genome* 7 (2): plantgenome2013.08.0025. https://doi.org/10.3835/plantgenome2013.08.0025.
@@ -283,10 +287,12 @@ PMID: 18854043. https://doi.org/10.1186/1471-2229-8-103.
 Wang, Bo, Michael Regulski, Elizabeth Tseng, Andrew Olson, Sara Goodwin, W. Richard McCombie, and Doreen Ware. 2018.
 "A Comparative Transcriptional Landscape of Maize and Sorghum Obtained by Single-Molecule Sequencing."
 *Genome Research* 28 (6): 921–32.
-PMID: 29712755 https://doi.org/10.1101/gr.227462.117.
+PMID: 29712755. https://doi.org/10.1101/gr.227462.117.
 
 Zheng, Lei-Ying, Xiao-Sen Guo, Bing He, Lian-Jun Sun, Yao Peng, Shan-Shan Dong, Teng-Fei Liu, et al. 2011.
 "Genome-Wide Patterns of Genetic Variation in Sweet and Grain Sorghum (Sorghum Bicolor)."
 *Genome Biology* 12 (11): R114.
 PMID: 22104744. http://dx.doi.org/10.1186/gb-2011-12-11-r114.
+
+Zhou Y, Kathiresan N, Yu Z, Rivera LF, Yang Y, Thimma M, Manickam K, Chebotarov D, Mauleon R, Chougule K, Wei S, Gao T, Green CD, Zuccolo A, Xie W, Ware D, Zhang J, McNally KL, Wing RA. 2024. "A high-performance computational workflow to accelerate GATK SNP detection across a 25-genome dataset." BMC biology. doi: [10.1186/s12915-024-01820-5](https://doi.org/10.1186/s12915-024-01820-5).
 
