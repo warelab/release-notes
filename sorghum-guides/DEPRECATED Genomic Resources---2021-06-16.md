@@ -1,3 +1,5 @@
+# These sections have moved to the /test/Genomic Resources---2022-10-10/*.md
+
 ## Genomic resources available for *Sorghum bicolor* BTx623
 
 *This guide demonstrates genomic resources available through SorghumBase.*
