@@ -1,10 +1,11 @@
-## Variation {#variation}
-Variation in SorghumBase is available for short variants (genetic variation, which in turn may be naturally occurring or chemically induced) and QTL variants associated with physical traits.
+## Genetic Variation {#variation}
+
+Variation in SorghumBase is available for short variants (genetic variation, which in turn may be naturally occurring or chemically induced).
 
 
-### Genetic & Phenotypic Variation
+### Genetic Variation
 
-Genetic variation data sets are available as over 59 million sorghum variants including more than 46 million naturally ocurring Single Nucleotide Polymorphisms (SNPs), and almost 13 million chemically-induced variants (i.e., ethyl methanesulfonate (EMS)-induced mutations). In addition, we host nearly 6,000 QTLs for 148 sorghum traits from the Sorghum QTL Atlas.
+Genetic variation data sets are available as over 59 million sorghum variants including more than 46 million naturally ocurring Single Nucleotide Polymorphisms (SNPs), and almost 13 million chemically-induced variants (i.e., ethyl methanesulfonate (EMS)-induced mutations).
 
 ### Naturally occurring genetic variation - SNPs
 
