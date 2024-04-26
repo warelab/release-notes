@@ -6,6 +6,8 @@ Searching for a gene given a standard gene identifier can be done in a couple of
 - Click the spyglass icon and type/paste `SORBI_3006G095600` it into the search box, for example
 - Link directly to [http://sorghumbase.org/genes?idList=SORBI_3006G095600](https://www.sorghumbase.org/genes?idList=SORBI_3006G095600)
 
+NOTE: See the "Gene Search" section below for tips to search by gene name.
+
 If you don't know the gene id you can search by pathway and taxonomy, [see example](https://www.sorghumbase.org/genes?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:5,%22children%22:[{%22fq_field%22:%22pathways__ancestors%22,%22fq_value%22:%221119332%22,%22name%22:%22Jasmonic%20acid%20biosynthesis%22,%22category%22:%22Plant%20Reactome%20Pathway%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:false},{%22fq_field%22:%22taxonomy__ancestors%22,%22fq_value%22:%224558%22,%22name%22:%22Sorghum%20BTx623%22,%22category%22:%22Taxonomy%22,%22leftIdx%22:3,%22rightIdx%22:4,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=):
 
 1. In the search box, start typing `jasmonic acid biosynthesis` and choose the matching Plant Reactome Pathway term
@@ -28,13 +30,67 @@ Each gene has a set of tabs that can be expanded to explore more details:
 - **Xrefs** - Cross-references to other databases
 
 
+### Germplasm Tab
+
+![Germplasm View](images/germplasm_search.png)
+
+See also the Genetic Variation section below.
+
+
+### Sequences Tab
+
+The three kind of sequences on display are: Genomic, Transcript and Peptide. CDS and UTRs are color-coded.
+
+![Sequences View](images/sequences_search.png)
+
+
+### Location Tab
+
+![Location View](images/location_search.png)
+
+- The "Ensembl Browser" option takes you to the corresponding Gene page in the Ensembl Genome Browser platform.
+- The "Phytozome" option takes you to the corresponding Gene report in the Phytozome (Sbicolor_v5_1) site. 
+
+### Expression Tab
+
+#### eFP Browser
+
+Choose between Developmental and Stress Atlas (based on data from McCormick et al, 2018).
+
+![eFP Expression View](images/efp_search.png)
+
+
+#### Expression Atlas
+
+
+
+#### Expression Atlas Paralogs
+
+![Paralogs Expression View](images/paralogs_search.png)
+
+
+See also the Expression section below.
+
+
 ### Homology Tab
 
 #### Gene Family Tree (Protein Alignment Overview)
 
-This view opens by default if only one gene is found in the query. Trees are built with canonical transcripts and their protein domains are color coded. You may configure to show the species, gene name, gene and/or protein identifier by clicking in the spider gear icon to th eleft of the Display Mode panel. The Click on a triangle to expand or collapse a tree branch. Click on a gene name to get more information such as the gene's description, genomic location, and number of transcripts. For the focus gene (the one at the top of the tree), you may get a list of paralogs by clikcing on "Show paralogs" or you may bring any other gene to the top of the tree by clicking on "Focus on this gene" instruction. A list of orthologs or paralogs may also be obtained by clicking on the corresponding "Search Filters" at the bottom of the Homology panel. The "Ensembl Gene Tree view" instruction takes you to the same gene family tree in the Ensembl Genome Browser platform. The "Curate" option takes you to the Gramene Gene Tree Tool, which allows you to evaluate the structure of the gene model and flag it for potential annotation errors.
+- This view opens by default if only one gene is found in the query. Trees are built with canonical transcripts and their protein domains are color coded. 
+
+- You may configure to show the species, gene name, gene and/or protein identifier by clicking in the spider gear icon to th eleft of the Display Mode panel. 
+
+- Click on a triangle to expand or collapse a tree branch. Click on a gene name to get more information such as the gene's description, genomic location, and number of transcripts. 
+
+- For the target gene (the one at the top of the tree), you may get a list of paralogs by clicking on "Show paralogs", or you may bring any other gene to the top of the tree by clicking on "Focus on this gene" instruction. 
 
 ![Gene Tree - Search Results Default View](images/default_search_tree.png)
+
+- A list of orthologs or paralogs may also be obtained by clicking on the corresponding "Search Filters" at the bottom of the Homology panel. 
+
+- The "Ensembl Gene Tree view" instruction takes you to the same gene family tree in the Ensembl Genome Browser platform. 
+
+- The "Curate" option takes you to the Gramene Gene Tree Tool, which allows you to evaluate the structure of the gene model and flag it for potential annotation errors.
 
 
 ##### Multiple Sequence Alignment
@@ -49,3 +105,13 @@ Zoom into the amino acid-level of the family tree.
 Zoom out +/- 10 flanking genes.
 
 ![Gene Neighborhood View](images/gene_neighborhood_search.png)
+
+
+### Pathways Tab
+
+
+See also the Pathways section below.
+
+### XRefs Tab
+
+
