@@ -28,4 +28,24 @@ Each gene has a set of tabs that can be expanded to explore more details:
 - **Xrefs** - Cross-references to other databases
 
 
-![LOX3 ortholog](images/default_search_tree.png)
+### Homology Tab
+
+#### Gene Family Tree (Protein Alignment Overview)
+
+This view opens by default if only one gene is found in the query. Trees are built with canonical transcripts and their protein domains are color coded. You may configure to show the species, gene name, gene and/or protein identifier by clicking in the spider gear icon to th eleft of the Display Mode panel. The Click on a triangle to expand or collapse a tree branch. Click on a gene name to get more information such as the gene's description, genomic location, and number of transcripts. For the focus gene (the one at the top of the tree), you may get a list of paralogs by clikcing on "Show paralogs" or you may bring any other gene to the top of the tree by clicking on "Focus on this gene" instruction. A list of orthologs or paralogs may also be obtained by clicking on the corresponding "Search Filters" at the bottom of the Homology panel. The "Ensembl Gene Tree view" instruction takes you to the same gene family tree in the Ensembl Genome Browser platform. The "Curate" option takes you to the Gramene Gene Tree Tool, which allows you to evaluate the structure of the gene model and flag it for potential annotation errors.
+
+![Search_Results_Gene_Tree_Default_View](images/default_search_tree.png)
+
+
+##### Multiple Sequence Alignment
+
+Zoom into the amino acid-level of the family tree.
+
+![Multiple_Sequence_Alignment_View](images/aa_alignment_search.png)
+
+ 
+#### Neighborhood Conservation
+
+Zoom out +/- 10 flanking genes.
+
+![Gene_Neighborhood_View](images/gene_neighborhood_search.png)
