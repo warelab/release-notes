@@ -16,7 +16,7 @@ The following comparative genomics data for BTx623 are available in the SorghumB
 
 ![Ensembl Alignment](images/image4.png)
 
-- Synteny maps - As of release 7, we have 56 synteny maps between sorghum BTx623 v3 and each of 27 sorghum genomes, Nipponbare rice IRGSPv1, and poplar v4; and between each of the sorghum genomes and Nipponbare. Example of [synteny map for sorghum BTx623 v3 at chr4:61,032,110-61,070,283 and Nipponbare IRGSPv1](https://ensembl.sorghumbase.org/Sorghum_bicolor/Location/Synteny?r=4%3A61032110-61070283&db=core&otherspecies=Oryza_sativa).
+- Synteny maps - As of release 7, we have 84 synteny maps between sorghum BTx623 v3 and each of 27 sorghum genomes, Nipponbare rice IRGSPv1, maize B73_v5, and poplar v4; and between each of the sorghum genomes, Nipponbare and maize. Example of [synteny map for sorghum BTx623 v3 at chr6:46,566,240-46,571,064 and B73 maize v5](https://ensembl.sorghumbase.org/Sorghum_bicolor/Location/Synteny?db=core&g=SORBI_3006G095600&r=6%3A46566240-46571064&otherspecies=Zea_maysb73).
 
 
 ![Ensembl Synteny](images/image9.png)
