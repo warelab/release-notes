@@ -100,7 +100,7 @@ See also the Expression section below.
 - The "Curate" option takes you to the Gramene Gene Tree Tool, which allows you to evaluate the structure of the gene model and flag it for potential annotation errors.
 
 
-##### Multiple Sequence Alignment
+#### Multiple Sequence Alignment
 
 Zoom into the amino acid-level of the family tree.
 
