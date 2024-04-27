@@ -32,6 +32,8 @@ Each gene has a set of tabs that can be expanded to explore more details:
 
 ### Germplasm Tab
 
+The Germplasm tab lists accessions which bear a protein-truncating variant  or PTV, its predicted consequence, whether it is in homozygous or heterozygous form, and the genotyping study from which it was identified. The table includes links to GRIN or SorbMutDB (USDA-Lubbock-EMS lines), as well as a way to search for other genes with a PTV in a given germplasm accession. The indexed PTVs include the following predicted functional effects: start lost, stop gained, stop lost, splice site acceptor, and splice site donor.
+
 ![Germplasm View](images/germplasm_search.png)
 
 See also the Genetic Variation section below.
@@ -39,7 +41,7 @@ See also the Genetic Variation section below.
 
 ### Sequences Tab
 
-The three kind of sequences on display are: Genomic, Transcript and Peptide. CDS and UTRs are color-coded.
+This tab provides quick access to three kind of sequences: Genomic, Transcript and Peptide, where CDS and UTRs are color-coded.
 
 ![Sequences View](images/sequences_search.png)
 
@@ -53,15 +55,20 @@ The three kind of sequences on display are: Genomic, Transcript and Peptide. CDS
 
 ### Expression Tab
 
+Gene expression data for sorghum BTx623 v3 is available in this tab for baseline experiments and expression of paralogs for the reference study from the EMBL-EBI Expression Atlas, and Electronic Fluorescent Pictograph (eFP) expression visualizations from the .
+Gene expression data for sorghum BTx623 v3 was curated and processed through the EMBL-EBI Expression Atlas. As of release 7, the curated set consists of eigth studies with baseline expression and three with differential expression. Differential experiments are available at the Expression Atlas. Baseline gene expression is also available from the gene pages of the Genome Browser, see for example Expression for SORBI_3006G095600. Data for the eFP browser on the Expression tab of the SorghumBase search results projects gene expression from a Developmental and a Stress Atlas by McCormick et al (2018).
+
 #### eFP Browser
 
-Choose between Developmental and Stress Atlas (based on data from McCormick et al, 2018).
+eFP browsers are available for sorghum, maize and Arabidopsis. Sorghum gene expression herein corresponds to the Developmental and Stress Atlases by McCormick et al (2018).
 
 ![eFP Expression View](images/efp_search.png)
 
 
 #### Expression Atlas
 
+
+![Expression Atlas View](images/expression_search.png)
 
 
 #### Expression Atlas Paralogs
@@ -110,7 +117,18 @@ Zoom out +/- 10 flanking genes.
 ### Pathways Tab
 
 
+![Pathways View](images/pathways_search.png)
+
 See also the Pathways section below.
+
+
+### Papers Tab (_Add Papers_)
+
+The Papers tab is complemented with an [easy-to-fill form](https://docs.google.com/forms/d/e/1FAIpQLSey-xPyTysdd9c2phXT6kcbjEDeCppG4dLG7LjZCeLpx_KGog/viewform) to _Submit a gene function_.
+
+![Papers View](images/papers_search.png)
+
+
 
 ### XRefs Tab
 
