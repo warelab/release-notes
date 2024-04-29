@@ -3,7 +3,7 @@ The following comparative genomics data for BTx623 are available in the SorghumB
 
 ### Gene trees  
 
-[Example](https://ensembl.sorghumbase.org/Sorghum_bicolor/Gene/Compara_Tree?db=core;g=SORBI_3006G095600;r=6:46566240-46571064)
+See for example, the [same tree for the Sobic.006G095600 gene](https://ensembl.sorghumbase.org/Sorghum_bicolor/Gene/Compara_Tree?db=core;g=SORBI_3006G095600;r=6:46566240-46571064) shown above in the search interface.
 
 ![Ensembl GeneTree](images/ensembl_gene_tree.png)
 
