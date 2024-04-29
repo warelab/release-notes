@@ -133,6 +133,6 @@ The Papers tab is complemented with an [easy-to-fill form](https://docs.google.c
 
 ### XRefs Tab
 
-![Cross-References](images/xrefs_search.png)
+![Cross-References](images/xref_search.png)
 
 Cross-links for additional resources (e.g., QuickGO, UniGene, UniProt, UniParc, ENA, ENA proteins) might be available in the Gramene database for the query gene.
