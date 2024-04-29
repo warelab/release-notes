@@ -126,11 +126,13 @@ See also the Pathways section below.
 
 Genes that have undergone functional curation (e.g., [SORBI_3001G488700](http://sorghumbase.org/genes?idList=SORBI_3001G488700)) will have scientific literature associated with them in this tab. 
 
-![Papers View](images/papers_search.png)
+![Papers](images/papers_search.png)
 
 The Papers tab is complemented with an [easy-to-fill form](https://docs.google.com/forms/d/e/1FAIpQLSey-xPyTysdd9c2phXT6kcbjEDeCppG4dLG7LjZCeLpx_KGog/viewform) to _Submit a gene function_. 
 
 
 ### XRefs Tab
 
+![Cross-References](images/xrefs_search.png)
 
+Cross-links for additional resources (e.g., QuickGO, UniGene, UniProt, UniParc, ENA, ENA proteins) might be available in the Gramene database for the query gene.
