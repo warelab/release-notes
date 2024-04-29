@@ -65,7 +65,7 @@ eFP browsers are available for sorghum, maize and Arabidopsis. Sorghum gene expr
 ![eFP Expression View](images/efp_search.png)
 
 
-#### Expression Atlas
+#### Expression Atlas (All studies)
 
 
 ![Expression Atlas View](images/expression_search.png)
