@@ -33,7 +33,7 @@ Genetic variation data for a sorghum gene is available graphically and in tabula
 
 - An [image](https://ensembl.sorghumbase.org/Sorghum_bicolor/Transcript/Variation_Transcript/Image?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=SORBI_3006G095600.2;v=tmp_3_61561138_G_A;vdb=variation;vf=3821694) of all the genetic variants mapping to the smaller transcript of the Sobic.006G095600 gene.
 
-  ![variant image](images/variation_image.png)
+  ![Variant image](images/variation_image.png)
 
 - A [table](https://ensembl.sorghumbase.org/Sorghum_bicolor/Transcript/Variation_Transcript/Table?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=SORBI_3006G095600.2;v=tmp_3_61561138_G_A;vdb=variation;vf=3821694)) of all the Protein Truncated Variants (PTVs) mapping to the smaller transcript of the Sobic.006G095600 gene.
 
@@ -42,5 +42,5 @@ Genetic variation data for a sorghum gene is available graphically and in tabula
 - An example of a [Variant summary page](https://ensembl.sorghumbase.org/Sorghum_bicolor/Variation/Explore?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=SORBI_3006G095600.2;v=rs5437819034;vdb=variation;vf=47523480)
   for a deletion variant (rs5437819034 with alleles TA/-) that results in a frameshift in about 17% of the SAP.
 
-![snp summary](simages/snp_summary.png)
+  ![SNP summary](simages/snp_summary.png)
 
