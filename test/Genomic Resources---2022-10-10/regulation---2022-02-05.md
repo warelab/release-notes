@@ -5,4 +5,4 @@ panicle (upper anthesis), root bottom (anthesis), root top (vegetative), stem 1 
 
 The [example](https://ensembl.sorghumbase.org/Sorghum_bicolor/Location/View?db=core;g=SORBI_3006G095600;r=6:46566240-46571064)
   below shows two samples with very similar patterns of gene expression for the Sobic.006G095600 gene span.
-  ![msd2 expression](images/expression_tracks.png)
+  ![RNAseq expression](images/rnaseq_tracks.png)
