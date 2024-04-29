@@ -14,5 +14,6 @@ When you click on it, you will be able to select or turn on/off data tracks (cli
 
 Click on the checkbox to the left of each data set (track) to select from several options. Thus, you may choose to turn the track off or display its data in a collapsed or expanded manner, with or without labels for each data point.
 
-![Configure icon](images/configure_image.png)
-![Configure tracks](images/change_track_style.png)
+ ![Configure icon](images/configure_image.png)
+
+ ![Configure tracks](images/change_track_style.png)
