@@ -31,11 +31,16 @@ Currently in SorghumBase, there are three collections of EMS-induced mutant line
 
 Genetic variation data for a sorghum gene is available graphically and in tabular form, and for each variant, a Variant page provides more detailed information. Below are provided examples of each of these data representations.
 
-- An [image](https://ensembl.sorghumbase.org/Sorghum_bicolor/Transcript/Variation_Transcript/Image?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=SORBI_3006G095600.2;v=tmp_3_61561138_G_A;vdb=variation;vf=3821694) of all the genetic variants mapping to the smaller transcript of the msd2 gene.
-  ![variant image](images/image15.png)
-- A [table](https://ensembl.sorghumbase.org/Sorghum_bicolor/Transcript/Variation_Transcript/Table?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=SORBI_3006G095600.2;v=tmp_3_61561138_G_A;vdb=variation;vf=3821694) of all the Protein Truncated Variants (PTVs) mapping to the smaller transcript of the msd2 gene.
-  ![](images/image7.png)![](images/image6.png)
-- An example of a [Variant summary page](https://ensembl.sorghumbase.org/Sorghum_bicolor/Variation/Explore?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=SORBI_3006G095600.2;v=tmp_6_46568836_C_T;vdb=variation;vf=23559994)
-  for a chemically induced variant (tmp_6_46568836_C_T) that results in a _STOP gained_ with a smaller inset of the [genotype frequency panel](https://ensembl.sorghumbase.org/Sorghum_bicolor/Variation/Sample?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=SORBI_3006G095600.2;v=tmp_6_46568836_C_T;vdb=variation;vf=23559994) showing the accession (LBK_15M2-1535) bearing the mutation (C|T).
-  ![](images/image14.png)![](images/image11.png)
+- An [image](https://ensembl.sorghumbase.org/Sorghum_bicolor/Transcript/Variation_Transcript/Image?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=SORBI_3006G095600.2;v=tmp_3_61561138_G_A;vdb=variation;vf=3821694) of all the genetic variants mapping to the smaller transcript of the Sobic.006G095600 gene.
+
+  ![variant image](images/variation_image.png)
+
+- A [table](https://ensembl.sorghumbase.org/Sorghum_bicolor/Transcript/Variation_Transcript/Table?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=SORBI_3006G095600.2;v=tmp_3_61561138_G_A;vdb=variation;vf=3821694)) of all the Protein Truncated Variants (PTVs) mapping to the smaller transcript of the Sobic.006G095600 gene.
+
+  ![PTVs table](variation_table_ptvs/image6.png)
+  
+- An example of a [Variant summary page](https://ensembl.sorghumbase.org/Sorghum_bicolor/Variation/Explore?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=SORBI_3006G095600.2;v=rs5437819034;vdb=variation;vf=47523480)
+  for a deletion variant (rs5437819034 with alleles TA/-) that results in a frameshift in about 17% of the SAP.
+
+![snp summary](simages/snp_summary.png)
 
