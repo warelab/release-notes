@@ -2,8 +2,10 @@
 
 Watch the [demo video on YouTube](https://www.youtube.com/watch?v=nnAEnA9qTMY&t=2s).
 
+Go to the SorghumBase homepage by typing [sorghumbase.org](https://www.sorghumbase.org) on your favorite browser.
+
 Searching for a gene given a standard gene identifier can be done in a couple of ways:
-- Click the spyglass icon and type/paste `SORBI_3006G095600` it into the search box, for example
+- Click the spyglass icon on the top right side of the sorghumbase homepage and type/paste `SORBI_3006G095600` it into the search box, for example
 - Link directly to [http://sorghumbase.org/genes?idList=SORBI_3006G095600](https://www.sorghumbase.org/genes?idList=SORBI_3006G095600)
 
 NOTE: See the "Gene Search" section below for tips to search by gene name.
