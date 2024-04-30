@@ -45,7 +45,7 @@ In addition to genomic resources, GrameneOryza provides updates of news items, c
 
 ### Genomes & Gene Annotations
 
-There are a total of **35 genomes** in GrameneOryza: 28 rice genomes and 6 plant outgroups (B73 maize V4 and V5, _Sorghum bicolor_, _Arabidopsis thaliana_, grapevine, Selaginella and Chlamydomonas, a single-celled green algae) and fruit fly Drosophila, in order to allow comparisons between higher eukaryotes, lower plants, and the model Arabidopsis in the Oryza pan-genome.
+There are a total of **35 genomes** in GrameneOryza: 28 rice genomes and 6 plant outgroups (B73 maize V4 and V5, _Sorghum bicolor_, _Arabidopsis thaliana_, grapevine, Selaginella, and Chlamydomonas - a single-celled green algae) and fruit fly Drosophila, in order to allow comparisons between higher eukaryotes, lower plants, and the model Arabidopsis in the Oryza pan-genome.
 
 The gene name prefix for the Magic16 genomes (except Nipponbare) was modified as follows:
 
