@@ -57,8 +57,13 @@ This tab provides quick access to three kind of sequences: Genomic, Transcript a
 
 ### Expression Tab
 
-Gene expression data for sorghum BTx623 v3 is available in this tab for baseline experiments and expression of paralogs for the reference study from the EMBL-EBI Expression Atlas, and Electronic Fluorescent Pictograph (eFP) expression visualizations from the .
-Gene expression data for sorghum BTx623 v3 was curated and processed through the EMBL-EBI Expression Atlas. As of release 7, the curated set consists of eigth studies with baseline expression and three with differential expression. Differential experiments are available at the Expression Atlas. Baseline gene expression is also available from the gene pages of the Genome Browser, see for example Expression for SORBI_3006G095600. Data for the eFP browser on the Expression tab of the SorghumBase search results projects gene expression from a Developmental and a Stress Atlas by McCormick et al (2018).
+Curated gene expression data for sorghum BTx623 v3 is available in this tab for baseline experiments and expression of paralogs for the reference study processed through the EMBL-EBI Expression Atlas, and Electronic Fluorescent Pictograph (eFP) expression visualizations from the Bio-Analytic Resource for Plant Biology (BAR).
+
+As of release 7, the curated EBI Expression Atlas set consists of eigth studies with baseline expression and three studies with differential expression. Differential experiments are available at the [Expression Atlas](https://www.ebi.ac.uk/gxa/plant/experiments). 
+
+Baseline gene expression is also available from the gene pages of the Genome Browser, see for example [Expression for Sobic.006G095600](https://ensembl.sorghumbase.org/Sorghum_bicolor/Gene/ExpressionAtlas?g=SORBI_3006G095600;r=6:46566240-46571064). 
+
+Data for the eFP browser on the Expression tab of the SorghumBase search results projects gene expression from a Developmental and a Stress Atlas by McCormick et al (2018).
 
 #### eFP Browser
 
