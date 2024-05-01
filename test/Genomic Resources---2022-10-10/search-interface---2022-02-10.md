@@ -26,7 +26,7 @@ Each gene has a set of tabs that can be expanded to explore more details:
 - **Germplasm** - Germplasm bearing a protein-truncating variant (PTV), specifically a PTV's putative loss-of-function allele
 - **Sequences** - Genomic, transcript and peptide sequences
 - **Location** - Lightweight genome browser showing gene structure
-- **Expression** - Baseline gene expression viewer from [EBI-Expression Atlas](https://www.ebi.ac.uk/gxa)
+- **Expression** - Baseline gene expression viewer from [EBI-Expression Atlas](https://www.ebi.ac.uk/gxa) and eFPbrowser from the [BioAnalytic Resource (BAR)](http://bar.utoronto.ca/)
 - **Homology** - Gene family tree viewer (opens by default if only one gene is found)
 - **Pathways** - Associated pathways in [Gramene’s Plant Reactome](https://plantreactome.gramene.org)
 - **Xrefs** - Cross-references to other databases
@@ -57,7 +57,7 @@ This tab provides quick access to three kind of sequences: Genomic, Transcript a
 
 ### Expression Tab
 
-Curated gene expression data for sorghum BTx623 v3 is available in this tab for baseline experiments and expression of paralogs for the reference study, processed through the EMBL-EBI Expression Atlas, and Electronic Fluorescent Pictograph (eFP) expression visualizations from the Bio-Analytic Resource for Plant Biology (BAR).
+Curated gene expression data for sorghum BTx623 v3 is available in this tab for baseline experiments and expression of paralogs for the reference study, processed through the EMBL-EBI Expression Atlas, and Electronic Fluorescent Pictograph (eFP) expression visualizations from the Bio-Analytic Resource for Plant Biology.
 
 
 #### eFP Browser
