@@ -5,7 +5,7 @@ Variation in SorghumBase is available for short variants (genetic variation, whi
 
 ### Genetic Variation
 
-Genetic variation data sets are available as over 59 million sorghum variants including more than 46 million naturally ocurring Single Nucleotide Polymorphisms (SNPs), and almost 13 million chemically-induced variants (i.e., ethyl methanesulfonate (EMS)-induced mutations).
+Genetic variation data sets are available for the reference genome assembly BTx623 v3 as over 59 million sorghum variants including more than 46 million naturally ocurring Single Nucleotide Polymorphisms (SNPs), and almost 13 million chemically-induced variants (i.e., ethyl methanesulfonate (EMS)-induced mutations). In addition, there are ~32.5 million SNPs called in Tx2783, as described below.
 
 ### Naturally occurring genetic variation - SNPs
 
