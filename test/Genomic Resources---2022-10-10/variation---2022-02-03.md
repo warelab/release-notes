@@ -25,9 +25,11 @@ Currently in SorghumBase, there are three SNPs data sets, two on sorghum BTx623 
 ### Chemically induced genetic variation -  EMS-induced mutations
 Currently in SorghumBase, there are three collections of EMS-induced mutant lines. EMS is a chemical commonly used to cause point mutations, that is, to change single nucleotides in the DNA of a plant seed.
 
-- The Jiao_2016 dataset [(Jiao et al, 2016)](https://www.sorghumbase.org/paper/21276) includes over 1.7 million EMS-induced G/C to A/T transition mutations annotated from 252 M3 mutant family pools selected from the 6,400 sorghum mutant library in BTx623 background described by Xin and colleagues (Xin et al. 2008). Genomic DNA used for sequencing was pooled from 20 x M3 plants per M2 family (Jiao et al. 2016). This set superseded the 1.5 million mutations originally called in the Jiao study.
+- The Jiao_2016 dataset [(Jiao et al, 2016)](https://www.sorghumbase.org/paper/21276) includes over 1.7 million EMS-induced G/C to A/T transition mutations annotated from 252 M3 mutant family pools selected from the 6,400 sorghum mutant library in BTx623 background described by Xin and colleagues (Xin et al. 2008). Genomic DNA used for sequencing was pooled from 20 x M3 plants per M2 family (Jiao et al. 2016).
+  
 - The Addo-Quaye dataset [(Addo-Quaye et al, 2018)](https://www.sorghumbase.org/paper/19942) with over 2.5 million variations identified in 486 sorghum accessions from the M3 generation of an EMS-mutagenized sorghum population.
-- The Jiao_2023 dataset [(Jiao et al, 2023)](https://www.sorghumbase.org/paper/23165) includes 8.9 million EMS mutations in 890 accessions, also available from the SorbMutDB resource.
+
+- The Jiao_2023 dataset [(Jiao et al, 2023)](https://www.sorghumbase.org/paper/23165) includes 8.9 million EMS mutations in 890 accessions, also available from the SorbMutDB resource. This set superseded the 1.7 million mutations originally called in the Jiao_2016 study.
 
 Genetic variation data for a sorghum gene is available graphically and in tabular form, and for each variant, a Variant page provides more detailed information. Below are provided examples of each of these data representations.
 
