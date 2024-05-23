@@ -1,3 +1,5 @@
+_Last updated: May 23, 2024_
+
 ## Using the genes search interface {#search-interface}
 
 Watch the [demo video on YouTube](https://www.youtube.com/watch?v=nnAEnA9qTMY&t=2s).
