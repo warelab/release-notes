@@ -78,10 +78,18 @@ The site now includes NN [functionally curated gene annotations from GeneRIF and
 
 No updates in the current release, please see [release notes for version 3.0](https://oryza.gramene.org/News?section=PanOryza%20Release%203).
 
+OR
+
+Gene expression data for the _O. sativa_ Japonica Nipponbare (IRGSP1) genome reference was curated and processed through the [EMBL-EBI Expression Atlas](https://www.ebi.ac.uk/gxa/plant/experiments). The set consists of X studies with baseline expression and Y with differential expression. Baseline experiments, as well as expression of paralogs for the reference study, are available through our Gene Search (Expression panel). [Differential experiments](https://www.ebi.ac.uk/gxa/experiments?kingdom=Plants&species=Oryza+sativa&experimentType=Differential) are available at the Expression Atlas. Baseline gene expression is also available from the gene pages of the Genome Browser, see for example [Expression for XX](LINK).
+
 
 ### Pathways
 
 No updates in the current release, please see [release notes for version 3.0](https://oryza.gramene.org/News?section=PanOryza%20Release%203).
+
+OR
+
+There are X pathways for _O. sativa_ Japonica Nipponbare (IRGSP1) curated by [Gramene’s Plant Reactome](https://plantreactome.gramene.org/) Team as of August 2023.
 
 
 ### Comparative Genomics
