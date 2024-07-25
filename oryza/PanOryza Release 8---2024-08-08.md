@@ -69,9 +69,13 @@ The site now includes NN [functionally curated gene annotations from GeneRIF and
 
 ### Variation
 
+There are a total of XX SNPs in the current release 8 in a survey of YY rice accessions. 
+
+Total from the new SNP sets.
+
 - Approximately 19 million SNPs called per each of 8 [Magic16](https://doi.org/10.1038/s41597-020-0438-2) genomes from the [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): Nipponbare, MH63, IR64, Azucena, ARC 10497, Zhenshan 97, Liu Xu, and N22.
 
-- 31 million SNPs determined in _O. sativa_ Japonica Nipponbare IRGSP1 with corresponding standard identifiers or rsIDs imported from the Euorpean Variation Archive (EVA). Corresponding genotypes are available in the [Gramene database](https://ensembl.gramene.org/Oryza_sativa/).
+- 31 million SNPs determined in _O. sativa_ Japonica Nipponbare IRGSP1 with corresponding standard identifiers or rsIDs imported from the European Variation Archive (EVA). Corresponding genotypes are available in the [Gramene database](https://ensembl.gramene.org/Oryza_sativa/). _SHARON, please check this number is accurate. Should I include the REFS? Maybe I will just refer users to R7 rel notyes for it_
 
 
 ### Expression
