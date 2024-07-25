@@ -28,7 +28,7 @@ GrameneOryza (https://oryza.gramene.org), funded by the USDA-ARS, is an open res
 
 - _Oryza sativa_ Japonica Nipponbare (IRGSP1): XX million SNPs were assigned standard rsIDs provided by the [European Variation Archive](https://www.ebi.ac.uk/eva/).
 
-- New variation data from kindly provided by Julie T and Andy Pereira from the University of Arkansas:
+- New variation data from ... USDA ... kindly provided by Julie T and Andy Pereira from the University of Arkansas:
 
   1) Mini-core: 6.5M SNPs in 200 rice accessions [REF]
   2) RDP1: X SNPs in Y rice accessions [REF]
@@ -38,9 +38,9 @@ GrameneOryza (https://oryza.gramene.org), funded by the USDA-ARS, is an open res
   1) WRC: https://academic.oup.com/pcp/article/61/5/922/5758272
   2) JRC: https://academic.oup.com/pcp/article/61/12/2087/5921186
      
-- No Kitakee mutations (VIVEK -- no genotypes provided in VCF, formatted incorrectly)
+- No Kitakee mutations (_VIVEK -- Remove this because no genotypes provided in VCF, formatted incorrectly, right?_)
 
-- Visualization of GWAS hits from XX phenotypic trait datasets on XX accessions of the XX population panel [REF]. Density plot for the GWAS hits for the traits is available on a karyotype view. Traits will be made searchable by trait ontology (TO) term.
+- Visualization of GWAS hits from XX phenotypic trait datasets on XX accessions of the XX population panel [REF]. Density plot for the GWAS hits for the traits is available on a karyotype view. Traits will be made searchable by trait ontology (TO) term. _SHARON, will we have any of this or push for R9?_
 
 - Table with overlapping germplasm? _Marcela working on it_
 
@@ -71,7 +71,7 @@ The site now includes NN [functionally curated gene annotations from GeneRIF and
 
 There are a total of XX SNPs in the current release 8 in a survey of YY rice accessions. 
 
-Total from the new SNP sets.
+Total from the new SNP sets with REFS.
 
 - Approximately 19 million SNPs called per each of 8 [Magic16](https://doi.org/10.1038/s41597-020-0438-2) genomes from the [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): Nipponbare, MH63, IR64, Azucena, ARC 10497, Zhenshan 97, Liu Xu, and N22.
 
@@ -93,7 +93,7 @@ No updates in the current release, please see [release notes for version 3.0](ht
 
 OR
 
-There are X pathways for _O. sativa_ Japonica Nipponbare (IRGSP1) curated by [Gramene’s Plant Reactome](https://plantreactome.gramene.org/) Team as of August 2023.
+There are 339 pathways for _O. sativa_ Japonica Nipponbare (IRGSP1) curated by [Gramene’s Plant Reactome](https://plantreactome.gramene.org/) Team as of August 2023. In addition, these pathways were projected by orthology to the following 15 rice varieties: _O. australiensis_*, _O. barthii_, _O. brachyantha_, _O. glaberrima_, _O. glumaepatula_, _O. longistaminata_*, _O. meridionalis_, _O. meyeriana_ var. granulata, _O. minuta_*, _O. nivara_, _O. officinalis_*, _O. punctata_, _O. rufipogon_, _O. sativa_ aus subgroup, and _O. sativa_ Indica Group. 
 
 
 ### Comparative Genomics
