@@ -9,7 +9,7 @@ GrameneOryza (https://oryza.gramene.org), funded by the USDA-ARS, is an open res
 
 - Gramene Oryza's Search Results enhancements:
 
-  1) The Papers tab listing publications describing a gene's function has now a user entry form (Add Papers) to suggest gene function given experimental evidence. Currently, there are 5,743 functionally curated Nipponbare genes. We invite you to check out your favorite gene and contribute your expertise!
+  1) The Papers tab listing publications describing a gene's function has now a user entry form (_Add Papers_) to suggest gene function given experimental evidence. Currently, there are 5,743 functionally curated Nipponbare genes. We invite you to check out your favorite gene and contribute your expertise! [This number is only from RAP-DB, ANDREW, are there aditional ones from Gene-RIF?]
 
   2) New Sequences tab provides quick access to gene, transcript and protein sequences for gene models.
      
