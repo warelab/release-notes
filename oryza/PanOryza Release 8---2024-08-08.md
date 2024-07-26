@@ -46,7 +46,11 @@ GrameneOryza (https://oryza.gramene.org), funded by the USDA-ARS, is an open res
 
 Gramene's Oryza Pan-Genome (https://oryza.gramene.org) is a web portal for comparative plant genomics focused on rice varieties. 
 
-In its eigth release, we feature new SNP data for ... We provide updated functional gene associations from RAP-DB (June 2024) and GeneRIF from curated scientific literature.
+In its eigth release, we feature new SNP data for three new data sets: 
+
+We are also providing updated functional gene associations from RAP-DB (June 2024) and GeneRIF from curated scientific literature.
+
+Since the last release, members of the Gramene Oryza Team contributed to two publications (Harrison et al, 2024; Zhou et al, 2024).
 
 In addition to genomic resources, GrameneOryza provides updates of news items, conferences, and community events; and feedback may be provided via a [contact form](https://oryza.gramene.org/feedback). 
 
@@ -73,18 +77,10 @@ Total from the new SNP sets with REFS.
 
 ### Expression
 
-No updates in the current release, please see [release notes for version 3.0](https://oryza.gramene.org/News?section=PanOryza%20Release%203).
-
-OR
-
-Gene expression data for  _O. sativa_ was curated and processed through the [EMBL-EBI Expression Atlas](https://www.ebi.ac.uk/gxa/plant/experiments). The set consists of 15 studies with baseline expression and 95 with differential expression. Baseline experiments, as well as expression of paralogs for the reference study, are available through our Gene Search (Expression panel). [Differential experiments](https://www.ebi.ac.uk/gxa/experiments?kingdom=Plants&species=Oryza+sativa&experimentType=Differential) are available at the Expression Atlas. Baseline gene expression is also available from the gene pages of the Genome Browser, see for example [Expression for XX](LINK).
+Gene expression data for _O. sativa_ was curated and processed through the [EMBL-EBI Expression Atlas](https://www.ebi.ac.uk/gxa/plant/experiments). The set consists of 15 studies with baseline expression and 95 with differential expression. Baseline experiments, as well as expression of paralogs for the reference study, are available through our Gene Search (Expression panel). [Differential experiments](https://www.ebi.ac.uk/gxa/experiments?kingdom=Plants&species=Oryza+sativa&experimentType=Differential) are available at the Expression Atlas. Baseline gene expression is also available from the gene pages of the Genome Browser, see for example [Expression for XX](LINK).
 
 
 ### Pathways
-
-No updates in the current release, please see [release notes for version 3.0](https://oryza.gramene.org/News?section=PanOryza%20Release%203).
-
-OR
 
 There are 339 pathways for _O. sativa_ Japonica Nipponbare (IRGSP1) curated by [Gramene’s Plant Reactome](https://plantreactome.gramene.org/) Team as of August 2023. In addition, these pathways were projected by orthology to the following 15 rice varieties: _O. australiensis_*, _O. barthii_, _O. brachyantha_, _O. glaberrima_, _O. glumaepatula_, _O. longistaminata_*, _O. meridionalis_, _O. meyeriana_ var. granulata, _O. minuta_*, _O. nivara_, _O. officinalis_*, _O. punctata_, _O. rufipogon_, _O. sativa_ aus subgroup, and _O. sativa_ Indica Group. 
 
@@ -95,6 +91,8 @@ No updates in the current release, please see [release notes for version 5.0](ht
 
 
 ## References
+
+- Harrison P, Ridwan Amode M, Austine-Orimoloye O et al. 2024. "Ensembl 2024." Nucleic Acids Research 52:D1(D891–D899). doi: [10.1093/nar/gkad1049](https://doi.org/10.1093/nar/gkad1049).
 
 - Zhou Y, Kathiresan N, Yu Z, Rivera LF, Yang Y, Thimma M, Manickam K, Chebotarov D, Mauleon R, Chougule K, Wei S, Gao T, Green CD, Zuccolo A, Xie W, Ware D, Zhang J, McNally KL, Wing RA. 2024. "A high-performance computational workflow to accelerate GATK SNP detection across a 25-genome dataset." BMC biology. doi: [10.1186/s12915-024-01820-5](https://doi.org/10.1186/s12915-024-01820-5).
 
