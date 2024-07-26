@@ -18,7 +18,7 @@ GrameneOryza (https://oryza.gramene.org), funded by the USDA-ARS, is an open res
 
 - New variation data sets mapped to _O. sativa_ Japonica Nipponbare (IRGSP1):
 
-  1) Mini-core: 6.5M SNPs in 200 rice accessions [REF] from ... USDA ... kindly provided by Julie Thomas and Andy Pereira from the University of Arkansas.
+  1) 6.5 million SNPs in 200 rice accessions [REF] from ... USDA ... kindly provided by Julie Thomas and Andy Pereira from the University of Arkansas.
   2) RAP-DB
     a) WRC: https://academic.oup.com/pcp/article/61/5/922/5758272
     b) JRC: https://academic.oup.com/pcp/article/61/12/2087/5921186
@@ -96,8 +96,7 @@ No updates in the current release, please see [release notes for version 5.0](ht
 
 ## References
 
-- 3,000 rice genomes project. The 3,000 rice genomes project. Gigascience. 2014;3: 7. doi:10.1186/2047-217X-3-7
-
+- Zhou Y, Kathiresan N, Yu Z, Rivera LF, Yang Y, Thimma M, Manickam K, Chebotarov D, Mauleon R, Chougule K, Wei S, Gao T, Green CD, Zuccolo A, Xie W, Ware D, Zhang J, McNally KL, Wing RA. 2024. "A high-performance computational workflow to accelerate GATK SNP detection across a 25-genome dataset." BMC biology. doi: [10.1186/s12915-024-01820-5](https://doi.org/10.1186/s12915-024-01820-5).
 
 
 ## Funding
