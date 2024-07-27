@@ -18,15 +18,11 @@ GrameneOryza (https://oryza.gramene.org), funded by the USDA-ARS, is an open res
 
 - New variation data sets mapped to _O. sativa_ Japonica Nipponbare (IRGSP1):
 
-  1) 6.5 million SNPs in 200 rice accessions [REF] from ... USDA ... kindly provided by Julie Thomas and Andy Pereira from the University of Arkansas.
-  2) RAP-DB
-    a) WRC: https://academic.oup.com/pcp/article/61/5/922/5758272
-    b) JRC: https://academic.oup.com/pcp/article/61/12/2087/5921186
+  1) **Rice Mini-Core Collection (USDA URMC)**: 6.5 million SNPs in 190 rice accessions determined in the URMC diversity panel of the United States Department of Agriculture (USDA) by Kumar et al (2021) and kindly provided by Julie Thomas and Andy Pereira from the University of Arkansas.
      
-
-- Visualization of GWAS hits from XX phenotypic trait datasets on XX accessions of the XX population panel [REF]. Density plot for the GWAS hits for the traits is available on a karyotype view. Traits will be made searchable by trait ontology (TO) term. _SHARON, will we have any of this or push for R9?_
-
-- Table with standard germplasm identifiers for accessions with SNP data.
+  2) **World Rice Core Collection (NARO WRC)**: 2.8 million SNPs and 357,639 InDels determined by resequencing 69 accessions with a high degree of genetic diversity (Tanaka et al, 2020a). These accessions conform the WRC of the National Agriculture and Food Research Organization (NARO) Genebank. The data set is also available in the TASUKE+ multiple genome browser of the RAP-DB resource.
+     
+  3) **Rice Core Collection of Japanese Landraces (NARO JRC)**: 2.1 million SNPs and 317,832 InDels determined in the 50 accessions that constitute the JRC, which was developed in 2008 by the NARO Genebank. The data set is also available in the TASUKE+ multiple genome browser of the RAP-DB resource.
 
 
 ### New Functionality & Features
@@ -40,19 +36,21 @@ GrameneOryza (https://oryza.gramene.org), funded by the USDA-ARS, is an open res
   3) New Germplasm tab lists germplasm bearing a protein-truncating variant (PTVs are putative loss-of-function SNPs) within the canonical transcript of a gene model. The table includes links to IRRI and/or GRIN, as well as a way to search for other genes with a PTV in a given germplasm accession. The indexed PTVs include the following predicted functional effects: start lost, stop gained, stop lost, splice site acceptor, and splice site donor. _ANDREW please check that this is correct_
   
 
-
-
 ## Summary
 
 Gramene's Oryza Pan-Genome (https://oryza.gramene.org) is a web portal for comparative plant genomics focused on rice varieties. 
 
-In its eigth release, we feature new SNP data for three new data sets: 
+In its eigth release, we have assigned standard rsIDs provided by the [European Variation Archive](https://www.ebi.ac.uk/eva/) to a total of 32 million SNPs. In addition, we are featuring SNP data for three new data sets: 
 
-We are also providing updated functional gene associations from RAP-DB (June 2024) and GeneRIF from curated scientific literature.
+  1) **Rice Mini-Core Collection (USDA URMC)**: 6.5 million SNPs in 190 rice accessions determined in the URMC diversity panel of the USDA by Kumar et al (2021).
+     
+  2) **World Rice Core Collection (NARO WRC)**: 2.8 million SNPs and 357,639 InDels determined by resequencing the 69 accessions of the WRC of the NARO Genbank (Tanaka et al, 2020a).
+     
+  3) **Rice Core Collection of Japanese Landraces (NARO JRC)**: 2.1 million SNPs and 317,832 InDels determined in the 50 accessions that conform the NARO JRC (Tanaka et al, 2020b).
 
-Since the last release, members of the Gramene Oryza Team contributed to two publications (Harrison et al, 2024; Zhou et al, 2024).
+We are also providing updated functional gene associations from RAP-DB (June 2024) and GeneRIF from curated scientific literature.  New features within the results of a database query include: 1) a new Sequences tab providing quick access to gene, transcript and protein sequences for gene models, 2) a new Germplasm tab listing accessions bearing protein-truncating variants or PTVs (putative loss-of-function SNPs such as start lost, stop gained, stop lost, splice site acceptor, and splice site donor) and which includes links to IRRI and/or GRIN, and 3) a user entry form to suggest gene function given experimental evidence in the Papers tab.
 
-In addition to genomic resources, GrameneOryza provides updates of news items, conferences, and community events; and feedback may be provided via a [contact form](https://oryza.gramene.org/feedback). 
+Since the last release, members of the Gramene Oryza Team contributed to two publications (Harrison et al, 2024; Zhou et al, 2024). In addition to genomic resources, GrameneOryza provides updates of news items, conferences, and community events; and feedback may be provided via a [contact form](https://oryza.gramene.org/feedback). 
 
 
 ## Release Contents -- Databases
@@ -61,23 +59,21 @@ In addition to genomic resources, GrameneOryza provides updates of news items, c
 
 There are a total of **35 genomes** in GrameneOryza: 28 rice genomes and 6 plant outgroups (B73 maize V4 and V5, _Sorghum bicolor_, _Arabidopsis thaliana_, grapevine, Selaginella, and Chlamydomonas - a single-celled green algae) and fruit fly Drosophila, in order to allow comparisons between higher eukaryotes, lower plants, and the model Arabidopsis.
 
-The site now includes NN [functionally curated gene annotations from GeneRIF and RAP-DB (June 2024)](https://oryza.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22capabilities%22,%22fq_value%22:%22pubs%22,%22name%22:%22publication%22,%22category%22:%22Curated%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=) in N species (XX Arabidopsis, XX rice, XX maize, XX chlamy, XX sorghum, XX Selaginella). For each of the genes, GrameneOryza's search results include a Papers tab listing directly relevant PubMed articles. Moreover, the associated Plant Ontology (PO) and Trait Ontology (TO) terms are searchable, for example: [PO: Anatomy: root](https://oryza.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22PO__ancestors%22,%22fq_value%22:%229005%22,%22name%22:%22root%22,%22category%22:%22Plant%20Ontology:%20anatomy%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=) or [TO: drought tolerance](https://oryza.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22TO__ancestors%22,%22fq_value%22:%22276%22,%22name%22:%22drought%20tolerance%22,%22category%22:%22Trait%20ontology%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=)
+The site now includes NN [functionally curated gene annotations from GeneRIF and RAP-DB (June 2024)](https://oryza.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22capabilities%22,%22fq_value%22:%22pubs%22,%22name%22:%22publication%22,%22category%22:%22Curated%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=) in N species (XX Arabidopsis, XX rice, XX maize, XX chlamy, XX sorghum, XX Selaginella). For each of the genes, GrameneOryza's search results include a Papers tab listing directly relevant PubMed articles. Moreover, the associated Plant Ontology (PO) and Trait Ontology (TO) terms are searchable, for example: [PO: Anatomy: root](https://oryza.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22PO__ancestors%22,%22fq_value%22:%229005%22,%22name%22:%22root%22,%22category%22:%22Plant%20Ontology:%20anatomy%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=) or [TO: drought tolerance](https://oryza.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22TO__ancestors%22,%22fq_value%22:%22276%22,%22name%22:%22drought%20tolerance%22,%22category%22:%22Trait%20ontology%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=). 
 
 
 ### Variation
 
-There are a total of XX SNPs in the current release 8 in a survey of YY rice accessions. 
+Genetic variation in the current Gramene Oryza release 8 consists of:
 
-Total from the new SNP sets with REFS.
+- 31 million SNPs determined in _O. sativa_ Japonica Nipponbare IRGSP1 with corresponding standard identifiers or rsIDs imported from the European Variation Archive (EVA). For a complete list of the data sets that were assigned rsIDs, see [release notes for version 7.0](https://oryza.gramene.org/News?section=PanOryza%20Release%207). Corresponding genotypes and allele/genotype frequencies by study population are available in the [Gramene database](https://ensembl.gramene.org/Oryza_sativa/).
 
 - Approximately 19 million SNPs called on each of 8 [Magic16](https://doi.org/10.1038/s41597-020-0438-2) genomes from the [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): Nipponbare, MH63, IR64, Azucena, ARC 10497, Zhenshan 97, Liu Xu, and N22.
-
-- 31 million SNPs determined in _O. sativa_ Japonica Nipponbare IRGSP1 with corresponding standard identifiers or rsIDs imported from the European Variation Archive (EVA). Corresponding genotypes are available in the [Gramene database](https://ensembl.gramene.org/Oryza_sativa/). _SHARON, please check this number is accurate. Should I include the REFS? Maybe I will just refer users to R7 rel notyes for it_
 
 
 ### Expression
 
-Gene expression data for _O. sativa_ was curated and processed through the [EMBL-EBI Expression Atlas](https://www.ebi.ac.uk/gxa/plant/experiments). The set consists of 15 studies with baseline expression and 95 with differential expression. Baseline experiments, as well as expression of paralogs for the reference study, are available through our Gene Search (Expression panel). [Differential experiments](https://www.ebi.ac.uk/gxa/experiments?kingdom=Plants&species=Oryza+sativa&experimentType=Differential) are available at the Expression Atlas. Baseline gene expression is also available from the gene pages of the Genome Browser, see for example [Expression for XX](LINK).
+Gene expression data for _O. sativa_ was curated and processed through the [EMBL-EBI Expression Atlas](https://www.ebi.ac.uk/gxa/plant/experiments). The set consists of 15 studies with baseline expression and 95 with differential expression. Baseline experiments, as well as expression of paralogs for the reference study, are available through our Gene Search (Expression panel). [Differential experiments](https://www.ebi.ac.uk/gxa/experiments?kingdom=Plants&species=Oryza+sativa&experimentType=Differential) are available at the Expression Atlas. Baseline gene expression is also available from the gene pages of the Genome Browser, see for example [Expression for Os05g0113900](https://oryza.gramene.org/Oryza_sativa/Gene/ExpressionAtlas?g=Os05g0113900;r=5:738208-739079;t=Os05t0113900-01).
 
 
 ### Pathways
@@ -94,7 +90,13 @@ No updates in the current release, please see [release notes for version 5.0](ht
 
 - Harrison P, Ridwan Amode M, Austine-Orimoloye O et al. 2024. "Ensembl 2024." Nucleic Acids Research 52:D1(D891–D899). doi: [10.1093/nar/gkad1049](https://doi.org/10.1093/nar/gkad1049).
 
-- Zhou Y, Kathiresan N, Yu Z, Rivera LF, Yang Y, Thimma M, Manickam K, Chebotarov D, Mauleon R, Chougule K, Wei S, Gao T, Green CD, Zuccolo A, Xie W, Ware D, Zhang J, McNally KL, Wing RA. 2024. "A high-performance computational workflow to accelerate GATK SNP detection across a 25-genome dataset." BMC biology. doi: [10.1186/s12915-024-01820-5](https://doi.org/10.1186/s12915-024-01820-5).
+- Kumar A, Gupta C, Thomas J, Pereira A. 2021. "Genetic Dissection of Grain Yield Component Traits Under High Nighttime Temperature Stress in a Rice Diversity Panel." Front Plant Sci. 12:712167. doi: [10.3389/fpls.2021.712167](https://doi.org/10.3389/fpls.2021.712167).
+
+- Tanaka N, Shenton M, Kawahara Y, et al. 2020. "Whole-genome sequencing of the NARO World Rice Core Collection (WRC) as the basis for diversity and association studies." Plant and Cell Physiology 61(5):922-932. doi: [10.1093/pcp/pcaa019](https://doi.org/10.1093/pcp/pcaa019).
+
+- Tanaka N. Shenton M, Kawahara Y, et al. 2020. "Investigation of the Genetic Diversity of a Rice Core Collection of Japanese Landraces using Whole-Genome Sequencing." Plant and Cell Physiology 61(12):2087-2096. doi: [10.1093/pcp/pcaa125](https://doi.org/10.1093/pcp/pcaa125).
+  
+- Zhou Y, Kathiresan N, Yu Z, et al. 2024. "A high-performance computational workflow to accelerate GATK SNP detection across a 25-genome dataset." BMC biology. doi: [10.1186/s12915-024-01820-5](https://doi.org/10.1186/s12915-024-01820-5).
 
 
 ## Funding
