@@ -14,15 +14,17 @@ GrameneOryza (https://oryza.gramene.org), funded by the USDA-ARS, is an open res
 
 ***Genetic & Phenotypic Variation***
 
-- _O. sativa_ Japonica Nipponbare (IRGSP1): 32 million SNPs were assigned standard rsIDs provided by the [European Variation Archive](https://www.ebi.ac.uk/eva/).
+- _O. sativa_ Japonica Nipponbare (IRGSP1): 31 million SNPs were assigned standard rsIDs provided by the [European Variation Archive](https://www.ebi.ac.uk/eva/).
 
 - New variation data sets mapped to _O. sativa_ Japonica Nipponbare (IRGSP1):
 
   1) **Rice Mini-Core Collection (USDA URMC)**: 6.5 million SNPs in 190 rice accessions determined in the URMC diversity panel of the United States Department of Agriculture (USDA) by Kumar et al (2021) and kindly provided by Julie Thomas and Andy Pereira from the University of Arkansas.
      
-  2) **World Rice Core Collection (NARO WRC)**: 2.8 million SNPs and 357,639 InDels determined by resequencing 69 accessions with a high degree of genetic diversity (Tanaka et al, 2020a). These accessions conform the WRC of the National Agriculture and Food Research Organization (NARO) Genebank. The data set is also available in the TASUKE+ multiple genome browser of the RAP-DB resource.
-     
-  3) **Rice Core Collection of Japanese Landraces (NARO JRC)**: 2.1 million SNPs and 317,832 InDels determined in the 50 accessions that constitute the JRC, which was developed in 2008 by the NARO Genebank. The data set is also available in the TASUKE+ multiple genome browser of the RAP-DB resource.
+  2) **World Rice Core Collection (NARO WRC) and Rice Core Collection of Japanese Landraces (NARO JRC)**: 12 million SNPs determined in 68 accessions of the WRC (Tanaka et al, 2020a) and 50 accessions of the JRC (Tanaka et al, 2020b) collections of the National Agriculture and Food Research Organization (NARO) Genebank. This data was kindly provided by the team led by Dr. Takeshi Itoh of the RAP-DB resource.
+
+***Regulation***
+
+_O. sativa_ Japonica Nipponbare (IRGSP1): ATAC-seq and Chip-seq data from [Lou _et al_ (2019)](https://sorghumbase.org/paper/24376) for rice. 
 
 
 ### New Functionality & Features
@@ -44,9 +46,7 @@ In its eigth release, we have assigned standard rsIDs provided by the [European 
 
   1) **Rice Mini-Core Collection (USDA URMC)**: 6.5 million SNPs in 190 rice accessions determined in the URMC diversity panel of the USDA by Kumar et al (2021).
      
-  2) **World Rice Core Collection (NARO WRC)**: 2.8 million SNPs and 357,639 InDels determined by resequencing the 69 accessions of the WRC of the NARO Genbank (Tanaka et al, 2020a).
-     
-  3) **Rice Core Collection of Japanese Landraces (NARO JRC)**: 2.1 million SNPs and 317,832 InDels determined in the 50 accessions that conform the NARO JRC (Tanaka et al, 2020b).
+  2) **WWorld Rice Core Collection (NARO WRC) and Rice Core Collection of Japanese Landraces (NARO JRC)**: 12 million SNPs determined in 68 accessions of the WRC (Tanaka et al, 2020a) and 50 accessions of the JRC (Tanaka et al, 2020b) collections of the National Agriculture and Food Research Organization (NARO) Genebank. This data was kindly provided by the team led by Dr. Takeshi Itoh of the RAP-DB resource.
 
 We are also providing updated functional gene associations from RAP-DB (June 2024) and GeneRIF from curated scientific literature.  New features within the results of a database query include: 1) a new Sequences tab providing quick access to gene, transcript and protein sequences for gene models, 2) a new Germplasm tab listing accessions bearing protein-truncating variants or PTVs (putative loss-of-function SNPs such as start lost, stop gained, stop lost, splice site acceptor, and splice site donor) and which includes links to IRRI and/or GRIN, and 3) a user entry form to suggest gene function given experimental evidence in the Papers tab.
 
