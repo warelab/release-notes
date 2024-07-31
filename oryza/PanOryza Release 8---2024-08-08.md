@@ -10,7 +10,7 @@ GrameneOryza (https://oryza.gramene.org), funded by the USDA-ARS, is an open res
   
 ***Genes***
 
-- New pan-gene set identifiers provided as gene synonyms for _O. sativa_ Japonica Nipponbare. Example: [Os4530.POR.1.pan0017141 for Os07g0129700](https://oryza.gramene.org/Oryza_sativa/Gene/Summary?db=core;g=Os07g0129700;r=7:1565529-1572681;t=Os07t0129700-01).
+- New pan-gene set identifiers provided as gene synonyms for _O. sativa_ Japonica Nipponbare. Example: [Os4530.POR.1.pan0017141 for Os07g0129700](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/Summary?db=core;g=Os07g0129700;r=7:1565529-1572681;t=Os07t0129700-01).
 
 ***Genetic & Phenotypic Variation***
 
@@ -24,7 +24,7 @@ GrameneOryza (https://oryza.gramene.org), funded by the USDA-ARS, is an open res
 
 ***Regulation***
 
-_O. sativa_ Japonica Nipponbare (IRGSP1): ATAC-seq and Chip-seq data from Lou _et al_ (2019) for rice. 
+_O. sativa_ Japonica Nipponbare (IRGSP1): ATAC-seq and Chip-seq data for rice from Lou _et al_ (2019). 
 
 
 ### New Functionality & Features
