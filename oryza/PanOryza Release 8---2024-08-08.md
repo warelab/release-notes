@@ -31,11 +31,11 @@ _O. sativa_ Japonica Nipponbare (IRGSP1): ATAC-seq and Chip-seq data for rice fr
 
 - Gramene Oryza's Search Results enhancements:
 
-  1) The Papers tab listing publications describing a gene's function has now a user entry form (for example, this is the [_Add Papers_ or "Submit a gene function" form](https://docs.google.com/forms/d/e/1FAIpQLSey-xPyTysdd9c2phXT6kcbjEDeCppG4dLG7LjZCeLpx_KGog/viewform) for the SPH gene) to suggest gene function given experimental evidence. Currently, there are 5,743 functionally curated Nipponbare genes. We invite you to check out your favorite gene and contribute your expertise! [_This number is only from RAP-DB, ANDREW, are there aditional ones from Gene-RIF?_]
+  1) The Papers tab listing publications describing a gene's function has now a user entry form (for example, this is the [_Add Papers_ or "Submit a gene function" form](https://docs.google.com/forms/d/e/1FAIpQLSey-xPyTysdd9c2phXT6kcbjEDeCppG4dLG7LjZCeLpx_KGog/viewform) for the SPH gene) to suggest gene function given experimental evidence. Currently, there are 5,083 functionally curated Nipponbare genes. We invite you to check out your favorite gene and contribute your expertise!
 
   2) New Sequences tab provides quick access to gene, transcript and protein sequences for gene models.
      
-  3) New Germplasm tab lists germplasm bearing a protein-truncating variant (PTVs are putative loss-of-function SNPs) within the canonical transcript of a gene model. The table includes links to IRRI and/or GRIN, as well as a way to search for other genes with a PTV in a given germplasm accession. The indexed PTVs include the following predicted functional effects: start lost, stop gained, stop lost, splice site acceptor, and splice site donor. _ANDREW please check that this is correct_
+  3) New Germplasm tab lists germplasm bearing a protein-truncating variant (PTVs are putative loss-of-function SNPs) within the canonical transcript of a gene model. The table includes links to IRRI and/or GRIN, as well as a way to search for other genes with a PTV in a given germplasm accession. The indexed PTVs include the following predicted functional effects: start lost, stop gained, stop lost, splice site acceptor, and splice site donor.
   
 
 ## Summary
