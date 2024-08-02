@@ -64,14 +64,19 @@ The site now includes 12950 [functionally curated gene annotations from GeneRIF 
 
 ### Variation
 
-Genetic variation in the current Gramene Oryza release 8 consists of:
+Genetic variation in the current Gramene Oryza release 8 consists of
 
-- 31 million SNPs determined in _O. sativa_ Japonica Nipponbare IRGSP1 with corresponding standard identifiers or rsIDs imported from the European Variation Archive (EVA). For a complete list of the data sets that were assigned rsIDs, see [release notes for version 7.0](https://oryza.gramene.org/News?section=PanOryza%20Release%207). Corresponding genotypes and allele/genotype frequencies by study population are available in the [Gramene database](https://ensembl.gramene.org/Oryza_sativa/).
-- 6.5 million SNPs determined in 190 rice accessions determined in the URMC diversity panel of the United States Department of Agriculture (USDA) by Kumar et al (2021) and kindly provided by Julie Thomas and Andy Pereira from the University of Arkansas.
+* _O. sativa_ Japonica Nipponbare (IRGSP1):
+
+  - 31 million SNPs determined in _O. sativa_ Japonica Nipponbare IRGSP1 with corresponding standard identifiers or rsIDs imported from the European Variation Archive (EVA). For a complete list of the data sets that were assigned rsIDs, see [release notes for version 7.0](https://oryza.gramene.org/News?section=PanOryza%20Release%207). Corresponding genotypes and allele/genotype frequencies by study population are available in the [Gramene database](https://ensembl.gramene.org/Oryza_sativa/).
+
+  - 6.5 million SNPs determined in the USDA Rice Mini-Core Collection (URMC) of 190 rice accessions in Kumar et al (2021).
      
-  2) **World Rice Core Collection (NARO WRC)** & **Rice Core Collection of Japanese Landraces (NARO JRC)**: 12 million SNPs determined in 68 accessions of the WRC (Tanaka et al, 2020a) and 50 accessions of the JRC (Tanaka et al, 2020b) collections of the National Agriculture and Food Research Organization (NARO) Genebank. This data was kindly provided by the team led by Dr. Takeshi Itoh of the RAP-DB resource.
+  - 12 million SNPs determined in two collections at the Japanese NARO Genebank: 68 accessions of the World Rice Core Collection (NARO WRC) (Tanaka et al, 2020a) and 50 accessions of the Rice Core Collection of Japanese Landraces (JRC) (Tanaka et al, 2020b), data kindly provided by the RAP-DB resource.
 
-- Approximately 19 million SNPs called on each of 8 [Magic16](https://doi.org/10.1038/s41597-020-0438-2) genomes from the [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): Nipponbare, MH63, IR64, Azucena, ARC 10497, Zhenshan 97, Liu Xu, and N22.
+* [Magic16](https://doi.org/10.1038/s41597-020-0438-2) genomes:
+
+- Approximately 19 million SNPs called on 8 of the [Magic16](https://doi.org/10.1038/s41597-020-0438-2) genomes from the [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): Nipponbare, MH63, IR64, Azucena, ARC 10497, Zhenshan 97, Liu Xu, and N22.
 
 
 ### Expression
