@@ -31,7 +31,7 @@ _O. sativa_ Japonica Nipponbare (IRGSP1): ATAC-seq and Chip-seq data for rice fr
 
 - Gramene Oryza's Search Results enhancements:
 
-  1) The Papers tab listing publications describing a gene's function has now a user entry form (for example, this is the [_Add Papers_ or "Submit a gene function" form](https://docs.google.com/forms/d/e/1FAIpQLSey-xPyTysdd9c2phXT6kcbjEDeCppG4dLG7LjZCeLpx_KGog/viewform) for the SPH gene) to suggest gene function given experimental evidence. Currently, there are 5,083 functionally curated Nipponbare genes. We invite you to check out your favorite gene and contribute your expertise!
+  1) The Papers tab listing publications describing a gene's function has now a user entry form (for example, this is a direct link to the [_Add Papers_ or "Submit a gene function" form](https://docs.google.com/forms/d/e/1FAIpQLSey-xPyTysdd9c2phXT6kcbjEDeCppG4dLG7LjZCeLpx_KGog/viewform) to suggest a gene's function given experimental evidence. Currently, there are 5,083 functionally curated Nipponbare genes. We invite you to check out your favorite gene and contribute your expertise!
 
   2) New Sequences tab provides quick access to gene, transcript and protein sequences for gene models.
      
