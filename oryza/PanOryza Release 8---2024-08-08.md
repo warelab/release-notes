@@ -10,7 +10,7 @@ GrameneOryza (https://oryza.gramene.org), funded by the USDA-ARS, is an open res
   
 ***Genes***
 
-- New pan-gene set identifiers provided as gene synonyms for _O. sativa_ Japonica Nipponbare. Example: [Os4530.POR.1.pan0017141 for Os07g0129700](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/Summary?db=core;g=Os07g0129700;r=7:1565529-1572681;t=Os07t0129700-01).
+- New pan-gene set identifiers provided as gene synonyms for _O. sativa_ Japonica Nipponbare. Example: [Os4530.POR.1.pan0017141 for Os07g0129700](/?fq_field=PanOryza__xrefs&fq_value=Os4530.POR.1.pan0017141&category=PanOryza%20pan%20gene&name=Os4530.POR.1.pan0017141).
 
 ***Genetic & Phenotypic Variation***
 
@@ -31,7 +31,7 @@ _O. sativa_ Japonica Nipponbare (IRGSP1): ATAC-seq and Chip-seq data for rice fr
 
 - Gramene Oryza's Search Results enhancements:
 
-  1) The Papers tab listing publications describing a gene's function has now a user entry form (for example, this is a direct link to the [_Add Papers_ or "Submit a gene function" form](https://docs.google.com/forms/d/e/1FAIpQLSey-xPyTysdd9c2phXT6kcbjEDeCppG4dLG7LjZCeLpx_KGog/viewform) to suggest a gene's function given experimental evidence. Currently, there are 5083 functionally curated Nipponbare genes. We invite you to check out your favorite gene and contribute your expertise!
+  1) The Papers tab listing publications describing a gene's function has now a user entry form (for example, this is a direct link to the [_Add Papers_ or "Submit a gene function" form](https://docs.google.com/forms/d/e/1FAIpQLSey-xPyTysdd9c2phXT6kcbjEDeCppG4dLG7LjZCeLpx_KGog/viewform) to suggest a gene's function given experimental evidence. Currently, there are 5707 functionally curated Nipponbare genes. We invite you to check out your favorite gene and contribute your expertise!
 
   2) New Sequences tab provides quick access to gene, transcript and protein sequences for gene models.
      
@@ -42,7 +42,7 @@ _O. sativa_ Japonica Nipponbare (IRGSP1): ATAC-seq and Chip-seq data for rice fr
 
 Gramene's Oryza Pan-Genome (https://oryza.gramene.org) is a web portal for comparative plant genomics focused on rice varieties. 
 
-In its eigth release, we have assigned standard rsIDs provided by the [European Variation Archive](https://www.ebi.ac.uk/eva/) to a total of 31 million SNPs. In addition, we are featuring SNP data for three new data sets: 
+In its eighth release, we have assigned standard rsIDs provided by the [European Variation Archive](https://www.ebi.ac.uk/eva/) to a total of 31 million SNPs. In addition, we are featuring SNP data for three new data sets: 
 
   1) **Rice Mini-Core Collection (USDA URMC)**: 6.5 million SNPs determined in the URMC diversity panel (190 rice accessions) of the USDA by Kumar et al (2021).
      
@@ -59,7 +59,7 @@ Since the last release, members of the Gramene Oryza Team contributed to two pub
 
 There are a total of **35 genomes** in GrameneOryza: 28 rice genomes and 6 plant outgroups (B73 maize V4 and V5, _Sorghum bicolor_, _Arabidopsis thaliana_, grapevine, Selaginella, and Chlamydomonas - a single-celled green algae) and fruit fly Drosophila, in order to allow comparisons between higher eukaryotes, lower plants, and the model Arabidopsis.
 
-The site now includes 12950 [functionally curated gene annotations from GeneRIF and RAP-DB](https://oryza.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22capabilities%22,%22fq_value%22:%22pubs%22,%22name%22:%22publication%22,%22category%22:%22Curated%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=) in 5 species (7258 Arabidopsis, 5083 rice, 357 maize, 135 chlamy, 114 sorghum, 3 Selaginella). For each of the genes, GrameneOryza's search results include a Papers tab listing directly relevant PubMed articles. Moreover, the associated Plant Ontology (PO) and Trait Ontology (TO) terms are searchable, for example: [PO: Anatomy: root](https://oryza.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22PO__ancestors%22,%22fq_value%22:%229005%22,%22name%22:%22root%22,%22category%22:%22Plant%20Ontology:%20anatomy%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=) or [TO: drought tolerance](https://oryza.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22TO__ancestors%22,%22fq_value%22:%22276%22,%22name%22:%22drought%20tolerance%22,%22category%22:%22Trait%20ontology%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=). 
+The site now includes 13574 [functionally curated gene annotations from GeneRIF and RAP-DB](https://oryza.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22capabilities%22,%22fq_value%22:%22pubs%22,%22name%22:%22publication%22,%22category%22:%22Curated%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=) in 6 species (7258 Arabidopsis, 5707 rice, 357 maize, 135 chlamy, 114 sorghum, 3 Selaginella). For each of the genes, GrameneOryza's search results include a Papers tab listing directly relevant PubMed articles. Moreover, the associated Plant Ontology (PO) and Trait Ontology (TO) terms are searchable, for example: [PO: Anatomy: root](https://oryza.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22PO__ancestors%22,%22fq_value%22:%229005%22,%22name%22:%22root%22,%22category%22:%22Plant%20Ontology:%20anatomy%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=) or [TO: drought tolerance](https://oryza.gramene.org/?filters={%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:[{%22fq_field%22:%22TO__ancestors%22,%22fq_value%22:%22276%22,%22name%22:%22drought%20tolerance%22,%22category%22:%22Trait%20ontology%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true}],%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20}&genomes=). 
 
 
 ### Variation
@@ -81,7 +81,7 @@ Genetic variation in the current Gramene Oryza release 8 consists of
 
 ### Expression
 
-Gene expression data for _O. sativa_ was curated and processed through the [EMBL-EBI Expression Atlas](https://www.ebi.ac.uk/gxa/plant/experiments). The set consists of 15 studies with baseline expression and 95 with differential expression. Baseline experiments, as well as expression of paralogs for the reference study, are available through our Gene Search (Expression panel). [Differential experiments](https://www.ebi.ac.uk/gxa/experiments?kingdom=Plants&species=Oryza+sativa&experimentType=Differential) are available at the Expression Atlas. Baseline gene expression is also available from the gene pages of the Genome Browser, see for example [Expression for Os05g0113900](https://oryza.gramene.org/Oryza_sativa/Gene/ExpressionAtlas?g=Os05g0113900;r=5:738208-739079;t=Os05t0113900-01).
+Gene expression data for _O. sativa_ was curated and processed through the [EMBL-EBI Expression Atlas](https://www.ebi.ac.uk/gxa/plant/experiments). The set consists of 15 studies with baseline expression and 95 with differential expression. Baseline experiments, as well as expression of paralogs for the reference study, are available through our Gene Search (Expression panel). [Differential experiments](https://www.ebi.ac.uk/gxa/experiments?kingdom=Plants&species=Oryza+sativa&experimentType=Differential) are available at the Expression Atlas. Baseline gene expression is also available from the gene pages of the Genome Browser, see for example [Expression for Os05g0113900](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/ExpressionAtlas?g=Os05g0113900;r=5:738208-739079;t=Os05t0113900-01).
 
 
 ### Pathways
