@@ -76,7 +76,7 @@ Gramene Oryza release 8 features genetic variation data mapped to the following 
 
 * [MAGIC16](https://doi.org/10.1038/s41597-020-0438-2) genomes:
 
-  - Approximately 19 million SNPs with standard rsIDs called on 8 of the [MAGIC16](https://doi.org/10.1038/s41597-020-0438-2) genomes from the [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): Nipponbare, MH63, IR64, Azucena, ARC 10497, Zhenshan 97, Liu Xu, and N22.
+  - Approximately 19 million SNPs called on 8 of the [MAGIC16](https://doi.org/10.1038/s41597-020-0438-2) genomes from the [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): Nipponbare, MH63, IR64, Azucena, ARC 10497, Zhenshan 97, Liu Xu, and N22.
 
 
 ### Expression
