@@ -50,7 +50,7 @@ In its eighth release, we have assigned standard rsIDs provided by the [European
 
 We are also providing updated functional gene associations from RAP-DB and GeneRIF from curated scientific literature.  New features within the results of a database query include: 1) a new Sequences tab providing quick access to gene, transcript and protein sequences for gene models, 2) a new Germplasm tab listing accessions bearing protein-truncating variants or PTVs (putative loss-of-function SNPs such as start lost, stop gained, stop lost, splice site acceptor, and splice site donor) and which includes links to IRRI and/or GRIN, and 3) a user entry form to suggest gene function given experimental evidence in the Papers tab.
 
-Since the last release, members of the Gramene Oryza Team contributed to two publications (Harrison et al, 2024; Zhou et al, 2024). In addition to genomic resources, GrameneOryza provides updates of news items, conferences, and community events; and feedback may be provided via a [contact form](https://oryza.gramene.org/feedback). 
+Since the last release, members of the Gramene Oryza Team contributed to two publications (Harrison et al, 2024; Zhou et al, 2024). In addition to genomic resources, GrameneOryza provides updates of news items, conferences, and community events. Feedback may be provided via a [contact form](https://oryza.gramene.org/feedback). 
 
 
 ## Release Contents -- Databases
