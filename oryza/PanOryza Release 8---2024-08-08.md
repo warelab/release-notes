@@ -100,6 +100,8 @@ No updates in the current release, please see [release notes for version 5.0](ht
 
 - Kumar A, Gupta C, Thomas J, Pereira A. 2021. "Genetic Dissection of Grain Yield Component Traits Under High Nighttime Temperature Stress in a Rice Diversity Panel." Front Plant Sci. 12:712167. doi: [10.3389/fpls.2021.712167](https://doi.org/10.3389/fpls.2021.712167).
 
+- Lu Z, Marand AP, Ricci WA, Ethridge CL, Zhang X, Schmitz RJ. 2019. "The prevalence, evolution and chromatin signatures of plant regulatory elements." Nature Plants. doi: [10.1038/s41477-019-0548-z](https://doi.org/10.1038/s41477-019-0548-z).
+
 - Tanaka N, Shenton M, Kawahara Y, et al. 2020. "Whole-genome sequencing of the NARO World Rice Core Collection (WRC) as the basis for diversity and association studies." Plant and Cell Physiology 61(5):922-932. doi: [10.1093/pcp/pcaa019](https://doi.org/10.1093/pcp/pcaa019).
 
 - Tanaka N. Shenton M, Kawahara Y, et al. 2020. "Investigation of the Genetic Diversity of a Rice Core Collection of Japanese Landraces using Whole-Genome Sequencing." Plant and Cell Physiology 61(12):2087-2096. doi: [10.1093/pcp/pcaa125](https://doi.org/10.1093/pcp/pcaa125).
