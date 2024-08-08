@@ -46,7 +46,7 @@ In its eighth release, we have assigned standard rsIDs provided by the [European
 
   1) **Rice Mini-Core Collection (USDA URMC)**: 6.5 million SNPs determined in the URMC diversity panel (190 rice accessions) of the USDA by Kumar et al (2021).
      
-  2) **World Rice Core Collection (NARO WRC)** and **Rice Core Collection of Japanese Landraces (NARO JRC)**: 12 million SNPs determined in 68 accessions of the WRC (Tanaka et al, 2020a) and 50 accessions of the JRC (Tanaka et al, 2020b) collections of the National Agriculture and Food Research Organization (NARO) Genebank. This data was kindly provided by the team led by Dr. Takeshi Itoh of the RAP-DB resource.
+  2) **World Rice Core Collection (NARO WRC)** and **Rice Core Collection of Japanese Landraces (NARO JRC)**: 12 million SNPs determined in 68 accessions of the WRC (Tanaka et al, 2020a) and 50 accessions of the JRC (Tanaka et al, 2020b) collections of the Japanese NARO Genebank kindly provided by the RAP-DB resource.
 
 We are also providing updated functional gene associations from RAP-DB and GeneRIF from curated scientific literature.  New features within the results of a database query include: 1) a new Sequences tab providing quick access to gene, transcript and protein sequences for gene models, 2) a new Germplasm tab listing accessions bearing protein-truncating variants or PTVs (putative loss-of-function SNPs such as start lost, stop gained, stop lost, splice site acceptor, and splice site donor) and which includes links to IRRI and/or GRIN, and 3) a user entry form to suggest gene function given experimental evidence in the Papers tab.
 
