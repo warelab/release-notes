@@ -86,6 +86,8 @@ Large-scale rice studies with rsIDs assigned by the EVA:
    6) [Zhao _et al_ (2010)](https://doi.org/10.1371/journal.pone.0010780 ): 1.3K SNPs
 
 
+
+
 **[MAGIC16](https://doi.org/10.1038/s41597-020-0438-2) genomes**:
 
   - Approximately 19 million SNPs called on 8 of the [MAGIC16](https://doi.org/10.1038/s41597-020-0438-2) genomes from the [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): Nipponbare, MH63, IR64, Azucena, ARC 10497, Zhenshan 97, Liu Xu, and N22.
