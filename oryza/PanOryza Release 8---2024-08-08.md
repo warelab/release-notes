@@ -79,11 +79,11 @@ Gramene Oryza release 8 features genetic variation data mapped to the following 
 Large-scale rice studies with rsIDs assigned by the EVA:
 
    1) [Duitama _et al_ (2015)](https://doi.org/10.1371/journal.pone.0124617): 25.8 million SNPs
-   2) BGI (2004): 3 million SNPs
+   2) [BGI (2004)](https://doi.org/10.1371/journal.pbio.0030038 ): 3 million SNPs
    3) [OMAP (2007)](https://doi.org/10.1093/jxb/erac490): 1.6 million SNPs
    4) [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): 366K SNPs
-   5) McNally _et al_ (2009): 157K SNPs
-   6) Zhao _et al_ (2010): 1.3K SNPs
+   5) [McNally _et al_ (2009](https://doi.org/10.1073/pnas.0900992106): 157K SNPs
+   6) [Zhao _et al_ (2010)](https://doi.org/10.1371/journal.pone.0010780 ): 1.3K SNPs
 
 
 *[MAGIC16](https://doi.org/10.1038/s41597-020-0438-2) genomes*:
