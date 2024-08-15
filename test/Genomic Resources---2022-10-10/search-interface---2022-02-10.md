@@ -31,12 +31,13 @@ Each gene has a set of tabs that can be expanded to explore more details:
 - **Expression** - Baseline gene expression viewer from [EBI-Expression Atlas](https://www.ebi.ac.uk/gxa) and eFPbrowser from the [BioAnalytic Resource (BAR)](http://bar.utoronto.ca/)
 - **Homology** - Gene family tree viewer (opens by default if only one gene is found)
 - **Pathways** - Associated pathways in [Gramene’s Plant Reactome](https://plantreactome.gramene.org)
+- **Papers** -  Scientific literature associated with genes that have undergone functional curation from GeneRIF and RAP-DB
 - **Xrefs** - Cross-references to other databases
 
 
 ### Germplasm Tab
 
-The Germplasm tab lists accessions which bear a protein-truncating variant  or PTV, its predicted consequence, whether it is in homozygous or heterozygous form, and the genotyping study from which it was identified. The table includes links to GRIN or SorbMutDB (USDA-Lubbock-EMS lines), as well as a way to search for other genes with a PTV in a given germplasm accession. The indexed PTVs include the following predicted functional effects: start lost, stop gained, stop lost, splice site acceptor, and splice site donor.
+The Germplasm tab lists accessions which bear a protein-truncating variant or PTV, its predicted consequence, whether it is in homozygous or heterozygous form, and the genotyping study from which it was identified. The table includes links to GRIN or SorbMutDB (USDA-Lubbock-EMS lines), as well as a way to search for other genes with a PTV in a given germplasm accession. The indexed PTVs include the following predicted functional effects: start lost, stop gained, stop lost, splice site acceptor, and splice site donor.
 
 ![Germplasm View](images/germplasm_search.png)
 
