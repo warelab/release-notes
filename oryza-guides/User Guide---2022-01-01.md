@@ -76,7 +76,6 @@ Here is a summary of the seven data categories in which the results of a gene se
 
 
 
-
 ### Location Tab
 
 ![homology](images/Picture4.png)
@@ -183,7 +182,7 @@ If instead, you hover over a tissue on the anatogram on the left, the name of th
 
 ![Expression Atlas View](images/expression_search.png) - _remove or swap with above rice image?_
 
-Baseline gene expression is also available from the gene pages of the Genome Browser, see for example [Expression for Sobic.006G095600](https://ensembl.sorghumbase.org/Sorghum_bicolor/Gene/ExpressionAtlas?g=SORBI_3006G095600;r=6:46566240-46571064). - _swap with rice URL_
+Baseline gene expression is also available from the gene pages of the Genome Browser, see for example [Expression for Os08g0531600](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/ExpressionAtlas?g=Os08g0531600;r=8:26501167-26506198;t=Os08t0531600-01).
 
 
 #### Expression Atlas Paralogs (Reference Study - All paralogs)
@@ -220,7 +219,7 @@ Genes that have undergone functional curation (e.g., Os08g0531600) will have sci
 
 ### Cross-References Tab
 
-In the Xref tab, you will find references to your gene of interest in other databases, such as UniProt, UniParc, UniGene, ENA, and PanOryza pan-gene. Currently, this view is dissabled in the Oryza PanGenome. However, as described above, additional databases such as Phytomine are cross-referenced in the Location tab.
+In the Xref tab, you will find references to your gene of interest in other databases, such as UniProt, UniParc, UniGene, ENA, and PanOryza pan-gene.
 
 ![xrefs](images/xrefs_search.png) - _ADD image_
 
@@ -252,14 +251,14 @@ New alignments and synteny maps with the new Oryza genomes will be made availabl
 **Synteny maps** for *Oryza sativa Japonica* with:
 
  - *Zea mays* V5 
- - *Sorghum bicolor* (see [example](https://oryza-ensembl.gramene.org/Oryza_sativa/Location/Synteny?db=core;g=Os08g0531600;r=8:26476169-26526170;t=Os08t0531600-01)). Note the inverted order of genes in sorghum chromosome 7 relatoive to rice chromosome 8.
+ - *Sorghum bicolor* (see [example](https://oryza-ensembl.gramene.org/Oryza_sativa/Location/Synteny?db=core;g=Os08g0531600;r=8:26476169-26526170;t=Os08t0531600-01)). Note the inverted order of genes in sorghum chromosome 7 relative to rice chromosome 8.
 
 ![Ensembl Synteny](images/Picture26.png)
 ![Synteny_table](images/Picture27.png)
 
 ## Baseline Gene Expression (EBI-Atlas) {#gene-expression}
 
-Baseline gene expression data from 10 datasets for O. sativa japonica curated and processed by the EMBL-EBI Expression Atlas are also available from the Oryza PanGenome Search, the Ensembl PanGenome gene pages, and the corresponding Plant Reactome panels. The Expression panel of the Search results was described above in detail. The same Expression Atlas view for the GW8 gene is available from the Gramene browser gene page and the Plant Reactome Expression panel (find a link to the Plant Reactome at the bottom of the Pathways panel of the Search results).
+Baseline gene expression data from 15 datasets for _O. sativa japonica_ was curated and processed by the EMBL-EBI Expression Atlas is available from the GrameneOryza Search, the Ensembl PanGenome gene pages, and the corresponding Plant Reactome panels. The Expression panel of the Search results was described above in detail. The same Expression Atlas view for the GW8 gene is available from the Gramene browser gene page and the Plant Reactome Expression panel (a link to the Plant Reactome is provided at the bottom of the Pathways panel of the Search results).
 
 ![GW8_expression_ensembl_browser](images/Picture23.png)
 
@@ -278,11 +277,27 @@ GW8 gene expression in the Expression Atlas
 
 ## Genetic, Structural & Phenotypic Variation {#variation}
 
-Genetic variation data for Nipponbare is available from six different large scale studies:
+Gramene Oryza release 8 features genetic variation data mapped to the following reference assemblies:
+
+* _O. sativa_ Japonica Nipponbare (IRGSP1):
+
+  - 27 million SNPs determined in _O. sativa_ Japonica Nipponbare IRGSP1 with corresponding standard identifiers or rsIDs imported from the European Variation Archive (EVA). A complete list of the data sets that were assigned rsIDs is provided below and also in [GrameneOryza release notes for version 7.0](https://oryza.gramene.org/News?section=PanOryza%20Release%207). Corresponding genotypes and allele/genotype frequencies by study population are also available in the [Gramene database](https://ensembl.gramene.org/Oryza_sativa/).
+
+  - 6.5 million SNPs determined in the USDA Rice Mini-Core Collection (URMC) of 190 rice accessions in Kumar et al (2021). rsIDs are provided for co-localized SNPs in this data set. 
+     
+  - 12 million SNPs determined in two collections at the Japanese NARO Genebank: 68 accessions of the World Rice Core Collection (NARO WRC) (Tanaka et al, 2020a) and 50 accessions of the Rice Core Collection of Japanese Landraces (JRC) (Tanaka et al, 2020b), data kindly provided by the RAP-DB resource. rsIDs are provided for co-localized SNPs in this data set. 
+
+* [MAGIC16](https://doi.org/10.1038/s41597-020-0438-2) genomes:
+
+  - Approximately 19 million SNPs called on 8 of the [MAGIC16](https://doi.org/10.1038/s41597-020-0438-2) genomes from the [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): Nipponbare, MH63, IR64, Azucena, ARC 10497, Zhenshan 97, Liu Xu, and N22. Data generated by KAUST scientists using the Genome Analysis Toolkit GATK4 and introduced in the GrameneOryza site releases 6 & 7. 
+
+
+
+Large-scale rice studies with rsIDs assigned by the EVA:
 
 1) The 3000 Rice Genome Project (2015), an international effort to sequence the genomes of 3,024 rice varieties from 89 countries providing 365,710 variant loci (SNPs and InDels).
 
-2) Whole genome sequencing of 104 elite rice cultivars (Duitama et al. 2015), described as "a comprehensive information resource for marker assisted selection providing 25,769,548 variant loci".
+2) Whole-genome sequencing of 104 elite rice cultivars (Duitama et al. 2015), described as "a comprehensive information resource for marker assisted selection providing 25,769,548 variant loci".
 
 3) Chip-based analysis of 1,310 SNPs across 395 samples (Zhao et al. 2010), described as "revealing the impact of domestication and breeding on the rice genome".
 
@@ -292,14 +307,13 @@ Genetic variation data for Nipponbare is available from six different large scal
  
 6) Adaptive loss-of-function in domesticated rice (BGI 2004): A collection of approximately 3M variant loci from the comparison of the Indica (93-11) and Japonica (Nipponbare) genomes. [dbSNP]
 
+
 In addition, the following genetic markers were remapped to the IRGSP-1.0 assembly by industry collaborator KeyGene:
 
 - 20,483 Quantitative Trait Locus (QTL): 19,435 from Gramene's legacy QTLs database and 1,048 from the Q-Taro database
 
 - 1,278 genetic markers (990 RFLPs and 288 SSRs) from Gramene's legacy markers database
 
-
-3K SNP variation data for nine Magic16 genomes (Nipponbare, MH63, IR64, Azucena, ARC 10497, Zhenshan 97, Liu Xu, and N22) called by KAUST scientists using the Genome Analysis Toolkit GATK4 was introduced in the PanOryza site in releases 6 & 7. 
 
 Click here for an [image](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/Variation_Gene/Image?g=Os08g0531600;r=8:26501167-26506198;t=Os08t0531600-01) or a [table](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/Variation_Gene/Table?g=Os08g0531600;r=8:26501167-26506198;t=Os08t0531600-01) of genetic variation for the GW8 gene in the Gramene Ensembl browser. In addition, the inquisitive researcher will notice that **RM502** is a structural or copy number variant (Gramene marker) in the GW8 gene region, that is associated with seven distinct QTLs in the [archival Gramene QTL database](https://archive.gramene.org/db/markers/marker_view?marker_name=RM502&vocabulary=markers&search_box_name=marker_name&search_box_id=marker_search_for&action=marker_search&x=14&y=8). Those seven [Phenotypic (QTL) associations](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/Summary?g=Os08g0531600;r=8:26501167-26506198;t=Os08t0531600-01) correspond to five distinct phenotypes or traits: tiller number, root thickness, filled grain percentage, seed density, and gelatinization temperature. Make sure that the "Phenotype annotations" track that is under the Variation section of the “Configure this image” option of the Gnee Page is selected (with a check mark). The corresponding traits are also searchable from the homepage.
 
@@ -309,17 +323,23 @@ Additional genetic variation (SNPs, RFLP and SSR markers) is available for *O. s
 ## Literature References {#references}
 
 
-Chen Erwang, Xuehui Huang, Zhixi Tian, Rod A.Wing, and Bin Han. 2019. The Genomics of Oryza Species Provides Insights into Rice Domestication and Heterosis. Annu. Rev. Plant Biol. 70:639–65
-doi: 10.1146/annurev-arplant-050718-100320.
+Chen Erwang, Xuehui Huang, Zhixi Tian, Rod A.Wing, and Bin Han. 2019. "The Genomics of Oryza Species Provides Insights into Rice Domestication and Heterosis." Annu. Rev. Plant Biol. 70:639–65. doi: [10.1146/annurev-arplant-050718-100320](https://doi.org/10.1146/annurev-arplant-050718-100320).
 
-Hufford, Matthew B., Arun S. Seetharam, Margaret R. Woodhouse, Kapeel M. Chougule, Shujun Ou, Jianing Liu, William A. Ricci, et al. 2021. “De Novo Assembly, Annotation, and Comparative Analysis of 26 Diverse Maize Genomes.” bioRxiv. doi: 10.1101/2021.01.14.426684.
+Hufford, Matthew B., Arun S. Seetharam, Margaret R. Woodhouse, Kapeel M. Chougule, Shujun Ou, Jianing Liu, William A. Ricci, et al. 2021. “De Novo Assembly, Annotation, and Comparative Analysis of 26 Diverse Maize Genomes.” Science. 373(6555):655-662. doi:[10.1126/science.abg5289](https://doi.org/10.1126/science.abg5289).
 
-Jiao, Yinping, Paul Peluso, Jinghua Shi, Tiffany Liang, Michelle C. Stitzer, Bo Wang, Michael S. Campbell, et al. 2017. “Improved Maize Reference Genome with Single-Molecule Technologies.” Nature 546 (7659): 524–27.
+Jiao, Yinping, Paul Peluso, Jinghua Shi, Tiffany Liang, Michelle C. Stitzer, Bo Wang, Michael S. Campbell, et al. 2017. “Improved Maize Reference Genome with Single-Molecule Technologies.” Nature. 546 (7659): 524–27. doi: [10.1038/nature22971](https://doi.org/10.1038/nature22971).
 
-Vilella AJ, Severin J, Ureta-Vidal A, Heng L, Durbin R, Birney E. EnsemblCompara GeneTrees: Complete, duplication-aware phylogenetic trees in vertebrates. 2009. Genome Res. 19(2):327-35. doi: 10.1101/gr.073585.107.
+Kumar A, Gupta C, Thomas J, Pereira A. 2021. "Genetic Dissection of Grain Yield Component Traits Under High Nighttime Temperature Stress in a Rice Diversity Panel." Front Plant Sci. 12:712167. doi: [10.3389/fpls.2021.712167](https://doi.org/10.3389/fpls.2021.712167).
 
-Wang S,Wu K, Yuan Q, Liu X, Liu Z, et al. 2012. Control of grain size, shape and quality by OsSPL16
-in rice. Nat. Genet. 44:950–54.
+Lu Z, Marand AP, Ricci WA, Ethridge CL, Zhang X, Schmitz RJ. 2019. "The prevalence, evolution and chromatin signatures of plant regulatory elements." Nature Plants. doi: [10.1038/s41477-019-0548-z](https://doi.org/10.1038/s41477-019-0548-z).
 
-Zhou, Yong, Dmytro Chebotarov, Dave Kudrna, Victor Llaca, Seunghee Lee, Shanmugam Rajasekar, Nahed Mohammed, et al. 2020. “A Platinum Standard Pan-Genome Resource That Represents the Population Structure of Asian Rice.” Scientific Data 7 (1): 113.
+Tanaka N, Shenton M, Kawahara Y, et al. 2020. "Whole-genome sequencing of the NARO World Rice Core Collection (WRC) as the basis for diversity and association studies." Plant and Cell Physiology 61(5):922-932. doi: [10.1093/pcp/pcaa019](https://doi.org/10.1093/pcp/pcaa019).
+
+Tanaka N. Shenton M, Kawahara Y, et al. 2020. "Investigation of the Genetic Diversity of a Rice Core Collection of Japanese Landraces using Whole-Genome Sequencing." Plant and Cell Physiology 61(12):2087-2096. doi: [10.1093/pcp/pcaa125](https://doi.org/10.1093/pcp/pcaa125).
+
+Vilella AJ, Severin J, Ureta-Vidal A, Heng L, Durbin R, Birney E. EnsemblCompara GeneTrees: Complete, duplication-aware phylogenetic trees in vertebrates. 2009. Genome Res. 19(2):327-35. doi: [10.1101/gr.073585.107](https://doi.org/10.1101/gr.073585.107).
+
+Wang S,Wu K, Yuan Q, Liu X, Liu Z, et al. 2012. "Control of grain size, shape and quality by OsSPL16 in rice." Nat. Genet. 44:950–54. doi:[10.1038/ng.2327](https://doi.org/10.1038/ng.2327).
+
+Zhou, Yong, Dmytro Chebotarov, Dave Kudrna, Victor Llaca, Seunghee Lee, Shanmugam Rajasekar, Nahed Mohammed, et al. 2020. “A Platinum Standard Pan-Genome Resource That Represents the Population Structure of Asian Rice.” Sci. Data. 7 (1): 113. doi: [10.1038/s41597-020-0438-2](https://doi.org/10.1038/s41597-020-0438-2)
 
