@@ -12,7 +12,7 @@ GrameneOryza (https://oryza.gramene.org), funded by the USDA-ARS, is an open res
 
 - New pan-gene set identifiers provided as gene synonyms for _O. sativa_ Japonica Nipponbare. Example: [Os4530.POR.1.pan0017141 for Os07g0129700](/?fq_field=PanOryza__xrefs&fq_value=Os4530.POR.1.pan0017141&category=PanOryza%20pan%20gene&name=Os4530.POR.1.pan0017141).
 
-***Genetic & Phenotypic Variation***
+***Genetic Variation***
 
 - _O. sativa_ Japonica Nipponbare (IRGSP1): 27 million SNPs were assigned standard rsIDs provided by the [European Variation Archive](https://www.ebi.ac.uk/eva/).
 
@@ -68,7 +68,7 @@ The site now includes 13574 [functionally curated gene annotations from GeneRIF 
 
 Gramene Oryza release 8 features genetic variation data mapped to the following reference assemblies:
 
-#### 1) _O. sativa_ Japonica Nipponbare (IRGSP1):
+*_O. sativa_ Japonica Nipponbare (IRGSP1)*:
 
   - 27 million SNPs determined in _O. sativa_ Japonica Nipponbare IRGSP1 with corresponding standard identifiers or rsIDs imported from the European Variation Archive (EVA). A complete list of the data sets that were assigned rsIDs is provided below and also in [GrameneOryza release notes for version 7.0](https://oryza.gramene.org/News?section=PanOryza%20Release%207). Corresponding genotypes and allele/genotype frequencies by study population are also available in the [Gramene database](https://ensembl.gramene.org/Oryza_sativa/).
 
@@ -78,15 +78,15 @@ Gramene Oryza release 8 features genetic variation data mapped to the following 
 
 Large-scale rice studies with rsIDs assigned by the EVA:
 
-1) Duitama _et al_ (2015): 25.8 million SNPs
-2) BGI (2004): 3 million SNPs
-3) OMAP (2007): 1.6 million SNPs
-4) [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): 366K SNPs
-5) McNally _et al_ (2009): 157K SNPs
-6) Zhao et al (2010): 1.3K SNPs
+   1) [Duitama _et al_ (2015)](https://doi.org/10.1371/journal.pone.0124617): 25.8 million SNPs
+   2) BGI (2004): 3 million SNPs
+   3) [OMAP (2007)](https://doi.org/10.1093/jxb/erac490): 1.6 million SNPs
+   4) [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): 366K SNPs
+   5) McNally _et al_ (2009): 157K SNPs
+   6) Zhao _et al_ (2010): 1.3K SNPs
 
 
-#### 2) [MAGIC16](https://doi.org/10.1038/s41597-020-0438-2) genomes:
+*[MAGIC16](https://doi.org/10.1038/s41597-020-0438-2) genomes*:
 
   - Approximately 19 million SNPs called on 8 of the [MAGIC16](https://doi.org/10.1038/s41597-020-0438-2) genomes from the [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): Nipponbare, MH63, IR64, Azucena, ARC 10497, Zhenshan 97, Liu Xu, and N22.
 
@@ -97,7 +97,10 @@ Large-scale rice studies with rsIDs assigned by the EVA:
 
 - 990 RFLPs and 288 SSRs from [Gramene’s legacy markers database](http://archive.gramene.org/markers). Example: [R2382](https://oryza-ensembl.gramene.org/Oryza_sativa/StructuralVariation/Explore?db=core;r=8:23502736-23503637;sv=R2382;svf=1;vdb=variation).
 
-  
+#### Oryza CLIMtools 
+
+The Oryza CLIMtools portal continues to provide interactive web-based views of environment x genome associations, RiboSNitch prediction, and correlations between the local environment and a pool of curated phenotypes. 
+
 
 ### Expression
 
