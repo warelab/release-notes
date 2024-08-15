@@ -48,31 +48,31 @@ The image below shows the default Homology (gene family tree) view of the result
 
 Here is a summary of the seven data categories in which the results of a gene search are organized. These also correspond to the tabs at the top of the results panel in the image below.
 
-**Germplasm** - Germplasm bearing a protein-truncating variant (PTV), specifically a PTV's putative loss-of-function allele
+- **Germplasm** - Germplasm bearing a protein-truncating variant (PTV), specifically a PTV's putative loss-of-function allele
 
-**Sequences** - Genomic, transcript and peptide sequences
+- **Sequences** - Genomic, transcript and peptide sequences
  
-**Location** - Genomic context
+- **Location** - Genomic context
 
-  *Ensembl Browser* (Gramene Rice PanGenome)
+   *Ensembl Browser* (Gramene Rice PanGenome)
   
-  *Phytomine*
+   *Phytomine*
   
-**Expression** - Baseline gene expression from EBI-Expression Atlas
+- **Expression** - Baseline gene expression from EBI-Expression Atlas
 
-**Homology** - Customizable Ensembl Compara gene family trees with displays:
+- **Homology** - Customizable Ensembl Compara gene family trees with displays:
 
-  *Alignment Overview* (full-length gene)
+   *Alignment Overview* (full-length gene)
   
-  *Multiple-Sequence Alignment* (zoom into the amino acid level)
+   *Multiple-Sequence Alignment* (zoom into the amino acid level)
   
-  *Neighborhood Conservation View* (zoom out +/- 10 flanking genes)
+   *Neighborhood Conservation View* (zoom out +/- 10 flanking genes)
   
-**Pathways** - Association to pathways in Gramene’s Plant Reactome
+- **Pathways** - Association to pathways in Gramene’s Plant Reactome
 
-**Papers** -  Scientific literature associated with genes that have undergone functional curation from RAP-DB and GeneRIF
+- **Papers** -  Scientific literature associated with genes that have undergone functional curation from RAP-DB and GeneRIF
 
-**Xrefs** - Cross-references to other databases
+- **Xrefs** - Cross-references to other databases
 
 
 
