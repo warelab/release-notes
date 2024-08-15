@@ -1,3 +1,5 @@
+_Last updated: Aug 15, 2024_
+
 **_Oryza_ PanGenome User Guide**
 
 This user guide refers to the contents of the Eighth Public Release (August 2024) of the Rice PanGenome. Currently, the PanGenome hosts 28 rice genomes including _Leersia perrieri_, an ancestor of rice, 16 Oryzeae Platinum Standard RefSeqs (the MAGIC16 or PSRefSeq collection; Zhou et al, 2020), domesticated African rice, short life cycle KitaakeX, and heirloom US Carolina Gold Rice. In addition, release 8 included the genomes of six plant outgroups (_Arabidopsis thaliana_, _Sorghum bicolor_, _Vitis vinifera_ ssp. _vinifera_ PN40024, _Selaginella moellendorffii_, _Chlamydomonas reinhardtii_, and 2 assembly versions of _Zea may_s B73 (Hufford et al, 2021; Jiao et al, 2017), and _Drosophila melanogaster_.
@@ -54,19 +56,19 @@ Here is a summary of the seven data categories in which the results of a gene se
  
 - **Location** - Genomic context
 
-   *Ensembl Browser* (Gramene Rice PanGenome)
+   - *Ensembl Browser* (Gramene Rice PanGenome)
   
-   *Phytomine*
+   - *Phytomine*
   
 - **Expression** - Baseline gene expression from EBI-Expression Atlas
 
 - **Homology** - Customizable Ensembl Compara gene family trees with displays:
 
-   *Alignment Overview* (full-length gene)
+   - *Alignment Overview* (full-length gene)
   
-   *Multiple-Sequence Alignment* (zoom into the amino acid level)
+   - *Multiple-Sequence Alignment* (zoom into the amino acid level)
   
-   *Neighborhood Conservation View* (zoom out +/- 10 flanking genes)
+   - *Neighborhood Conservation View* (zoom out +/- 10 flanking genes)
   
 - **Pathways** - Association to pathways in Gramene’s Plant Reactome
 
