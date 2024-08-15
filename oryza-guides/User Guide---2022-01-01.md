@@ -1,8 +1,8 @@
 **_Oryza_ PanGenome User Guide**
 
-This user guide refers to the contents of the Third Public Release (November 2021) of the Rice PanGenome. Currently, the PanGenome hosts 25 rice genomes and Leersia perrieri, an ancestor of rice, 11 of those Oryzae genomes were recently described (Zhou et al, 2020), and 7 outgroups (Arabidopsis thaliana, Sorghum bicolor, Vitis vinifera ssp. vinifera PN40024, Selaginella moellendorffii, Chlamydomonas reinhardtii, Drosophila melanogaster, and 2 versions of Zea mays B73  (Hufford et al, 2021; Jiao et al, 2017)).
+This user guide refers to the contents of the Eighth Public Release (August 2024) of the Rice PanGenome. Currently, the PanGenome hosts 28 rice genomes including _Leersia perrieri_, an ancestor of rice, 16 Oryzeae Platinum Standard RefSeqs (the MAGIC16 or PSRefSeq collection; Zhou et al, 2020), domesticated African rice, short life cycle KitaakeX, and heirloom US Carolina Gold Rice. In addition, release 8 included the genomes of six plant outgroups (_Arabidopsis thaliana_, _Sorghum bicolor_, _Vitis vinifera_ ssp. _vinifera_ PN40024, _Selaginella moellendorffii_, _Chlamydomonas reinhardtii_, and 2 assembly versions of _Zea may_s B73 (Hufford et al, 2021; Jiao et al, 2017), and _Drosophila melanogaster_.
 
-At present, most data types are only available for Japonica rice, so this guide will focus on the Grain Width on chromosome 8 gene model, also known as GW8.
+At present, most data types are only available for Japonica rice, therefore this guide will focus on data and views for the Grain Width on chromosome 8 (GW8) gene model.
 
 - [PanGenome Search interface](#search-interface)
 - [Searching for a gene](#gene-search)
@@ -46,8 +46,12 @@ The image below shows the default Homology (gene family tree) view of the result
 
 
 
-Here is a summary of the five data categories in which the results of a gene search are organized. These also correspond to the tabs at the top of the results panel in the image below.
+Here is a summary of the seven data categories in which the results of a gene search are organized. These also correspond to the tabs at the top of the results panel in the image below.
 
+**Germplasm** - Germplasm bearing a protein-truncating variant (PTV), specifically a PTV's putative loss-of-function allele
+
+**Sequences** - Genomic, transcript and peptide sequences
+ 
 **Location** - Genomic context
 
   *Ensembl Browser* (Gramene Rice PanGenome)
@@ -66,8 +70,14 @@ Here is a summary of the five data categories in which the results of a gene sea
   
 **Pathways** - Association to pathways in Gramene’s Plant Reactome
 
+**Papers** -  Scientific literature associated with genes that have undergone functional curation from RAP-DB and GeneRIF
+
 **Xrefs** - Cross-references to other databases
 
+
+
+
+### Location Tab
 
 ![homology](images/Picture4.png)
 
@@ -84,7 +94,7 @@ Clicking on the spider gear that precedes the “Display Mode” drop-down menu,
 ![configure_labels](images/Picture6.png)
 
 
-**Homology Views**
+### Homology Tab
 
 Click on the “Display Mode” drop-down menu to select one of three displays for the Homology view: Alignment overview, Multiple Sequence Alignment, and Neighborhood conservation.
 
@@ -126,18 +136,48 @@ Let’s go back to the Os08g0531600 gene search results (Homology default view).
 At the bottom of the Homology view, you will find a link to the corresponding Ensembl Gene Tree view. The trees displayed in the Oryza PanGenome Search interface are the same as those in Ensembl Plants, which were built using the EnsemblCompara pipeline (Vilella et al, 2019). 
 
 
+### Germplasm Tab
 
-**Location**
+The Germplasm tab lists accessions which bear a protein-truncating variant or PTV, its predicted consequence, whether it is in homozygous or heterozygous form, and the genotyping study from which it was identified. The table includes links to IRRI or GRIN, as well as a way to search for other genes with a PTV in a given germplasm accession. The indexed PTVs include the following predicted functional effects: start lost, stop gained, stop lost, splice site acceptor, and splice site donor.
+
+![Germplasm View](images/germplasm_search.png) - _Swap with rice image_
+
+See also the Genetic Variation section below.
+
+
+### Sequences Tab
+
+This tab provides quick access to three kind of sequences: Genomic, Transcript and Peptide, where CDS and UTRs are color-coded.
+
+![Sequences View](images/sequences_search.png) - _Swap with rice image_
+
+
+
+### Location Tab
 
 Switch to the “Location” tab to observe the gene structure and alternative transcripts for your target gene. Exons are shown as red boxes, introns as lines, and UTRs as orange boxes. Use the sizing tool to modify the region under observation. The search filters allow users to list all genes in the chromosome or all the genes in the region specified in the field. Links to the Oryza PanGenome Browser and PhytoMine are provided at the bottom of the tab.
 
 ![location](images/Picture13.png)
 
 
-**Expression**
+### Expression Tab
+
+Curated gene expression data for Japonica Nipponbare is available in this tab for baseline experiments and expression of paralogs for the reference study, processed through the EMBL-EBI Expression Atlas, and Electronic Fluorescent Pictograph (eFP) expression visualizations from the Bio-Analytic Resource for Plant Biology.
+
+
+#### eFP Browser
+
+eFP browsers are available for sorghum, maize and Arabidopsis. Sorghum gene expression herein corresponds to the Developmental and Stress Atlases by [McCormick et al (2018)](https://www.sorghumbase.org/paper/23714). - _swap with rice REF_
+
+![eFP Expression View](images/efp_search.png) - _swap with rice image_
+
+
+#### Expression Atlas (All Studies)
+
+As of GrameneOryza release 8, the curated EBI Expression Atlas set consists of XX studies with baseline expression and three studies with differential expression. Differential experiments are available at the [Expression Atlas](https://www.ebi.ac.uk/gxa/plant/experiments). 
 
 This view depicts baseline gene expression data for a whole plant (top anatogram on the left of the results box) and for the plant’s reproductive organs (bottom anatogram). Experiments are organized by study on the left side, and by tissue or developmental stage on the top of the graph. 
-Unique data points are colored in blue, with intensity increasing in proportion to the level of expression. What this means is that higher expression data points are shown in darker blue. 
+Unique data points are colored in blue, with intensity increasing in proportion to the level of expression. In other words, higher expression data points are shown in darker blue. 
 When you hover the cursor over a data point, the data point is highlighted in yellow, and a more detailed data summary pops up. The corresponding tissue is also colored in pink in the anatograms.
 
 ![expression_plant](images/Picture14.png)
@@ -145,11 +185,26 @@ When you hover the cursor over a data point, the data point is highlighted in ye
 
 If instead, you hover over a tissue on the anatogram on the left, the name of the tissue will pop up, and the points corresponding to expression data from that tissue will light up. 
 
-![expression_seed](images/Picture15.png)
+![expression_seed](images/Picture15.png) - _remove or swap with above rice image?_
+
+
+![Expression Atlas View](images/expression_search.png) - _remove or swap with above rice image?_
+
+Baseline gene expression is also available from the gene pages of the Genome Browser, see for example [Expression for Sobic.006G095600](https://ensembl.sorghumbase.org/Sorghum_bicolor/Gene/ExpressionAtlas?g=SORBI_3006G095600;r=6:46566240-46571064).  - _swap with rice URL_
+
+
+#### Expression Atlas Paralogs (Reference Study - All paralogs)
+
+This is a visualization of gene expression of the paralogs for the query gene from the reference study described in the header.
+
+![Paralogs Expression View](images/paralogs_search.png) - _swap with rice image_
+
+
+See also the Expression section below.
 
 
 
-**Pathways**
+### Pathways Tab
 
 Examples of manually curated biological pathways for rice (Os Japonica) in the Plant Reactome include classical intermediary metabolism, signaling, transcriptional regulation and developmental pathways. In the future, curatorial work will be extended to cell cycle, apoptosis and resistance to pathogen infection.
 
@@ -161,7 +216,16 @@ Under “Search Filters”, you have the option of getting a list of all genes i
 ![pathways](images/Picture16.png)
 
 
-**Cross-References**
+
+### Papers Tab (_Add Papers_)
+
+Genes that have undergone functional curation (e.g., Os08g0531600) will have scientific literature associated with them in this tab. However, an [easy-to-fill form](https://docs.google.com/forms/d/e/1FAIpQLSey-xPyTysdd9c2phXT6kcbjEDeCppG4dLG7LjZCeLpx_KGog/viewform) allows researchers to also _Submit a gene function_ for review.
+
+![Papers](images/papers_search.png) - _swap with rice image_
+
+
+
+### Cross-References Tab
 
 In the Xref tab, you will find references to your gene of interest in other databases, such as UniProt, UniParc, and UniGene. Currently, this view is dissabled in the Oryza PanGenome. However, as described above, additional databases such as Phytomine are cross-referenced in the Location tab.
 
