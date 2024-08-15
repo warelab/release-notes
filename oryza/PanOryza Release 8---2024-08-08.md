@@ -68,7 +68,7 @@ Gramene Oryza release 8 features genetic variation data mapped to the following 
 
 * _O. sativa_ Japonica Nipponbare (IRGSP1):
 
-  - 27 million SNPs determined in _O. sativa_ Japonica Nipponbare IRGSP1 with corresponding standard identifiers or rsIDs imported from the European Variation Archive (EVA). For a complete list of the data sets that were assigned rsIDs, see [release notes for version 7.0](https://oryza.gramene.org/News?section=PanOryza%20Release%207). Corresponding genotypes and allele/genotype frequencies by study population are available in the [Gramene database](https://ensembl.gramene.org/Oryza_sativa/).
+  - 27 million SNPs determined in _O. sativa_ Japonica Nipponbare IRGSP1 with corresponding standard identifiers or rsIDs imported from the European Variation Archive (EVA). For a complete list of the data sets that were assigned rsIDs, see [release notes for version 7.0](https://oryza.gramene.org/News?section=PanOryza%20Release%207). Corresponding genotypes and allele/genotype frequencies by study population are also available in the [Gramene database](https://ensembl.gramene.org/Oryza_sativa/).
 
   - 6.5 million SNPs determined in the USDA Rice Mini-Core Collection (URMC) of 190 rice accessions in Kumar et al (2021).
      
