@@ -1,4 +1,4 @@
-_Last updated: May 23, 2024_
+_Last updated: Aug 15, 2024_
 
 ## Using the genes search interface {#search-interface}
 
