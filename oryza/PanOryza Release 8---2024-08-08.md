@@ -99,7 +99,7 @@ Large-scale rice studies with rsIDs assigned by the EVA:
 
 #### Oryza CLIMtools 
 
-The Oryza CLIMtools portal continues to provide interactive web-based views of environment x genome associations, RiboSNitch prediction, and correlations between the local environment and a pool of curated phenotypes. 
+The Oryza CLIMtools portal continues to provide interactive web-based views of environment x genome associations, RiboSNitch prediction, and correlations between the local environment and a pool of curated phenotypes. Curated data corresponds to 413 geo-environmental variables describing the local environments of 658 Indica and 283 Japonica landrace varieties sequenced as part of the 3K Rice Genome Project (Ferrero-Serrano _et al_, 2024). 
 
 
 ### Expression
@@ -119,6 +119,8 @@ No updates in the current release, please see [release notes for version 5.0](ht
 
 ## References
 
+- Ferrero-Serrano A, Chakravorty D, Kirven KJ, Assmann SM. 2024. "Oryza CLIMtools: An Online Portal for Investigating Genome-Environment Associations in Rice." Plant Comm. 5(4):100813. doi: [10.1016/j.xplc.2024.100813](https://doi.org/10.1016/j.xplc.2024.100813).
+  
 - Harrison P, Ridwan Amode M, Austine-Orimoloye O et al. 2024. "Ensembl 2024." Nucleic Acids Research 52:D1(D891–D899). doi: [10.1093/nar/gkad1049](https://doi.org/10.1093/nar/gkad1049).
 
 - Kumar A, Gupta C, Thomas J, Pereira A. 2021. "Genetic Dissection of Grain Yield Component Traits Under High Nighttime Temperature Stress in a Rice Diversity Panel." Front Plant Sci. 12:712167. doi: [10.3389/fpls.2021.712167](https://doi.org/10.3389/fpls.2021.712167).
