@@ -56,9 +56,7 @@ Here is a summary of the seven data categories in which the results of a gene se
  
 - **Location** - Genomic context
 
-   - *Ensembl Browser* (Gramene Rice PanGenome)
-  
-   - *Phytomine*
+   - *Ensembl Browser* (Gramene rice pan-genome)
   
 - **Expression** - Baseline gene expression from EBI-Expression Atlas
 
@@ -72,7 +70,7 @@ Here is a summary of the seven data categories in which the results of a gene se
   
 - **Pathways** - Association to pathways in Gramene’s Plant Reactome
 
-- **Papers** -  Scientific literature associated with genes that have undergone functional curation from RAP-DB and GeneRIF
+- **Papers** - Scientific literature associated with genes that have undergone functional curation from RAP-DB and GeneRIF
 
 - **Xrefs** - Cross-references to other databases
 
@@ -104,7 +102,7 @@ Click on the “Display Mode” drop-down menu to select one of three displays f
 ![alignment_overview](images/Picture7.png)
 
 
-*Alignment Overview*. This view allows you to view the entire length of the protein. Proteins are color-coded by InterPro domain. Click anywhere in the colored protein domain to reveal its name and some statistics. 
+**Alignment Overview**. This view allows you to view the entire length of the protein. Proteins are color-coded by InterPro domain. Click anywhere in the colored protein domain to reveal its name and some statistics. 
 
 ![interpro_inset](images/Picture8.png)
 
@@ -125,12 +123,12 @@ Please note that resizing the gray slider that surrounds the entire protein in t
 
 Let’s go back to the Os08g0531600 gene search results (Homology default view). 
 
-*Multiple-Sequence Alignment*. This view allows you to zoom into the amino acid level. Drag the slider along the length of the protein to change the area of detail. This view allows you to observe the degree of amino acid sequence conservation and identify areas where lack of conservation could indicate biologically significant differences such as alternatively spliced forms or mere annotation artifacts. See for example how the O. sativa indica IR8 ortholog of Os08g0531600 differs in a well-conserved region of the SBP domain (blue box) indicating an internal deletion or a potential annotation error. The O. rufipogon ortholog of Os08g0531600 also varies slightly from consensus towards the 3’-end of the region shown in the image, which invites further exploration to identify whether the difference is biologically significant or an annotation artifact.
+**Multiple-Sequence Alignment**. This view allows you to zoom into the amino acid level. Drag the slider along the length of the protein to change the area of detail. This view allows you to observe the degree of amino acid sequence conservation and identify areas where lack of conservation could indicate biologically significant differences such as alternatively spliced forms or mere annotation artifacts. See for example how the O. sativa indica IR8 ortholog of Os08g0531600 differs in a well-conserved region of the SBP domain (blue box) indicating an internal deletion or a potential annotation error. The O. rufipogon ortholog of Os08g0531600 also varies slightly from consensus towards the 3’-end of the region shown in the image, which invites further exploration to identify whether the difference is biologically significant or an annotation artifact.
 
 ![multiple_sequence_alignment](images/Picture11.png)
 
 
-*Neighborhood Conservation View*. This view presents the target gene in the middle with a red line across the best ortholog in each species in the tree plus 10 flanking genes upstream and downstream color-coded by gene family. The target gene and its orthologs, for example, are shown in green and shaded based on similarity with the gene of interest. Genes from unrelated families are shown in gray. Non-coding genes are depicted as smaller gray boxes (with shading intensity proportional to number of genes in the corresponding group). The colorful scheme allows researchers to identify structural variants and Presence/Absence variants in the region in question. 
+**Neighborhood Conservation View**. This view presents the target gene in the middle with a red line across the best ortholog in each species in the tree plus 10 flanking genes upstream and downstream color-coded by gene family. The target gene and its orthologs, for example, are shown in green and shaded based on similarity with the gene of interest. Genes from unrelated families are shown in gray. Non-coding genes are depicted as smaller gray boxes (with shading intensity proportional to number of genes in the corresponding group). The colorful scheme allows researchers to identify structural variants and Presence/Absence variants in the region in question. 
 
 ![neigborhood_view](images/Picture12.png)
 
@@ -164,19 +162,12 @@ Switch to the “Location” tab to observe the gene structure and alternative t
 
 ### Expression Tab
 
-Curated gene expression data for Japonica Nipponbare is available in this tab for baseline experiments and expression of paralogs for the reference study, processed through the EMBL-EBI Expression Atlas, and Electronic Fluorescent Pictograph (eFP) expression visualizations from the Bio-Analytic Resource for Plant Biology.
-
-
-#### eFP Browser
-
-eFP browsers are available for sorghum, maize and Arabidopsis. Sorghum gene expression herein corresponds to the Developmental and Stress Atlases by [McCormick et al (2018)](https://www.sorghumbase.org/paper/23714). - _swap with rice REF_
-
-![eFP Expression View](images/efp_search.png) - _swap with rice image_
+Curated gene expression data for Japonica Nipponbare is available in this tab for baseline experiments and expression of paralogs for the reference study, processed through the EMBL-EBI Expression Atlas.
 
 
 #### Expression Atlas (All Studies)
 
-As of GrameneOryza release 8, the curated EBI Expression Atlas set consists of XX studies with baseline expression and three studies with differential expression. Differential experiments are available at the [Expression Atlas](https://www.ebi.ac.uk/gxa/plant/experiments). 
+As of GrameneOryza release 8, the curated EBI Expression Atlas set consists of 15 _Oryza sativa_ studies with baseline expression, and 95 _Oryza_ spp. studies with differential expression (including 14 in _O. sativa indica_). Differential experiments are available at the [Expression Atlas](https://www.ebi.ac.uk/gxa/plant/experiments). 
 
 This view depicts baseline gene expression data for a whole plant (top anatogram on the left of the results box) and for the plant’s reproductive organs (bottom anatogram). Experiments are organized by study on the left side, and by tissue or developmental stage on the top of the graph. 
 Unique data points are colored in blue, with intensity increasing in proportion to the level of expression. In other words, higher expression data points are shown in darker blue. 
@@ -192,7 +183,7 @@ If instead, you hover over a tissue on the anatogram on the left, the name of th
 
 ![Expression Atlas View](images/expression_search.png) - _remove or swap with above rice image?_
 
-Baseline gene expression is also available from the gene pages of the Genome Browser, see for example [Expression for Sobic.006G095600](https://ensembl.sorghumbase.org/Sorghum_bicolor/Gene/ExpressionAtlas?g=SORBI_3006G095600;r=6:46566240-46571064).  - _swap with rice URL_
+Baseline gene expression is also available from the gene pages of the Genome Browser, see for example [Expression for Sobic.006G095600](https://ensembl.sorghumbase.org/Sorghum_bicolor/Gene/ExpressionAtlas?g=SORBI_3006G095600;r=6:46566240-46571064). - _swap with rice URL_
 
 
 #### Expression Atlas Paralogs (Reference Study - All paralogs)
@@ -229,8 +220,9 @@ Genes that have undergone functional curation (e.g., Os08g0531600) will have sci
 
 ### Cross-References Tab
 
-In the Xref tab, you will find references to your gene of interest in other databases, such as UniProt, UniParc, and UniGene. Currently, this view is dissabled in the Oryza PanGenome. However, as described above, additional databases such as Phytomine are cross-referenced in the Location tab.
+In the Xref tab, you will find references to your gene of interest in other databases, such as UniProt, UniParc, UniGene, ENA, and PanOryza pan-gene. Currently, this view is dissabled in the Oryza PanGenome. However, as described above, additional databases such as Phytomine are cross-referenced in the Location tab.
 
+![xrefs](images/xrefs_search.png) - _ADD image_
 
 
 ---
@@ -260,7 +252,7 @@ New alignments and synteny maps with the new Oryza genomes will be made availabl
 **Synteny maps** for *Oryza sativa Japonica* with:
 
  - *Zea mays* V5 
-  - *Sorghum bicolor* (see [example](https://oryza-ensembl.gramene.org/Oryza_sativa/Location/Synteny?db=core;g=Os08g0531600;r=8:26476169-26526170;t=Os08t0531600-01)). Note the inverted order of genes in sorghum chromosome 7 relatoive to rice chromosome 8.
+ - *Sorghum bicolor* (see [example](https://oryza-ensembl.gramene.org/Oryza_sativa/Location/Synteny?db=core;g=Os08g0531600;r=8:26476169-26526170;t=Os08t0531600-01)). Note the inverted order of genes in sorghum chromosome 7 relatoive to rice chromosome 8.
 
 ![Ensembl Synteny](images/Picture26.png)
 ![Synteny_table](images/Picture27.png)
@@ -297,7 +289,7 @@ Genetic variation data for Nipponbare is available from six different large scal
 4) Chip-based analysis of approximately 160k SNPs across 20 diversity rice accessions (OryzaSNP, McNally et al. 2009), described as "revealing relationships among landraces and modern varieties of rice".
 
 5) The Oryza Map Alignment Project (OMAP 2007): approximately 1.6M variant loci detected by comparing BAC End Sequences from four rice varieties to Japonica. [dbSNP]
-   
+ 
 6) Adaptive loss-of-function in domesticated rice (BGI 2004): A collection of approximately 3M variant loci from the comparison of the Indica (93-11) and Japonica (Nipponbare) genomes. [dbSNP]
 
 In addition, the following genetic markers were remapped to the IRGSP-1.0 assembly by industry collaborator KeyGene:
