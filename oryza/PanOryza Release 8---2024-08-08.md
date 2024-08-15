@@ -68,7 +68,7 @@ The site now includes 13574 [functionally curated gene annotations from GeneRIF 
 
 Gramene Oryza release 8 features genetic variation data mapped to the following reference assemblies:
 
-*_O. sativa_ Japonica Nipponbare (IRGSP1)*:
+**_O. sativa_ Japonica Nipponbare (IRGSP1)**:
 
   - 27 million SNPs determined in _O. sativa_ Japonica Nipponbare IRGSP1 with corresponding standard identifiers or rsIDs imported from the European Variation Archive (EVA). A complete list of the data sets that were assigned rsIDs is provided below and also in [GrameneOryza release notes for version 7.0](https://oryza.gramene.org/News?section=PanOryza%20Release%207). Corresponding genotypes and allele/genotype frequencies by study population are also available in the [Gramene database](https://ensembl.gramene.org/Oryza_sativa/).
 
@@ -86,7 +86,7 @@ Large-scale rice studies with rsIDs assigned by the EVA:
    6) [Zhao _et al_ (2010)](https://doi.org/10.1371/journal.pone.0010780 ): 1.3K SNPs
 
 
-*[MAGIC16](https://doi.org/10.1038/s41597-020-0438-2) genomes*:
+**[MAGIC16](https://doi.org/10.1038/s41597-020-0438-2) genomes**:
 
   - Approximately 19 million SNPs called on 8 of the [MAGIC16](https://doi.org/10.1038/s41597-020-0438-2) genomes from the [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): Nipponbare, MH63, IR64, Azucena, ARC 10497, Zhenshan 97, Liu Xu, and N22.
 
