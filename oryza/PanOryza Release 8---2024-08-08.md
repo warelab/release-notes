@@ -64,7 +64,7 @@ The site now includes 13574 [functionally curated gene annotations from GeneRIF 
 
 ### Variation
 
-###Genetic variation: SNPs & InDels ###
+#### Genetic variation: SNPs & InDels
 
 Gramene Oryza release 8 features genetic variation data mapped to the following reference assemblies:
 
@@ -90,7 +90,7 @@ Large-scale rice studies with rsIDs assigned by the EVA:
 
   - Approximately 19 million SNPs called on 8 of the [MAGIC16](https://doi.org/10.1038/s41597-020-0438-2) genomes from the [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): Nipponbare, MH63, IR64, Azucena, ARC 10497, Zhenshan 97, Liu Xu, and N22.
 
-###Phenotypic variation: QTLs###
+#### Phenotypic variation: QTLs
 
 * _O. sativa_ Japonica Nipponbare (IRGSP1):
  
