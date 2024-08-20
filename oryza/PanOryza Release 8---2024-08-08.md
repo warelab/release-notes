@@ -101,7 +101,7 @@ The Oryza CLIMtools portal continues to provide interactive web-based views of e
  
 - 20,483 Quantitative Trait Locus (QTL) remapped to the IRGSP-1.0 assembly by [KeyGene](http://www.keygene.com), and imported from [Gramene's legacy QTLs database](http://archive.gramene.org/qtl) and the [Q-Taro database](http://qtaro.abr.affrc.go.jp). Click [here](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/Summary?g=Os08g0531600;r=8:26501167-26506198;t=Os08t0531600-01) for a region rich in QTLs.
 
-- 990 RFLPs and 288 SSRs from [Gramene’s legacy markers database](http://archive.gramene.org/markers) associated with traits/phenotypes. Example: [R2382](https://oryza-ensembl.gramene.org/Oryza_sativa/StructuralVariation/Explore?db=core;r=8:23502736-23503637;sv=R2382;svf=1;vdb=variation).
+- 990 RFLPs and 288 SSRs from [Gramene’s legacy markers database](http://archive.gramene.org/markers) associated with traits/phenotypes. Example: [RZ413 is associated with 7 traits](https://oryza-ensembl.gramene.org/Oryza_sativa/StructuralVariation/Explore?db=core;r=1:17853225-17953226;sv=RZ413;svf=511;vdb=variation) for yield (spikelet number and panicle weight), abiotic stress (dry mass, sodium concentration, potassium uptake), biochemical (soluble protein content), and development (leaf senescence).
   
 
 ### Expression
