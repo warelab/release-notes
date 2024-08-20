@@ -308,7 +308,7 @@ Large-scale rice studies with rsIDs assigned by the EVA:
 6) Adaptive loss-of-function in domesticated rice (BGI 2004): A collection of approximately 3M variant loci from the comparison of the Indica (93-11) and Japonica (Nipponbare) genomes. [dbSNP]
 
 
-In addition, the following genetic markers were remapped to the IRGSP-1.0 assembly by industry collaborator KeyGene:
+In addition, the following genetic markers were remapped to the IRGSP-1.0 assembly by industry collaborator KeyGene, and are associated with phenotypic traits:
 
 - 20,483 Quantitative Trait Locus (QTL): 19,435 from Gramene's legacy QTLs database and 1,048 from the Q-Taro database
 
