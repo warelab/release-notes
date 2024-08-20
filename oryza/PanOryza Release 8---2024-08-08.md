@@ -78,18 +78,18 @@ Gramene Oryza release 8 features genetic variation data mapped to the following 
 
 Large-scale rice studies with rsIDs assigned by the EVA:
 
-   1) [Duitama _et al_ (2015)](https://doi.org/10.1371/journal.pone.0124617): 25.8 million SNPs
-   2) [BGI (2004)](https://doi.org/10.1371/journal.pbio.0030038 ): 3 million SNPs
-   3) [OMAP (2007)](https://doi.org/10.1093/jxb/erac490): 1.6 million SNPs
-   4) [McNally _et al_ (2009](https://doi.org/10.1073/pnas.0900992106): 157K SNPs
-   5) [Zhao _et al_ (2010)](https://doi.org/10.1371/journal.pone.0010780 ): 1.3K SNPs
+   1) [Duitama _et al_ (2015)](https://doi.org/10.1371/journal.pone.0124617): 25.8 million SNPs in 104 elite rice cultivars by whole-genome sequencing for marker-assisted selection.
+   2) [BGI (2004)](https://doi.org/10.1371/journal.pbio.0030038 ): 3 million SNPs to compare the Indica (93-11) and Japonica (Nipponbare) genomes for adaptive loss-of-function in domesticated rice.
+   3) [OMAP (2007)](https://doi.org/10.1093/jxb/erac490): 1.6 million SNPs in 4 rice varieties determined by comparing BAC End Sequences.
+   4) [McNally _et al_ (2009](https://doi.org/10.1073/pnas.0900992106): 157K SNPs across 20 diversity rice accessions (OryzaSNP) determined by chip-based analysis to  reveal relationships among landraces and modern varieties.
+   5) [Zhao _et al_ (2010)](https://doi.org/10.1371/journal.pone.0010780 ): 1.3K SNPs in 395 samples determined by chip-based analysis for domestication and breeding.
 
 - 990 RFLPs and 288 SSRs from [Gramene’s legacy markers database](http://archive.gramene.org/markers) associated with traits/phenotypes. Example: [R2382](https://oryza-ensembl.gramene.org/Oryza_sativa/StructuralVariation/Explore?db=core;r=8:23502736-23503637;sv=R2382;svf=1;vdb=variation).
 
 
 ===> **[MAGIC16](https://doi.org/10.1038/s41597-020-0438-2) genomes**:
 
-  - Approximately 19 million SNPs called on 8 of the [MAGIC16](https://doi.org/10.1038/s41597-020-0438-2) genomes from the [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): Nipponbare, MH63, IR64, Azucena, ARC 10497, Zhenshan 97, Liu Xu, and N22.
+  - Approximately 19 million SNPs called on 8 of the [MAGIC16](https://doi.org/10.1038/s41597-020-0438-2) genomes from the [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): Nipponbare, MH63, IR64, Azucena, ARC 10497, Zhenshan 97, Liu Xu, and N22. The 3000 Rice Genome Project (2014) was an international effort to sequence the genomes of 3,024 rice varieties from 89 countries that originally identified 365,710 variant loci including SNPs and InDels.
 
 
 #### Oryza CLIMtools 
@@ -97,7 +97,7 @@ Large-scale rice studies with rsIDs assigned by the EVA:
 The Oryza CLIMtools portal continues to provide interactive web-based views of environment x genome (ExG) associations, RiboSNitch prediction, and correlations between the local environment and a pool of curated phenotypes. Curated data corresponds to 413 geo-environmental variables describing the local environments of 658 Indica and 283 Japonica landrace varieties sequenced as part of the 3K Rice Genome Project (Ferrero-Serrano _et al_, 2024). 
 
 
-#### Phenotypic variation: QTLs
+#### Phenotypic variation: QTLs and Structural Variants
  
 - 20,483 Quantitative Trait Locus (QTL) remapped to the IRGSP-1.0 assembly by [KeyGene](http://www.keygene.com), and imported from [Gramene's legacy QTLs database](http://archive.gramene.org/qtl) and the [Q-Taro database](http://qtaro.abr.affrc.go.jp). Click [here](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/Summary?g=Os08g0531600;r=8:26501167-26506198;t=Os08t0531600-01) for a region rich in QTLs.
 
