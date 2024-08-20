@@ -94,7 +94,7 @@ Large-scale rice studies with rsIDs assigned by the EVA:
 
 #### Oryza CLIMtools 
 
-The Oryza CLIMtools portal continues to provide interactive web-based views of environment x genome (ExG) associations, RiboSNitch prediction, and correlations between the local environment and a pool of curated phenotypes (Ferrero-Serrano _et al_, 2024). Curated data corresponds to 413 geo-environmental variables describing the local environments of 658 Indica and 283 Japonica landrace varieties sequenced as part of the 3K Rice Genome Project. 
+The [Oryza CLIMtools portal](https://www.gramene.org/CLIMtools/oryza_v1.0/) continues to provide interactive web-based views of environment x genome (ExG) associations, RiboSNitch prediction, and correlations between the local environment and a pool of curated phenotypes (Ferrero-Serrano _et al_, 2024). Curated data corresponds to 413 geo-environmental variables describing the local environments of 658 Indica and 283 Japonica landrace varieties sequenced as part of the 3K Rice Genome Project. 
 
 
 #### Phenotypic variation: QTLs and Structural Variants
