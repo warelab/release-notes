@@ -75,6 +75,8 @@ Gramene Oryza release 8 features genetic variation data mapped to the following 
   - 6.5 million SNPs determined in the USDA Rice Mini-Core Collection (URMC) of 190 rice accessions in Kumar et al (2021).
      
   - 12 million SNPs determined in two collections at the Japanese NARO Genebank: 68 accessions of the World Rice Core Collection (NARO WRC) (Tanaka et al, 2020a) and 50 accessions of the Rice Core Collection of Japanese Landraces (JRC) (Tanaka et al, 2020b), data kindly provided by the RAP-DB resource.
+ 
+  - 990 RFLPs and 288 SSRs from [Gramene’s legacy markers database](http://archive.gramene.org/markers) associated with traits/phenotypes. Example: [R2382](https://oryza-ensembl.gramene.org/Oryza_sativa/StructuralVariation/Explore?db=core;r=8:23502736-23503637;sv=R2382;svf=1;vdb=variation).
 
 Large-scale rice studies with rsIDs assigned by the EVA:
 
@@ -84,12 +86,12 @@ Large-scale rice studies with rsIDs assigned by the EVA:
    4) [McNally _et al_ (2009](https://doi.org/10.1073/pnas.0900992106): 157K SNPs across 20 diversity rice accessions (OryzaSNP) determined by chip-based analysis to  reveal relationships among landraces and modern varieties.
    5) [Zhao _et al_ (2010)](https://doi.org/10.1371/journal.pone.0010780 ): 1.3K SNPs in 395 samples determined by chip-based analysis for domestication and breeding.
 
-- 990 RFLPs and 288 SSRs from [Gramene’s legacy markers database](http://archive.gramene.org/markers) associated with traits/phenotypes. Example: [R2382](https://oryza-ensembl.gramene.org/Oryza_sativa/StructuralVariation/Explore?db=core;r=8:23502736-23503637;sv=R2382;svf=1;vdb=variation).
+Note: The [3000 Rice Genome Project (2014)](https://doi.org/10.1186/2047-217x-3-7), an international effort to sequence the genomes of 3,024 rice varieties from 89 countries, originally identified 365,710 variant loci including SNPs and InDels. This set was also submitted to the EVA and assigned rsIDs. However, more recently, [Zhou _et al_ (2024)](https://doi.org/10.1186/s12915-024-01820-5) used GATK4 software to call about 19 million SNPs using the 3K resequenced accessions on eight of the [MAGIC16 genomes](https://doi.org/10.1038/s41597-020-0438-2) genomes, including Nipponbare. Therefore, we are providing the 19 million SNPs from the 3K rice project as part of the MAGIC16 data set (see below), which supercedes the original 366K SNP set from the 2014 publication.
 
 
 ===> **[MAGIC16](https://doi.org/10.1038/s41597-020-0438-2) genomes**:
 
-  - Approximately 19 million SNPs called on 8 of the [MAGIC16](https://doi.org/10.1038/s41597-020-0438-2) genomes from the [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): Nipponbare, MH63, IR64, Azucena, ARC 10497, Zhenshan 97, Liu Xu, and N22. The 3000 Rice Genome Project (2014) was an international effort to sequence the genomes of 3,024 rice varieties from 89 countries that originally identified 365,710 variant loci including SNPs and InDels.
+  - Approximately 19 million SNPs called on 8 of the [MAGIC16](https://doi.org/10.1038/s41597-020-0438-2) genomes from the [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): Nipponbare, MH63, IR64, Azucena, ARC 10497, Zhenshan 97, Liu Xu, and N22.
 
 
 #### Oryza CLIMtools 
