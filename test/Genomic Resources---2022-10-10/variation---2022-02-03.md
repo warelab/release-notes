@@ -9,13 +9,19 @@ Genetic variation data sets are available for the reference genome assembly BTx6
 
 ### Naturally occurring genetic variation - SNPs
 
-Currently in SorghumBase, there are three SNPs data sets, two on sorghum BTx623 and one on Tx2783.
+Currently in SorghumBase, there are six SNPs data sets, five on sorghum BTx623 (one on JGI_5.1 while the rest on NCBIv3), and one on Tx2783.
 
 #### BTx623
 
 - The Lozano SNP dataset [(Lozano et al, 2021)](https://www.sorghumbase.org/paper/comparative-evolutionary-genetics-of-deleterious-load-in-sorghum-and-maize) consists of about 13 million SNPs in 499 sorghum accessions, including lines from the TERRA-MEPP and TERRA-REF population panels, and the samples previously reported by Emma Mace and collaborators [(Mace et al, 2013)](https://www.sorghumbase.org/paper/21275).
 
-- The Boatwright SNP dataset [(Boatwright et al, 2022)](https://www.sorghumbase.org/paper/20741) consists of over 33 million SNPs and indels genotyped in 378 Sorghum Association Panel (SAP) accessions via whole-genome sequencing (WGS).
+- The Boatwright SNP set [(Boatwright et al, 2022)](https://www.sorghumbase.org/paper/20741) consists of over 33 million SNPs and indels genotyped in 378 Sorghum Association Panel (SAP) accessions via whole-genome sequencing (WGS).
+
+- The Kumar SNP set [Kumar et al (2024)](https://www.sorghumbase.org/paper/24501) consists of 19.7 million SNPs and 2.7 million indels assesed by WGS in 365 accessions including 332 BAP (Bioenergy Association Panel) lines.
+
+- The Lasky SNP set [Lasky et al (2015)](https://www.sorghumbase.org/paper/24502) consists of 404,627 SNPs used to characterize 1943 georeferenced landraces.
+
+In addition, a large genotyping data set from the Gates-funded Global Sorghum Initiative was provided by Dr. Nadia Shakoor from the Donald Danforth Plant Science Center, Dr. John Lovell from the HudsonAlpha Institute for Biotechnology, and Dr. Geoff Morris from Colorado State University. The set consists of 36.1 million SNPs called in 940 resequenced genomes, and is mapped to the JGI_V5.1 assembly, which is subject to the Fort Lauderdale accord restrictions.
 
 #### Tx2783
 
