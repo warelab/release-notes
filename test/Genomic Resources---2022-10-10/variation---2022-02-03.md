@@ -1,12 +1,7 @@
 ## Genetic and Phenotypic Variation {#variation}
 
-Genetic variation in SorghumBase is available for naturally occurring short variants (i.e., less than 50 nucleotides) and chemically induced point mutations. Naturally occuring short variants include Single Nucleotide Polymorphisms (SNPs) and Insertions/Deletions (indels).
-
-Over 78 million sorghum variants including more than 65 million SNPs genotyped in almost 900 accessions, and almost 13 million ethyl methanesulfonate (EMS)-induced variants in populations with a mutagenized BTx623 background, are available for version 3 of the reference genome assembly BTx623 (NCBIv3). In addition, a subset of 39.1 million SNPs is available in BTx623 version 5 (JGI_v5.1). 
-
-In addition, approximately 32.5 million SNPs were called in Tx2783.
-
-Source studies for this data follow.
+Genetic variation in SorghumBase is available for naturally occurring short variants (i.e., less than 50 nucleotides) and chemically induced point mutations. Naturally occuring short variants include Single Nucleotide Polymorphisms (SNPs) and Insertions/Deletions (indels). Over 78 million sorghum variants including more than 65 million SNPs genotyped in almost 900 accessions, and almost 13 million ethyl methanesulfonate (EMS)-induced variants in populations with a mutagenized BTx623 background, are available for version 3 of the reference genome assembly BTx623 (NCBIv3). In addition, a subset of 39.1 million SNPs is available in BTx623 version 5 (JGI_v5.1), which is subject to the [Fort Lauderdale accord](https://www.sanger.ac.uk/wp-content/uploads/fortlauderdalereport.pdf). Importantly, standard rsID identifiers assigned by the European Variation Archive (EVA) were mapped to approximately 41 million variants in both BTx623 assemblies, as well as 46 ex-PVP lines. 
+In addition, approximately 32.5 million SNPs were called in Tx2783. Source studies for this genetic variation data follow.
 
 ### Naturally occurring genetic variation - SNPs & indels
 
