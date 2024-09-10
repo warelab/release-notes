@@ -21,7 +21,7 @@ Currently in SorghumBase, there are six SNPs data sets, five on sorghum BTx623 (
 
 - The Lasky SNP set [Lasky et al (2015)](https://www.sorghumbase.org/paper/24502) consists of 404,627 SNPs used to characterize 1943 georeferenced landraces.
 
-In addition, a large genotyping data set from the Gates-funded Global Sorghum Initiative was provided by Dr. Nadia Shakoor from the Donald Danforth Plant Science Center, Dr. John Lovell from the HudsonAlpha Institute for Biotechnology, and Dr. Geoff Morris from Colorado State University. The set consists of 36.1 million SNPs called in 940 resequenced genomes, and is mapped to the JGI_V5.1 assembly, which is subject to the Fort Lauderdale accord restrictions.
+In addition, a large genotyping data set from the Gates-funded [Global Sorghum Initiative](https://www.globalsorghuminitiative.org/) was provided by Dr. Nadia Shakoor from the Donald Danforth Plant Science Center, Dr. John Lovell from the HudsonAlpha Institute for Biotechnology, and Dr. Geoff Morris from Colorado State University. The set consists of 36.1 million SNPs called in 940 resequenced genomes, and is mapped to the JGI_V5.1 assembly, which is subject to the Fort Lauderdale accord restrictions.
 
 #### Tx2783
 
