@@ -1,41 +1,41 @@
-## Genetic Variation {#variation}
+## Genetic and Phenotypic Variation {#variation}
 
-Variation in SorghumBase is available for short variants (genetic variation, which in turn may be naturally occurring or chemically induced).
+Genetic variation in SorghumBase is available for naturally occurring short variants (i.e., less than 50 nucleotides) and chemically induced point mutations. Naturally occuring short variants include Single Nucleotide Polymorphisms (SNPs) and Insertions/Deletions (indels).
 
+Over 78 million sorghum variants including more than 65 million SNPs genotyped in almost 900 accessions, and almost 13 million ethyl methanesulfonate (EMS)-induced variants in populations with a mutagenized BTx623 background, are available for version 3 of the reference genome assembly BTx623 (NCBIv3). In addition, a subset of 39.1 million SNPs is available in BTx623 version 5 (JGI_v5.1). 
 
-### Genetic Variation
+In addition, approximately 32.5 million SNPs were called in Tx2783.
 
-Genetic variation data sets are available for the reference genome assembly BTx623 v3 as over 59 million sorghum variants including more than 46 million naturally ocurring Single Nucleotide Polymorphisms (SNPs), and almost 13 million chemically-induced variants (i.e., ethyl methanesulfonate (EMS)-induced mutations). In addition, there are ~32.5 million SNPs called in Tx2783, as described below.
+Source studies for this data follow.
 
-### Naturally occurring genetic variation - SNPs
+### Naturally occurring genetic variation - SNPs & indels
 
-Currently in SorghumBase, there are six SNPs data sets, five on sorghum BTx623 (one on JGI_5.1 while the rest on NCBIv3), and one on Tx2783.
+Currently in SorghumBase, there are six SNPs data sets, five on sorghum BTx623 (four mapped to the NCBIv3 assembly and one to JGI_5.1), plus one on Tx2783.
 
-#### BTx623
+#### BTx623 (NCBIv3)
 
-- The Lozano SNP dataset [(Lozano et al, 2021)](https://www.sorghumbase.org/paper/comparative-evolutionary-genetics-of-deleterious-load-in-sorghum-and-maize) consists of about 13 million SNPs in 499 sorghum accessions, including lines from the TERRA-MEPP and TERRA-REF population panels, and the samples previously reported by Emma Mace and collaborators [(Mace et al, 2013)](https://www.sorghumbase.org/paper/21275).
+- [Lozano et al (2021)](https://www.sorghumbase.org/paper/comparative-evolutionary-genetics-of-deleterious-load-in-sorghum-and-maize) - nearly 13M SNPs, 499 sorghum accessions from the TERRA-MEPP, TERRA-REF population panels, and lines previously genotyped by [Mace et al (2013)](https://www.sorghumbase.org/paper/21275)
+- [Boatwright et al (2022](https://www.sorghumbase.org/paper/20741) - 33M SNPs and 5M indels genotyped by sequencing (**GBS**) 400 SAP lines
+- [Kumar et al (2024)](https://www.sorghumbase.org/paper/24501) - 19.7M SNPs and 2.7M indels, whole-genome sequencing (**WGS**) 365 accessions (including 332 BAP)
+- [Lasky et al (2015)](https://www.sorghumbase.org/paper/24502) - 405K SNPs, 1943 georeferenced landraces
 
-- The Boatwright SNP set [(Boatwright et al, 2022)](https://www.sorghumbase.org/paper/20741) consists of over 33 million SNPs and indels genotyped in 378 Sorghum Association Panel (SAP) accessions via whole-genome sequencing (WGS).
+#### BTx623 (JGI_v5.1)
 
-- The Kumar SNP set [Kumar et al (2024)](https://www.sorghumbase.org/paper/24501) consists of 19.7 million SNPs and 2.7 million indels assesed by WGS in 365 accessions including 332 BAP (Bioenergy Association Panel) lines.
-
-- The Lasky SNP set [Lasky et al (2015)](https://www.sorghumbase.org/paper/24502) consists of 404,627 SNPs used to characterize 1943 georeferenced landraces.
-
-In addition, a large genotyping data set from the Gates-funded [Global Sorghum Initiative](https://www.globalsorghuminitiative.org/) was provided by Dr. Nadia Shakoor from the Donald Danforth Plant Science Center, Dr. John Lovell from the HudsonAlpha Institute for Biotechnology, and Dr. Geoff Morris from Colorado State University. The set consists of 36.1 million SNPs called in 940 resequenced genomes, and is mapped to the JGI_V5.1 assembly, which is subject to the Fort Lauderdale accord restrictions.
+- [Global Sorghum Initiative](https://www.globalsorghuminitiative.org/) - 36.1 million SNPs called in 940 resequenced genomes from this Gates-funded initiative. Data kindly provided by Dr. Nadia Shakoor from the Donald Danforth Plant Science Center, Dr. John Lovell from the HudsonAlpha Institute for Biotechnology, and Dr. Geoff Morris from Colorado State University. The JGI_v5 assembly is subject to the Fort Lauderdale accord restrictions.
 
 #### Tx2783
 
-- About 32.5 million SNPs were called in 400 SAP lines by Rod Wing's group at King Abdullah University of Science and Technology with the GATK4 pipeline [Zhou et al (2024)](https://www.sorghumbase.org/paper/23243), and are now available from the Tx2783 genome browser. See for example [4_6047465_C_T](https://ensembl.sorghumbase.org/Sorghum_tx2783pac/Variation/Sample?db=core;r=4:6046965-6047965;v=4_6047465_C_T;vdb=variation;vf=11387812), a SNP predicted to introduce a STOP codon and result in a truncated [SbiRTX2783.04G076100](https://ensembl.sorghumbase.org/Sorghum_tx2783pac/Gene/Summary?db=core;g=SbiRTX2783.04G076100;r=4:6046424-6048133;t=SbiRTX2783.04G076100.1;v=4_6047465_C_T;vdb=variation;vf=11387812) protein product.
+- [Zhou et al (2024)](https://www.sorghumbase.org/paper/23243) - 32.5M SNPs called in 400 SAP lines with the GATK4 pipeline. Example: [4_6047465_C_T](https://ensembl.sorghumbase.org/Sorghum_tx2783pac/Variation/Sample?db=core;r=4:6046965-6047965;v=4_6047465_C_T;vdb=variation;vf=11387812), a SNP predicted to introduce a STOP codon and result in a truncated [SbiRTX2783.04G076100](https://ensembl.sorghumbase.org/Sorghum_tx2783pac/Gene/Summary?db=core;g=SbiRTX2783.04G076100;r=4:6046424-6048133;t=SbiRTX2783.04G076100.1;v=4_6047465_C_T;vdb=variation;vf=11387812) protein product.
 
 
 ### Chemically induced genetic variation -  EMS-induced mutations
 Currently in SorghumBase, there are three collections of EMS-induced mutant lines. EMS is a chemical commonly used to cause point mutations, that is, to change single nucleotides in the DNA of a plant seed.
 
-- The Jiao_2016 dataset [(Jiao et al, 2016)](https://www.sorghumbase.org/paper/21276) includes over 1.7 million EMS-induced G/C to A/T transition mutations annotated from 252 M3 mutant family pools selected from the 6,400 sorghum mutant library in BTx623 background described by Xin and colleagues (Xin et al. 2008). Genomic DNA used for sequencing was pooled from 20 x M3 plants per M2 family (Jiao et al. 2016).
+- [(Addo-Quaye et al, 2018)](https://www.sorghumbase.org/paper/19942) - Over 2.5 million variations, 486 sorghum accessions from the M3 generation of an EMS-mutagenized sorghum population.
   
-- The Addo-Quaye dataset [(Addo-Quaye et al, 2018)](https://www.sorghumbase.org/paper/19942) with over 2.5 million variations identified in 486 sorghum accessions from the M3 generation of an EMS-mutagenized sorghum population.
+- [(Jiao et al, 2016)](https://www.sorghumbase.org/paper/21276) - Over 1.7 million EMS-induced G/C to A/T transition mutations annotated from 252 M3 mutant family pools selected from the 6,400 sorghum mutant library in BTx623 background described by Xin and colleagues (Xin et al, 2008). Genomic DNA used for sequencing was pooled from 20 x M3 plants per M2 family.
 
-- The Jiao_2023 dataset [(Jiao et al, 2023)](https://www.sorghumbase.org/paper/23165) includes 8.9 million EMS mutations in 890 accessions, also available from the SorbMutDB resource. This set superseded the 1.7 million mutations originally called in the Jiao_2016 study.
+- [(Jiao et al, 2023)](https://www.sorghumbase.org/paper/23165) - 8.9 million EMS mutations in 890 accessions, also available from the SorbMutDB resource. This set superseded the 1.7 million mutations originally called in the Jiao et al (2016) study.
 
 Genetic variation data for a sorghum gene is available graphically and in tabular form, and for each variant, a Variant page provides more detailed information. Below are provided examples of each of these data representations.
 
