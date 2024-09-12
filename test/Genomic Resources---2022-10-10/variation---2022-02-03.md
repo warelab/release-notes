@@ -12,7 +12,7 @@ Currently in SorghumBase, there are six SNPs data sets, five on sorghum BTx623 (
 - [Lozano et al (2021)](https://www.sorghumbase.org/paper/comparative-evolutionary-genetics-of-deleterious-load-in-sorghum-and-maize) - nearly 13M SNPs, 499 sorghum accessions from the TERRA-MEPP, TERRA-REF population panels, and lines previously genotyped by [Mace et al (2013)](https://www.sorghumbase.org/paper/21275)
 - [Boatwright et al (2022](https://www.sorghumbase.org/paper/20741) - 33M SNPs and 5M indels genotyped by sequencing (**GBS**) 400 SAP lines
 - [Kumar et al (2024)](https://www.sorghumbase.org/paper/24501) - 19.7M SNPs and 2.7M indels, whole-genome sequencing (**WGS**) 365 accessions (including 332 BAP)
-- [Lasky et al (2015)](https://www.sorghumbase.org/paper/24502) - 405K SNPs, 1943 georeferenced landraces
+- [Lasky et al (2015)](https://www.sorghumbase.org/paper/24502) - 405K SNPs, 2327 landraces (1943 georeferenced)
 
 #### BTx623 (JGI_v5.1)
 
