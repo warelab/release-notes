@@ -166,6 +166,7 @@ Let’s go back to the Homology view of the Vitvi05g00130 gene search results, a
 
 **Expression**
 
+***All studies***
 
     This view depicts baseline gene expression data for defined organism parts (as shown in the image below: fruit, pericarp, and seed), cultivars or developmental stages (the latter only available in the [Expression Atlas website](https://www.ebi.ac.uk/gxa/genes/vit_05s0077g00940). Experiments are organized by study on the left side, and by tissue or developmental stage on the top of the graph. 
 
@@ -191,6 +192,13 @@ Let’s go back to the Homology view of the Vitvi05g00130 gene search results, a
 
     
 ![expression atlas](images/pangrape21.png "Expression Atlas")
+
+
+***Reference study (all paralogs)***
+
+This view shows gene expression for all paralogs of the gene in the reference study.
+
+add image
 
 
 
