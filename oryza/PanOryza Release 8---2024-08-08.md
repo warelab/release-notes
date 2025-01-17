@@ -108,7 +108,7 @@ The [Oryza CLIMtools portal](https://www.gramene.org/CLIMtools/oryza_v1.0/) cont
 
 ### Expression
 
-Gene expression data for _O. sativa_ was curated and processed through the [EMBL-EBI Expression Atlas](https://www.ebi.ac.uk/gxa/plant/experiments). The set consists of 15 studies with baseline expression and 95 with differential expression. Baseline experiments, as well as expression of paralogs for the reference study, are available through our Gene Search (Expression panel). [Differential experiments](https://www.ebi.ac.uk/gxa/experiments?kingdom=Plants&species=Oryza+sativa&experimentType=Differential) are available at the Expression Atlas. Baseline gene expression is also available from the gene pages of the Genome Browser, see for example [Expression for Os05g0113900](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/ExpressionAtlas?g=Os05g0113900;r=5:738208-739079;t=Os05t0113900-01).
+Gene expression data for _O. sativa_ was curated and processed through the [EMBL-EBI Expression Atlas](https://www.ebi.ac.uk/gxa/plant/experiments). The set consists of 15 studies with baseline expression and 96 with differential expression. Baseline experiments, as well as expression of paralogs for the reference study, are available through our Gene Search (Expression panel). [Differential experiments](https://www.ebi.ac.uk/gxa/experiments?kingdom=Plants&species=Oryza+sativa&experimentType=Differential) are available at the Expression Atlas. Baseline gene expression is also available from the gene pages of the Genome Browser, see for example [Expression for Os05g0113900](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/ExpressionAtlas?g=Os05g0113900;r=5:738208-739079;t=Os05t0113900-01).
 
 
 ### Pathways
