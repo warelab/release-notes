@@ -1,1 +1,1 @@
-The site will be offline for scheduled maintenance from January 25 - 28
+The site will be offline for scheduled maintenance starting at 5pm ET January 24
