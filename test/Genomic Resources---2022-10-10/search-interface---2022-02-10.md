@@ -2,7 +2,7 @@ _Last updated: Aug 15, 2024_
 
 ## Using the genes search interface {#search-interface}
 
-Watch the [demo video on YouTube](https://www.youtube.com/watch?v=nnAEnA9qTMY&t=2s).
+Watch the [demo video on YouTube](https://www.youtube.com/watch?v=XL881C0KVi4).
 
 Go to the SorghumBase homepage by typing [sorghumbase.org](https://www.sorghumbase.org) on your favorite browser.
 
