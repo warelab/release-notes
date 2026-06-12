@@ -1,4 +1,4 @@
-## References {#references}
+## References
 
 Addo-Quaye C, Tuinstra M, Carraro N, Weil C, Dilkes BP. 2018. "Whole-Genome Sequence Accuracy Is Improved by Replication in a Population of Mutagenized Sorghum." *G3* 8: 1079–1094. PMID: 29378822. doi: [10.1534/g3.117.300301](https://doi.org/10.1534/g3.117.300301).
 

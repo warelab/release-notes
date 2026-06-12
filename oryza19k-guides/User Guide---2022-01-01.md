@@ -6,13 +6,13 @@ This user guide refers to the contents of the Eighth Public Release (August 2024
 
 At present, most data types are only available for Japonica rice, therefore this guide will focus on data and views for the Grain Width on chromosome 8 (GW8) gene model.
 
-- [PanGenome Search interface](#search-interface)
+- [PanGenome Search interface](#pangenome-search-interface)
 - [Searching for a gene](#gene-search)
-- [Ensembl Gene page](#gene-pages)
+- [Ensembl Gene page](#ensembl-gene--transcript-pages)
 - [Ensembl Comparative Genomics](#comparative-genomics)
-- [Gene expression](#gene-expression)
-- [Variation](#variation)
-- [Literature references](#references)
+- [Gene expression](#baseline-gene-expression-ebi-atlas)
+- [Variation](#genetic-structural--phenotypic-variation)
+- [Literature references](#literature-references)
 
 ---
 
@@ -23,7 +23,7 @@ Go to https://oryza.gramene.org/
 Locate the search box at the top left corner of the page. Type a search term (gene, species, pathway, ontology term, protein domain, etc.). For the exercises below, we will focus on searching for the rice GW8 gene (Grain Width on chromosome 8, OsSPL16 or Os08g0531600), a transcription factor containing an SBP-domain transcription factor that promotes cell division and grain filling by regulating grain width, size, shape and quality (Wang et al, 2012). It was identified in a domestication gene among 55 known selective domestication sweeps or signatures (Chen et al, 2019).
 
 
-## PanGenome Search Interface {#search-interface}
+## PanGenome Search Interface
 
 **Querying a Gene**
 
@@ -226,7 +226,7 @@ In the Xref tab, you will find references to your gene of interest in other data
 
 ---
 
-## Ensembl Gene & Transcript pages {#gene-pages}
+## Ensembl Gene & Transcript pages
 
 From the Location tab, click on the Ensembl Browser link and you will be taken to the gene summary page (shown below). Click on any of the transcripts from the Transcripts Table and you will reach the selected transcript page. Here are the links for the corresponding Os08g0531600 gene page and transcript page (tabs) in the Oryza PanGenome browser. Click on the options on the left menu to visualize a gene tree, obtain a list of orthologs or paralogs, gene ontology associations, gene expression anatograms, sequence (cDNA, exons, protein), protein domains, etc. 
 
@@ -238,7 +238,7 @@ The image below corresponds to the Exons sequence view of the Os08t0531600-01 tr
 ![ensembl_exons_view](images/Picture18.png)
 
 
-## Comparative Genomics {#comparative-genomics}
+## Comparative Genomics
 
 **Gene trees** (Ensembl Compara pipeline) - GRAIN-WIDTH 8 Gene Tree Example
 
@@ -256,7 +256,7 @@ New alignments and synteny maps with the new Oryza genomes will be made availabl
 ![Ensembl Synteny](images/Picture26.png)
 ![Synteny_table](images/Picture27.png)
 
-## Baseline Gene Expression (EBI-Atlas) {#gene-expression}
+## Baseline Gene Expression (EBI-Atlas)
 
 Baseline gene expression data from 15 datasets for _O. sativa japonica_ was curated and processed by the EMBL-EBI Expression Atlas is available from the GrameneOryza Search, the Ensembl PanGenome gene pages, and the corresponding Plant Reactome panels. The Expression panel of the Search results was described above in detail. The same Expression Atlas view for the GW8 gene is available from the Gramene browser gene page and the Plant Reactome Expression panel (a link to the Plant Reactome is provided at the bottom of the Pathways panel of the Search results).
 
@@ -275,7 +275,7 @@ GW8 gene expression in the Plant Reactome Expression panel
 GW8 gene expression in the Expression Atlas
 
 
-## Genetic, Structural & Phenotypic Variation {#variation}
+## Genetic, Structural & Phenotypic Variation
 
 Gramene Oryza release 8 features genetic variation data mapped to the following reference assemblies:
 
@@ -320,7 +320,7 @@ Click here for an [image](https://oryza-ensembl.gramene.org/Oryza_sativa/Gene/Va
 Additional genetic variation (SNPs, RFLP and SSR markers) is available for *O. sativa Japonica* and *Indica*, *O. glaberrima* and *O. glumaepatula* in the main Gramene website.
 
 
-## Literature References {#references}
+## Literature References
 
 
 Chen Erwang, Xuehui Huang, Zhixi Tian, Rod A.Wing, and Bin Han. 2019. "The Genomics of Oryza Species Provides Insights into Rice Domestication and Heterosis." Annu. Rev. Plant Biol. 70:639–65. doi: [10.1146/annurev-arplant-050718-100320](https://doi.org/10.1146/annurev-arplant-050718-100320).

@@ -1,4 +1,4 @@
-## Searching for a gene – Gene ID equivalences {#gene-search}
+## Searching for a gene – Gene ID equivalences
 
 _**NOTE: Gene models mapped to the v5.1 assembly have a ".v5.1" suffix appended to the corresponding Sobic gene identifier like so: [Sobic.006G095600.v5.1](https://ensembl.sorghumbase.org/sorghum_bicolorv5/Gene/Summary?g=Sobic.001G121600.v5.1). However, searching for the Sobic gene identifier (Sobic.006G095600) will return both models (v3 and v5).**_
 

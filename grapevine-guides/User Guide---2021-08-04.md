@@ -276,7 +276,7 @@ For the PN40024 v4 genome there are seven tracks with ESTs and EST clusters data
 ### 
 **Genetic, Structural & Phenotypic Variation**
 
-## Variation {#variation}
+## Variation
 
 Variation in SorghumBase is available for short variants (genetic variation, which in turn may be naturally occurring or chemically induced) and QTL variants associated with physical traits.
 

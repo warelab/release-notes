@@ -1,4 +1,4 @@
-## Comparative Genomics {#comparative-genomics}
+## Comparative Genomics
 
 ### Genome assemblies
 
@@ -18,7 +18,7 @@ The BTx623 JGI_v5.1 assembly from Phytozome was released under the [Fort Lauderd
 
 The following comparative genomics data for BTx623 are available in the SorghumBase Ensembl genome browser:
 
-### Gene trees  
+### Gene trees
 
 See for example, the [same tree for the Sobic.006G095600 gene](https://ensembl.sorghumbase.org/Sorghum_bicolor/Gene/Compara_Tree?db=core;g=SORBI_3006G095600;r=6:46566240-46571064) shown above in the search interface.
 

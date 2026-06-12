@@ -7,17 +7,17 @@
 The examples below focus on MSD2, a gene which encodes a lipoxygenase (LOX) that catalyzes the first
 committed step of jasmonic acid biosynthesis. For more info on this gene see [Gladman *et al* (2019)](https://www.sorghumbase.org/paper/fertility-of-pedicellate-spikelets-in-sorghum-is-controlled-by-a-jasmonic-acid-regulatory-module).
 
-- [Genes search interface](#search-interface)
-- [Searching for a gene](#gene-search)
+- [Genes search interface](#using-the-genes-search-interface)
+- [Searching for a gene](#searching-for-a-gene--gene-id-equivalences)
 - [Ensembl Gene page](#gene-page)
-- [Add/remove data tracks](#configure-image)
+- [Add/remove data tracks](#addremove-data-tracks-or-configure-an-image-on-the-genome-browser)
 - [Ensembl Comparative Genomics](#comparative-genomics)
 - [Regulation](#regulation)
-- [Gene expression](#gene-expression)
+- [Gene expression](#baseline-gene-expression-atlas)
 - [Variation](#variation)
-- [QTLs](#qtls)
+- [QTLs](#phenotypic-variation---quantitative-trait-locus-qtls)
   
-## Using the genes search interface {#search-interface}
+## Using the genes search interface
 
 Watch the [demo video on YouTube](https://www.youtube.com/watch?v=nnAEnA9qTMY&t=2s).
 
@@ -50,7 +50,7 @@ Each gene has a set of tabs that can be expanded to explore more details:
 ![LOX3 ortholog](images/image13.png)
 
 
-## Searching for a gene – Gene ID equivalences {#gene-search}
+## Searching for a gene – Gene ID equivalences
 
 _**NOTE: Gene models mapped to the v5.1 assembly have a ".v5.1" suffix appended to the corresponding Sobic gene identifier like so: [Sobic.006G095600.v5.1](https://ensembl.sorghumbase.org/sorghum_bicolorv5/Gene/Summary?g=Sobic.001G121600.v5.1). However, searching for the Sobic gene identifier (Sobic.006G095600) will return both models (v3 and v5).**_
 
@@ -83,7 +83,7 @@ Sobic.006G095600.v5.1 = Sobic.006G095600
 
 
 
-## Gene page {#gene-page}
+## Gene page
 More detailed views available in the SorghumBase Ensembl genome browser include
 [gene pages](https://ensembl.sorghumbase.org/Sorghum_bicolor/Gene/Summary?g=SORBI_3006G095600;r=6:46566240-46571064),
 [transcript pages](https://ensembl.sorghumbase.org/Sorghum_bicolor/Transcript/Summary?db=core;g=SORBI_3006G095600;r=6:46566240-46571064;t=OQU81659),
@@ -91,7 +91,7 @@ and [(SNP) variant pages](https://ensembl.sorghumbase.org/Sorghum_bicolor/Variat
 
 ![Ensembl Gene Page](images/image5.png)
 
-## Add/remove data tracks or configure an image on the genome browser {#configure-image}
+## Add/remove data tracks or configure an image on the genome browser
 
 Find the spider gear icon on a browser page, it might precede a "Configure this page" or have a "Configure this image" title when you mouse over it (see image below). When you click on it, you will be able to select or turn on/off a data track (click on a category to disclose all the tracks under it, the number of data sets (tracks) is indicated to the right of each category, for example in the first release of SorghumBase, there are 5 data tracks under Variation (the later two being EMS mutations): Sequence variants (all sources), SAP_Boatwrigjt_study variants, Lozano_study variants, Yinping-Jiao-2016-Study variants, and Addo-Quaye variants. Click on the square to the left of each data set (track) to select from several options. For example, you may choose to turn the track off or display its data in a collapsed or expanded manner, with or without labels for each data point.
 
@@ -99,7 +99,7 @@ Find the spider gear icon on a browser page, it might precede a "Configure this 
 ![Configure_variation](images/image17.png)
 ![Track_display_options](images/image18.png)
 
-## Comparative Genomics {#comparative-genomics}
+## Comparative Genomics
 The following comparative genomics data for BTx623 are available in the SorghumBase Ensembl genome browser:
 
 - Gene trees - [Example](http://ensembl.sorghumbase.org/Sorghum_bicolor/Gene/Compara_Tree?g=SORBI_3006G095600;r=6:46566240-46571064;collapse=2831659,2829950,2830021)
@@ -121,7 +121,7 @@ The following comparative genomics data for BTx623 are available in the SorghumB
 
 ![Ensembl Synteny](images/image9.png)
     
-## Regulation {#regulation}
+## Regulation
 RNA-Seq expression data related to root system morphology and architecture in sorghum BTx623 deposited under
 BioProject [PRJNA454504](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA454504/) (Gladman et al, manuscript in prep.).
 Three repetitions available for each of seven samples: leaf lower (vegetative whorl), leaf upper (growing anthesis),
@@ -130,7 +130,7 @@ panicle (upper anthesis), root bottom (anthesis), root top (vegetative), stem 1 
   below shows two samples with very similar patterns of gene expression for the msd2 gene region.
 ![MSD2](images/image1.png)
 
-### Baseline Gene Expression (Atlas) {#gene-expression}
+### Baseline Gene Expression (Atlas)
 
 Baseline gene expression data from seven sorghum BTx623 datasets curated and processed by the [EMBL-EBI Expression Atlas](https://www.ebi.ac.uk/gxa/)
 [(Emms et al. 2016; Makita et al. 2015; Davidson et al. 2012; Turco et al. 2017; Wang et al. 2018; Olson et al. 2014) and
@@ -141,7 +141,7 @@ BioProject [PRJNA293229](https://www.ncbi.nlm.nih.gov//bioproject/PRJNA293229)/[
 The above view depicts baseline gene expression data for a whole plant (top anatogram on the left of the results box) and for the plant’s reproductive organs (bottom anatogram). Experiments are organized by study on the left side, and by tissue or developmental stage on the top of the graph. Unique data points are colored in blue, with intensity increasing in proportion to the level of expression (i.e., higher expression data points are shown in darker blue). When you hover the cursor over a data point, the data point is highlighted in yellow, a more detailed summary pops up, and the corresponding tissue is colored in pink in the anatograms. If instead, you hover over a tissue on the anatogram on the left, the name of the tissue will pop up, and the points corresponding to expression data from this tissue will light up. This feature is the product of the collaboration with the EBI-Atlas. 
 
 
-## Variation {#variation}
+## Variation
 Variation in SorghumBase is available for short variants (genetic variation, which in turn may be naturally occurring or chemically induced) and QTL variants associated with physical traits.
 
 
@@ -182,7 +182,7 @@ Genetic variation data for a sorghum gene is available graphically and in tabula
 ![](images/image14.png)![](images/image11.png)
 
 
-### Phenotypic Variation - Quantitative Trait Locus (QTLs) {#qtls}
+### Phenotypic Variation - Quantitative Trait Locus (QTLs)
 Data corresponding to 5,843 QTL features for 220 sorghum traits were imported from [OZ Sorghum QTL Atlas](https://aussorgm.org.au/sorghum-qtl-atlas/), and 7,123 rice QTLs from [Gramene](https://www.gramene.org/). All QTLs are now searchable, for example: [sorghum grain mold](https://sorghumbase.org/genes?filters=%7B%22status%22:%22init%22,%22operation%22:%22AND%22,%22negate%22:false,%22marked%22:false,%22leftIdx%22:0,%22rightIdx%22:3,%22children%22:%5B%7B%22fq_field%22:%22QTL_TO__ancestors%22,%22fq_value%22:%2220008%22,%22name%22:%22sorghum%20grain%20mold%22,%22category%22:%22QTLs%22,%22leftIdx%22:1,%22rightIdx%22:2,%22negate%22:false,%22showMenu%22:false,%22marked%22:true%7D%5D,%22showMarked%22:true,%22showMenu%22:false,%22moveCopyMode%22:%22%22,%22searchOffset%22:0,%22rows%22:20%7D&genomes=).
 
 Check another [example region](https://ensembl.sorghumbase.org/Sorghum_bicolor/Location/View?db=core;g=SORBI_3006G095600;r=7:61190510-61277060;sv=nsv856002;svf=54084;t=OQU81659;vdb=variation) with QTLs associated with multiple traits including greenbug resistance, fresh biomass, and flag leaf height. 
@@ -195,7 +195,7 @@ Hint: For additional regions with QTL data in the current sorghum assembly (v.3)
 
 ![](images/image2.png)
 
-## References {#references}
+## References
 
 Addo-Quaye C, Tuinstra M, Carraro N, Weil C, Dilkes BP. 2018. "Whole-Genome Sequence Accuracy Is Improved by Replication in a Population of Mutagenized Sorghum." *G3* 8: 1079–1094. PMID: 29378822. doi: [10.1534/g3.117.300301](https://doi.org/10.1534/g3.117.300301).
 

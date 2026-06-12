@@ -1,4 +1,4 @@
-### Baseline Gene Expression (Atlas) {#gene-expression}
+### Baseline Gene Expression (Atlas)
 
 **All studies**
 

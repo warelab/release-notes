@@ -20,7 +20,7 @@ The genome databases were built in direct collaboration with the Gramene and Ens
 - [Statistics](#statistics)
 - [References](#references)
 
-## Overall Highlights {#overall-highlights}
+## Overall Highlights
 
 - 15 new Oryza genomes:
 
@@ -52,7 +52,7 @@ Our comparative genomics collection includes a total of 37,315 gene trees, that 
 
 Gene expression and orthology-based pathway projections are available for the Japonica reference via the Search interface.
 
-## Databases {#databases}
+## Databases
 ### Comparative Genomics
 
 [**Gene Trees.**](https://oryza-ensembl.gramene.org/prot_tree_stats.html) A total of 37,315 protein-coding gene family trees were constructed using the peptide encoded by the canonical transcript (i.e., a representative transcript for a given gene) for each of 1,131,828 individual genes (1,184,741 input proteins) from 33 plant genomes.
@@ -73,7 +73,7 @@ Gene expression data is available only for the Japonica genome reference and was
 
 320 curated pathways for the Japonica reference genome, as well as orthology-based pathway projections for the 10 Oryza species also in Gramene and the six outgroups (v5 of Zea mays only) are available via the Oryza Pan-Genome search interface and linked to Gramene’s Plant Reactome. Pathway projections for O. australiensis, O. minuta, Oryza meyeriana var. Granulata are only available on Gramene’s Plant Reactome. In addition, projections for O. longistaminata and the prior version of O. sativa indica are available on the Gramene website.
 
-## References {#references}
+## References
 
 - Stein, Joshua C., Yeisoo Yu, Dario Copetti, Derrick J. Zwickl, Li Zhang, Chengjun Zhang, Kapeel Chougule, et al. 2018. “Genomes of 13 Domesticated and Wild Rice Relatives Highlight Genetic Conservation, Turnover and Innovation across the Genus Oryza.” Nature Genetics 50 (2): 285–96.
 

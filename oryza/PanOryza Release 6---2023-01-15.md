@@ -20,7 +20,7 @@ Having variation data called on these additional genomes provides additional cov
 A new search feature has been added by indexing curated gene annotations from RAP-DB and NCBI's geneRIF. These resources include publications detailing the functions of over 4000 rice genes.
 
 
-## Databases 
+## Databases
 ### Comparative Genomics
 
 No updates in the current release, please see [release notes for version 5.0](https://oryza.gramene.org/News?section=PanOryza%20Release%205).

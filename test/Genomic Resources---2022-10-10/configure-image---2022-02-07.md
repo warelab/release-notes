@@ -1,4 +1,4 @@
-## Add/remove data tracks or configure an image on the genome browser {#configure-image}
+## Add/remove data tracks or configure an image on the genome browser
 
 Find the spider gear icon on a browser page, it might precede a "Configure this page" or have a "Configure this image" title. It might precede a phrase like "Configure this page", "Add/remove tracks" or "Select species or regions", or have the prompt "Configure this... [image]" when you mouse over it (see image below). 
 

@@ -17,7 +17,7 @@ project is provided by the Agricultural Research Service of the
 - [Databases](#databases)
 - [Statistics](#statistics)
 
-## Overall Highlights {#overall-highlights}
+## Overall Highlights
 - Five sorghum reference genomes: *Sorghum bicolor* (L.) Moench subsp. *bicolor* BTx623
   (Paterson et al, 2009; McCormick et al, 2017), RTx430 (Deschamps et al, 2018), RTx436
   and Tx2783 (Wang et al, 2021), and Rio (Cooper et al, 2019).
@@ -29,7 +29,7 @@ project is provided by the Agricultural Research Service of the
 - We also have genetic, structural and phenotypic variation, gene expression and
   orthology-based pathway projections for the reference genome S. bicolor BTx623.
 
-## Databases {#databases}
+## Databases
 ### Comparative Genomics
 
 [**Gene Trees.**](https://ensembl.sorghumbase.org/prot_tree_stats.html) A total of
@@ -80,7 +80,7 @@ stages for gene expression profiling totalling 165 experimental assays.
 269 orthology-based sorghum pathways associated with 1,248 S. bicolor BTx623 genes.
 These were projected from curated Japonica rice pathways and are linked to [Gramene’s Plant Reactome](http://gramene.org/).
 
-## Statistics {#statistics}
+## Statistics
 | Species   | Classification | Note | Assembly | Literature reference | Accession | Variation | Expression | Whole Genome Alignments | Phylogenetic Trees | Pathways |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | *Arabidopsis thaliana* | *Eudicotyledons* | Dicot model plant | TAIR10 | | GCA_000001735.1 | - | - | - | Y | Y |
@@ -95,7 +95,7 @@ These were projected from curated Japonica rice pathways and are linked to [Gram
 | *Selaginella moellendorffii* | *Lycopodiophyta* | Vascular model plant | v1.0 | | GCA_000143415.1 | - | - | - | Y | Y |
 | *Chlamydomonas reinhardtii* | *Chlorophyta* | Single-cell green alga | Chlamydomonas_reinhardtii_v5.5 | | GCA_000002595.3 | - | - | - | Y | Y |
 
-## References {#references}
+## References
 Aken, Bronwen L., Sarah Ayling, Daniel Barrell, Laura Clarke, Valery Curwen, Susan Fairley, Julio Fernandez Banet, et al. 2016.
 "The Ensembl Gene Annotation System."
 *Database: The Journal of Biological Databases and Curation*.

@@ -53,7 +53,7 @@ _Note_: The [3000 Rice Genome Project (2014)](https://doi.org/10.1186/2047-217x-
   - Approximately 19 million SNPs called on 8 of the [MAGIC16](https://doi.org/10.1038/s41597-020-0438-2) genomes from the [3K rice genome project](https://doi.org/10.1186/2047-217x-3-7): Nipponbare, MH63, IR64, Azucena, ARC 10497, Zhenshan 97, Liu Xu, and N22.
 
 
-#### Oryza CLIMtools 
+#### Oryza CLIMtools
 
 The [Oryza CLIMtools portal](https://www.gramene.org/CLIMtools/oryza_19K-RGP/) continues to provide interactive web-based views of environment x genome (ExG) associations, RiboSNitch prediction, and correlations between the local environment and a pool of curated phenotypes (Ferrero-Serrano _et al_, 2024). Curated data corresponds to 413 geo-environmental variables describing the local environments of **658 Indica and 283 Japonica landrace** varieties sequenced as part of the 19K Rice Genome Project. 
 

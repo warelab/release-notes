@@ -16,7 +16,7 @@ Gramene's Oryza Pan-Genome (https://oryza.gramene.org) is a web portal for compa
 New to this release are 27 new synteny maps between the IRGSP1 Nipponbare assembly and all rice accessions, as well as new cross-species synteny maps between the Nipponbare assembly and Leersia, sorghum and maize. In addition, whole-genome alignments between Nipponbare, sorghum and maize are being provided. Usability of the site has been improved through direct links from the Ensembl Browser Gene pages to the Oryza Search pages. Nomenclature for naming of reference sequence assemblies was updated based on standard recommendations from the NSF-DBI (#2029854): CIBR-BBSRC: PanOryza: Globally coordinated genomes, proteomes and pathways for rice.
 
 
-## Databases 
+## Databases
 ### Comparative Genomics
 
 [**Whole-Genome Alignments**](https://oryza-ensembl.gramene.org/info/genome/compara/compara_analyses.html). New pairwise alignments between the Nipponbare, and the sorghum and maize genomes. See [example](https://oryza-ensembl.gramene.org/Oryza_sativa/Share/79cd0d59180d32b16913170be0f0ca3b?redirect=no;mobileredirect=no).
