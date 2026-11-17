@@ -111,9 +111,9 @@ A count across two genomes; ask for a sample of the genes if you want examples.
 ### Expression
 
 ```
-In which organs is SORBI_3006G095600 most highly expressed? Give the TPM for each organ.
+In which tissues is SORBI_3006G095600 most highly expressed, and in which experiments?
 ```
-Expression level per organ, summarised from curated RNA-seq experiments.
+Baseline expression by tissue from curated RNA-seq experiments, with the experiment where each tissue peaks.
 
 ```
 Which BTx623 v3 lipoxygenase genes are expressed in the inflorescence but not in the leaf?
@@ -123,9 +123,9 @@ Combines a gene set with per-organ expression calls.
 ### Variants and germplasm
 
 ```
-How many sorghum lines carry predicted loss-of-function alleles of msd2 (SORBI_3006G095600)? List the EMS mutants and give the number of natural diversity lines.
+Which sorghum lines carry predicted loss-of-function alleles of msd2 (SORBI_3006G095600)? Group them by variant type, and separate EMS mutants from natural diversity lines.
 ```
-Lines with stop-gain, frameshift or splice variants. EMS mutants are listed by name; the natural lines number in the hundreds.
+Counts by variant type, zygosity and study. EMS mutants are named; large natural-diversity groups show examples, and you can ask for the full list.
 
 ```
 Which genes does the variant rs162452973 fall in, and is it protein-altering in any genome?
@@ -188,6 +188,7 @@ The viewer appears in assistants that support MCP Apps, which include Claude on 
 - **Name the genome.** Gene IDs and coordinates differ between assemblies. Say "BTx623 v3" for the reference whose genes have `SORBI_3…` IDs; BTx623 v5 is a separate genome. Name the line (Tx430, Rio, a specific PI) when you mean another. About 80 of the genomes are in the gene trees; the rest have no ortholog calls.
 - **Be specific.** Name the organ ("inflorescence", "root") and say how to rank or filter. "Rank by root expression and ortholog function" gives a more repeatable answer than "find the best candidates".
 - **Ask for counts before lists.** "How many genes…" is quick; a list of several thousand genes is long and will be cut short.
+- **Expression and germplasm answers start as summaries.** A gene can have hundreds of expression samples or carrier lines, so the assistant first gets the highlights: tissues, strongest contrasts, counts and examples. Ask for "every sample in root" or "the full list of lines" when you need more.
 - **Expect IDs, not summaries, for papers.** The assistant returns PubMed IDs; it can only summarise the papers if it also has a literature tool.
 - **Ask for links.** The assistant can give SorghumBase links for the genes it reports, so you can check them in the browser.
 - **Say what you want back.** A table, a ranked shortlist, FASTA, or a file to download.

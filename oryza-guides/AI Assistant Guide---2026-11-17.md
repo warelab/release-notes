@@ -111,14 +111,14 @@ Copy counts per genome for one gene.
 ### Expression
 
 ```
-In which organs is GS3 (Os03g0407400) most highly expressed? Give the TPM for each organ.
+In which tissues is GS3 (Os03g0407400) most highly expressed, and in which experiments?
 ```
-Expression level per organ, summarised from curated RNA-seq experiments.
+Baseline expression by tissue from curated RNA-seq experiments, with the experiment where each tissue peaks.
 
 ```
-Which stress treatments significantly change the expression of SD1 (Os01g0883800)?
+What are the strongest treatment responses of SD1 (Os01g0883800), up or down, and in which experiments?
 ```
-Significant differential-expression contrasts, with the direction of change.
+Differential expression: the significant contrasts with the largest changes, and the experiments they come from.
 
 ### QTL and traits
 
@@ -137,7 +137,7 @@ Genes in one QTL interval, narrowed by annotation; a shortlist to check.
 ```
 Which rice accessions carry predicted loss-of-function alleles of GS3 (Os03g0407400)? Group them by the type of variant.
 ```
-Accessions with predicted loss-of-function variants, by consequence and zygosity.
+Accessions with predicted loss-of-function variants: counts by variant type, zygosity and study, with example accessions.
 
 ### Pathways and literature
 
@@ -180,6 +180,7 @@ The viewer appears in assistants that support MCP Apps, which include Claude on 
 - **Name the genome.** Gene IDs and coordinates differ between assemblies. Nipponbare carries three annotation sets; say "Nipponbare (RAP annotation)" for the `Os##g…` gene models, or counts will include all three. Name the genome (IR8, N22, _O. glaberrima_, _O. rufipogon_) when you mean another.
 - **Be specific.** Name the organ ("inflorescence", "root") and say how to rank or filter. "Rank by root expression and ortholog function" gives a more repeatable answer than "find the best candidates".
 - **Ask for counts before lists.** "How many genes…" is quick; a list of several thousand genes is long and will be cut short.
+- **Expression and germplasm answers start as summaries.** A gene can have hundreds of expression samples or carrier lines, so the assistant first gets the highlights: tissues, strongest contrasts, counts and examples. Ask for "every sample in root" or "the full list of lines" when you need more.
 - **Expect IDs, not summaries, for papers.** The assistant returns PubMed IDs; it can only summarise the papers if it also has a literature tool.
 - **Ask for links.** The assistant can give the Rice PanGenome site links for the genes it reports, so you can check them in the browser.
 - **Say what you want back.** A table, a ranked shortlist, FASTA, or a file to download.

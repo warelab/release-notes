@@ -123,9 +123,9 @@ Family assignment plus paralogs.
 ### Expression
 
 ```
-In which organs is tb1 (Zm00001eb054440) expressed, and how specific is it to one organ?
+In which tissues is tb1 (Zm00001eb054440) most highly expressed, and in which experiments?
 ```
-Expression level per organ, summarised from curated RNA-seq experiments.
+Baseline expression by tissue from curated RNA-seq experiments, with the experiment where each tissue peaks.
 
 ```
 For each B73 v5 gene in the starch biosynthesis pathway, show its expression level in endosperm and in leaf, then pick out those that are high or very high in endosperm and medium or lower in leaf.
@@ -135,9 +135,9 @@ Combines a pathway gene set with per-organ expression levels.
 ### Germplasm
 
 ```
-How many maize accessions carry predicted loss-of-function alleles of lg1 (Zm00001eb067740), by variant type and zygosity? Give a few example accessions of each.
+Which maize accessions carry predicted loss-of-function alleles of lg1 (Zm00001eb067740)? Group them by variant type and zygosity.
 ```
-Accessions with predicted loss-of-function variants, by consequence and zygosity.
+Accessions with predicted loss-of-function variants: counts by variant type, zygosity and study, with example accessions.
 
 ### Pathways and literature
 
@@ -180,6 +180,7 @@ The viewer appears in assistants that support MCP Apps, which include Claude on 
 - **Name the genome.** Gene IDs and coordinates differ between assemblies. Say "in B73 v5" for the reference, or name the line (Mo17, CML247, a teosinte) when you mean another genome. B73 v3 and v4 gene models are here too.
 - **Be specific.** Name the organ ("inflorescence", "root") and say how to rank or filter. "Rank by root expression and ortholog function" gives a more repeatable answer than "find the best candidates".
 - **Ask for counts before lists.** "How many genes…" is quick; a list of several thousand genes is long and will be cut short.
+- **Expression and germplasm answers start as summaries.** A gene can have hundreds of expression samples or carrier lines, so the assistant first gets the highlights: tissues, strongest contrasts, counts and examples. Ask for "every sample in root" or "the full list of lines" when you need more.
 - **Expect IDs, not summaries, for papers.** The assistant returns PubMed IDs; it can only summarise the papers if it also has a literature tool.
 - **Ask for links.** The assistant can give the Maize PanGenome site links for the genes it reports, so you can check them in the browser.
 - **Say what you want back.** A table, a ranked shortlist, FASTA, or a file to download.

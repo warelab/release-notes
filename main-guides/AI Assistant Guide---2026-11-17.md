@@ -123,9 +123,9 @@ Name search across the wheat pan-genome.
 ### Expression
 
 ```
-In which Arabidopsis organs is FLC (AT5G10140) most highly expressed? Give the TPM for each organ.
+In which tissues is FLC (AT5G10140) most highly expressed, and in which experiments?
 ```
-Expression level per organ, summarised from curated RNA-seq experiments.
+Baseline expression by tissue from curated RNA-seq experiments, with the experiment where each tissue peaks.
 
 ```
 Compare the tissue expression of AT1G17420 with that of its rice and maize orthologs.
@@ -178,6 +178,7 @@ The viewer appears in assistants that support MCP Apps, which include Claude on 
 - **Name the genome.** With 267 genomes, a gene symbol often matches several species. Say "in Arabidopsis" or "in bread wheat (Chinese Spring)", and for the cereal pan-genomes name the cultivar.
 - **Be specific.** Name the organ ("inflorescence", "root") and say how to rank or filter. "Rank by root expression and ortholog function" gives a more repeatable answer than "find the best candidates".
 - **Ask for counts before lists.** "How many genes…" is quick; a list of several thousand genes is long and will be cut short.
+- **Expression and germplasm answers start as summaries.** A gene can have hundreds of expression samples or carrier lines, so the assistant first gets the highlights: tissues, strongest contrasts, counts and examples. Ask for "every sample in root" or "the full list of lines" when you need more.
 - **Expect IDs, not summaries, for papers.** The assistant returns PubMed IDs; it can only summarise the papers if it also has a literature tool.
 - **Ask for links.** The assistant can give Gramene links for the genes it reports, so you can check them in the browser.
 - **Say what you want back.** A table, a ranked shortlist, FASTA, or a file to download.

@@ -116,14 +116,14 @@ A count across two genomes; ask for a sample of the genes if you want examples.
 ### Expression
 
 ```
-In which organs is VIT_16s0100g00780 expressed? Give the TPM for each organ.
+In which samples (tissue, cultivar, developmental stage) and experiments is VIT_16s0100g00780 most highly expressed?
 ```
-Expression level per organ, summarised from curated RNA-seq experiments.
+Baseline expression from curated RNA-seq experiments, with the sample where it peaks.
 
 ```
-Which infections or treatments significantly induce VIT_16s0100g00780?
+Which infections or treatments induce VIT_16s0100g00780 most strongly, and in which experiments?
 ```
-Significant differential-expression contrasts, with the direction of change.
+Differential expression: the significant contrasts with the largest changes, and the experiments they come from.
 
 ### Pathways and literature
 
@@ -166,6 +166,7 @@ The viewer appears in assistants that support MCP Apps, which include Claude on 
 - **Name the genome.** Two versions of the PN40024 reference are here: PN40024 v3 (the 12X gene models, `VIT_…` IDs) and PN40024 v4 (`Vitvi…` IDs). Say which you mean, or name the cultivar (Chardonnay, Cabernet Sauvignon, Merlot) when you mean another genome.
 - **Be specific.** Name the organ ("inflorescence", "root") and say how to rank or filter. "Rank by root expression and ortholog function" gives a more repeatable answer than "find the best candidates".
 - **Ask for counts before lists.** "How many genes…" is quick; a list of several thousand genes is long and will be cut short.
+- **Expression and germplasm answers start as summaries.** A gene can have hundreds of expression samples or carrier lines, so the assistant first gets the highlights: tissues, strongest contrasts, counts and examples. Ask for "every sample in root" or "the full list of lines" when you need more.
 - **Expect IDs, not summaries, for papers.** The assistant returns PubMed IDs; it can only summarise the papers if it also has a literature tool.
 - **Ask for links.** The assistant can give the Grapevine PanGenome site links for the genes it reports, so you can check them in the browser.
 - **Say what you want back.** A table, a ranked shortlist, FASTA, or a file to download.
