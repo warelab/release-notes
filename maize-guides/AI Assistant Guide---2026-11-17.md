@@ -63,7 +63,7 @@ What is the B73 v5 ID for the v4 gene Zm00001d033673?
 Maps an identifier from an earlier B73 annotation to the current one.
 
 ```
-List the B73 v5 genes whose name starts with "wx" or whose description mentions waxy.
+List the B73 v5 genes whose name or description mentions "starch synthase".
 ```
 Search by name and description within one genome.
 
@@ -104,16 +104,16 @@ How many protein-coding genes in B73 v5 have no ortholog in Mo17?
 A count across two genomes; ask for a sample of the genes if you want examples.
 
 ```
-How many copies of the wx1 (Zm00001eb378140) family does each of the NAM founder genomes carry?
+For the gene tree that contains wx1 (Zm00001eb378140), how many member genes does each NAM founder genome have?
 ```
-Copy counts per genome for one gene family.
+Copy counts per genome for the whole starch synthase gene family, not for wx1 alone.
 
 ### Transcription factors
 
 ```
-How many bZIP transcription factors does B73 v5 have, and how does that compare with sorghum?
+How many B73 v5 genes are in the bZIP transcription factor family, and how does that compare with sorghum?
 ```
-Grassius transcription factor family membership, by genome.
+Grassius transcription factor families, extended to other genes and genomes by homology.
 
 ```
 Which transcription factor family does lg1 (Zm00001eb067740) belong to, and what are its paralogs in B73 v5?
@@ -123,21 +123,21 @@ Family assignment plus paralogs.
 ### Expression
 
 ```
-In which tissues is tb1 (Zm00001eb054440) most highly expressed? Name the experiments.
+In which organs is tb1 (Zm00001eb054440) expressed, and how specific is it to one organ?
 ```
-Baseline expression from curated RNA-seq experiments, by tissue.
+Expression level per organ, summarised from curated RNA-seq experiments.
 
 ```
-Which B73 v5 genes in the starch biosynthesis pathway are highly expressed in the endosperm but not in the leaf?
+For each B73 v5 gene in the starch biosynthesis pathway, show its expression level in endosperm and in leaf, then pick out those that are high or very high in endosperm and medium or lower in leaf.
 ```
-Combines a pathway gene set with per-organ expression calls.
+Combines a pathway gene set with per-organ expression levels.
 
 ### Germplasm
 
 ```
-Which maize lines carry predicted loss-of-function alleles of wx1 (Zm00001eb378140)? Group them by the type of variant.
+How many maize accessions carry predicted loss-of-function alleles of lg1 (Zm00001eb067740), by variant type and zygosity? Give a few example accessions of each.
 ```
-Lines with stop-gain, frameshift or splice variants, by consequence and zygosity.
+Accessions with predicted loss-of-function variants, by consequence and zygosity.
 
 ### Pathways and literature
 
@@ -147,16 +147,16 @@ Which B73 v5 genes are in the starch biosynthesis pathway?
 Plant Reactome pathway membership.
 
 ```
-What has been published on tb1 (Zm00001eb054440)? Give PubMed IDs.
+Which PubMed IDs are linked to tb1 (Zm00001eb054440)?
 ```
-Curated literature references for a gene.
+Curated PubMed IDs. To have the papers summarised, the assistant also needs a literature tool.
 
 ### Sequences
 
 ```
-Give me the protein sequence of Zm00001eb378140 in FASTA format.
+Give me the protein sequences of Zm00001eb378140 in FASTA format.
 ```
-Sequences of the gene's transcripts; genomic, cDNA and CDS are also available.
+Protein sequence of each transcript; genomic, cDNA and CDS are also available.
 
 **Not on this site:** maize QTL and variant (rsID) lookups. The QTL records here describe rice and sorghum, so a trait question returns QTL in those species.
 
@@ -180,6 +180,7 @@ The viewer appears in assistants that support MCP Apps, which include Claude on 
 - **Name the genome.** Gene IDs and coordinates differ between assemblies. Say "in B73 v5" for the reference, or name the line (Mo17, CML247, a teosinte) when you mean another genome. B73 v3 and v4 gene models are here too.
 - **Be specific.** Name the organ ("inflorescence", "root") and say how to rank or filter. "Rank by root expression and ortholog function" gives a more repeatable answer than "find the best candidates".
 - **Ask for counts before lists.** "How many genes…" is quick; a list of several thousand genes is long and will be cut short.
+- **Expect IDs, not summaries, for papers.** The assistant returns PubMed IDs; it can only summarise the papers if it also has a literature tool.
 - **Ask for links.** The assistant can give the Maize PanGenome site links for the genes it reports, so you can check them in the browser.
 - **Say what you want back.** A table, a ranked shortlist, FASTA, or a file to download.
 - **Check before you act.** AI answers can be wrong. Confirm gene IDs, positions and germplasm names on [the Maize PanGenome site](https://maize-pangenome.gramene.org) before ordering seed or designing an experiment.

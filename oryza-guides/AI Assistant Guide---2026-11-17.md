@@ -63,14 +63,14 @@ Find the Nipponbare genes whose description mentions heading date and list them 
 Search by name and description within one genome.
 
 ```
-How many Nipponbare genes are annotated with the GO term for starch biosynthesis?
+How many Nipponbare genes (RAP annotation) are annotated with the GO term starch biosynthetic process?
 ```
 A count by ontology annotation; ask for the list if you want it.
 
 ### Regions
 
 ```
-List the Nipponbare genes on chromosome 3 between 16.7 and 16.8 Mb, with a short description of each.
+List the Nipponbare genes (RAP annotation) on chromosome 3 between 16.7 and 16.8 Mb, with a short description of each.
 ```
 Genes in an interval of the reference genome.
 
@@ -96,10 +96,10 @@ Within-genome duplicates of one gene.
 ```
 Which Oryza genomes have an ortholog of GS3 (Os03g0407400), and which wild species have none?
 ```
-Presence/absence across the panel; GS3 is missing from some wild relatives.
+Presence/absence across the panel; GS3 has no ortholog call in two wild species and two cultivated genomes.
 
 ```
-How many protein-coding genes in Nipponbare have no ortholog in Oryza glaberrima?
+How many protein-coding Nipponbare genes (RAP annotation) have no ortholog in Oryza glaberrima?
 ```
 A count across two genomes; ask for a sample of the genes if you want examples.
 
@@ -111,33 +111,33 @@ Copy counts per genome for one gene.
 ### Expression
 
 ```
-In which tissues is GS3 (Os03g0407400) most highly expressed? Name the experiments.
+In which organs is GS3 (Os03g0407400) most highly expressed? Give the TPM for each organ.
 ```
-Baseline expression from curated RNA-seq experiments, by tissue.
+Expression level per organ, summarised from curated RNA-seq experiments.
 
 ```
-In which experiments is SD1 (Os01g0883800) differentially expressed, and under what treatments?
+Which stress treatments significantly change the expression of SD1 (Os01g0883800)?
 ```
-Differential expression (log2 fold change) with the conditions compared.
+Significant differential-expression contrasts, with the direction of change.
 
 ### QTL and traits
 
 ```
-How many rice QTL are annotated with the trait grain length? Show five examples with their positions.
+Show five rice QTL from the Gramene QTL database annotated with grain length (TO:0000734), with their positions.
 ```
-Trait Ontology term to QTL from the Gramene QTL database.
+QTL records by Trait Ontology term and source.
 
 ```
-How many Nipponbare genes lie inside QTL for days to heading, and how many of those are transcription factors?
+How many Nipponbare genes (RAP annotation) lie inside the grain-length QTL AQGE003 (chromosome 3: 23,089,844 to 27,135,539), and which of them have a Trait Ontology annotation?
 ```
-Genes in QTL intervals for one trait, narrowed by annotation.
+Genes in one QTL interval, narrowed by annotation; a shortlist to check.
 
 ### Germplasm
 
 ```
 Which rice accessions carry predicted loss-of-function alleles of GS3 (Os03g0407400)? Group them by the type of variant.
 ```
-Lines with stop-gain, frameshift or splice variants, by consequence and zygosity.
+Accessions with predicted loss-of-function variants, by consequence and zygosity.
 
 ### Pathways and literature
 
@@ -147,16 +147,16 @@ Which Nipponbare genes are in the starch biosynthesis pathway?
 Plant Reactome pathway membership.
 
 ```
-What has been published on GS3 (Os03g0407400)? Give PubMed IDs.
+Which PubMed IDs are linked to GS3 (Os03g0407400)?
 ```
-Curated literature references for a gene.
+Curated PubMed IDs. To have the papers summarised, the assistant also needs a literature tool.
 
 ### Sequences
 
 ```
 Give me the protein sequence of Os03g0407400 in FASTA format.
 ```
-Sequence of the canonical transcript; genomic, cDNA and CDS are also available.
+Protein sequence of each transcript; genomic, cDNA and CDS are also available.
 
 **Not on this site:** variant (rsID) lookups, which are available on the [SorghumBase](https://www.sorghumbase.org) server only.
 
@@ -177,9 +177,10 @@ The viewer appears in assistants that support MCP Apps, which include Claude on 
 ## Tips
 
 - **Give stable IDs when you have them.** `Os03g0407400` is unambiguous; a gene symbol may match several genes, or genes in other species.
-- **Name the genome.** Gene IDs and coordinates differ between assemblies. Say "in Nipponbare" for the reference, or name the genome (IR8, N22, _O. glaberrima_, _O. rufipogon_) when you mean another.
+- **Name the genome.** Gene IDs and coordinates differ between assemblies. Nipponbare carries three annotation sets; say "Nipponbare (RAP annotation)" for the `Os##g…` gene models, or counts will include all three. Name the genome (IR8, N22, _O. glaberrima_, _O. rufipogon_) when you mean another.
 - **Be specific.** Name the organ ("inflorescence", "root") and say how to rank or filter. "Rank by root expression and ortholog function" gives a more repeatable answer than "find the best candidates".
 - **Ask for counts before lists.** "How many genes…" is quick; a list of several thousand genes is long and will be cut short.
+- **Expect IDs, not summaries, for papers.** The assistant returns PubMed IDs; it can only summarise the papers if it also has a literature tool.
 - **Ask for links.** The assistant can give the Rice PanGenome site links for the genes it reports, so you can check them in the browser.
 - **Say what you want back.** A table, a ranked shortlist, FASTA, or a file to download.
 - **Check before you act.** AI answers can be wrong. Confirm gene IDs, positions and germplasm names on [the Rice PanGenome site](https://oryza.gramene.org) before ordering seed or designing an experiment.

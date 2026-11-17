@@ -2,7 +2,7 @@ _Last updated: November 17, 2026_
 
 **Ask SorghumBase questions with an AI assistant**
 
-You can ask questions about the SorghumBase pan-genome in plain language and let an AI assistant look up the answers: genes and their function, orthologs and gene trees, presence and absence across the sorghum genomes, expression, QTL, and the EMS and natural-diversity lines that carry loss-of-function alleles. This server holds SorghumBase release 11, with more than 120 sorghum genomes plus maize, rice, Arabidopsis and other reference species.
+You can ask questions about the SorghumBase pan-genome in plain language and let an AI assistant look up the answers: genes and their function, orthologs and gene trees, presence and absence across the sorghum genomes, expression, QTL, and the EMS and natural-diversity lines that carry loss-of-function alleles. This server holds SorghumBase release 11, with 120 sorghum genomes plus maize, rice, Arabidopsis and other reference species.
 
 The connection uses the Model Context Protocol (MCP), an open standard that lets an AI assistant call tools on a remote server. The SorghumBase MCP server is free and read-only, and it needs no account or sign-in with us. This guide uses Claude because it supports MCP servers on its free plan; other assistants are covered [further down](#other-ai-tools).
 
@@ -111,9 +111,9 @@ A count across two genomes; ask for a sample of the genes if you want examples.
 ### Expression
 
 ```
-In which tissues is SORBI_3006G095600 most highly expressed? Name the experiments.
+In which organs is SORBI_3006G095600 most highly expressed? Give the TPM for each organ.
 ```
-Baseline expression from curated RNA-seq experiments, by tissue.
+Expression level per organ, summarised from curated RNA-seq experiments.
 
 ```
 Which BTx623 v3 lipoxygenase genes are expressed in the inflorescence but not in the leaf?
@@ -123,9 +123,9 @@ Combines a gene set with per-organ expression calls.
 ### Variants and germplasm
 
 ```
-Which sorghum lines carry predicted loss-of-function alleles of msd2 (SORBI_3006G095600)? Separate EMS mutants from natural diversity lines.
+How many sorghum lines carry predicted loss-of-function alleles of msd2 (SORBI_3006G095600)? List the EMS mutants and give the number of natural diversity lines.
 ```
-Lines with stop-gain, frameshift or splice variants, grouped by consequence and zygosity.
+Lines with stop-gain, frameshift or splice variants. EMS mutants are listed by name; the natural lines number in the hundreds.
 
 ```
 Which genes does the variant rs162452973 fall in, and is it protein-altering in any genome?
@@ -135,12 +135,12 @@ One variant projected across the pan-genome.
 ### QTL and traits
 
 ```
-How many sorghum QTL are annotated with the trait grain yield? Show five examples with their positions.
+How many QTL from the Sorghum QTL Atlas are annotated with the trait grain yield (TO:0000396)? Show five with their BTx623 v3 positions.
 ```
-Trait Ontology term to QTL from the Sorghum QTL Atlas.
+QTL records by Trait Ontology term and source.
 
 ```
-List the BTx623 v3 genes in the QTL QPGYR5.1 (chromosome 5: 1,953,164 to 1,987,677) and rank them as candidates for grain yield under low phosphorus, using root expression, function of their rice and Arabidopsis orthologs, and gene-model quality.
+List the BTx623 v3 genes in the QTL QPGYR5.1 (chromosome 5: 1,953,164 to 1,987,677). For each give its root expression level, its MAKER AED and its rice ortholog with description, then rank them as candidates for grain yield under low phosphorus.
 ```
 Genes in the interval, weighed by the criteria you name; a shortlist to check, not a result.
 
@@ -152,16 +152,16 @@ Which sorghum genes are in the jasmonic acid biosynthesis pathway?
 Plant Reactome pathway membership.
 
 ```
-What has been published on msd2? If there is little, include papers on its rice and Arabidopsis orthologs.
+Which PubMed IDs are linked to msd2 (SORBI_3006G095600) and to its rice and Arabidopsis orthologs?
 ```
-Curated PubMed references for the gene and its orthologs.
+Curated PubMed IDs. To have the papers summarised, the assistant also needs a literature tool.
 
 ### Sequences and gene models
 
 ```
 Give me the protein sequence of SORBI_3006G095600 in FASTA format.
 ```
-Sequence of the canonical transcript; genomic, cDNA and CDS are also available.
+Protein sequence of each transcript; genomic, cDNA and CDS are also available.
 
 ```
 How well supported is the gene model SORBI_3006G095600? Report its MAKER annotation edit distance.
@@ -188,6 +188,7 @@ The viewer appears in assistants that support MCP Apps, which include Claude on 
 - **Name the genome.** Gene IDs and coordinates differ between assemblies. Say "BTx623 v3" for the reference whose genes have `SORBI_3…` IDs; BTx623 v5 is a separate genome. Name the line (Tx430, Rio, a specific PI) when you mean another. About 80 of the genomes are in the gene trees; the rest have no ortholog calls.
 - **Be specific.** Name the organ ("inflorescence", "root") and say how to rank or filter. "Rank by root expression and ortholog function" gives a more repeatable answer than "find the best candidates".
 - **Ask for counts before lists.** "How many genes…" is quick; a list of several thousand genes is long and will be cut short.
+- **Expect IDs, not summaries, for papers.** The assistant returns PubMed IDs; it can only summarise the papers if it also has a literature tool.
 - **Ask for links.** The assistant can give SorghumBase links for the genes it reports, so you can check them in the browser.
 - **Say what you want back.** A table, a ranked shortlist, FASTA, or a file to download.
 - **Check before you act.** AI answers can be wrong. Confirm gene IDs, positions and germplasm names on [SorghumBase](https://www.sorghumbase.org) before ordering seed or designing an experiment.

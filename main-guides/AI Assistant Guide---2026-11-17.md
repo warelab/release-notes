@@ -63,16 +63,16 @@ Find the wheat gene Rht-B1 and tell me which genome and chromosome it is on.
 Name search across species; the answer should give TraesCS4B02G043100.
 
 ```
-How many genes in the barley reference (Morex) are in the gibberellin signaling pathway?
+How many genes in the barley reference genome (Hordeum vulgare, Morex V3) are in the gibberellin signaling pathway?
 ```
 A count by pathway within one genome.
 
 ### Regions
 
 ```
-List the genes on bread wheat chromosome 4B between 30.8 and 30.9 Mb.
+List the genes on chromosome 4B of the bread wheat reference (Triticum aestivum, Chinese Spring) between 30 and 32 Mb.
 ```
-Genes in an interval of the Chinese Spring reference.
+Genes in an interval of one genome; the interval contains Rht-B1.
 
 ```
 What are the ten genes on either side of AT5G10140?
@@ -82,7 +82,7 @@ Genomic neighbourhood of one gene.
 ### Orthologs across species
 
 ```
-What are the rice, maize, barley and sorghum orthologs of the wheat gene TraesCS4B02G043100?
+What are the rice, maize and sorghum orthologs of the wheat gene TraesCS4B02G043100?
 ```
 Orthologs from the Compara gene trees, by species.
 
@@ -104,28 +104,28 @@ How many members of the FLC (AT5G10140) gene family do Arabidopsis, rice, maize 
 Copy counts per species for one gene tree.
 
 ```
-How many genes with a MADS-box domain do Arabidopsis, rice, barley and bread wheat each have?
+How many genes with a MADS-box domain (InterPro IPR002100) do Arabidopsis, rice, barley and bread wheat each have?
 ```
 Family size by protein domain, compared between species.
 
 ### Cereal pan-genomes
 
 ```
-Which of the barley pan-genome assemblies have no ortholog of the Morex gene HORVU.MOREX.r3.5HG0511210?
+Which barley pan-genome assemblies have no ortholog of the wheat gene TraesCS4B02G043100 (Rht-B1)?
 ```
-Presence/absence across the barley pan-genome.
+Presence/absence across the barley pan-genome. No ortholog can mean the gene is absent or was not annotated.
 
 ```
-How many copies of Rht-B1 orthologs does each of the wheat cultivars carry?
+Which wheat assemblies have a gene named Rht-B1, and where is it in each?
 ```
-Copy number across the wheat pan-genome, by genome.
+Name search across the wheat pan-genome.
 
 ### Expression
 
 ```
-In which Arabidopsis tissues is FLC (AT5G10140) expressed? Name the experiments.
+In which Arabidopsis organs is FLC (AT5G10140) most highly expressed? Give the TPM for each organ.
 ```
-Baseline expression from curated RNA-seq experiments.
+Expression level per organ, summarised from curated RNA-seq experiments.
 
 ```
 Compare the tissue expression of AT1G17420 with that of its rice and maize orthologs.
@@ -140,23 +140,23 @@ Which bread wheat genes are in the gibberellin signaling pathway?
 Plant Reactome pathway membership in one species.
 
 ```
-How many rice QTL are annotated with the trait plant height? Show five examples with their positions.
+Show five rice QTL from the Gramene QTL database annotated with plant height (TO:0000207), with their positions.
 ```
-Trait Ontology term to QTL from the Gramene QTL database.
+QTL records by Trait Ontology term and source.
 
 ### Literature and sequences
 
 ```
-What has been published on FLC (AT5G10140)? Give PubMed IDs.
+Which PubMed IDs are linked to FLC (AT5G10140)?
 ```
-Curated literature references for a gene.
+Curated PubMed IDs. To have the papers summarised, the assistant also needs a literature tool.
 
 ```
 Give me the protein sequence of AT5G10140 in FASTA format.
 ```
-Sequence of the gene's transcripts; genomic, cDNA and CDS are also available.
+Protein sequence of each transcript; genomic, cDNA and CDS are also available.
 
-**Not on this site:** germplasm with loss-of-function alleles, and variant (rsID) lookups. For those, use the [SorghumBase](https://www.sorghumbase.org), [rice](https://oryza.gramene.org) or [maize](https://maize-pangenome.gramene.org) servers. QTL on this site are rice QTL from the Gramene QTL database.
+**Not on this site:** germplasm with loss-of-function alleles, and variant (rsID) lookups. For those, use the [SorghumBase](https://www.sorghumbase.org), [rice](https://oryza.gramene.org) or [maize](https://maize-pangenome.gramene.org) servers. QTL on this site are rice QTL from the Gramene QTL database and sorghum QTL from the Sorghum QTL Atlas.
 
 ## 5. Browse a gene tree
 
@@ -178,6 +178,7 @@ The viewer appears in assistants that support MCP Apps, which include Claude on 
 - **Name the genome.** With 267 genomes, a gene symbol often matches several species. Say "in Arabidopsis" or "in bread wheat (Chinese Spring)", and for the cereal pan-genomes name the cultivar.
 - **Be specific.** Name the organ ("inflorescence", "root") and say how to rank or filter. "Rank by root expression and ortholog function" gives a more repeatable answer than "find the best candidates".
 - **Ask for counts before lists.** "How many genes…" is quick; a list of several thousand genes is long and will be cut short.
+- **Expect IDs, not summaries, for papers.** The assistant returns PubMed IDs; it can only summarise the papers if it also has a literature tool.
 - **Ask for links.** The assistant can give Gramene links for the genes it reports, so you can check them in the browser.
 - **Say what you want back.** A table, a ranked shortlist, FASTA, or a file to download.
 - **Check before you act.** AI answers can be wrong. Confirm gene IDs, positions and germplasm names on [Gramene](https://www.gramene.org) before ordering seed or designing an experiment.

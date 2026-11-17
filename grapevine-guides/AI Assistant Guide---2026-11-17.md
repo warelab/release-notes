@@ -2,7 +2,7 @@ _Last updated: November 17, 2026_
 
 **Ask the Grapevine PanGenome questions with an AI assistant**
 
-You can ask questions about the Gramene Grapevine PanGenome in plain language and let an AI assistant look up the answers: genes and their function, orthologs and gene trees, presence, absence and copy number across grape cultivars and wild _Vitis_ species, and expression. This server holds Grapevine PanGenome release 5, with 30 _Vitis_ genomes (wine and table grape cultivars, rootstock and wild species) plus Arabidopsis, tomato, rice, sorghum and other reference species.
+You can ask questions about the Gramene Grapevine PanGenome in plain language and let an AI assistant look up the answers: genes and their function, orthologs and gene trees, presence, absence and copy number across grape cultivars and wild _Vitis_ species, and expression. This server holds Grapevine PanGenome release 5, with 31 grapevine assemblies (wine and table grape cultivars, rootstock and wild species, and two versions of the PN40024 reference) plus Arabidopsis, tomato, rice, sorghum and other reference species.
 
 The connection uses the Model Context Protocol (MCP), an open standard that lets an AI assistant call tools on a remote server. The Grapevine PanGenome MCP server is free and read-only, and it needs no account or sign-in with us. This guide uses Claude because it supports MCP servers on its free plan; other assistants are covered [further down](#other-ai-tools).
 
@@ -60,7 +60,7 @@ Gene record: location, description, protein domains and GO terms.
 ```
 Find the genes annotated as stilbene synthases in PN40024 v3 and list them with their positions.
 ```
-Search by description within one annotation; most are clustered on chromosome 16.
+Search by description within one annotation; all are clustered on chromosome 16.
 
 ```
 Which PN40024 v3 gene model corresponds to the v4 gene Vitvi16g01857?
@@ -99,9 +99,9 @@ Search by protein domain, summarized by location.
 ### Across cultivars and wild species
 
 ```
-How many stilbene synthase genes does each grapevine genome have? Rank the cultivars and wild species by copy number.
+How many genes does each grapevine genome have in the gene tree of the stilbene synthase VIT_16s0100g00780? Rank the genomes by copy number.
 ```
-Copy counts per genome for one gene family; counts differ between genomes.
+Copy counts per genome for the chalcone and stilbene synthase family. Low counts can reflect annotation differences between genomes.
 
 ```
 Is VIT_16s0100g00780 present in Chardonnay, Cabernet Sauvignon and Merlot?
@@ -109,21 +109,21 @@ Is VIT_16s0100g00780 present in Chardonnay, Cabernet Sauvignon and Merlot?
 Presence/absence in named cultivars.
 
 ```
-How many protein-coding genes in PN40024 v4 have no ortholog in Vitis riparia?
+How many protein-coding PN40024 v4 genes have no direct ortholog among Vitis riparia genes? Give the total number of v4 protein-coding genes too.
 ```
 A count across two genomes; ask for a sample of the genes if you want examples.
 
 ### Expression
 
 ```
-In which tissues and conditions is VIT_16s0100g00780 expressed? Name the experiments.
+In which organs is VIT_16s0100g00780 expressed? Give the TPM for each organ.
 ```
-Expression from curated RNA-seq experiments.
+Expression level per organ, summarised from curated RNA-seq experiments.
 
 ```
-Which PN40024 v3 stilbene synthase genes are expressed in the fruit, and which only in other organs?
+Which infections or treatments significantly induce VIT_16s0100g00780?
 ```
-Combines a gene family with per-organ expression calls.
+Significant differential-expression contrasts, with the direction of change.
 
 ### Pathways and literature
 
@@ -133,18 +133,18 @@ Which PN40024 v3 genes are annotated with trihydroxystilbene synthase activity?
 Gene Ontology annotation within one species.
 
 ```
-What has been published on the Arabidopsis orthologs of VIT_16s0100g00780?
+Which Arabidopsis gene is the ortholog of VIT_16s0100g00780, and which PubMed IDs are curated for it?
 ```
-Curated literature for the model-species orthologs of a grapevine gene.
+Curated PubMed IDs. To have the papers summarised, the assistant also needs a literature tool.
 
 ### Sequences
 
 ```
 Give me the protein sequence of VIT_16s0100g00780 in FASTA format.
 ```
-Sequence of the canonical transcript; genomic, cDNA and CDS are also available.
+Protein sequence of each transcript; genomic, cDNA and CDS are also available.
 
-**Not on this site:** grapevine QTL, germplasm with loss-of-function alleles, and variant (rsID) lookups. Few grapevine genes have curated publications or gene symbols, so literature questions work best through Arabidopsis or tomato orthologs, as in the example above.
+**Not on this site:** grapevine QTL, germplasm with loss-of-function alleles, and variant (rsID) lookups. Few grapevine genes have curated publications or gene symbols, so literature questions work best through Arabidopsis or tomato orthologs, as in the example above. Most genes outside PN40024 v3 have no functional description, so search those genomes by ortholog or protein domain.
 
 ## 5. Browse a gene tree
 
@@ -166,6 +166,7 @@ The viewer appears in assistants that support MCP Apps, which include Claude on 
 - **Name the genome.** Two versions of the PN40024 reference are here: PN40024 v3 (the 12X gene models, `VIT_…` IDs) and PN40024 v4 (`Vitvi…` IDs). Say which you mean, or name the cultivar (Chardonnay, Cabernet Sauvignon, Merlot) when you mean another genome.
 - **Be specific.** Name the organ ("inflorescence", "root") and say how to rank or filter. "Rank by root expression and ortholog function" gives a more repeatable answer than "find the best candidates".
 - **Ask for counts before lists.** "How many genes…" is quick; a list of several thousand genes is long and will be cut short.
+- **Expect IDs, not summaries, for papers.** The assistant returns PubMed IDs; it can only summarise the papers if it also has a literature tool.
 - **Ask for links.** The assistant can give the Grapevine PanGenome site links for the genes it reports, so you can check them in the browser.
 - **Say what you want back.** A table, a ranked shortlist, FASTA, or a file to download.
 - **Check before you act.** AI answers can be wrong. Confirm gene IDs, positions and germplasm names on [the Grapevine PanGenome site](https://vitis.gramene.org) before ordering seed or designing an experiment.
